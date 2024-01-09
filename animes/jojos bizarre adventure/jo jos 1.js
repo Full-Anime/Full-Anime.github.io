@@ -1,3 +1,5 @@
+"use strict"
+
 //funcion para que la barra de navegacion se haga fixed:
 const barraDeNavegacion = document.querySelector(".barra-de-navegacion")
 const body = document.querySelector(".body")
@@ -122,8 +124,9 @@ let adelanteB = false
 let adelanteC = false
 let adelanteD = false
 
+	
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/jujutsu kaisen img 11.jpeg"
+	imagen1.src = "../../imagenes/jojos 1 img 2.jpeg"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -135,7 +138,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/jujutsu kaisen.png"
+		imagen2.src = "../../imagenes/jojo-1.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -155,7 +158,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/jujutsu kaisen img 9.jpg"
+		imagen1.src = "../../imagenes/jojos img 4.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -173,7 +176,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/jujutsu kaisen img 8.jpg"
+		imagen2.src = "../../imagenes/jojos 1 img 1.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -190,7 +193,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/jujutsu kaisen img 11.jpeg"
+		imagen1.src = "../../imagenes/jojos 1 img 2.jpeg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -238,19 +241,17 @@ function tiempoRetardo(){
 }
 
 tiempoRetardo()
-
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/jujutsu kaisen img 9.jpg"
+		imagen1.src = "../../imagenes/jojos img 4.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
 		
 		punto4.classList.replace("punto-4-a", "punto-4-e")
-		punto3.classList.remove("punto-3-e")
-		punto3.classList.add("punto-3-a")
+		punto3.classList.replace("punto-3-e", "punto-3-a")
 		adelanteD = false
 		adelanteC = true
 
@@ -259,21 +260,20 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/jujutsu kaisen.png"
+		imagen2.src = "../../imagenes/jojo-1.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
 		
 		punto3.classList.replace("punto-3-a", "punto-3-e")
-		punto2.classList.remove("punto-2-e")
-		punto2.classList.add("punto-2-a")
+		punto2.classList.replace("punto-2-e", "punto-2-a")
 		adelanteC = false
 		adelanteB = true
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/jujutsu kaisen img 11.jpeg"
+		imagen1.src = "../../imagenes/jojos 1 img 2.jpeg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -286,7 +286,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/jujutsu kaisen img 8.jpg"
+		imagen2.src = "../../imagenes/jojos 1 img 1.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -300,30 +300,34 @@ function atrasar(){
 	
 }
 
-
-
-enlaceMediafire = document.querySelector(".link-1")
-let mediafire1 = `https://www.mediafire.com/file/0z4u1948v7mvf3v/%2528locuranime.com%2529_JuKa2-01.rar/file`
-let mediafire2 = `https://www.mediafire.com/file/afh0y1cxkjx52x3/%2528locuranime.com%2529_JuKa2-02.rar/file`
-let mediafire3 = `https://www.mediafire.com/file/52fy69h23t1vlof/%2528locuranime.com%2529_JuKa2-03.rar/file`
-let mediafire4 = `https://www.mediafire.com/file/creci3k5mmzrq49/%2528locuranime.com%2529_JuKa2-04.rar/file`
-let mediafire5 = `https://www.mediafire.com/file/4txkdgsh05lfe8t/%2528locuranime.com%2529_JuKa2-05.rar/file`
-let mediafire6 = `https://www.mediafire.com/file/26ltf6ks8qshxmo/%2528locuranime.com%2529_JuKa2-07.rar/file`
-let mediafire7 = `https://www.mediafire.com/file/61a1ygxecqg58s1/%2528locuranime.com%2529_JuKa2-06.rar/file`
-let mediafire8 = `https://www.mediafire.com/file/9ny78c8pxuvioxx/%2528locuranime.com%2529_JuKa2-08.rar/file`
-let mediafire9 = `https://www.mediafire.com/file/hbc28467rnzu2n7/%2528locuranime.com%2529_JuKa2-09.rar/file`
-let mediafire10 = `https://www.mediafire.com/file/2q7l8d8qw15vsp6/%2528locuranime.com%2529_JuKa2-10.rar/file`
-let mediafire11 = `https://www.mediafire.com/file/s2smpvkvfwrzv8l/%2528locuranime.com%2529_JuKa2-11.rar/file`
-let mediafire12 = `https://www.mediafire.com/file/itpoj8viee03uut/%2528locuranime.com%2529_JUKa2-12.rar/file`
-let mediafire13 = `https://www.mediafire.com/file/dqnt3rb3kcx3i5v/%2528locuranime.com%2529_JuKa2-13.rar/file`
-let mediafire14 = `https://www.mediafire.com/file/jiygw08sugj88oo/%2528locuranime.com%2529_JuKa2-14.rar/file`
-let mediafire15 = `https://www.mediafire.com/file/mgs6r3vs7vtqube/%2528locuranime.com%2529_JuKa2-15.rar/file`
-let mediafire16 = `https://www.mediafire.com/file/5syggb2z56xynn8/%2528locuranime.com%2529_JuKa2-16.rar/file`
-let mediafire17 = `https://www.mediafire.com/file/hru6clzngyssm44/%2528locuranime.com%2529_JuKa2-17.rar/file`
-let mediafire18 = `https://www.mediafire.com/file/2xtg651xpkdomc4/%2528locuranime.com%2529_JuKa2-18.rar/file`
-let mediafire19 = `https://www.mediafire.com/file/7vxf6lgvnrxiqkw/%2528locuranime.com%2529_JuKa2-19.rar/file`
-let mediafire20 = `https://www.mediafire.com/file/aj3vfhbk8krw27u/%2528locuranime.com%2529_JuKa2-20.rar/file`
-let mediafire21 = `https://www.mediafire.com/file/x270wnz1ax3x3t2/%2528locuranime.com%2529_JuKa2-21.rar/file`
+let enlaceMediafire = document.querySelector(".link-1")
+let mediafire1 = `http://www.mediafire.com/?ixicwy2obsnukmb`
+let mediafire2 = `http://www.mediafire.com/?awlgdhp5raw4z0c`
+let mediafire3 = `http://www.mediafire.com/?uew10sxnh8kc88a`
+let mediafire4 = `http://www.mediafire.com/?99pt4r2lm7y7mhz`
+let mediafire5 = `http://www.mediafire.com/?6k1poyxegg6f2vm`
+let mediafire6 = `http://www.mediafire.com/?9bl7z81tpn9eymx`
+let mediafire7 = `http://www.mediafire.com/?1rqmu371229hk7v`
+let mediafire8 = `http://www.mediafire.com/?n2wmnbh9xcj90r3`
+let mediafire9 = `http://www.mediafire.com/?m8q5ttjou7s8o92`
+let mediafire10 = `http://www.mediafire.com/?e3vyotwcy3blqhz`
+let mediafire11 = `http://www.mediafire.com/?3w4lhhncysj8gjk`
+let mediafire12 = `http://www.mediafire.com/?ssyqbe7bn1pjcjv`
+let mediafire13 = `http://www.mediafire.com/?e1cze74k23gp1yq`
+let mediafire14 = `http://www.mediafire.com/?zr45j2fyjtkixo5`
+let mediafire15 = `http://www.mediafire.com/?wu04lm4goy8i3wd`
+let mediafire16 = `http://www.mediafire.com/?6b3qs0ik954xywz`
+let mediafire17 = `http://www.mediafire.com/?gtrk571w7atheq6`
+let mediafire18 = `http://www.mediafire.com/?s61gv97uth6mal8`
+let mediafire19 = `http://www.mediafire.com/?a5hihrn9yf338nb`
+let mediafire20 = `http://www.mediafire.com/?jc3g0pjjbesgt7r`
+let mediafire21 = `http://www.mediafire.com/?2hr9kg0tw22hfo4`
+let mediafire22 = `http://www.mediafire.com/?23jm06htc13fzgo`
+let mediafire23 = `http://www.mediafire.com/?07iy32vwysapsgn`
+let mediafire24 = `http://www.mediafire.com/?9d9y940iltinrli`
+let mediafire25 = `http://www.mediafire.com/?8ffe2spsmkwy4hd`
+let mediafire26 = `http://www.mediafire.com/?dxj324ujbfjq1pp`
+let mediafire27 = `https://www.mediafire.com/file/norjapjgk7qxdn4/EXTRAS.rar/file`
 
 document.querySelector(".boton-descargar-1").addEventListener("click", () =>{
 	enlaceMediafire.setAttribute("href", mediafire1)
@@ -409,10 +413,30 @@ document.querySelector(".boton-descargar-21").addEventListener("click", () =>{
 	enlaceMediafire.setAttribute("href", mediafire21)
 	enlaceMediafire.click()
 })
-
-
-
-
+document.querySelector(".boton-descargar-22").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire22)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-23").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire23)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-24").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire24)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-25").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire25)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-26").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire26)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-27").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire27)
+	enlaceMediafire.click()
+})
 
 const botonInicio = document.querySelector(".inicio")
 botonInicio.addEventListener("click", home)
@@ -938,6 +962,7 @@ function buscadorInputResponsive(){
 }
 
 
+
 const seleccion1 = document.querySelector(".selector-one")
 const seleccion2 = document.querySelector(".selector-two")
 const options1 = document.querySelector(".ventana-1")
@@ -1292,5 +1317,3 @@ contenedorAsideResponsive9.addEventListener("click", ()=>{
 	document.querySelector(".href-aside-9").click()
 	contenedorAsideResponsive9.classList.add("agrandar-aside-responsive")
 })
-
-
