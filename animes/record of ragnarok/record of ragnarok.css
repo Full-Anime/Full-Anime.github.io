@@ -1087,7 +1087,7 @@ body{
 	padding: 5px;
 	margin-left: 100px;
 	width: 575px;
-	transform: translateY(-100px);
+	transform: translateY(-650px);
 }
 
 .parrafo-final p{
@@ -1594,7 +1594,7 @@ body{
 			margin-left: 150px;
 			width: 850px;
 			font-size: 20px;
-			transform: translateY(-100px);
+			transform: translateY(-800px);
 		}
 		
 		
@@ -1851,7 +1851,7 @@ body{
 		margin-left: 80px;
 		width: 440px;
 		font-size: 13px;
-		transform: translateY(-100px);
+		transform: translateY(-620px);
 	}
 	.titulo-aside a{
 		

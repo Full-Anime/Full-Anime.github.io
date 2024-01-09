@@ -1,3 +1,4 @@
+"use strict"
 //funcion para que la barra de navegacion se haga fixed:
 const barraDeNavegacion = document.querySelector(".barra-de-navegacion")
 const body = document.querySelector(".body")
@@ -123,7 +124,7 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/tanjiro.jpg"
+	imagen1.src = "../../imagenes/one piece img 1.webp"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -135,7 +136,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 53.png"
+		imagen2.src = "../../imagenes/One-Piece-Nami.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -155,7 +156,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/IMG_20231011_180809.jpg"
+		imagen1.src = "../../imagenes/one piece img 3~2.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -173,7 +174,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 51.png"
+		imagen2.src = "../../imagenes/one piece img 5.webp"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -190,7 +191,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/tanjiro.jpg"
+		imagen1.src = "../../imagenes/one piece img 1.webp"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -238,19 +239,17 @@ function tiempoRetardo(){
 }
 
 tiempoRetardo()
-
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/IMG_20231011_180809.jpg"
+		imagen1.src = "../../imagenes/one piece img 3~2.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
 		
 		punto4.classList.replace("punto-4-a", "punto-4-e")
-		punto3.classList.remove("punto-3-e")
-		punto3.classList.add("punto-3-a")
+		punto3.classList.replace("punto-3-e", "punto-3-a")
 		adelanteD = false
 		adelanteC = true
 
@@ -259,21 +258,20 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 53.png"
+		imagen2.src = "../../imagenes/One-Piece-Nami.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
 		
 		punto3.classList.replace("punto-3-a", "punto-3-e")
-		punto2.classList.remove("punto-2-e")
-		punto2.classList.add("punto-2-a")
+		punto2.classList.replace("punto-2-e", "punto-2-a")
 		adelanteC = false
 		adelanteB = true
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/tanjiro.jpg"
+		imagen1.src = "../../imagenes/one piece img 1.webp"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -286,7 +284,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 51.png"
+		imagen2.src = "../../imagenes/one piece img 5.webp"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -303,45 +301,94 @@ function atrasar(){
 const botonDescargar1 = document.querySelector(".boton-descargar-1")
 const botonDescargar2 = document.querySelector(".boton-descargar-2")
 const botonDescargar3 = document.querySelector(".boton-descargar-3")
-const botonDescargar3Lat = document.querySelector(".boton-descargar-3-lat")
-const botonDescargarMovie = document.querySelector(".boton-descargar-movie")
+const botonDescargar4 = document.querySelector(".boton-descargar-4")
+const botonDescargar5 = document.querySelector(".boton-descargar-5")
+const botonDescargar6 = document.querySelector(".boton-descargar-6")
+const botonDescargar7 = document.querySelector(".boton-descargar-7")
+const botonDescargar8 = document.querySelector(".boton-descargar-8")
+const botonDescargar9 = document.querySelector(".boton-descargar-9")
+const botonDescargar10 = document.querySelector(".boton-descargar-10")
+const botonDescargar11 = document.querySelector(".boton-descargar-11")
+const botonDescargar12 = document.querySelector(".boton-descargar-12")
+
 
 botonDescargar1.addEventListener("click", descargar1)
 botonDescargar2.addEventListener("click", descargar2)
 botonDescargar3.addEventListener("click", descargar3)
-botonDescargar3Lat.addEventListener("click", descargar3Lat)
-botonDescargarMovie.addEventListener("click", descargarMovie)
+botonDescargar4.addEventListener("click", descargar4)
+botonDescargar5.addEventListener("click", descargar5)
+botonDescargar6.addEventListener("click", descargar6)
+botonDescargar7.addEventListener("click", descargar7)
+botonDescargar8.addEventListener("click", descargar8)
+botonDescargar9.addEventListener("click", descargar9)
+botonDescargar10.addEventListener("click", descargar10)
+botonDescargar11.addEventListener("click", descargar11)
+botonDescargar12.addEventListener("click", descargar12)
 
-enlaceMediafire = document.querySelector(".link-1")
-enlaceMediafire3 = document.querySelector(".link-1-3")
-let mediafire1 = `https://www.mediafire.com/file/8h0joda3t45p4nw/Kny+T1+La+[WorldAnimeSenpai].rar/file`
-let mediafire2 = `https://www.mediafire.com/file/im3vled35regbcw/KnY+T2+La+[WorldAnimeSenpai].rar/file`
-let mediafire3 = `https://www.mediafire.com/file/vb7dbduwj3ibcmw/K1m3t+T3+[W0rld4nime5enpai].rar/file`
-let mediafire3Lat = `kimetsu no yaiba 3.html`
-let mediafireMovie = `https://www.mediafire.com/file/ybsv7r6nid7isxt/Kny+MT[WorldAnimeSenpai].rar/file`
+
+let enlaceMediafire = document.querySelector(".link-1")
+let mediafire1 = `https://www.fireload.com/folder/71fd43c0847d33ca593f3d44085a3793/001-100`
+let mediafire2 = `https://www.fireload.com/folder/5f830d01c75eb99c4e6e4add76375900/101-200`
+let mediafire3 = `https://www.fireload.com/folder/8f9a6e03bb14bff80f60a20040406b69/201-300`
+let mediafire4 = `https://www.fireload.com/folder/6469255b875e0d5a400e69645a6887ca/301-400`
+let mediafire5 = `https://www.fireload.com/folder/614e42be954d90fc160ea99786baac8e/401-500`
+let mediafire6 = `https://www.fireload.com/folder/8a3b80912c40659961540d91060d91d0/501-600`
+let mediafire7 = `https://www.fireload.com/folder/2469a1ef0df76e22b8dabc79bc572014/601-700`
+let mediafire8 = `https://www.fireload.com/folder/9d6cca25fcb0eda3bf8b5b1ae3586755/701-750` 
+let mediafire9 = `https://www.fireload.com/folder/a0d0200eeabef2a71747bf205f06584f/751-800`
+let mediafire10 = `https://www.fireload.com/folder/bdfe105c9a762533e605f763af0555b7/801-850`
+let mediafire11 = `https://www.fireload.com/folder/f149c929429f11c3de910590ee1d8db4/901-950`
+let mediafire12 = `https://www.fireload.com/folder/a5f68d317925e94cc811ac2dd30fa3c7/951-1000`
 
 function descargar1(){
 	enlaceMediafire.setAttribute("href", mediafire1)
 	enlaceMediafire.click()
 }
-
 function descargar2(){
 	enlaceMediafire.setAttribute("href", mediafire2)
 	enlaceMediafire.click()
 }
-
 function descargar3(){
 	enlaceMediafire.setAttribute("href", mediafire3)
 	enlaceMediafire.click()
 }
-function descargar3Lat(){
-	enlaceMediafire3.setAttribute("href", mediafire3Lat)
-	enlaceMediafire3.click()
-}
-function descargarMovie(){
-	enlaceMediafire.setAttribute("href", mediafireMovie)
+function descargar4(){
+	enlaceMediafire.setAttribute("href", mediafire4)
 	enlaceMediafire.click()
 }
+function descargar5(){
+	enlaceMediafire.setAttribute("href", mediafire5)
+	enlaceMediafire.click()
+}
+function descargar6(){
+	enlaceMediafire.setAttribute("href", mediafire6)
+	enlaceMediafire.click()
+}
+function descargar7(){
+	enlaceMediafire.setAttribute("href", mediafire7)
+	enlaceMediafire.click()
+}
+function descargar8(){
+	enlaceMediafire.setAttribute("href", mediafire8)
+	enlaceMediafire.click()
+}
+function descargar9(){
+	enlaceMediafire.setAttribute("href", mediafire9)
+	enlaceMediafire.click()
+}
+function descargar10(){
+	enlaceMediafire.setAttribute("href", mediafire10)
+	enlaceMediafire.click()
+}
+function descargar11(){
+	enlaceMediafire.setAttribute("href", mediafire11)
+	enlaceMediafire.click()
+}
+function descargar12(){
+	enlaceMediafire.setAttribute("href", mediafire12)
+	enlaceMediafire.click()
+}
+
 
 const botonInicio = document.querySelector(".inicio")
 botonInicio.addEventListener("click", home)
@@ -1024,7 +1071,6 @@ listadoDeAnimes.addEventListener("click", (e)=>{
 
 
 
-
 const contenedorItemAside1 = document.querySelector(".item-aside-1")
 
 const contenedorItemAside2 = document.querySelector(".item-aside-2")
@@ -1223,6 +1269,3 @@ contenedorAsideResponsive9.addEventListener("click", ()=>{
 	document.querySelector(".href-aside-9").click()
 	contenedorAsideResponsive9.classList.add("agrandar-aside-responsive")
 })
-
-
-

@@ -1,3 +1,5 @@
+"use strict"
+
 //funcion para que la barra de navegacion se haga fixed:
 const barraDeNavegacion = document.querySelector(".barra-de-navegacion")
 const body = document.querySelector(".body")
@@ -123,7 +125,7 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/tanjiro.jpg"
+	imagen1.src = "../../imagenes/boku no hero img 31.jpeg"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -135,7 +137,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 53.png"
+		imagen2.src = "../../imagenes/boku no hero img 18.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -155,7 +157,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/IMG_20231011_180809.jpg"
+		imagen1.src = "../../imagenes/boku no hero img 13.jpeg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -173,7 +175,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 51.png"
+		imagen2.src = "../../imagenes/boku no hero img 16.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -190,7 +192,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/tanjiro.jpg"
+		imagen1.src = "../../imagenes/boku no hero img 31.jpeg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -238,19 +240,17 @@ function tiempoRetardo(){
 }
 
 tiempoRetardo()
-
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/IMG_20231011_180809.jpg"
+		imagen1.src = "../../imagenes/boku no hero img 13.jpeg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
 		
 		punto4.classList.replace("punto-4-a", "punto-4-e")
-		punto3.classList.remove("punto-3-e")
-		punto3.classList.add("punto-3-a")
+		punto3.classList.replace("punto-3-e", "punto-3-a")
 		adelanteD = false
 		adelanteC = true
 
@@ -259,21 +259,20 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 53.png"
+		imagen2.src = "../../imagenes/boku no hero img 18.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
 		
 		punto3.classList.replace("punto-3-a", "punto-3-e")
-		punto2.classList.remove("punto-2-e")
-		punto2.classList.add("punto-2-a")
+		punto2.classList.replace("punto-2-e", "punto-2-a")
 		adelanteC = false
 		adelanteB = true
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/tanjiro.jpg"
+		imagen1.src = "../../imagenes/boku no hero img 31.jpeg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -286,7 +285,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 51.png"
+		imagen2.src = "../../imagenes/boku no hero img 16.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -300,48 +299,133 @@ function atrasar(){
 	
 }
 
-const botonDescargar1 = document.querySelector(".boton-descargar-1")
-const botonDescargar2 = document.querySelector(".boton-descargar-2")
-const botonDescargar3 = document.querySelector(".boton-descargar-3")
-const botonDescargar3Lat = document.querySelector(".boton-descargar-3-lat")
-const botonDescargarMovie = document.querySelector(".boton-descargar-movie")
+let enlaceMediafire = document.querySelector(".link-1")
+let mediafire1 = `https://www.mediafire.com/file/kx3w9btl0mkjxej/%2528locuranime.com%2529_BlLo-01.rar/file`
+let mediafire2 = `https://www.mediafire.com/file/w3eky9jif01uzm2/%2528locuranime.com%2529_BlLo-02.rar/file`
+let mediafire3 = `https://www.mediafire.com/file/smla2vem3b0l6rd/%2528locuranime.com%2529_BlLo-03.rar/file`
+let mediafire4 = `https://www.mediafire.com/file/9nlayvsn0h2p2hn/%2528locuranime.com%2529_BlLo-04.rar/file`
+let mediafire5 = `https://www.mediafire.com/file/8n8i1vg4lqy07mt/%2528locuranime.com%2529_BlLo-06.rar/file`
+let mediafire6 = `https://www.mediafire.com/file/fb5copkak52qfbd/%2528locuranime.com%2529_BlLo-05.rar/file`
+let mediafire7 = `https://www.mediafire.com/file/0bvkjrw2g5l3fzo/%2528locuranime.com%2529_BlLo-07.rar/file`
+let mediafire8 = `https://www.mediafire.com/file/hhm6j5j4vvlzjzq/%2528locuranime.com%2529_BlLo-08.rar/file`
+let mediafire9 = `https://www.mediafire.com/file/0buqnf945ky3uyv/%2528locuranime.com%2529_BlLo-09.rar/file`
+let mediafire10 = `https://www.mediafire.com/file/4kmybfb14jzd032/%2528locuranime.com%2529_BlLo-10-11.rar/file`
+let mediafire12 = `https://www.mediafire.com/file/45u9lr1kg9mzr3l/%2528locuranime.com%2529_BlLo-12.rar/file`
+let mediafire13 = `https://www.mediafire.com/file/fl1jj526es5u3df/%2528locuranime.com%2529_BlLo-13.rar/file`
+let mediafire14 = `https://www.mediafire.com/file/876vl6ib45nm5iv/%2528locuranime.com%2529_BlLo-14.rar/file`
+let mediafire15 = `https://www.mediafire.com/file/ryqqa5krrvzd3eg/%2528locuranime.com%2529_BlLo-15.rar/file`
+let mediafire16 = `https://www.mediafire.com/file/gw9vgg0xjotv8gm/%2528locuranime.com%2529_BlLo-16.rar/file`
+let mediafire17 = `https://www.mediafire.com/file/vynfbubij0ev0iv/%2528locuranime.com%2529_BlLo-17.rar/file`
+let mediafire18 = `https://www.mediafire.com/file/taa784yncborsqr/%2528locuranime.com%2529_BlLo-18.rar/file`
+let mediafire19 = `https://www.mediafire.com/file/yot7yte2apiobds/%2528locuranime.com%2529_BlLo-19.rar/file`
+let mediafire20 = `https://www.mediafire.com/file/umtv8gyglj82hnd/%2528locuranime.com%2529_BlLo-20.rar/file`
+let mediafire21 = `https://www.mediafire.com/file/b1u59kafvd3yrna/%2528locuranime.com%2529_BlLo-21.rar/file`
+let mediafire22 = `https://www.mediafire.com/file/h861tg31563fbj5/%2528locuranime.com%2529_MHA6-22.rar/file`
+let mediafire23 = `https://www.mediafire.com/file/07gt5b0sus3wyt0/%2528locuranime.com%2529_BlLo-23.rar/file`
+let mediafire24 = `https://www.mediafire.com/file/912crumxhxylvth/%2528locuranime.com%2529_MHA6-25.rar/file`
+let mediafire25 = `https://www.mediafire.com/file/912crumxhxylvth/%2528locuranime.com%2529_MHA6-25.rar/file`
 
-botonDescargar1.addEventListener("click", descargar1)
-botonDescargar2.addEventListener("click", descargar2)
-botonDescargar3.addEventListener("click", descargar3)
-botonDescargar3Lat.addEventListener("click", descargar3Lat)
-botonDescargarMovie.addEventListener("click", descargarMovie)
-
-enlaceMediafire = document.querySelector(".link-1")
-enlaceMediafire3 = document.querySelector(".link-1-3")
-let mediafire1 = `https://www.mediafire.com/file/8h0joda3t45p4nw/Kny+T1+La+[WorldAnimeSenpai].rar/file`
-let mediafire2 = `https://www.mediafire.com/file/im3vled35regbcw/KnY+T2+La+[WorldAnimeSenpai].rar/file`
-let mediafire3 = `https://www.mediafire.com/file/vb7dbduwj3ibcmw/K1m3t+T3+[W0rld4nime5enpai].rar/file`
-let mediafire3Lat = `kimetsu no yaiba 3.html`
-let mediafireMovie = `https://www.mediafire.com/file/ybsv7r6nid7isxt/Kny+MT[WorldAnimeSenpai].rar/file`
-
-function descargar1(){
+document.querySelector(".boton-descargar-1").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire1)
 	enlaceMediafire.click()
-}
-
-function descargar2(){
+})
+document.querySelector(".boton-descargar-2").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire2)
 	enlaceMediafire.click()
-}
-
-function descargar3(){
+})
+document.querySelector(".boton-descargar-3").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire3)
 	enlaceMediafire.click()
-}
-function descargar3Lat(){
-	enlaceMediafire3.setAttribute("href", mediafire3Lat)
-	enlaceMediafire3.click()
-}
-function descargarMovie(){
-	enlaceMediafire.setAttribute("href", mediafireMovie)
+})
+document.querySelector(".boton-descargar-4").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire4)
 	enlaceMediafire.click()
-}
+})
+document.querySelector(".boton-descargar-5").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire5)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-6").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire6)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-7").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire7)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-8").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire8)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-9").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire9)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-10").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire10)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-11").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire11)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-12").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire12)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-13").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire13)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-14").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire14)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-15").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire15)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-16").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire16)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-17").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire17)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-18").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire18)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-19").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire19)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-20").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire20)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-21").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire21)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-22").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire22)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-23").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire23)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-24").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire24)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-25").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire25)
+	enlaceMediafire.click()
+})
+
 
 const botonInicio = document.querySelector(".inicio")
 botonInicio.addEventListener("click", home)
@@ -1024,7 +1108,6 @@ listadoDeAnimes.addEventListener("click", (e)=>{
 
 
 
-
 const contenedorItemAside1 = document.querySelector(".item-aside-1")
 
 const contenedorItemAside2 = document.querySelector(".item-aside-2")
@@ -1223,6 +1306,3 @@ contenedorAsideResponsive9.addEventListener("click", ()=>{
 	document.querySelector(".href-aside-9").click()
 	contenedorAsideResponsive9.classList.add("agrandar-aside-responsive")
 })
-
-
-

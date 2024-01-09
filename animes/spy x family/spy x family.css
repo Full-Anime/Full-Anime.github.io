@@ -12,7 +12,7 @@ body{
 	padding-top: 20px;
 	transform: translateY(-754px);
 	height: 70px;
-	width: 100%;
+	width: 100vw;
 	
 }
 .position-fixed{
@@ -478,7 +478,7 @@ body{
 .portada-container{
 	overflow: hidden;
 
-	width: 1010px;
+	width: 100vw;
 	height: 350px;
 }
 
@@ -622,7 +622,7 @@ body{
 	width: 100%;
 	position: relative;
 	z-index: 380;
-	transform: translateY(-600px);
+	transform: translateY(-610px);
 }
 
 .sombra2{
@@ -737,7 +737,6 @@ body{
 .container-redes-sociales{
 	width: 11.3%;
 	top: 0;
-	position: sticky;
 	z-index: 100;
 
 }
@@ -869,7 +868,7 @@ body{
 	background-color: #70c;
 	color: #fff;
 	font-family: verdana;
-	padding: 5px 30px;
+	padding: 5px 10px;
 	border-radius: 4px;
 	border: none;
 	font-size: 12px;
@@ -1153,9 +1152,6 @@ body{
 
 
 
-
-
-
 /*RESPONSIVE DE PANTALLAS ultra 1440PX*/
 	/*RESPONSIVE DE PANTALLAS ultra 1440PX*/
 	/*RESPONSIVE DE PANTALLAS ultra 1440PX*/
@@ -1166,7 +1162,7 @@ body{
 	@media only screen and (max-width: 1600px) and (min-width: 1110px){
 
 		.barra-de-navegacion{
-			width: 1440px;
+			width: 100vw;
 			transform: translateY(-1108px);
 			height: 90px;
 		}
@@ -1489,7 +1485,7 @@ body{
 }
 
 .info-temporada button{
-	padding: 5px 20px;
+	padding: 5px 5px;
 	font-size: 19px;
 }
 
@@ -1598,12 +1594,12 @@ body{
 			margin-left: 150px;
 			width: 850px;
 			font-size: 20px;
-			
+			transform: translateY(-100px);
 		}
 		
 		
 		.footer{
-			width: 1440px;
+			width: 100vw;
 
 		}
 
@@ -1633,21 +1629,9 @@ body{
 	/*RESPONSIVE DE PANTALLAS 16:9 800PX*/
 	/*RESPONSIVE DE PANTALLAS 16:9 800PX*/
 	@media only screen and (max-width: 1100px) and (min-width: 1020px){
-
-		.barra-de-navegacion{
-			width: 1024px;
-		}
 		
-		
-		
-
-		.portada-container{
-			width: 1024px;
-			
-		}
-
 		.imagen-portada{
-			width: 1024px;
+			width: 100vw;
 			height: 584px;
 			
 		}
@@ -1656,11 +1640,9 @@ body{
 			margin-right: 90px;
 		}
 
-	.sombra1{
-		transform: translateY(-650px);
-	}
-
-	
+		.sombra1{
+			transform: translateY(-650px);
+		}
 
 		.botones-portada button:nth-child(2){
 			transform: translateX(920px);
@@ -1701,8 +1683,6 @@ body{
 /*RESPONSIVE DE PANTALLAS 4:3 800PX*/
 @media only screen and (max-width: 800px) and (min-width: 500px){
 	.barra-de-navegacion{
-		
-		width: 800px;
 		transform: translateY(-705px);
 	}
 	.ventanas{
@@ -1712,15 +1692,14 @@ body{
 	z-index: 570;
 	margin-left: 295px;
 }
-.ventana-fixed{
+	.ventana-fixed{
 	transform: translateY(-666px);
-	position: fixed;
+		position: fixed;
 
-}
+	}
 
 .ventana-2{
 	margin-left: 108px;
-	
 	
 } 
 
@@ -1751,12 +1730,12 @@ body{
 
 
 	.portada-container{
-		width: 800px;
+		width: 100vw;
 		height: 300px;
 	}
 	.imagen-portada{
 		display: flex;
-		width: 800px;
+		width: 100vw;
 		height: 450px;
 	}
 
@@ -1803,7 +1782,7 @@ body{
 	}
 
 	.botones-portada button:nth-child(2){
-		transform: translateX(690px);
+		transform: translateX(710px);
 	}
 	.botones-portada button:nth-child(1){
 		transform: translateX(0px);
@@ -1872,7 +1851,7 @@ body{
 		margin-left: 80px;
 		width: 440px;
 		font-size: 13px;
-		
+		transform: translateY(-100px);
 	}
 	.titulo-aside a{
 		
@@ -1885,7 +1864,7 @@ body{
 	}
 	
 	footer{
-		width: 800px;
+		width: 100vw;
 	}
 	.iconos-de-footer{
 	display: flex;
@@ -1910,7 +1889,7 @@ body{
 	display: none;
 	height: 50px;
 	background: linear-gradient(to right, #400, #900);
-	width: 425px;
+	width: 100vw;
 	transform: translateY(-660px);
 	z-index: 500;
 	position: fixed;
@@ -1938,7 +1917,7 @@ body{
 }
 
 .logo-living-responsive{
-	transform: translateX(95px);
+	transform: translateX(115px);
 	font-family: Carter One, verdana;
 	width: 145px;
 	text-align: center;
@@ -2250,7 +2229,7 @@ body{
 
 .aside-responsive{
 	display: none;
-	width: 425px;
+	width: 100vw;
 	transform: translateY(-380px);
 	
 	
@@ -2324,13 +2303,11 @@ body{
 	transform: translateY(-135px);
 
 }
-
-
-/*DISEÑO RESPONSIVE PARA PANTALLAS 425PX*/
-/*DISEÑO RESPONSIVE PARA PANTALLAS 425PX*/
-/*DISEÑO RESPONSIVE PARA PANTALLAS 425PX*/
-/*DISEÑO RESPONSIVE PARA PANTALLAS 425PX*/
-@media only screen and (max-width: 499px){
+/*DISEÑO RESPONSIVE PARA PANTALLAS 445PX*/
+/*DISEÑO RESPONSIVE PARA PANTALLAS 445PX*/
+/*DISEÑO RESPONSIVE PARA PANTALLAS 445PX*/
+/*DISEÑO RESPONSIVE PARA PANTALLAS 445PX*/
+@media only screen and (max-width: 470px){
 	.botones-portada-responsive{
 		display: block;
 		transform: translateY(-255px);
@@ -2344,14 +2321,17 @@ body{
 		display: flex;
 		padding-top: 10px;
 		position: fixed;
+		width: 100vw;
 	}
 
 	.modal{
 		transform: translateY(-660px);
 	}
 
+	
+
 	.icono-de-inicio-responsive{
-		transform: translateX(200px);
+		transform: translateX(220px);
 		
 	}
 	.body::-webkit-scrollbar{
@@ -2458,23 +2438,10 @@ body{
 		display: none;
 	}
 	
-.avisos, .aside{
+	.avisos, .aside{
 		display: none;
 	}
 	
-	.supremo{
-		margin: 120px 10px 0px 10px;
-		width: 425px;
-		display: flex;
-		flex-direction: column;
-	}
-
-	.main{
-		width: 410px;
-		padding: 10px;
-		margin-top: 10px;
-	
-	}
 	
 	.titulo-redes{
 		display: block;
@@ -2483,8 +2450,8 @@ body{
 	.redes-sociales{
 		display: flex;
 		flex-direction: row;
-		margin-left: 13px;
-		width: 100vh;
+		margin-left: 0px;
+		width: 100vw;
 	}
 
 	.redes-sociales img{
@@ -2499,7 +2466,7 @@ body{
 	}
 
 	.portada-container{
-		width: 425px;
+		width: 100vw;
 		height: 200px;
 		margin-left: 2px;
 	
@@ -2507,45 +2474,48 @@ body{
 
 
 	.imagen-portada{
-		width: 425px;
-		height: 240px;
+		width: 100vw;
+		height: 260px;
 	
 	}
 	
 	.sombra1{
-		transform: translateY(-250px);
-		width: 425px;
+		transform: translateY(-270px);
+		width: 100vw;
 		height: 50px;
 	}
 	.sombra2{
-		transform: translateY(-130px);
-		width: 425px;
+		transform: translateY(-150px);
+		width: 100vw;
 		height: 50px;
 	}
 
 	.botones-portada-responsive{
 		display: block;
 		transform: translateY(5px);
-		margin-left: 15px;
+		margin-left: 25px;
 	}
 
 	.puntos{
-		margin-left: 165px;
+		margin-left: 175px;
 		transform: translateY(-40px);
 	}
 
 	.supremo{
-		transform: translateY(-100px);
-		width: 380px;
+		transform: translateY(100px);
+		width: 100vw;
 		margin-left: 0px;
 		margin-right: 0px;
+		display: flex;
+		flex-direction: column;
 		
 		
 	}
 	.main{
-		width: 100%;
+		width: 90%;
+		margin-top: 30px;
 		margin-left: 25px;
-		margin-right: 25px;
+		margin-right: 15px;
 	}
 	.div-grid-h2 h2{
 		font-size: 25px;
@@ -2603,22 +2573,26 @@ body{
 	
 	.aside-responsive{
 		display: block;
-		margin-top: 200px;
+		margin-top: 400px;
 
 
+	}
+
+	.titulo-aside-responsive{
+		margin-left: 20px;
 	}
 	
 	.parrafo-final{
 		width: 410px;
 		font-size: 12px;
 		border-left: 2px solid #900;
-		margin-left: 10px;
-		transform: translateY(-200px);
+		margin-left: 18px;
+		transform: translateY(0px);
 	}
 
 
 	.footer{
-		width: 100vh;
+		width: 100vw;
 		height: 150px;
 		display: flex;
 		flex-direction: column;
@@ -2660,11 +2634,118 @@ body{
 }
 
 
+/*DISEÑO RESPONSIVE PARA PANTALLAS 425PX*/
+/*DISEÑO RESPONSIVE PARA PANTALLAS 425PX*/
+/*DISEÑO RESPONSIVE PARA PANTALLAS 425PX*/
+/*DISEÑO RESPONSIVE PARA PANTALLAS 425PX*/
+@media only screen and (max-width: 430px){
+	.botones-portada-responsive{
+		transform: translateY(-255px);
+		margin-left: 17px;
+	}
+	.barra-de-navegacion-responsive{
+		transform: translateY(-660px);
+		padding-top: 10px;
+		
+	}
+
+	.modal{
+		transform: translateY(-660px);
+	}
+
+	.icono-de-inicio-responsive{
+		transform: translateX(200px);
+		
+	}
+	
+	.informacion{
+		margin-left: 15px;
+		transform: translateY(100px);
+		margin-bottom: 120px; 
+		width: 395px;
+		
+	}
+
+	.informacion-de-anime{
+		margin-left: 10px;
+		width: 65%;
+		height: 300px;
+	}
+
+	.foto-poster{
+		width: 35%;
+	}
+
+	.informacion-de-anime h2{
+ 		font-size: 23px;
+ 		
+	}
+
+	.portada-container{
+		height: 200px;
+		margin-left: 2px;
+	
+	}
+
+
+	.botones-portada-responsive{
+		transform: translateY(5px);
+		margin-left: 15px;
+	}
+
+	.puntos{
+		margin-left: 165px;
+		transform: translateY(-40px);
+	}
+
+	.supremo{
+		margin: 120px 0px 0px 0px;
+		transform: translateY(-100px);
+	}
+
+	.main{
+		width: 90%;
+		padding: 10px;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	
+
+	.redes-sociales{
+		margin-left: 10px;
+	}
+
+	.redes-sociales img{
+		margin-right: 7px;
+
+	}
+
+	.aside-responsive{
+		margin-top: 200px;
+	}
+
+	.titulo-aside-responsive{
+		margin-left: 10px;
+	}
+	
+	.parrafo-final{
+		width: 90vw;
+		transform: translateY(-200px);
+	}
+
+
+	.footer{
+		width: 100vw;
+		height: 150px;
+	}
+
+}
+
+
 /*DISEÑO RESPONSIVE PARA PANTALLAS 390PX*/
 @media only screen and (max-width: 400px){
 
 	.barra-de-navegacion-responsive{
-		width: 100vh;
 		transform: translateY(-660px);
 	}
 	.logo-living-responsive{
@@ -2674,7 +2755,6 @@ body{
 		transform: translateX(165px);
 		
 	}
-
 	.modal{
 		transform: translateY(-660px);
 	}
@@ -2684,7 +2764,6 @@ body{
 		transform: translateY(100px);
 		margin-bottom: 120px; 
 		width: 360px;
-		display: flex;
 
 	}
 
@@ -2723,7 +2802,6 @@ body{
 	}
 
 	.portada-container{
-		width: 390px;
 		height: 200px;
 		margin-left: 2px;
 	
@@ -2731,16 +2809,17 @@ body{
 
 
 	.imagen-portada{
-		width: 390px;
 		height: 240px;
 	
 	}
-	
-	
+
+	.sombra2{
+		transform: translateY(-115px);
 		
+	}
+
+	
 		.botones-portada-responsive{
-			display: block;
-			
 			margin-left: 0px;
 		}
 
@@ -2750,21 +2829,17 @@ body{
 		}
 		
 		.container-redes-sociales{
-			width: 380px;
 			margin-left: -10px;
-
 		}
 
 	.supremo{
 		transform: translateY(-100px);
-		width: 360px;
 		margin-left: 0px;
 		margin-right: 0px;
 		
 		
 	}
 	.main{
-		width: 100%;
 		margin-left: 15px;
 		margin-right: 15px;
 	}
@@ -2772,16 +2847,11 @@ body{
 	
 
 		.aside-responsive{
-			
-			width: 380px;
 			transform: translateY(-380px);
 		}
 
 		.titulo-aside-responsive{
-			margin-left: 10px;
-			width: 390px;
-			
-			
+			margin-left: 13px;
 		}
 
 		.item-aside-responsive{
@@ -2791,12 +2861,7 @@ body{
 
 		}
 
-		.footer{
-			width: 390px;
-		}
-		.parrafo-final{
-			width: 380px;
-		}
+		
 
 		
 	
@@ -2809,7 +2874,6 @@ body{
 /*DISEÑO RESPONSIVE PARA PANTALLAS 375PX*/
 @media only screen and (max-width: 385px){
 	.barra-de-navegacion-responsive{
-		width: 100vh;
 		transform: translateY(-662px);
 	}
 	.logo-living-responsive{
@@ -2831,8 +2895,6 @@ body{
 		transform: translateY(100px);
 		margin-bottom: 120px; 
 		width: 345px;
-		display: flex;
-
 	}
 
 	.informacion-de-anime{
@@ -2871,7 +2933,6 @@ body{
 	}
 
 	.portada-container{
-		width: 375px;
 		height: 200px;
 		margin-left: 2px;
 	
@@ -2879,66 +2940,49 @@ body{
 
 
 	.imagen-portada{
-		width: 375px;
 		height: 220px;
-	
 	}
 	
 	.sombra1{
 		transform: translateY(-250px);
-		width: 425px;
-		height: 50px;
 	}
 	.sombra2{
 		transform: translateY(-110px);
-		width: 425px;
-		height: 50px;
 	}
 	
 		
 		.botones-portada-responsive{
-			display: block;
-			
 			margin-left: -5px;
 		}
 
 		.puntos{
-			
 			margin-left: 148px;
 		}
 		
 		.container-redes-sociales{
-			width: 380px;
 			margin-left: -15px;
-
 		}
 
 	.supremo{
 		transform: translateY(-100px);
-		width: 355px;
 		margin-left: 0px;
 		margin-right: 0px;
 		
 		
 	}
 	.main{
-		width: 100%;
 		margin-left: 10px;
 		margin-right: 10px;
 	}
 	
 
 		.aside-responsive{
-			
-			width: 365px;
 			transform: translateY(-380px);
+			margin-left: -5px;
 		}
 
 		.titulo-aside-responsive{
-			margin-left: 10px;
-			width: 375px;
-			
-			
+			margin-left: 17px;
 		}
 
 		.item-aside-responsive{
@@ -2948,16 +2992,6 @@ body{
 
 		}
 
-		.footer{
-			width: 375px;
-		}
-
-		.parrafo-final{
-			width: 360px;
-		}
-
-		
-	
 }
 
 /*DISEÑO RESPONSIVE PARA PANTALLAS 360PX*/
@@ -2966,7 +3000,6 @@ body{
 /*DISEÑO RESPONSIVE PARA PANTALLAS 360PX*/
 @media only screen and (max-width: 370px){
 	.barra-de-navegacion-responsive{
-		width: 100vh;
 		transform: translateY(-662px);
 	}
 	.logo-living-responsive{
@@ -2989,8 +3022,6 @@ body{
 		transform: translateY(100px);
 		margin-bottom: 120px; 
 		width: 335px;
-		display: flex;
-
 	}
 
 	.informacion-de-anime{
@@ -3029,7 +3060,6 @@ body{
 	}
 
 	.portada-container{
-		width: 360px;
 		height: 200px;
 		margin-left: 2px;
 	
@@ -3037,62 +3067,49 @@ body{
 
 
 	.imagen-portada{
-		width: 360px;
 		height: 205px;
-	
 	}
 	
 	.sombra1{
 		transform: translateY(-250px);
-		width: 360px;
-		height: 50px;
 	}
 	.sombra2{
 		transform: translateY(-95px);
-		width: 360px;
-		height: 50px;
 	}
 	
 		
 		.botones-portada-responsive{
-			display: block;
-			
 			margin-left: -10px;
 		}
 
 		.puntos{
-			
 			margin-left: 143px;
 		}
 		
 		.container-redes-sociales{
-			width: 380px;
 			margin-left: -15px;
 
 		}
 
 	.supremo{
 		transform: translateY(-100px);
-		width: 345px;
 		margin-left: 0px;
 		margin-right: 0px;
 		
 		
 	}
 	.main{
-		width: 100%;
+		width: 95%;
 		margin-left: 10px;
 		margin-right: 10px;
 	}
 
 		.aside-responsive{
-			
-			width: 360px;
 			transform: translateY(-380px);
 		}
 
 		.titulo-aside-responsive{
-			margin-left: 10px;
+			margin-left: 16px;
 			width: 350px;
 			
 			
@@ -3101,19 +3118,15 @@ body{
 		.item-aside-responsive{
 			width: 340px;
 			height: 150px;
-			transform: translateX(0px);
+			transform: translateX(5px);
+
 
 		}
 
-		.footer{
-			width: 360px;
-		}
-
-		
-	
 
 	.parrafo-final{
-		width: 350px;
+		width: 95vw;
+		margin-left: 15px;
 	}
 }
 
@@ -3124,8 +3137,7 @@ body{
 /*DISEÑO RESPONSIVE PARA PANTALLAS 320PX*/
 @media only screen and (max-width: 340px){
 	.barra-de-navegacion-responsive{
-		width: 100vh;
-		transform: translateY(-559px);
+		transform: translateY(-579px);
 	}
 	.logo-living-responsive{
 		transform: translateX(55px);
@@ -3137,7 +3149,7 @@ body{
 	}
 
 	.modal{
-		transform: translateY(-559px);
+		transform: translateY(-579px);
 		width: 310px;
 		height: 450px;
 	
@@ -3149,7 +3161,6 @@ body{
 		
 	}
 	.titulo-modal h3{
-		font-family: Carter One, verdana;
 		width: 110px;
 		text-align: left;
 		font-size: 21px;
@@ -3169,6 +3180,7 @@ body{
 		margin-left: 10px;
 		width: 62%;
 		height: 300px;
+		margin-bottom: 20px;
 	}
 
 	.foto-poster{
@@ -3201,58 +3213,46 @@ body{
 	}
 
 	.portada-container{
-		width: 320px;
 		height: 160px;
 		margin-left: 2px;
+
 	
 	}
 
 
 	.imagen-portada{
-		width: 320px;
 		height: 185px;
 	
 	}
 	
 	.sombra1{
 		transform: translateY(-220px);
-		width: 360px;
-		height: 50px;
 	}
 	.sombra2{
 		transform: translateY(-105px);
-		width: 360px;
-		height: 50px;
 	}
 	
-		
 		.botones-portada-responsive{
-			display: block;
-			
-			margin-left: -25px;
+			margin-left: -33px;
 		}
 
 		.puntos{
-			
-			margin-left: 128px;
+			margin-left: 120px;
 		}
 		
 		.container-redes-sociales{
-			width: 380px;
 			margin-left: -20px;
 
 		}
 
 	.supremo{
 		transform: translateY(-100px);
-		width: 310px;
 		margin-left: 0px;
 		margin-right: 0px;
 		
 		
 	}
 	.main{
-		width: 100%;
 		margin-left: 5px;
 		margin-right: 5px;
 	}
@@ -3281,8 +3281,8 @@ body{
 	
 
 	.info-temporada button{
-		padding: 3px 10px;
-		font-size: 11px;
+		padding: 3px 7px;
+		font-size: 10px;
 		margin-top: 8px;
 	}
 
@@ -3298,16 +3298,12 @@ body{
 		margin-top: -5px;
 	}
 		.aside-responsive{
-			
-			width: 320px;
+			margin-left: 0px;
 			transform: translateY(-380px);
 		}
 
 		.titulo-aside-responsive{
 			margin-left: 5px;
-			width: 320px;
-			
-			
 		}
 
 		.item-aside-responsive{
@@ -3318,21 +3314,7 @@ body{
 		}
 
 		.parrafo-final{
-			width: 310px;
-			margin-left: 5px;
+			margin-left: 10px;
 		}
 
-		.footer{
-			width: 320px;
-		}
-
-		
-		
-	}
-
-
-
-
-
-
-
+}

@@ -1,3 +1,5 @@
+"use strict"
+
 //funcion para que la barra de navegacion se haga fixed:
 const barraDeNavegacion = document.querySelector(".barra-de-navegacion")
 const body = document.querySelector(".body")
@@ -123,7 +125,7 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/tanjiro.jpg"
+	imagen1.src = "../../imagenes/steins.jpg"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -135,7 +137,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 53.png"
+		imagen2.src = "../../imagenes/steins gate img 4.png"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -155,7 +157,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/IMG_20231011_180809.jpg"
+		imagen1.src = "../../imagenes/steins gate img 1.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -173,7 +175,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 51.png"
+		imagen2.src = "../../imagenes/steins gate img 2.jpeg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -190,7 +192,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/tanjiro.jpg"
+		imagen1.src = "../../imagenes/steins.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -210,6 +212,7 @@ function avanzar(){
 		}
 	
 }
+
 
 delante.addEventListener("click", () =>{
 	clearInterval(intervaloAvanzar)
@@ -238,19 +241,17 @@ function tiempoRetardo(){
 }
 
 tiempoRetardo()
-
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/IMG_20231011_180809.jpg"
+		imagen1.src = "../../imagenes/steins gate img 1.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
 		
 		punto4.classList.replace("punto-4-a", "punto-4-e")
-		punto3.classList.remove("punto-3-e")
-		punto3.classList.add("punto-3-a")
+		punto3.classList.replace("punto-3-e", "punto-3-a")
 		adelanteD = false
 		adelanteC = true
 
@@ -259,21 +260,20 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 53.png"
+		imagen2.src = "../../imagenes/steins gate img 4.png"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
 		
 		punto3.classList.replace("punto-3-a", "punto-3-e")
-		punto2.classList.remove("punto-2-e")
-		punto2.classList.add("punto-2-a")
+		punto2.classList.replace("punto-2-e", "punto-2-a")
 		adelanteC = false
 		adelanteB = true
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/tanjiro.jpg"
+		imagen1.src = "../../imagenes/steins.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -286,7 +286,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 51.png"
+		imagen2.src = "../../imagenes/steins gate img 2.jpeg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -301,47 +301,53 @@ function atrasar(){
 }
 
 const botonDescargar1 = document.querySelector(".boton-descargar-1")
+const botonDescargar1Lat = document.querySelector(".boton-descargar-1-lat")
 const botonDescargar2 = document.querySelector(".boton-descargar-2")
+const botonDescargar2Lat = document.querySelector(".boton-descargar-2-lat")
 const botonDescargar3 = document.querySelector(".boton-descargar-3")
-const botonDescargar3Lat = document.querySelector(".boton-descargar-3-lat")
-const botonDescargarMovie = document.querySelector(".boton-descargar-movie")
+const botonDescargar4 = document.querySelector(".boton-descargar-4")
 
 botonDescargar1.addEventListener("click", descargar1)
+botonDescargar1Lat.addEventListener("click", descargar1Lat)
 botonDescargar2.addEventListener("click", descargar2)
+botonDescargar2Lat.addEventListener("click", descargar2Lat)
 botonDescargar3.addEventListener("click", descargar3)
-botonDescargar3Lat.addEventListener("click", descargar3Lat)
-botonDescargarMovie.addEventListener("click", descargarMovie)
+botonDescargar4.addEventListener("click", descargar4)
 
-enlaceMediafire = document.querySelector(".link-1")
-enlaceMediafire3 = document.querySelector(".link-1-3")
-let mediafire1 = `https://www.mediafire.com/file/8h0joda3t45p4nw/Kny+T1+La+[WorldAnimeSenpai].rar/file`
-let mediafire2 = `https://www.mediafire.com/file/im3vled35regbcw/KnY+T2+La+[WorldAnimeSenpai].rar/file`
-let mediafire3 = `https://www.mediafire.com/file/vb7dbduwj3ibcmw/K1m3t+T3+[W0rld4nime5enpai].rar/file`
-let mediafire3Lat = `kimetsu no yaiba 3.html`
-let mediafireMovie = `https://www.mediafire.com/file/ybsv7r6nid7isxt/Kny+MT[WorldAnimeSenpai].rar/file`
+let enlaceMediafire = document.querySelector(".link-1")
+let enlacetemp1 = document.querySelector(".link-temp-1")
+let mediafire1 = `https://www.mediafire.com/folder/ohqmaixvyj1l4/episodios`
+let mediafire1Lat = `steins gate 1.html`
+let mediafire2 = `https://www.mediafire.com/folder/2j8p64ilfecen/ova`
+let mediafire2Lat = `https://www.mediafire.com/file/l7f5zsx0mvvsa6o/%2528locuranime.com%2529_StGa-21-Ova.rar/file`
+let mediafire3 = `https://www.mediafire.com/folder/zc3dk6gwk68mc/especiales`
+let mediafire4 = `https://www.mediafire.com/folder/hbjcwl9ydflym/pelicula`
 
 function descargar1(){
 	enlaceMediafire.setAttribute("href", mediafire1)
 	enlaceMediafire.click()
 }
-
+function descargar1Lat(){
+	enlacetemp1.setAttribute("href", mediafire1Lat)
+	enlacetemp1.click()
+}
 function descargar2(){
 	enlaceMediafire.setAttribute("href", mediafire2)
 	enlaceMediafire.click()
 }
-
+function descargar2Lat(){
+	enlaceMediafire.setAttribute("href", mediafire2Lat)
+	enlaceMediafire.click()
+}
 function descargar3(){
 	enlaceMediafire.setAttribute("href", mediafire3)
 	enlaceMediafire.click()
 }
-function descargar3Lat(){
-	enlaceMediafire3.setAttribute("href", mediafire3Lat)
-	enlaceMediafire3.click()
-}
-function descargarMovie(){
-	enlaceMediafire.setAttribute("href", mediafireMovie)
+function descargar4(){
+	enlaceMediafire.setAttribute("href", mediafire4)
 	enlaceMediafire.click()
 }
+
 
 const botonInicio = document.querySelector(".inicio")
 botonInicio.addEventListener("click", home)
@@ -1024,7 +1030,6 @@ listadoDeAnimes.addEventListener("click", (e)=>{
 
 
 
-
 const contenedorItemAside1 = document.querySelector(".item-aside-1")
 
 const contenedorItemAside2 = document.querySelector(".item-aside-2")
@@ -1223,6 +1228,3 @@ contenedorAsideResponsive9.addEventListener("click", ()=>{
 	document.querySelector(".href-aside-9").click()
 	contenedorAsideResponsive9.classList.add("agrandar-aside-responsive")
 })
-
-
-
