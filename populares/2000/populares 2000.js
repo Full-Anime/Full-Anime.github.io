@@ -1,10 +1,70 @@
-"use strict"
-
-
 //funcion para que la barra de navegacion se haga fixed:
-
-
 const body = document.querySelector(".body")
+const barraDeNavegacion = document.querySelector(".barra-de-navegacion")
+const ventanas = document.querySelector(".ventanas")
+window.onscroll = function(){
+	let scrolly = window.scrollY
+
+	if (scrolly > 100) {
+	ventanas.classList.add("ventana-fixed")
+	barraDeNavegacion.classList.add("position-fixed")
+	}
+	if (scrolly < 100) {
+		ventanas.classList.remove("ventana-fixed")
+		barraDeNavegacion.classList.remove("position-fixed")
+	}
+
+}
+
+
+const listadoDeAnimesResponsive = document.getElementById("listado-de-animes-responsive")
+listadoDeAnimesResponsive.addEventListener("click", (e)=>{
+	document.querySelector(".href-listado-de-animes").click()
+})
+
+const whatsapp = document.getElementById("icono-whatsapp")
+const telegram = document.getElementById("icono-telegram")
+const facebook = document.getElementById("icono-facebook")
+const instagram = document.getElementById("icono-instagram")
+
+const whatsappFooter = document.getElementById("icono-whatsapp-footer")
+const telegramFooter = document.getElementById("icono-telegram-footer")
+const facebookFooter = document.getElementById("icono-facebook-footer")
+const instagramFooter = document.getElementById("icono-instagram-footer")
+
+whatsapp.addEventListener("click", ()=>{
+	document.getElementById("enlace-whatsapp").click()
+})
+
+telegram.addEventListener("click", ()=>{
+	document.getElementById("enlace-telegram").click()
+})
+
+facebook.addEventListener("click", ()=>{
+	document.getElementById("enlace-facebook").click()
+})
+
+instagram.addEventListener("click", ()=>{
+	document.getElementById("enlace-instagram").click()
+})
+
+whatsappFooter.addEventListener("click", ()=>{
+	document.getElementById("enlace-whatsapp").click()
+})
+
+telegramFooter.addEventListener("click", ()=>{
+	document.getElementById("enlace-telegram").click()
+})
+
+facebookFooter.addEventListener("click", ()=>{
+	document.getElementById("enlace-facebook").click()
+})
+
+instagramFooter.addEventListener("click", ()=>{
+	document.getElementById("enlace-instagram").click()
+})
+
+
 const modal = document.querySelector(".modal")
 const iconoBarras = document.querySelector(".icono-de-barras-responsive")
 const iconoX = document.querySelector(".icono-x")
@@ -31,39 +91,6 @@ function ocultarModal(){
 	}
 }
 
-
-const listadoDeAnimesResponsive = document.getElementById("listado-de-animes-responsive")
-listadoDeAnimesResponsive.addEventListener("click", (e)=>{
-	document.querySelector(".href-listado-de-animes").click()
-})
-
-
-
-
-const whatsappFooter = document.getElementById("icono-whatsapp-footer")
-const telegramFooter = document.getElementById("icono-telegram-footer")
-const facebookFooter = document.getElementById("icono-facebook-footer")
-const instagramFooter = document.getElementById("icono-instagram-footer")
-
-
-
-whatsappFooter.addEventListener("click", ()=>{
-	document.getElementById("enlace-whatsapp").click()
-})
-
-telegramFooter.addEventListener("click", ()=>{
-	document.getElementById("enlace-telegram").click()
-})
-
-facebookFooter.addEventListener("click", ()=>{
-	document.getElementById("enlace-facebook").click()
-})
-
-instagramFooter.addEventListener("click", ()=>{
-	document.getElementById("enlace-instagram").click()
-})
-
-
 const botonInicio = document.querySelector(".inicio")
 botonInicio.addEventListener("click", home)
 
@@ -88,15 +115,10 @@ const container8 = document.querySelector(".new-8")
 const container9 = document.querySelector(".new-9")
 
 
-let enlace = ["../../animes/chainsaw man/chainsaw.html",
-"../../animes/Death Note/death note.html",
-"../../animes/spy x family/spy x family.html",
-"../../animes/jujutsu kaisen/jujutsu kaisen.html",
-"../../animes/kimetsu no yaiba/kimetsu no yaiba.html",
-"../../animes/tokyo ghoul/tokyo ghoul.html",
-"../../animes/fire force/fire force.html",
-"../../animes/dr stone/dr stone.html",
-"../../animes/trigun stampede/trigun stampede.html"]
+
+
+
+
 
 //funcion de buscar en el input:
 const input = document.querySelector(".input-buscador")
@@ -119,7 +141,7 @@ document.addEventListener("keyup", e=>{
 	}
 })
 
-for (let i = 0; i < 9; i++) {
+for (let i = 0; i < 45; i++) {
 			document.getElementById(`data-serie-${i}`).addEventListener("click", (e)=>{
 			linkInput.setAttribute("href", enlace[i])
 			linkInput.click()
@@ -149,39 +171,180 @@ function buscadorInput(){
 		linkInput.setAttribute("href", enlace[1])
 		linkInput.click()
 	}
-	
-	else if (input.value.toLowerCase() == "spy family") {
+	else if (input.value.toLowerCase() == "shingeki no kyojin" || input.value.toLowerCase() == "attack on titan") {
 		linkInput.setAttribute("href", enlace[2])
 		linkInput.click()
 	}
-	
-	else if (input.value.toLowerCase() == "jujutsu kaisen") {
+	else if (input.value.toLowerCase() == "spy family") {
 		linkInput.setAttribute("href", enlace[3])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "kimetsu no yaiba" || input.value.toLowerCase() == "demon slayer") {
+	else if (input.value.toLowerCase() == "naruto") {
 		linkInput.setAttribute("href", enlace[4])
 		linkInput.click()
 	}
-	
-	
-	else if (input.value.toLowerCase() == "tokyo ghoul") {
+	else if (input.value.toLowerCase() == "jujutsu kaisen") {
 		linkInput.setAttribute("href", enlace[5])
 		linkInput.click()
 	}
-	
-	else if (input.value.toLowerCase() == "fire force") {
+	else if (input.value.toLowerCase() == "kimetsu no yaiba" || input.value.toLowerCase() == "demon slayer") {
 		linkInput.setAttribute("href", enlace[6])
 		linkInput.click()
 	}
 	
-	else if (input.value.toLowerCase() == "dr stone") {
+	else if (input.value.toLowerCase() == "one punch man") {
 		linkInput.setAttribute("href", enlace[7])
 		linkInput.click()
 	}
-	
-	else if (input.value.toLowerCase() == "trigun stampede") {
+	else if (input.value.toLowerCase() == "tokyo ghoul") {
 		linkInput.setAttribute("href", enlace[8])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "my hero academia" || input.value.toLowerCase() == "boku no hero") {
+		linkInput.setAttribute("href", enlace[9])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "mob psycho 100") {
+		linkInput.setAttribute("href", enlace[10])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "fullmetal alchemist" || input.value.toLowerCase() == "fullmetal alchemist: brotherhood") {
+		linkInput.setAttribute("href", enlace[11])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "fire force") {
+		linkInput.setAttribute("href", enlace[12])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "tokyo revengers") {
+		linkInput.setAttribute("href", enlace[13])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "highschool of the dead") {
+		linkInput.setAttribute("href", enlace[14])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "dragon ball z") {
+		linkInput.setAttribute("href", enlace[15])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "dragon ball super") {
+		linkInput.setAttribute("href", enlace[16])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "one piece") {
+		linkInput.setAttribute("href", enlace[17])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "record of ragnarok") {
+		linkInput.setAttribute("href", enlace[18])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "vinland saga") {
+		linkInput.setAttribute("href", enlace[19])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "nanatsu no tazai" || input.value.toLowerCase() == "the seven capital sins") {
+		linkInput.setAttribute("href", enlace[20])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "inuyasha") {
+		linkInput.setAttribute("href", enlace[21])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "goblin slayer") {
+		linkInput.setAttribute("href", enlace[22])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "caballeros del zodiaco" || input.value.toLowerCase() == "saint seya") {
+		linkInput.setAttribute("href", enlace[23])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "cowboy bebop") {
+		linkInput.setAttribute("href", enlace[24])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "hunter x hunter 1999") {
+		linkInput.setAttribute("href", enlace[25])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "full metal panic" || input.value.toLowerCase() == "fullmetal panic") {
+		linkInput.setAttribute("href", enlace[26])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "cyberpunk" || input.value.toLowerCase() == "cyberpunk: edgerunners") {
+		linkInput.setAttribute("href", enlace[27])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "kaguya-sama" || input.value.toLowerCase() == "kaguya-sama: love is war") {
+		linkInput.setAttribute("href", enlace[28])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "dr stone") {
+		linkInput.setAttribute("href", enlace[29])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "food wars!" || input.value.toLowerCase() == "Shokugeki no soma") {
+		linkInput.setAttribute("href", enlace[30])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "steins, gate") {
+		linkInput.setAttribute("href", enlace[31])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "mirai nikki") {
+		linkInput.setAttribute("href", enlace[32])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "trigun stampede") {
+		linkInput.setAttribute("href", enlace[33])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "mashle: magic and muscles" || input.value.toLowerCase() == "mashle") {
+		linkInput.setAttribute("href", enlace[34])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "oshi no ko") {
+		linkInput.setAttribute("href", enlace[35])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "hells paradise" || input.value.toLowerCase() == "hell's paradise") {
+		linkInput.setAttribute("href", enlace[36])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "heavenly delusion" || input.value.toLowerCase() == "tengoku daimakyo") {
+		linkInput.setAttribute("href", enlace[37])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "sono bisque doll wa koi wo suru" || input.value.toLowerCase() == "my dress-up darling") {
+		linkInput.setAttribute("href", enlace[38])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "jojos bizarre adventure") {
+		linkInput.setAttribute("href", enlace[39])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "hellsing") {
+		linkInput.setAttribute("href", enlace[40])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "arcane: league of legends" || input.value.toLowerCase() == "arcane") {
+		linkInput.setAttribute("href", enlace[41])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "blue lock") {
+		linkInput.setAttribute("href", enlace[42])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "parasyte") {
+		linkInput.setAttribute("href", enlace[43])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "edens zero") {
+		linkInput.setAttribute("href", enlace[44])
 		linkInput.click()
 	}
 	
@@ -212,7 +375,7 @@ document.addEventListener("keyup", e=>{
 	}
 })
 
-for (let i = 0; i < 9; i++) {
+for (let i = 0; i < 45; i++) {
 			document.getElementById(`responsive-data-serie-${i}`).addEventListener("click", (e)=>{
 			linkInputResponsive.setAttribute("href", enlace[i])
 			linkInputResponsive.click()
@@ -237,39 +400,180 @@ function buscadorInputResponsive(){
 		linkInput.setAttribute("href", enlace[1])
 		linkInput.click()
 	}
-	
-	else if (input.value.toLowerCase() == "spy family") {
+	else if (input.value.toLowerCase() == "shingeki no kyojin" || input.value.toLowerCase() == "attack on titan") {
 		linkInput.setAttribute("href", enlace[2])
 		linkInput.click()
 	}
-	
-	else if (input.value.toLowerCase() == "jujutsu kaisen") {
+	else if (input.value.toLowerCase() == "spy family") {
 		linkInput.setAttribute("href", enlace[3])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "kimetsu no yaiba" || input.value.toLowerCase() == "demon slayer") {
+	else if (input.value.toLowerCase() == "naruto") {
 		linkInput.setAttribute("href", enlace[4])
 		linkInput.click()
 	}
-	
-	
-	else if (input.value.toLowerCase() == "tokyo ghoul") {
+	else if (input.value.toLowerCase() == "jujutsu kaisen") {
 		linkInput.setAttribute("href", enlace[5])
 		linkInput.click()
 	}
-	
-	else if (input.value.toLowerCase() == "fire force") {
+	else if (input.value.toLowerCase() == "kimetsu no yaiba" || input.value.toLowerCase() == "demon slayer") {
 		linkInput.setAttribute("href", enlace[6])
 		linkInput.click()
 	}
 	
-	else if (input.value.toLowerCase() == "dr stone") {
+	else if (input.value.toLowerCase() == "one punch man") {
 		linkInput.setAttribute("href", enlace[7])
 		linkInput.click()
 	}
-	
-	else if (input.value.toLowerCase() == "trigun stampede") {
+	else if (input.value.toLowerCase() == "tokyo ghoul") {
 		linkInput.setAttribute("href", enlace[8])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "my hero academia" || input.value.toLowerCase() == "boku no hero") {
+		linkInput.setAttribute("href", enlace[9])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "mob psycho 100") {
+		linkInput.setAttribute("href", enlace[10])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "fullmetal alchemist" || input.value.toLowerCase() == "fullmetal alchemist: brotherhood") {
+		linkInput.setAttribute("href", enlace[11])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "fire force") {
+		linkInput.setAttribute("href", enlace[12])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "tokyo revengers") {
+		linkInput.setAttribute("href", enlace[13])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "highschool of the dead") {
+		linkInput.setAttribute("href", enlace[14])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "dragon ball z") {
+		linkInput.setAttribute("href", enlace[15])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "dragon ball super") {
+		linkInput.setAttribute("href", enlace[16])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "one piece") {
+		linkInput.setAttribute("href", enlace[17])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "record of ragnarok") {
+		linkInput.setAttribute("href", enlace[18])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "vinland saga") {
+		linkInput.setAttribute("href", enlace[19])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "nanatsu no tazai" || input.value.toLowerCase() == "the seven capital sins") {
+		linkInput.setAttribute("href", enlace[20])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "inuyasha") {
+		linkInput.setAttribute("href", enlace[21])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "goblin slayer") {
+		linkInput.setAttribute("href", enlace[22])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "caballeros del zodiaco" || input.value.toLowerCase() == "saint seya") {
+		linkInput.setAttribute("href", enlace[23])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "cowboy bebop") {
+		linkInput.setAttribute("href", enlace[24])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "hunter x hunter 1999") {
+		linkInput.setAttribute("href", enlace[25])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "full metal panic" || input.value.toLowerCase() == "fullmetal panic") {
+		linkInput.setAttribute("href", enlace[26])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "cyberpunk" || input.value.toLowerCase() == "cyberpunk: edgerunners") {
+		linkInput.setAttribute("href", enlace[27])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "kaguya-sama" || input.value.toLowerCase() == "kaguya-sama: love is war") {
+		linkInput.setAttribute("href", enlace[28])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "dr stone") {
+		linkInput.setAttribute("href", enlace[29])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "food wars!" || input.value.toLowerCase() == "Shokugeki no soma") {
+		linkInput.setAttribute("href", enlace[30])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "steins, gate") {
+		linkInput.setAttribute("href", enlace[31])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "mirai nikki") {
+		linkInput.setAttribute("href", enlace[32])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "trigun stampede") {
+		linkInput.setAttribute("href", enlace[33])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "mashle: magic and muscles" || input.value.toLowerCase() == "mashle") {
+		linkInput.setAttribute("href", enlace[34])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "oshi no ko") {
+		linkInput.setAttribute("href", enlace[35])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "hells paradise" || input.value.toLowerCase() == "hell's paradise") {
+		linkInput.setAttribute("href", enlace[36])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "heavenly delusion" || input.value.toLowerCase() == "tengoku daimakyo") {
+		linkInput.setAttribute("href", enlace[37])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "sono bisque doll wa koi wo suru" || input.value.toLowerCase() == "my dress-up darling") {
+		linkInput.setAttribute("href", enlace[38])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "jojos bizarre adventure") {
+		linkInput.setAttribute("href", enlace[39])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "hellsing") {
+		linkInput.setAttribute("href", enlace[40])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "arcane: league of legends" || input.value.toLowerCase() == "arcane") {
+		linkInput.setAttribute("href", enlace[41])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "blue lock") {
+		linkInput.setAttribute("href", enlace[42])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "parasyte") {
+		linkInput.setAttribute("href", enlace[43])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "edens zero") {
+		linkInput.setAttribute("href", enlace[44])
 		linkInput.click()
 	}
 	
@@ -279,10 +583,6 @@ function buscadorInputResponsive(){
 	
 	
 }
-
-
-
-
 
 const botonPopulares2020 = document.getElementById("populares-2020")
 const botonPopulares2010 = document.getElementById("populares-2010")
@@ -394,9 +694,343 @@ spokonResponsive.addEventListener("click", (e)=>{
 	document.querySelector(".href-spokon").click()
 })
 
+const listadoDeAnimes = document.getElementById("listado-de-animes")
+listadoDeAnimes.addEventListener("click", (e)=>{
+	document.querySelector(".href-listado-de-animes").click()
+})
 
 
 
+
+
+//funcion de desplazamiento de imagen:
+const delante = document.querySelector(".adelante")
+const atras = document.querySelector(".atras")
+const delante_responsive = document.querySelector(".adelante-responsive")
+const atras_responsive = document.querySelector(".atras-responsive")
+const contenedorImg = document.querySelector(".imagen-portada")
+const titulo = document.querySelector(".titulo")
+const informacion = document.querySelector(".informacion")
+const pieDelTituloContainer = document.querySelector(".pie-de-titulo")
+
+const imagen1 = document.createElement("IMG")
+const imagen2 = document.createElement("IMG")
+const imagen3 = document.createElement("IMG")
+
+const tituloItem = document.createElement("H2")
+const informacionItem = document.createElement("P")
+const pieDelTitulo1 = document.createElement("b")
+const pieDelTitulo2 = document.createElement("b")
+const pieDelTitulo3 = document.createElement("b")
+
+const punto1 = document.querySelector(".punto-1")
+const punto2 = document.querySelector(".punto-2")
+const punto3 = document.querySelector(".punto-3")
+const punto4 = document.querySelector(".punto-4")
+
+delante.addEventListener("click", avanzar)
+atras.addEventListener("click", atrasar)
+delante_responsive.addEventListener("click", avanzar)
+atras_responsive.addEventListener("click", atrasar)
+
+let adelanteA = true
+let adelanteB = false
+let adelanteC = false
+let adelanteD = false
+
+	if (adelanteA == true) {
+	imagen1.src = "../../imagenes/chainsaw man img 4.jpeg"
+	contenedorImg.appendChild(imagen1)
+	tituloItem.innerHTML = "Chainsaw Man"
+	titulo.appendChild(tituloItem)
+	informacionItem.innerHTML = "Denji es un joven atrapado en la probreza extrema. que trabaja para saldar la deuda de su padre fallecido con la Yakuza trabajando como cazador de demonios, con la ayuda de Pochita, su fiel compañero canino, hermano del alma y tambien conocido como el demonio motosierra..."
+	informacion.appendChild(informacionItem)
+	pieDelTitulo1.innerHTML = "8/10"
+	pieDelTituloContainer.appendChild(pieDelTitulo1)
+	pieDelTitulo2.innerHTML = "12 cap 2022"
+	pieDelTituloContainer.appendChild(pieDelTitulo2)
+	pieDelTitulo3.innerHTML = "720p"
+	pieDelTituloContainer.appendChild(pieDelTitulo3)
+
+	punto1.classList.add("punto-1-a")
+
+
+}
+
+function avanzar(){
+
+	if (adelanteA == true) {
+		imagen2.src = "../../imagenes/attack on titan img 13.jpg"
+		contenedorImg.appendChild(imagen2)
+		contenedorImg.classList.add("desplazamiento-1")
+		contenedorImg.classList.remove("posicion-de-imagen")
+		contenedorImg.classList.remove("retrocesoa")
+		contenedorImg.classList.remove("retrocesob")
+		contenedorImg.classList.remove("retrocesoc")
+		contenedorImg.classList.remove("retrocesod")
+		
+		tituloItem.innerHTML = "Attack On Titan: The Final Chapters"
+		titulo.appendChild(tituloItem)
+		informacionItem.innerHTML = `<b><i>Gracias por todo Attack On Titan...</i></b>`
+		informacion.appendChild(informacionItem)
+		pieDelTitulo1.innerHTML = "9/10"
+		pieDelTituloContainer.appendChild(pieDelTitulo1)
+		pieDelTitulo2.innerHTML = "91 Ep 2013"
+		pieDelTituloContainer.appendChild(pieDelTitulo2)
+		pieDelTitulo3.innerHTML = "720p"
+		pieDelTituloContainer.appendChild(pieDelTitulo3)
+		punto1.classList.replace("punto-1-a", "punto-1-e")
+		punto2.classList.remove("punto-2-e")
+		punto2.classList.add("punto-2-a")
+		adelanteA = false
+		adelanteB = true
+
+
+		
+	}
+
+	else if (adelanteB == true) {
+		imagen1.src = "../../imagenes/jujutsu kaisen.png"
+		contenedorImg.appendChild(imagen1)
+		contenedorImg.classList.add("desplazamiento-2")
+		contenedorImg.classList.remove("posicion-de-imagen")
+		contenedorImg.classList.remove("retrocesoa")
+		contenedorImg.classList.remove("retrocesob")
+		contenedorImg.classList.remove("retrocesoc")
+		contenedorImg.classList.remove("retrocesod")
+		
+		tituloItem.innerHTML = "Jujutsu Kaisen: Temporada 2"
+		titulo.appendChild(tituloItem)
+		informacionItem.innerHTML = `<b>Gojo</b> y sus compañeros <b>Geto</b> y <b>Leiri</b> reciben el encargo de escoltar a una joven que se convertira en la siguiente recipiente de <b>Plasma Estelar</b>, aunque la amenaza del asesino pone en peligro la mision.`
+		informacion.appendChild(informacionItem)
+		pieDelTitulo1.innerHTML = "9/10"
+		pieDelTituloContainer.appendChild(pieDelTitulo1)
+		pieDelTitulo2.innerHTML = "37 cap 2019"
+		pieDelTituloContainer.appendChild(pieDelTitulo2)
+		pieDelTitulo3.innerHTML = "720p"
+		pieDelTituloContainer.appendChild(pieDelTitulo3)
+		punto2.classList.replace("punto-2-a", "punto-2-e")
+		punto3.classList.remove("punto-3-e")
+		punto3.classList.add("punto-3-a")
+		adelanteB = false
+		adelanteC = true
+		
+	}
+
+	else if (adelanteC == true) {
+		imagen2.src = "../../imagenes/kimetsu no yaiba img 19.jpg"
+		contenedorImg.appendChild(imagen2)
+		contenedorImg.classList.add("desplazamiento-3")
+		contenedorImg.classList.remove("posicion-de-imagen")
+		contenedorImg.classList.remove("retrocesoa")
+		contenedorImg.classList.remove("retrocesob")
+		contenedorImg.classList.remove("retrocesoc")
+		contenedorImg.classList.remove("retrocesod")
+		
+		tituloItem.innerHTML = "Kimetsu no Yaiba: Temporada 3"
+		titulo.appendChild(tituloItem)
+		informacionItem.innerHTML = "Sigue las aventuas de Tanjiro Kamado, un adolescente cuya familia fue cruelmente asesinada por un Demonio el cual convirtio a su hermana Nezuko en una de estas criaturas, obligandolo a emprender un viaje para cazar a estos seres..."
+		informacion.appendChild(informacionItem)
+		pieDelTitulo1.innerHTML = "9/10"
+		pieDelTituloContainer.appendChild(pieDelTitulo1)
+		pieDelTitulo2.innerHTML = "54 cap 2019"
+		pieDelTituloContainer.appendChild(pieDelTitulo2)
+		pieDelTitulo3.innerHTML = "720p"
+		pieDelTituloContainer.appendChild(pieDelTitulo3)
+		punto3.classList.replace("punto-3-a", "punto-3-e")
+		punto4.classList.remove("punto-4-e")
+		punto4.classList.add("punto-4-a")
+		adelanteC = false
+		adelanteD = true		
+	}
+	else if (adelanteD == true) {
+		imagen1.src = "../../imagenes/chainsaw man img 4.jpeg"
+		contenedorImg.appendChild(imagen1)
+		contenedorImg.classList.remove("retrocesoa")
+		contenedorImg.classList.remove("retrocesob")
+		contenedorImg.classList.remove("retrocesoc")
+		contenedorImg.classList.remove("retrocesod")
+		contenedorImg.classList.remove("posicion-de-imagen")
+		contenedorImg.classList.add("desplazamiento-4")
+		
+		tituloItem.innerHTML = "Chainsaw Man"
+		titulo.appendChild(tituloItem)
+		informacionItem.innerHTML = "Denji es un joven atrapado en la probreza extrema. que trabaja para saldar la deuda de su padre fallecido con la Yakuza trabajando como cazador de demonios, con la ayuda de Pochita, su fiel compañero canino, hermano del alma y tambien conocido como el demonio motosierra..."
+		informacion.appendChild(informacionItem)
+		pieDelTitulo1.innerHTML = "8/10"
+		pieDelTituloContainer.appendChild(pieDelTitulo1)
+		pieDelTitulo2.innerHTML = "12 cap 2022"
+		pieDelTituloContainer.appendChild(pieDelTitulo2)
+		pieDelTitulo3.innerHTML = "720p"
+		pieDelTituloContainer.appendChild(pieDelTitulo3)
+
+		punto4.classList.replace("punto-4-a", "punto-4-e")
+		punto1.classList.remove("punto-1-e")
+		punto1.classList.add("punto-1-a")
+		adelanteD = false
+		adelanteA = true
+		
+		}
+	
+}
+
+
+	
+
+delante.addEventListener("click", () =>{
+	clearInterval(intervaloAvanzar)
+	tiempoRetardo()
+})
+atras.addEventListener("click", () =>{
+	clearInterval(intervaloAvanzar)
+	tiempoRetardo()
+})
+delante_responsive.addEventListener("click", () =>{
+	clearInterval(intervaloAvanzar)
+	tiempoRetardo()
+})
+atras_responsive.addEventListener("click", () =>{
+	clearInterval(intervaloAvanzar)
+	tiempoRetardo()
+})
+
+let intervaloAvanzar
+let tiempoAvanzar
+
+
+
+function tiempoRetardo(){
+	intervaloAvanzar = setInterval(avanzar, 9500)
+}
+
+tiempoRetardo()
+
+
+function atrasar(){
+
+	if (adelanteD == true) {
+		imagen1.src = "../../imagenes/jujutsu kaisen.png"
+		contenedorImg.appendChild(imagen1)
+		contenedorImg.classList.add("retrocesod")
+		contenedorImg.classList.add("posicion-de-imagen")
+		
+		tituloItem.innerHTML = "Jujutsu Kaisen: Temporada 2"
+		titulo.appendChild(tituloItem)
+		informacionItem.innerHTML = `<b>Gojo</b> y sus compañeros <b>Geto</b> y <b>Leiri</b> reciben el encargo de escoltar a una joven que se convertira en la siguiente recipiente de <b>Plasma Estelar</b>, aunque la amenaza del asesino pone en peligro la mision.`
+		informacion.appendChild(informacionItem)
+		pieDelTitulo1.innerHTML = "8/10"
+		pieDelTituloContainer.appendChild(pieDelTitulo1)
+		pieDelTitulo2.innerHTML = "37 cap 2019"
+		pieDelTituloContainer.appendChild(pieDelTitulo2)
+		pieDelTitulo3.innerHTML = "720p"
+		pieDelTituloContainer.appendChild(pieDelTitulo3)
+		punto4.classList.replace("punto-4-a", "punto-4-e")
+		punto3.classList.remove("punto-3-e")
+		punto3.classList.add("punto-3-a")
+		
+		adelanteD = false
+		adelanteC = true
+
+		
+		
+	}
+
+	else if (adelanteC == true) {
+		imagen2.src = "../../imagenes/attack on titan img 13.jpg"
+		contenedorImg.appendChild(imagen2)
+		contenedorImg.classList.add("retrocesoc")
+		contenedorImg.classList.add("posicion-de-imagen")
+		
+		tituloItem.innerHTML = "Attack On Titan: The Final Chapters"
+		titulo.appendChild(tituloItem)
+		informacionItem.innerHTML = `<b><i>Gracias por todo Attack On Titan...</i></b>`
+		informacion.appendChild(informacionItem)
+		pieDelTitulo1.innerHTML = "9/10"
+		pieDelTituloContainer.appendChild(pieDelTitulo1)
+		pieDelTitulo2.innerHTML = "91 Ep 2013"
+		pieDelTituloContainer.appendChild(pieDelTitulo2)
+		pieDelTitulo3.innerHTML = "720p"
+		pieDelTituloContainer.appendChild(pieDelTitulo3)
+		punto3.classList.replace("punto-3-a", "punto-3-e")
+		punto2.classList.remove("punto-2-e")
+		punto2.classList.add("punto-2-a")
+		adelanteC = false
+		adelanteB = true
+	}
+
+	else if (adelanteB == true ) {
+		imagen1.src = "../../imagenes/chainsaw man img 4.jpeg"
+		contenedorImg.appendChild(imagen1)
+		contenedorImg.classList.add("retrocesob")
+		contenedorImg.classList.add("posicion-de-imagen")
+		
+		tituloItem.innerHTML = "Chainsaw Man"
+		titulo.appendChild(tituloItem)
+		informacionItem.innerHTML = "Denji es un joven atrapado en la probreza extrema. que trabaja para saldar la deuda de su padre fallecido con la Yakuza trabajando como cazador de demonios, con la ayuda de Pochita, su fiel compañero canino, hermano del alma y tambien conocido como el demonio motosierra..."
+		informacion.appendChild(informacionItem)
+		pieDelTitulo1.innerHTML = "8/10"
+		pieDelTituloContainer.appendChild(pieDelTitulo1)
+		pieDelTitulo2.innerHTML = "12 cap 2022"
+		pieDelTituloContainer.appendChild(pieDelTitulo2)
+		pieDelTitulo3.innerHTML = "720p"
+		pieDelTituloContainer.appendChild(pieDelTitulo3)
+		punto2.classList.replace("punto-2-a", "punto-2-e")
+		punto1.classList.replace("punto-1-e", "punto-1-a")
+		adelanteB = false
+		adelanteA = true
+	}
+	else if (adelanteA == true) {
+		
+		imagen2.src = "../../imagenes/kimetsu no yaiba img 19.jpg"
+		contenedorImg.appendChild(imagen2)
+		contenedorImg.classList.add("posicion-de-imagen")
+		contenedorImg.classList.add("retrocesoa")
+		tituloItem.innerHTML = "Kimetsu no Yaiba: Temporada 3"
+		titulo.appendChild(tituloItem)
+		informacionItem.innerHTML = "Sigue las aventuas de Tanjiro Kamado, un adolescente cuya familia fue cruelmente asesinada por un Demonio el cual convirtio a su hermana Nezuko en una de estas criaturas, obligandolo a emprender un viaje para cazar a estos seres..."
+		informacion.appendChild(informacionItem)
+		pieDelTitulo1.innerHTML = "9/10"
+		pieDelTituloContainer.appendChild(pieDelTitulo1)
+		pieDelTitulo2.innerHTML = "54 cap 2019"
+		pieDelTituloContainer.appendChild(pieDelTitulo2)
+		pieDelTitulo3.innerHTML = "720p"
+		pieDelTituloContainer.appendChild(pieDelTitulo3)
+		adelanteA = false
+		adelanteD = true
+		punto1.classList.replace("punto-1-a", "punto-1-e")
+		punto4.classList.remove("punto-4-e")
+		punto4.classList.add("punto-4-a")
+	}
+	
+}
+
+
+
+
+//funcion de evento para ver la serie con el boton ver serie:
+const botonVerSerie = document.querySelector(".ver-pelicula")
+
+botonVerSerie.addEventListener("click", verSerie)
+
+function verSerie(){
+	if (adelanteA == true) {
+		document.querySelector('.chainsaw-link').click()
+	}
+
+	else if (adelanteB == true) {
+		document.querySelector('.attack-link').click()
+	}
+
+	else if (adelanteC == true) {
+		document.querySelector('.jujutsu-link').click()
+	}
+
+	else if (adelanteD == true) {
+		document.querySelector('.kimetsu-link').click()
+	}
+
+
+}
 
 
 //funcion de ventanas ocultas de la barra de navegacion:
@@ -439,6 +1073,94 @@ function opciones22(){
 
 
 
+//enlaces de cada uno de los index de cada serie:
+
+let enlace = ["../../animes/chainsaw man/chainsaw.html",
+"../../animes/Death Note/death note.html",
+"../../animes/Shingeki No Kyojin/shingeki no kyojin.html",
+"../../animes/spy x family/spy x family.html",
+"../../animes/naruto/naruto.html",
+"../../animes/jujutsu kaisen/jujutsu kaisen.html",
+"../../animes/kimetsu no yaiba/kimetsu no yaiba.html",
+"../../animes/one punch man/one punch man.html",
+"../../animes/tokyo ghoul/tokyo ghoul.html",
+"../../animes/my hero academia/my hero academia.html",
+"../../animes/mob psycho 100/mob psycho.html",
+"../../animes/full metal alchemist/full metal alchemist.html",
+"../../animes/fire force/fire force.html",
+"../../animes/tokyo revengers/tokyo revengers.html",
+"../../animes/highschool of the dead/hsotd.html",
+"../../animes/dragon ball z/dragon ball z.html",
+"../../animes/dragon ball super/dragon ball super.html",
+"../../animes/one piece/one piece.html",
+"../../animes/record of ragnarok/record of ragnarok.html",
+"../../animes/vinland saga/vinland saga.html",
+"../../animes/nanatsu no tazai/nanatsu no tazai.html",
+"../../animes/inuyasha/inuyasha.html",
+"../../animes/goblin slayer/goblin slayer.html",
+"../../animes/caballeros del zodiaco/caballeros del zodiaco.html",
+"../../animes/cowboy bebop/cowboy bebop.html",
+"../../animes/hunter hunter 1999/hunter hunter 1999.html",
+"../../animes/full metal panic/full metal panic.html",
+"../../animes/cyberpunk/cyberpunk.html",
+"../../animes/kaguya sama/kaguya sama.html",
+"../../animes/dr stone/dr stone.html",
+"../../animes/food wars/food wars.html",
+"../../animes/steins gate/steins gate.html",
+"../../animes/mirai nikki/mirai nikki.html",
+"../../animes/trigun stampede/trigun stampede.html",
+"../../animes/mashle/mashle.html",
+"../../animes/oshi no ko/oshi no ko.html",
+"../../animes/hells paradise/hells paradise.html",
+"../../animes/tengoku daimakyo/tengoku daimakyo.html",
+"../../animes/sono bisque/sono bisque.html",
+"../../animes/jojos bizarre adventure/jo jos.html",
+"../../animes/hellsing/hellsing.html",
+"../../animes/arcane/arcane.html",
+"../../animes/blue lock/blue lock.html",
+"../../animes/parasyte/parasyte.html",
+"../../animes/edens zero/edens zero.html"]
+
+
+
+const botonVer1 = document.querySelector(".boton-ver-1")
+const botonVer2 = document.querySelector(".boton-ver-2")
+const botonVer3 = document.querySelector(".boton-ver-3")
+const botonVer4 = document.querySelector(".boton-ver-4")
+const botonVer5 = document.querySelector(".boton-ver-5")
+const botonVer6 = document.querySelector(".boton-ver-6")
+const botonVer7 = document.querySelector(".boton-ver-7")
+
+const linkSeries = document.querySelector(".link-1")
+
+botonVer1.addEventListener("click", (e)=>{
+	linkSeries.setAttribute("href", enlace[4])
+	linkSeries.click()
+})
+botonVer2.addEventListener("click", (e)=>{
+	linkSeries.setAttribute("href", enlace[17])
+	linkSeries.click()
+})
+botonVer3.addEventListener("click", (e)=>{
+	linkSeries.setAttribute("href", enlace[1])
+	linkSeries.click()
+})
+botonVer4.addEventListener("click", (e)=>{
+	linkSeries.setAttribute("href", enlace[21])
+	linkSeries.click()
+})
+botonVer5.addEventListener("click", (e)=>{
+	linkSeries.setAttribute("href", enlace[11])
+	linkSeries.click()
+})
+botonVer6.addEventListener("click", (e)=>{
+	linkSeries.setAttribute("href", enlace[26])
+	linkSeries.click()
+})
+botonVer7.addEventListener("click", (e)=>{
+	linkSeries.setAttribute("href", enlace[25])
+	linkSeries.click()
+})
 
 
 
@@ -448,7 +1170,281 @@ function opciones22(){
 
 
 
-// const inicio = document.querySelector(".selector-inicio")
-// inicio.addEventListener("click", () =>{
-// 	document.querySelector(".inicio-index").click()
-// })
+
+const contenedorItemAside1 = document.querySelector(".item-aside-1")
+
+const contenedorItemAside2 = document.querySelector(".item-aside-2")
+const contenedorItemAside3 = document.querySelector(".item-aside-3")
+const contenedorItemAside4 = document.querySelector(".item-aside-4")
+const contenedorItemAside5 = document.querySelector(".item-aside-5")
+const contenedorItemAside6 = document.querySelector(".item-aside-6")
+const contenedorItemAside7 = document.querySelector(".item-aside-7")
+const contenedorItemAside8 = document.querySelector(".item-aside-8")
+const contenedorItemAside9 = document.querySelector(".item-aside-9")
+const contenedorItemAside10 = document.querySelector(".item-aside-10")
+const contenedorItemAside11 = document.querySelector(".item-aside-11")
+const contenedorItemAside12 = document.querySelector(".item-aside-12")
+const contenedorItemAside13 = document.querySelector(".item-aside-13")
+
+
+
+
+contenedorItemAside1.addEventListener("mouseover",() =>{
+	contenedorItemAside1.classList.add("sub-item-aside")
+	
+}) 
+contenedorItemAside1.addEventListener("mouseleave",() =>{
+	contenedorItemAside1.classList.remove("sub-item-aside")
+	
+}) 
+
+contenedorItemAside2.addEventListener("mouseover",() =>{
+	contenedorItemAside2.classList.add("sub-item-aside")
+	
+}) 
+contenedorItemAside2.addEventListener("mouseleave",() =>{
+	contenedorItemAside2.classList.remove("sub-item-aside")
+	
+}) 
+
+contenedorItemAside3.addEventListener("mouseover",() =>{
+	contenedorItemAside3.classList.add("sub-item-aside")
+	
+}) 
+contenedorItemAside3.addEventListener("mouseleave",() =>{
+	contenedorItemAside3.classList.remove("sub-item-aside")
+	
+}) 
+
+contenedorItemAside4.addEventListener("mouseover",() =>{
+	contenedorItemAside4.classList.add("sub-item-aside")
+	
+}) 
+contenedorItemAside4.addEventListener("mouseleave",() =>{
+	contenedorItemAside4.classList.remove("sub-item-aside")
+	
+}) 
+
+contenedorItemAside5.addEventListener("mouseover",() =>{
+	contenedorItemAside5.classList.add("sub-item-aside")
+	
+}) 
+contenedorItemAside5.addEventListener("mouseleave",() =>{
+	contenedorItemAside5.classList.remove("sub-item-aside")
+	
+}) 
+
+contenedorItemAside6.addEventListener("mouseover",() =>{
+	contenedorItemAside6.classList.add("sub-item-aside")
+	
+}) 
+contenedorItemAside6.addEventListener("mouseleave",() =>{
+	contenedorItemAside6.classList.remove("sub-item-aside")
+	
+}) 
+
+contenedorItemAside7.addEventListener("mouseover",() =>{
+	contenedorItemAside7.classList.add("sub-item-aside")
+	
+}) 
+contenedorItemAside7.addEventListener("mouseleave",() =>{
+	contenedorItemAside7.classList.remove("sub-item-aside")
+	
+}) 
+
+contenedorItemAside8.addEventListener("mouseover",() =>{
+	contenedorItemAside8.classList.add("sub-item-aside")
+	
+}) 
+contenedorItemAside8.addEventListener("mouseleave",() =>{
+	contenedorItemAside8.classList.remove("sub-item-aside")
+	
+}) 
+
+contenedorItemAside9.addEventListener("mouseover",() =>{
+	contenedorItemAside9.classList.add("sub-item-aside")
+	
+}) 
+contenedorItemAside9.addEventListener("mouseleave",() =>{
+	contenedorItemAside9.classList.remove("sub-item-aside")
+	
+}) 
+
+contenedorItemAside10.addEventListener("mouseover",() =>{
+	contenedorItemAside10.classList.add("sub-item-aside")
+	
+}) 
+contenedorItemAside10.addEventListener("mouseleave",() =>{
+	contenedorItemAside10.classList.remove("sub-item-aside")
+	
+}) 
+
+contenedorItemAside11.addEventListener("mouseover",() =>{
+	contenedorItemAside11.classList.add("sub-item-aside")
+	
+}) 
+contenedorItemAside11.addEventListener("mouseleave",() =>{
+	contenedorItemAside11.classList.remove("sub-item-aside")
+	
+}) 
+
+contenedorItemAside12.addEventListener("mouseover",() =>{
+	contenedorItemAside12.classList.add("sub-item-aside")
+	
+}) 
+contenedorItemAside12.addEventListener("mouseleave",() =>{
+	contenedorItemAside12.classList.remove("sub-item-aside")
+	
+}) 
+
+contenedorItemAside13.addEventListener("mouseover",() =>{
+	contenedorItemAside13.classList.add("sub-item-aside")
+	
+}) 
+contenedorItemAside13.addEventListener("mouseleave",() =>{
+	contenedorItemAside13.classList.remove("sub-item-aside")
+	
+}) 
+
+contenedorItemAside1.addEventListener("click",() =>{
+	document.querySelector(".href-aside-1").click()
+	
+}) 
+
+contenedorItemAside2.addEventListener("click",() =>{
+	document.querySelector(".href-aside-2").click()
+	
+}) 
+contenedorItemAside3.addEventListener("click",() =>{
+	document.querySelector(".href-aside-3").click()
+	
+}) 
+contenedorItemAside4.addEventListener("click",() =>{
+	document.querySelector(".href-aside-4").click()
+	
+}) 
+contenedorItemAside5.addEventListener("click",() =>{
+	document.querySelector(".href-aside-5").click()
+	
+}) 
+contenedorItemAside6.addEventListener("click",() =>{
+	document.querySelector(".href-aside-6").click()
+	
+}) 
+contenedorItemAside7.addEventListener("click",() =>{
+	document.querySelector(".href-aside-7").click()
+	
+}) 
+contenedorItemAside8.addEventListener("click",() =>{
+	document.querySelector(".href-aside-8").click()
+	
+}) 
+contenedorItemAside9.addEventListener("click",() =>{
+	document.querySelector(".href-aside-9").click()
+	
+}) 
+contenedorItemAside10.addEventListener("click",() =>{
+	document.querySelector(".href-aside-10").click()
+	
+}) 
+contenedorItemAside11.addEventListener("click",() =>{
+	document.querySelector(".href-aside-11").click()
+	
+}) 
+contenedorItemAside12.addEventListener("click",() =>{
+	document.querySelector(".href-aside-12").click()
+	
+}) 
+contenedorItemAside13.addEventListener("click",() =>{
+	document.querySelector(".href-aside-13").click()
+	
+}) 
+
+
+
+
+
+
+
+
+const contenedorAsideResponsive1 = document.querySelector(".serie-aside-responsive-1")
+const contenedorAsideResponsive2 = document.querySelector(".serie-aside-responsive-2")
+const contenedorAsideResponsive3 = document.querySelector(".serie-aside-responsive-3")
+const contenedorAsideResponsive4 = document.querySelector(".serie-aside-responsive-4")
+const contenedorAsideResponsive5 = document.querySelector(".serie-aside-responsive-5")
+const contenedorAsideResponsive6 = document.querySelector(".serie-aside-responsive-6")
+const contenedorAsideResponsive7 = document.querySelector(".serie-aside-responsive-7")
+const contenedorAsideResponsive8 = document.querySelector(".serie-aside-responsive-8")
+const contenedorAsideResponsive9 = document.querySelector(".serie-aside-responsive-9")
+const contenedorAsideResponsive10 = document.querySelector(".serie-aside-responsive-10")
+const contenedorAsideResponsive11 = document.querySelector(".serie-aside-responsive-11")
+const contenedorAsideResponsive12 = document.querySelector(".serie-aside-responsive-12")
+const contenedorAsideResponsive13 = document.querySelector(".serie-aside-responsive-13")
+
+
+contenedorAsideResponsive1.addEventListener("click", ()=>{
+	document.querySelector(".href-aside-1").click()
+	contenedorAsideResponsive1.classList.add("agrandar-aside-responsive")
+})
+
+contenedorAsideResponsive2.addEventListener("click", ()=>{
+	document.querySelector(".href-aside-2").click()
+	contenedorAsideResponsive2.classList.add("agrandar-aside-responsive")
+})
+
+contenedorAsideResponsive3.addEventListener("click", ()=>{
+	document.querySelector(".href-aside-3").click()
+	contenedorAsideResponsive3.classList.add("agrandar-aside-responsive")
+})
+
+contenedorAsideResponsive4.addEventListener("click", ()=>{
+	document.querySelector(".href-aside-4").click()
+	contenedorAsideResponsive4.classList.add("agrandar-aside-responsive")
+})
+
+contenedorAsideResponsive5.addEventListener("click", ()=>{
+	document.querySelector(".href-aside-5").click()
+	contenedorAsideResponsive5.classList.add("agrandar-aside-responsive")
+})
+
+contenedorAsideResponsive6.addEventListener("click", ()=>{
+	document.querySelector(".href-aside-6").click()
+	contenedorAsideResponsive6.classList.add("agrandar-aside-responsive")
+})
+
+contenedorAsideResponsive7.addEventListener("click", ()=>{
+	document.querySelector(".href-aside-7").click()
+	contenedorAsideResponsive7.classList.add("agrandar-aside-responsive")
+})
+
+contenedorAsideResponsive8.addEventListener("click", ()=>{
+	document.querySelector(".href-aside-8").click()
+	contenedorAsideResponsive8.classList.add("agrandar-aside-responsive")
+})
+
+contenedorAsideResponsive9.addEventListener("click", ()=>{
+	document.querySelector(".href-aside-9").click()
+	contenedorAsideResponsive9.classList.add("agrandar-aside-responsive")
+})
+
+contenedorAsideResponsive10.addEventListener("click", ()=>{
+	document.querySelector(".href-aside-10").click()
+	contenedorAsideResponsive10.classList.add("agrandar-aside-responsive")
+})
+
+contenedorAsideResponsive11.addEventListener("click", ()=>{
+	document.querySelector(".href-aside-11").click()
+	contenedorAsideResponsive11.classList.add("agrandar-aside-responsive")
+})
+
+contenedorAsideResponsive12.addEventListener("click", ()=>{
+	document.querySelector(".href-aside-12").click()
+	contenedorAsideResponsive12.classList.add("agrandar-aside-responsive")
+})
+
+contenedorAsideResponsive13.addEventListener("click", ()=>{
+	document.querySelector(".href-aside-13").click()
+	contenedorAsideResponsive13.classList.add("agrandar-aside-responsive")
+})
+
+
