@@ -1287,7 +1287,7 @@ document.querySelector(".boton-ver-42").addEventListener("click", ()=>{
 	linkSeries.click()
 })
 document.querySelector(".boton-ver-43").addEventListener("click", ()=>{
-	linkSeries.setAttribute("href", enlace[43])
+	linkSeries.setAttribute("href", enlace[42])
 	linkSeries.click()
 })
 document.querySelector(".boton-ver-44").addEventListener("click", ()=>{
