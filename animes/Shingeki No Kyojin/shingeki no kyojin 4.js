@@ -1,6 +1,6 @@
 "use strict"
 
-//funcion para que la barra de navegacion se haga fixed:
+//funcion para que la barra de navegacion se haga 
 const barraDeNavegacion = document.querySelector(".barra-de-navegacion")
 const body = document.querySelector(".body")
 const ventanas = document.querySelector(".ventanas")
