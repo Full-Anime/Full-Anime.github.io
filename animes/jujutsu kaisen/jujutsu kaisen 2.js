@@ -123,7 +123,7 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/jujutsu kaisen img 11.jpeg"
+	imagen1.src = "../../imagenes/jujutsu kaisen 2 img 6.jpg"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -135,7 +135,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/jujutsu kaisen.png"
+		imagen2.src = "../../imagenes/jujutsu kaisen 2 img 4.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -155,7 +155,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/jujutsu kaisen img 9.jpg"
+		imagen1.src = "../../imagenes/jujutsu kaisen 2 img 5.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -173,7 +173,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/jujutsu kaisen img 8.jpg"
+		imagen2.src = "../../imagenes/jujutsu kaisen 2 img 7.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -190,7 +190,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/jujutsu kaisen img 11.jpeg"
+		imagen1.src = "../../imagenes/jujutsu kaisen 2 img 6.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -242,7 +242,7 @@ tiempoRetardo()
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/jujutsu kaisen img 9.jpg"
+		imagen1.src = "../../imagenes/jujutsu kaisen 2 img 5.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -259,7 +259,7 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/jujutsu kaisen.png"
+		imagen2.src = "../../imagenes/jujutsu kaisen 2 img 4.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -273,7 +273,7 @@ function atrasar(){
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/jujutsu kaisen img 11.jpeg"
+		imagen1.src = "../../imagenes/jujutsu kaisen 2 img 6.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -286,7 +286,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/jujutsu kaisen img 8.jpg"
+		imagen2.src = "../../imagenes/jujutsu kaisen 2 img 7.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
