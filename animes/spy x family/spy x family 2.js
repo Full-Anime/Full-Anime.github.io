@@ -316,6 +316,8 @@ let mediafire7 = `https://www.mediafire.com/file/ft8gib44avt2f2a/%2528locuranime
 let mediafire8 = `https://www.mediafire.com/file/7c78wgux04od2jw/%2528locuranime.com%2529_SxF2-08.rar/file`
 let mediafire9 = `https://www.mediafire.com/file/rpiwut7fx4le8hj/%2528locuranime.com%2529_SxF2-09.rar/file`
 let mediafire10 = `https://www.mediafire.com/file/r7lcw0s0mx5ncza/%2528locuranime.com%2529_SxF2-10.rar/file`
+let mediafire11 = `https://www.mediafire.com/file/l2yue0m5i83joa8/%2528locuranime.com%2529_SxF2-11.rar/file`
+let mediafire12 = `https://www.mediafire.com/file/iuul7cg9ol52geq/%2528locuranime.com%2529_SxF2-12.rar/file`
 
 
 
@@ -359,6 +361,16 @@ document.querySelector(".boton-descargar-10").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire10)
 	enlaceMediafire.click()
 })
+document.querySelector(".boton-descargar-11").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire11)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-12").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire12)
+	enlaceMediafire.click()
+})
+
+
 
 
 
