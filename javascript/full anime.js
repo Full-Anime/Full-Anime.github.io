@@ -1834,7 +1834,7 @@ let poster = ["poster/chainsaw man poster.jpg",
 "poster/steins gate 1.jpg", 
 "poster/mirai nikki 1.jpg", 
 "poster/TrigunStampedeKeyvisual.jpg",
-"poster/mashel 1.jpe",
+"poster/mashle 2.jpeg",
 "poster/oshi no ko 1.png", 
 "poster/hells pasradise.jpg", 
 "poster/Visual-2.jpg",
@@ -1937,7 +1937,7 @@ let textEnlace = ["Chainsaw Man",
 "Trigun Stampede",
 "Mashle",
 "Oshi No Ko",
-"Hells Paradise",
+"Hell's Paradise",
 "Tengoku Daimakyo",
 "Sono Bisque Doll Wo Koi Wo Suru",
 "Jojos Bizarre Adeventure",
@@ -1945,7 +1945,7 @@ let textEnlace = ["Chainsaw Man",
 "Arcane: League Of Legends",
 "Blue Lock",
 "Parasyte",
-"Edens Zero"]
+"Eden's Zero"]
 
  
 
@@ -1956,65 +1956,36 @@ botonUltimos.addEventListener("click", ultimos)
 botonTendencias.addEventListener("click", tendencias)
 botonEstrenos.addEventListener("click", estrenos)
 
-let primeraCarga = true
-let segundaCarga = false
-let terceraCarga = false
-
-
+const hrefSiguiente = document.querySelector(".href-siguiente")
 const contenedorSiguiente = document.querySelector(".container-siguiente")
-const botonSiguiente1 = document.querySelector(".siguiente-1")
+
 const botonSiguiente2 = document.querySelector(".siguiente-2")
 const botonSiguiente3 = document.querySelector(".siguiente-3")
 
 
-botonSiguiente1.addEventListener("click", next1)
+
 botonSiguiente2.addEventListener("click", next2)
 botonSiguiente3.addEventListener("click", next3)
 
 
 //funciones para el boton flecha:
 function next2(){
-	if (primeraCarga == true || terceraCarga == true) {
-		primeraCarga = false
-		terceraCarga = false
-		segundaCarga = true
-		
-	}
-	ultimos()
+	hrefSiguiente.setAttribute("href", "secciones/segunda/segunda.html")
+	hrefSiguiente.click()
 }
 
 function next3(){
-	if (segundaCarga == true || primeraCarga == true) {
-		segundaCarga = false
-		primeraCarga = false
-		terceraCarga = true
-		
-	}
-	ultimos()
+	hrefSiguiente.setAttribute("href", "secciones/tercera/tercera.html")
+	hrefSiguiente.click()
+	
 }
 
 
-function next1(){
-	if (terceraCarga == true || segundaCarga == true) {
-		terceraCarga = false
-		segundaCarga = false
-		primeraCarga = true
-		
-	}
-	ultimos()
-}
 
 
 
 //funcion para los ultimos animes, se ejecuta por defecto
 function ultimos(){
-	if (primeraCarga == true && segundaCarga == false && terceraCarga == false) {
-		contenedorSiguiente.classList.add("marcar-posicion-1")
-		contenedorSiguiente.classList.remove("marcar-posicion-2")
-		contenedorSiguiente.classList.remove("marcar-posicion-3")
-		contenedorBotones.classList.add("boton-1")
-		contenedorBotones.classList.remove("boton-2")
-		contenedorBotones.classList.remove("boton-3")
 		srcPoster1.setAttribute("src", poster[0])
 		srcPoster1.setAttribute("alt", alt[0])
 		srcPoster1.setAttribute("title", title[0])
@@ -2094,345 +2065,22 @@ function ultimos(){
 
 	}
 
-	else if (primeraCarga == false && segundaCarga == true && terceraCarga == false) {
-		contenedorSiguiente.classList.add("marcar-posicion-2")
-		contenedorSiguiente.classList.remove("marcar-posicion-3")
-		contenedorSiguiente.classList.remove("marcar-posicion-1")
-		contenedorBotones.classList.add("boton-1")
-		contenedorBotones.classList.remove("boton-2")
-		contenedorBotones.classList.remove("boton-3")
-		
-		srcPoster1.setAttribute("src", poster[15])
-		srcPoster1.setAttribute("alt", alt[15])
-		srcPoster1.setAttribute("title", title[15])
-		href1.setAttribute("href", enlace[15])
-		href1.textContent = textEnlace[15]
-		srcPoster2.setAttribute("src", poster[16])
-		srcPoster2.setAttribute("alt", alt[16])
-		srcPoster2.setAttribute("title", title[16])
-		href2.setAttribute("href", enlace[16])
-		href2.textContent = textEnlace[16]
-		srcPoster3.setAttribute("src", poster[17])
-		srcPoster3.setAttribute("alt", alt[17])
-		srcPoster3.setAttribute("title", title[17])
-		href3.setAttribute("href", enlace[17])
-		href3.textContent = textEnlace[17]
-		srcPoster4.setAttribute("src", poster[18])
-		srcPoster4.setAttribute("alt", alt[18])
-		srcPoster4.setAttribute("title", title[18])
-		href4.setAttribute("href", enlace[18])
-		href4.textContent = textEnlace[18]
-		srcPoster5.setAttribute("src", poster[19])
-		srcPoster5.setAttribute("alt", alt[19])
-		srcPoster5.setAttribute("title", title[19])
-		href5.setAttribute("href", enlace[19])
-		href5.textContent = textEnlace[19]
-		srcPoster6.setAttribute("src", poster[20])
-		srcPoster6.setAttribute("alt", alt[20])
-		srcPoster6.setAttribute("title", title[20])
-		href6.setAttribute("href", enlace[20])
-		href6.textContent = textEnlace[20]
-		srcPoster7.setAttribute("src", poster[21])
-		srcPoster7.setAttribute("alt", alt[21])
-		srcPoster7.setAttribute("title", title[21])
-		href7.setAttribute("href", enlace[21])
-		href7.textContent = textEnlace[21]
-		srcPoster8.setAttribute("src", poster[22])
-		srcPoster8.setAttribute("alt", alt[22])
-		srcPoster8.setAttribute("title", title[22])
-		href8.setAttribute("href", enlace[22])
-		href8.textContent = textEnlace[22]
-		srcPoster9.setAttribute("src", poster[23])
-		srcPoster9.setAttribute("alt", alt[23])
-		srcPoster9.setAttribute("title", title[23])
-		href9.setAttribute("href", enlace[23])
-		href9.textContent = textEnlace[23]
-		srcPoster10.setAttribute("src", poster[24])
-		srcPoster10.setAttribute("alt", alt[24])
-		srcPoster10.setAttribute("title", title[24])
-		href10.setAttribute("href", enlace[24])
-		href10.textContent = textEnlace[24]
-		srcPoster11.setAttribute("src", poster[25])
-		srcPoster11.setAttribute("alt", alt[25])
-		srcPoster11.setAttribute("title", title[25])
-		href11.setAttribute("href", enlace[25])
-		href11.textContent = textEnlace[25]
-		srcPoster12.setAttribute("src", poster[26])
-		srcPoster12.setAttribute("alt", alt[26])
-		srcPoster12.setAttribute("title", title[26])
-		href12.setAttribute("href", enlace[26])
-		href12.textContent = textEnlace[26]
-		srcPoster13.setAttribute("src", poster[27])
-		srcPoster13.setAttribute("alt", alt[27])
-		srcPoster13.setAttribute("title", title[27])
-		href13.setAttribute("href", enlace[27])
-		href13.textContent = textEnlace[27]
-		srcPoster14.setAttribute("src", poster[28])
-		srcPoster14.setAttribute("alt", alt[28])
-		srcPoster14.setAttribute("title", title[28])
-		href14.setAttribute("href", enlace[28])
-		href14.textContent = textEnlace[28]
-		srcPoster15.setAttribute("src", poster[29])
-		srcPoster15.setAttribute("alt", alt[29])
-		srcPoster15.setAttribute("title", title[29])
-		href15.setAttribute("href", enlace[29])
-		href15.textContent = textEnlace[29]
-		
-	}
-
-	else if (primeraCarga == false && segundaCarga == false && terceraCarga == true) {
-		contenedorSiguiente.classList.add("marcar-posicion-3")
-		contenedorSiguiente.classList.remove("marcar-posicion-2")
-		contenedorSiguiente.classList.remove("marcar-posicion-1")
-		contenedorBotones.classList.add("boton-1")
-		contenedorBotones.classList.remove("boton-2")
-		contenedorBotones.classList.remove("boton-3")
-		srcPoster1.setAttribute("src", poster[30])
-		srcPoster1.setAttribute("alt", alt[30])
-		srcPoster1.setAttribute("title", title[30])
-		href1.setAttribute("href", enlace[30])
-		href1.textContent = textEnlace[30]
-		srcPoster2.setAttribute("src", poster[31])
-		srcPoster2.setAttribute("alt", alt[31])
-		srcPoster2.setAttribute("title", title[31])
-		href2.setAttribute("href", enlace[31])
-		href2.textContent = textEnlace[31]
-		srcPoster3.setAttribute("src", poster[32])
-		srcPoster3.setAttribute("alt", alt[32])
-		srcPoster3.setAttribute("title", title[32])
-		href3.setAttribute("href", enlace[32])
-		href3.textContent = textEnlace[32]
-		srcPoster4.setAttribute("src", poster[33])
-		srcPoster4.setAttribute("alt", alt[33])
-		srcPoster4.setAttribute("title", title[33])
-		href4.setAttribute("href", enlace[33])
-		href4.textContent = textEnlace[33]
-		srcPoster5.setAttribute("src", poster[34])
-		srcPoster5.setAttribute("alt", alt[34])
-		srcPoster5.setAttribute("title", title[34])
-		href5.setAttribute("href", enlace[34])
-		href5.textContent = textEnlace[34]
-		srcPoster6.setAttribute("src", poster[35])
-		srcPoster6.setAttribute("alt", alt[35])
-		srcPoster6.setAttribute("title", title[35])
-		href6.setAttribute("href", enlace[35])
-		href6.textContent = textEnlace[35]
-		srcPoster7.setAttribute("src", poster[36])
-		srcPoster7.setAttribute("alt", alt[36])
-		srcPoster7.setAttribute("title", title[36])
-		href7.setAttribute("href", enlace[36])
-		href7.textContent = textEnlace[36]
-		srcPoster8.setAttribute("src", poster[37])
-		srcPoster8.setAttribute("alt", alt[37])
-		srcPoster8.setAttribute("title", title[37])
-		href8.setAttribute("href", enlace[37])
-		href8.textContent = textEnlace[37]
-		srcPoster9.setAttribute("src", poster[38])
-		srcPoster9.setAttribute("alt", alt[38])
-		srcPoster9.setAttribute("title", title[38])
-		href9.setAttribute("href", enlace[38])
-		href9.textContent = textEnlace[38]
-		srcPoster10.setAttribute("src", poster[39])
-		srcPoster10.setAttribute("alt", alt[39])
-		srcPoster10.setAttribute("title", title[39])
-		href10.setAttribute("href", enlace[39])
-		href10.textContent = textEnlace[39]
-		srcPoster11.setAttribute("src", poster[12])
-		srcPoster11.setAttribute("alt", alt[12])
-		srcPoster11.setAttribute("title", title[12])
-		href11.setAttribute("href", enlace[12])
-		href11.textContent = textEnlace[12]
-		srcPoster12.setAttribute("src", poster[41])
-		srcPoster12.setAttribute("alt", alt[41])
-		srcPoster12.setAttribute("title", title[41])
-		href12.setAttribute("href", enlace[41])
-		href12.textContent = textEnlace[41]
-		srcPoster13.setAttribute("src", poster[42])
-		srcPoster13.setAttribute("alt", alt[42])
-		srcPoster13.setAttribute("title", title[42])
-		href13.setAttribute("href", enlace[42])
-		href13.textContent = textEnlace[42]
-		srcPoster14.setAttribute("src", poster[43])
-		srcPoster14.setAttribute("alt", alt[43])
-		srcPoster14.setAttribute("title", title[43])
-		href14.setAttribute("href", enlace[43])
-		href14.textContent = textEnlace[43]
-		srcPoster15.setAttribute("src", poster[44])
-		srcPoster15.setAttribute("alt", alt[44])
-		srcPoster15.setAttribute("title", title[44])
-		href15.setAttribute("href", enlace[44])
-		href15.textContent = textEnlace[44]
-	}
 	
-}
+
 ultimos()
 
 
 
 //funcion para las tendencias del anime(cambia los poster):
 function tendencias(){
-	contenedorBotones.classList.add("boton-2")
-		contenedorBotones.classList.remove("boton-1")
-		contenedorBotones.classList.remove("boton-3")
-		srcPoster1.setAttribute("src", poster[2])
-		srcPoster1.setAttribute("alt", alt[2])
-		srcPoster1.setAttribute("title", title[2])
-		href1.setAttribute("href", enlace[2])
-		href1.textContent = textEnlace[2]
-		srcPoster2.setAttribute("src", poster[5])
-		srcPoster2.setAttribute("alt", alt[5])
-		srcPoster2.setAttribute("title", title[5])
-		href2.setAttribute("href", enlace[5])
-		href2.textContent = textEnlace[5]
-		srcPoster3.setAttribute("src", poster[6])
-		srcPoster3.setAttribute("alt", alt[6])
-		srcPoster3.setAttribute("title", title[6])
-		href3.setAttribute("href", enlace[6])
-		href3.textContent = textEnlace[6]
-		srcPoster4.setAttribute("src", poster[35])
-		srcPoster4.setAttribute("alt", alt[35])
-		srcPoster4.setAttribute("title", title[35])
-		href4.setAttribute("href", enlace[35])
-		href4.textContent = textEnlace[35]
-		srcPoster5.setAttribute("src", poster[7])
-		srcPoster5.setAttribute("alt", alt[7])
-		srcPoster5.setAttribute("title", title[7])
-		href5.setAttribute("href", enlace[7])
-		href5.textContent = textEnlace[7]
-		srcPoster6.setAttribute("src", poster[42])
-		srcPoster6.setAttribute("alt", alt[42])
-		srcPoster6.setAttribute("title", title[42])
-		href6.setAttribute("href", enlace[42])
-		href6.textContent = textEnlace[42]
-		srcPoster7.setAttribute("src", poster[17])
-		srcPoster7.setAttribute("alt", alt[17])
-		srcPoster7.setAttribute("title", title[17])
-		href7.setAttribute("href", enlace[17])
-		href7.textContent = textEnlace[17]
-		srcPoster8.setAttribute("src", poster[9])
-		srcPoster8.setAttribute("alt", alt[9])
-		srcPoster8.setAttribute("title", title[9])
-		href8.setAttribute("href", enlace[9])
-		href8.textContent = textEnlace[9]
-		srcPoster9.setAttribute("src", poster[29])
-		srcPoster9.setAttribute("alt", alt[29])
-		srcPoster9.setAttribute("title", title[29])
-		href9.setAttribute("href", enlace[29])
-		href9.textContent = textEnlace[29]
-		srcPoster10.setAttribute("src", poster[20])
-		srcPoster10.setAttribute("alt", alt[20])
-		srcPoster10.setAttribute("title", title[20])
-		href10.setAttribute("href", enlace[20])
-		href10.textContent = textEnlace[20]
-		srcPoster11.setAttribute("src", poster[16])
-		srcPoster11.setAttribute("alt", alt[16])
-		srcPoster11.setAttribute("title", title[16])
-		href11.setAttribute("href", enlace[16])
-		href11.textContent = textEnlace[16]
-		srcPoster12.setAttribute("src", poster[3])
-		srcPoster12.setAttribute("alt", alt[3])
-		srcPoster12.setAttribute("title", title[3])
-		href12.setAttribute("href", enlace[3])
-		href12.textContent = textEnlace[3]
-		srcPoster13.setAttribute("src", poster[10])
-		srcPoster13.setAttribute("alt", alt[10])
-		srcPoster13.setAttribute("title", title[10])
-		href13.setAttribute("href", enlace[10])
-		href13.textContent = textEnlace[10]
-		srcPoster14.setAttribute("src", poster[34])
-		srcPoster14.setAttribute("alt", alt[34])
-		srcPoster14.setAttribute("title", title[34])
-		href14.setAttribute("href", enlace[34])
-		href14.textContent = textEnlace[34]
-		srcPoster15.setAttribute("src", poster[11])
-		srcPoster15.setAttribute("alt", alt[11])
-		srcPoster15.setAttribute("title", title[11])
-		href15.setAttribute("href", enlace[11])
-		href15.textContent = textEnlace[11]
-	
+	hrefSiguiente.setAttribute("href", "secciones/destacados/destacados.html")
+	hrefSiguiente.click()
 }
 
 //funcion para los estrenos del anime(cambia los poster):
 function estrenos(){
-	contenedorBotones.classList.add("boton-3")
-		contenedorBotones.classList.remove("boton-2")
-		contenedorBotones.classList.remove("boton-1")
-		srcPoster1.setAttribute("src", poster[2])
-		srcPoster1.setAttribute("alt", alt[2])
-		srcPoster1.setAttribute("title", title[2])
-		href1.setAttribute("href", enlace[2])
-		href1.textContent = textEnlace[2]
-		srcPoster2.setAttribute("src", poster[3])
-		srcPoster2.setAttribute("alt", alt[3])
-		srcPoster2.setAttribute("title", title[3])
-		href2.setAttribute("href", enlace[3])
-		href2.textContent = textEnlace[3]
-		srcPoster3.setAttribute("src", poster[5])
-		srcPoster3.setAttribute("alt", alt[5])
-		srcPoster3.setAttribute("title", title[5])
-		href3.setAttribute("href", enlace[5])
-		href3.textContent = textEnlace[5]
-		srcPoster4.setAttribute("src", poster[6])
-		srcPoster4.setAttribute("alt", alt[6])
-		srcPoster4.setAttribute("title", title[6])
-		href4.setAttribute("href", enlace[6])
-		href4.textContent = textEnlace[6]
-		srcPoster5.setAttribute("src", poster[18])
-		srcPoster5.setAttribute("alt", alt[18])
-		srcPoster5.setAttribute("title", title[18])
-		href5.setAttribute("href", enlace[18])
-		href5.textContent = textEnlace[18]
-		srcPoster6.setAttribute("src", poster[19])
-		srcPoster6.setAttribute("alt", alt[19])
-		srcPoster6.setAttribute("title", title[19])
-		href6.setAttribute("href", enlace[19])
-		href6.textContent = textEnlace[19]
-		srcPoster7.setAttribute("src", poster[33])
-		srcPoster7.setAttribute("alt", alt[33])
-		srcPoster7.setAttribute("title", title[33])
-		href7.setAttribute("href", enlace[33])
-		href7.textContent = textEnlace[33]
-		srcPoster8.setAttribute("src", poster[34])
-		srcPoster8.setAttribute("alt", alt[34])
-		srcPoster8.setAttribute("title", title[34])
-		href8.setAttribute("href", enlace[34])
-		href8.textContent = textEnlace[34]
-		srcPoster9.setAttribute("src", poster[35])
-		srcPoster9.setAttribute("alt", alt[35])
-		srcPoster9.setAttribute("title", title[35])
-		href9.setAttribute("href", enlace[35])
-		href9.textContent = textEnlace[35]
-		srcPoster10.setAttribute("src", poster[36])
-		srcPoster10.setAttribute("alt", alt[36])
-		srcPoster10.setAttribute("title", title[36])
-		href10.setAttribute("href", enlace[36])
-		href10.textContent = textEnlace[36]
-		srcPoster11.setAttribute("src", poster[40])
-		srcPoster11.setAttribute("alt", alt[40])
-		srcPoster11.setAttribute("title", title[40])
-		href11.setAttribute("href", enlace[40])
-		href11.textContent = textEnlace[40]
-		srcPoster12.setAttribute("src", poster[44])
-		srcPoster12.setAttribute("alt", alt[44])
-		srcPoster1.setAttribute("title", title[44])
-		href12.setAttribute("href", enlace[44])
-		href12.textContent = textEnlace[44]
-		srcPoster13.setAttribute("src", poster[9])
-		srcPoster13.setAttribute("alt", alt[9])
-		srcPoster13.setAttribute("title", title[9])
-		href13.setAttribute("href", enlace[9])
-		href13.textContent = textEnlace[9]
-		srcPoster14.setAttribute("src", poster[22])
-		srcPoster14.setAttribute("alt", alt[22])
-		srcPoster14.setAttribute("title", title[22])
-		href14.setAttribute("href", enlace[22])
-		href14.textContent = textEnlace[22]
-		srcPoster15.setAttribute("src", poster[29])
-		srcPoster15.setAttribute("alt", alt[29])
-		srcPoster15.setAttribute("title", title[29])
-		href15.setAttribute("href", enlace[29])
-		href15.textContent = textEnlace[29]
-	
+	hrefSiguiente.setAttribute("href", "secciones/estrenos/estrenos.html")
+	hrefSiguiente.click()
 }
 
 	
