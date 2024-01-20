@@ -123,7 +123,7 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/solo leveling img 2.jpeg"
+	imagen1.src = "../../imagenes/mashle img 1.jpeg"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -135,7 +135,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/solo leveling img 4.jpg"
+		imagen2.src = "../../imagenes/mashle img 4.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -155,7 +155,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/solo leveling img 1.jpeg"
+		imagen1.src = "../../imagenes/mashle img 5.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -173,7 +173,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/solo leveling img 3.jpg"
+		imagen2.src = "../../imagenes//mashle img 3.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -190,7 +190,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/solo leveling img 2.jpeg"
+		imagen1.src = "../../imagenes/mashle img 1.jpeg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -210,6 +210,7 @@ function avanzar(){
 		}
 	
 }
+
 
 delante.addEventListener("click", () =>{
 	clearInterval(intervaloAvanzar)
@@ -238,19 +239,17 @@ function tiempoRetardo(){
 }
 
 tiempoRetardo()
-
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/solo leveling img 1.jpeg"
+		imagen1.src = "../../imagenes/mashle img 5.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
 		
 		punto4.classList.replace("punto-4-a", "punto-4-e")
-		punto3.classList.remove("punto-3-e")
-		punto3.classList.add("punto-3-a")
+		punto3.classList.replace("punto-3-e", "punto-3-a")
 		adelanteD = false
 		adelanteC = true
 
@@ -259,21 +258,20 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/solo leveling img 4.jpg"
+		imagen2.src = "../../imagenes/mashle img 4.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
 		
 		punto3.classList.replace("punto-3-a", "punto-3-e")
-		punto2.classList.remove("punto-2-e")
-		punto2.classList.add("punto-2-a")
+		punto2.classList.replace("punto-2-e", "punto-2-a")
 		adelanteC = false
 		adelanteB = true
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/solo leveling img 2.jpeg"
+		imagen1.src = "../../imagenes/mashle img 1.jpeg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -286,7 +284,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/solo leveling img 3.jpg"
+		imagen2.src = "../../imagenes//mashle img 3.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -304,8 +302,8 @@ function atrasar(){
 
 
 let enlaceMediafire = document.querySelector(".link-1")
-let mediafire1 = `https://www.mediafire.com/folder/mqygaq63k7u74`
-let mediafire1Ligero = `https://www.mediafire.com/folder/1x9rc460pvkid`
+let mediafire1 = `https://www.mediafire.com/folder/v4wo2kehqbskm`
+let mediafire1Ligero = `https://www.mediafire.com/folder/8bjywxumvk3gt`
 
 
 document.querySelector(".boton-descargar-1").addEventListener("click", () =>{
@@ -328,7 +326,6 @@ document.querySelector(".boton-descargar-2-ligero").addEventListener("click", ()
 
 
 
-
 const botonInicio = document.querySelector(".inicio")
 botonInicio.addEventListener("click", home)
 
@@ -338,6 +335,7 @@ function home(){
 
 const botonInicioResponsive = document.querySelector(".icono-de-inicio-responsive")
 botonInicioResponsive.addEventListener("click", home)
+
 
 
 //enlaces de cada uno de los index de cada serie:
@@ -848,7 +846,6 @@ function buscadorInputResponsive(){
 		document.querySelector(".href-error").click()
 	}
 }
-
 
 
 

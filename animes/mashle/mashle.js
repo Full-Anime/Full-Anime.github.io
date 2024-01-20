@@ -299,21 +299,28 @@ function atrasar(){
 }
 
 const botonDescargar1 = document.querySelector(".boton-descargar-1")
+const botonDescargar2 = document.querySelector(".boton-descargar-2")
 const botonDescargar1Lat = document.querySelector(".boton-descargar-1-lat")
 
 
 botonDescargar1.addEventListener("click", descargar1)
+botonDescargar2.addEventListener("click", descargar2)
 botonDescargar1Lat.addEventListener("click", descargar1Lat)
 
 
 let enlaceMediafire = document.querySelector(".link-1")
 let enlacetemp1 = document.querySelector(".link-temp-1")
 let mediafire1 = `https://www.mediafire.com/folder/lkwcfr68h3ps1`
+let mediafire2 = `mashle 2.html`
 let mediafire1Lat = `mashle 1.html`
 
 function descargar1(){
 	enlaceMediafire.setAttribute("href", mediafire1)
 	enlaceMediafire.click()
+}
+function descargar2(){
+	enlacetemp1.setAttribute("href", mediafire2)
+	enlacetemp1.click()
 }
 function descargar1Lat(){
 	enlacetemp1.setAttribute("href", mediafire1Lat)
