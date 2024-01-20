@@ -867,13 +867,7 @@
 		border-bottom: 3px solid #fa0;
 	}
 
-	.boton-2 button:nth-child(3){
-		border-bottom: 3px solid #fa0;
-	}
-
-	.boton-3 button:nth-child(4){
-		border-bottom: 3px solid #fa0;
-	}
+	
 
 	.ultimos:hover{
 		border-bottom: 2px solid #700;
@@ -1126,12 +1120,7 @@
 		background-color: #700;
 	}
 
-	.marcar-posicion-2 button:nth-child(2){
-		background-color: #700;
-	}
-	.marcar-posicion-3 button:nth-child(3){
-		background-color: #700;
-	}
+	
 
 	
 
@@ -1691,6 +1680,77 @@
 	.container-siguiente{
 		margin-left: 330px;
 	}
+
+
+	/*ITEMS OCULTOS DEL GRID*/
+	.item, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8, .item-9, .item-10, .item-11, .item-12, .item-13, .item-14, .item-15{
+		margin-top: -380px;
+		position: relative;
+		z-index: 350;
+		border-radius: 5px;
+		width: 320px;
+		height: 210px;
+		border: 1px solid #400;
+		
+	}
+
+	.item-animacion, .item-animacion-2, .item-animacion-3, .item-animacion-4, .item-animacion-5, .item-animacion-6, .item-animacion-7, .item-animacion-8, .item-animacion-9, .item-animacion-10, .item-animacion-11, .item-animacion-12, .item-animacion-13, .item-animacion-14, .item-animacion-15{
+		animation: agrandar .3s forwards;
+		animation-timing-function: ease-in-out;
+	}
+
+	.item p, .item-2 p, .item-3 p, .item-4 p, .item-5 p, .item-6 p, .item-7 p, .item-8 p, .item-9 p, .item-10 p, .item-11 p, .item-12 p, .item-13 p, .item-14 p, .item-15 p{
+		transform: translateY(-210px);
+		color: #ddd;
+		line-height: 1.3;
+		font-family: verdana;
+		font-size: 11px;
+		text-align: left;
+		padding: 10px 10px;
+	}
+
+	.item h3, .item-2 h3, .item-3 h3, .item-4 h3, .item-5 h3, .item-6 h3, .item-7 h3, .item-8 h3, .item-9 h3, .item-10 h3, .item-11 h3, .item-12 h3, .item-13 h3, .item-14 h3, .item-15 h3{
+		margin-bottom: 1px;
+		font-size: 12px;
+		color: #fff;
+	}
+
+	
+	.item img, .item-2 img, .item-3 img, .item-4 img, .item-5 img, .item-6 img, .item-7 img, .item-8 img, .item-9 img, .item-10 img, .item-11 img, .item-12 img, .item-13 img, .item-14 img, .item-15 img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		filter: brightness(.5) !important;
+		border-radius: 5px;
+	}
+
+	.item-2, .item-5, .item-8, .item-11, .item-14{
+		margin-left: 260px;
+	}
+
+	.item-3, .item-6, .item-9, .item-12, .item-15{
+		margin-left: 260px;
+	}
+
+	.item, .item-4, .item-7, .item-10, .item-13{
+		margin-left: 260px;
+	}
+
+	@keyframes agrandar {
+		0%{
+			left: 0;
+		}
+
+		80%{
+			transform: scale(1.15);
+		}
+
+		100%{
+			transform: scale(1.1);
+			
+		}
+	}
+
 
 	
 
