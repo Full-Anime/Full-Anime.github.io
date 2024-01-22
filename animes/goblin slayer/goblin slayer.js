@@ -301,16 +301,19 @@ function atrasar(){
 
 const botonDescargar1 = document.querySelector(".boton-descargar-1")
 const botonDescargar2 = document.querySelector(".boton-descargar-2")
+const botonDescargar2Drive = document.querySelector(".boton-descargar-2-drive")
 
 
 botonDescargar1.addEventListener("click", descargar1)
 botonDescargar2.addEventListener("click", descargar2)
+botonDescargar2Drive.addEventListener("click", descargar2Drive)
 
 
 let enlaceMediafire = document.querySelector(".link-1")
 let enlacetemp1 = document.querySelector(".link-temp-1")
 let mediafire1 = `goblin slayer 1.html`
 let mediafire2 = `https://www.mediafire.com/folder/emf317gm0of4i`
+let mediafire2Drive = `https://drive.google.com/drive/folders/1VbTpyhHBDNX5Hhbh4hBNWNuGW7zhtNiL`
 
 function descargar1(){
 	enlacetemp1.setAttribute("href", mediafire1)
@@ -318,6 +321,10 @@ function descargar1(){
 }
 function descargar2(){
 	enlaceMediafire.setAttribute("href", mediafire2)
+	enlaceMediafire.click()
+}
+function descargar2Drive(){
+	enlaceMediafire.setAttribute("href", mediafire2Drive)
 	enlaceMediafire.click()
 }
 
