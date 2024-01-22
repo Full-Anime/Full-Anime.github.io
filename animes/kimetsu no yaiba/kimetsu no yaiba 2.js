@@ -123,7 +123,7 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/tanjiro.jpg"
+	imagen1.src = "../../imagenes/kimetsu no yaiba 2 img 11.jpg"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -135,7 +135,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 53.png"
+		imagen2.src = "../../imagenes/kimetsu no yaiba 2 img 12.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -155,7 +155,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/IMG_20231011_180809.jpg"
+		imagen1.src = "../../imagenes/kimetsu no yaiba img 7.webp"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -173,7 +173,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 51.png"
+		imagen2.src = "../../imagenes/kimetsu no yaiba 2 img 13.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -190,7 +190,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/tanjiro.jpg"
+		imagen1.src = "../../imagenes/kimetsu no yaiba 2 img 11.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -242,7 +242,7 @@ tiempoRetardo()
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/IMG_20231011_180809.jpg"
+		imagen1.src = "../../imagenes/kimetsu no yaiba img 7.webp"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -259,7 +259,7 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 53.png"
+		imagen2.src = "../../imagenes/kimetsu no yaiba 2 img 12.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -273,7 +273,7 @@ function atrasar(){
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/tanjiro.jpg"
+		imagen1.src = "../../imagenes/kimetsu no yaiba 2 img 11.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -286,7 +286,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 51.png"
+		imagen2.src = "../../imagenes/kimetsu no yaiba 2 img 13.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -300,55 +300,23 @@ function atrasar(){
 	
 }
 
-const botonDescargar1 = document.querySelector(".boton-descargar-1")
-const botonDescargar2 = document.querySelector(".boton-descargar-2")
-const botonDescargar2Lat = document.querySelector(".boton-descargar-2-2")
-const botonDescargar3 = document.querySelector(".boton-descargar-3")
-const botonDescargar3Lat = document.querySelector(".boton-descargar-3-lat")
-const botonDescargarMovie = document.querySelector(".boton-descargar-movie")
 
-botonDescargar1.addEventListener("click", descargar1)
-botonDescargar2.addEventListener("click", descargar2)
-botonDescargar2Lat.addEventListener("click", descargar2Lat)
-botonDescargar3.addEventListener("click", descargar3)
-botonDescargar3Lat.addEventListener("click", descargar3Lat)
-botonDescargarMovie.addEventListener("click", descargarMovie)
 
-enlaceMediafire = document.querySelector(".link-1")
-enlaceMediafire3 = document.querySelector(".link-1-3")
-let mediafire1 = `https://www.mediafire.com/file/8h0joda3t45p4nw/Kny+T1+La+[WorldAnimeSenpai].rar/file`
-let mediafire2 = `https://www.mediafire.com/file/im3vled35regbcw/KnY+T2+La+[WorldAnimeSenpai].rar/file`
-let mediafire3 = `https://www.mediafire.com/file/vb7dbduwj3ibcmw/K1m3t+T3+[W0rld4nime5enpai].rar/file`
-let mediafire3Lat = `kimetsu no yaiba 3.html`
-let mediafire2Lat = `kimetsu no yaiba 2.html`
-let mediafireMovie = `https://www.mediafire.com/file/ybsv7r6nid7isxt/Kny+MT[WorldAnimeSenpai].rar/file`
 
-function descargar1(){
+let enlaceMediafire = document.querySelector(".link-1")
+let mediafire1 = `https://www.mediafire.com/folder/zb4b43klzmbop/(locuranime.com)+KnY2-EDA-01-06`
+let mediafire2 = `https://www.mediafire.com/folder/wvgbdj00froyf/(locuranime.com)+KnY2-EDA-07-11`
+
+
+
+document.querySelector(".boton-descargar-1").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire1)
 	enlaceMediafire.click()
-}
-
-function descargar2(){
+})
+document.querySelector(".boton-descargar-2").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire2)
 	enlaceMediafire.click()
-}
-function descargar2Lat(){
-	enlaceMediafire3.setAttribute("href", mediafire2Lat)
-	enlaceMediafire3.click()
-}
-
-function descargar3(){
-	enlaceMediafire.setAttribute("href", mediafire3)
-	enlaceMediafire.click()
-}
-function descargar3Lat(){
-	enlaceMediafire3.setAttribute("href", mediafire3Lat)
-	enlaceMediafire3.click()
-}
-function descargarMovie(){
-	enlaceMediafire.setAttribute("href", mediafireMovie)
-	enlaceMediafire.click()
-}
+})
 
 const botonInicio = document.querySelector(".inicio")
 botonInicio.addEventListener("click", home)
