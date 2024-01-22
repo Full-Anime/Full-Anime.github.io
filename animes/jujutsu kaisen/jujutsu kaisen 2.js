@@ -325,6 +325,7 @@ let mediafire19 = `https://www.mediafire.com/file/7vxf6lgvnrxiqkw/%2528locuranim
 let mediafire20 = `https://www.mediafire.com/file/aj3vfhbk9krw27u/%2528locuranime.com%2529_JuKa2-20.rar/file`
 let mediafire21 = `https://www.mediafire.com/file/x270wnz1ax3x3t2/%2528locuranime.com%2529_JuKa2-21.rar/file`
 let mediafire22 = `https://www.mediafire.com/file/0qcq2isdwe1cyrw/%2528locuranime.com%2529_JuKa2-22.rar/file`
+let mediafire23 = `https://www.mediafire.com/file/ckqps0r0mxgfipm/%2528locuranime.com%2529_JuKa2-23.rar/file`
 
 document.querySelector(".boton-descargar-1").addEventListener("click", () =>{
 	enlaceMediafire.setAttribute("href", mediafire1)
@@ -412,6 +413,10 @@ document.querySelector(".boton-descargar-21").addEventListener("click", () =>{
 })
 document.querySelector(".boton-descargar-22").addEventListener("click", () =>{
 	enlaceMediafire.setAttribute("href", mediafire22)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-23").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire23)
 	enlaceMediafire.click()
 })
 
