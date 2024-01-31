@@ -127,7 +127,7 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/cyberpunk img 4.jpg"
+	imagen1.src = "../../imagenes/bleach img 1.jpg"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -139,7 +139,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/cyberpunk img 17.jpg"
+		imagen2.src = "../../imagenes/bleach img 19.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -159,7 +159,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/cyberpunk img 16.jpg"
+		imagen1.src = "../../imagenes/bleach img 18.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -177,7 +177,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/cyberpunk img 14.jpg"
+		imagen2.src = "../../imagenes/bleach img 4.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -194,7 +194,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/cyberpunk img 4.jpg"
+		imagen1.src = "../../imagenes/bleach img 1.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -245,7 +245,7 @@ tiempoRetardo()
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/cyberpunk img 16.jpg"
+		imagen1.src = "../../imagenes/bleach img 18.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -261,7 +261,7 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/cyberpunk img 17.jpg"
+		imagen2.src = "../../imagenes/bleach img 19.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -274,7 +274,7 @@ function atrasar(){
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/cyberpunk img 4.jpg"
+		imagen1.src = "../../imagenes/bleach img 1.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -287,7 +287,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/cyberpunk img 14.jpg"
+		imagen2.src = "../../imagenes/bleach img 4.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -301,20 +301,48 @@ function atrasar(){
 	
 }
 
-const botonDescargar1 = document.querySelector(".boton-descargar-1")
-
-
-botonDescargar1.addEventListener("click", descargar1)
-
 
 let enlaceMediafire = document.querySelector(".link-1")
-let mediafire1 = `https://www.mediafire.com/folder/9cfoowmt3gqhj/CE+Latino`
+let mediafire1_1 = `https://www.mediafire.com/folder/innwwbfta7hir/001-100`
+let mediafire1_2 = `https://mega.nz/folder/gN9DnYoZ#Q3mcpHnybhZVX0tQwp6u3A`
+let mediafire2_1 = `https://www.mediafire.com/folder/8z3u28qt5vb0s/101-200`
+let mediafire2_2 = `https://mega.nz/folder/sDFBDLRB#AZZuFKfpdhPk2Xqg3-kzaw`
+
+let mediafire3 = `https://www.mediafire.com/folder/lqco2vt3uybjn/201-229`
+let mediafire4 = `https://mega.nz/folder/BWVSwS4I#A0p04MLIgum18f6-9algbQ`
+let mediafire5 = `https://mega.nz/folder/sSc3HRSY#U--D8T-TTlOMl64-BvQ-tw`
 
 
-function descargar1(){
-	enlaceMediafire.setAttribute("href", mediafire1)
+document.querySelector(".boton-descargar-1-1").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire1_1)
 	enlaceMediafire.click()
-}
+})
+document.querySelector(".boton-descargar-1-2").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire1_2)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-2-1").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire2_1)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-2-2").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire2_2)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-3").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire3)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-4").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire4)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-5").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire5)
+	enlaceMediafire.click()
+})
+
+
 
 
 
@@ -1012,6 +1040,7 @@ function buscadorInputResponsive(){
 		document.querySelector(".href-error").click()
 	}
 }
+
 
 
 const seleccion1 = document.querySelector(".selector-one")

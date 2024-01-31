@@ -127,7 +127,7 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/cyberpunk img 4.jpg"
+	imagen1.src = "../../imagenes/bleach thosand img 2.jpg"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -139,7 +139,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/cyberpunk img 17.jpg"
+		imagen2.src = "../../imagenes/bleach thosand img 4.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -159,7 +159,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/cyberpunk img 16.jpg"
+		imagen1.src = "../../imagenes/bleach thosand img 5.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -177,7 +177,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/cyberpunk img 14.jpg"
+		imagen2.src = "../../imagenes/bleach thosand img 6.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -194,7 +194,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/cyberpunk img 4.jpg"
+		imagen1.src = "../../imagenes/bleach thosand img 2.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -245,7 +245,7 @@ tiempoRetardo()
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/cyberpunk img 16.jpg"
+		imagen1.src = "../../imagenes/bleach thosand img 5.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -261,7 +261,7 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/cyberpunk img 17.jpg"
+		imagen2.src = "../../imagenes/bleach thosand img 4.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -274,7 +274,7 @@ function atrasar(){
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/cyberpunk img 4.jpg"
+		imagen1.src = "../../imagenes/bleach thosand img 2.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -287,7 +287,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/cyberpunk img 14.jpg"
+		imagen2.src = "../../imagenes/bleach thosand img 6.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -302,20 +302,26 @@ function atrasar(){
 }
 
 const botonDescargar1 = document.querySelector(".boton-descargar-1")
+const botonDescargar2 = document.querySelector(".boton-descargar-2")
 
 
 botonDescargar1.addEventListener("click", descargar1)
-
+botonDescargar2.addEventListener("click", descargar2)
 
 let enlaceMediafire = document.querySelector(".link-1")
-let mediafire1 = `https://www.mediafire.com/folder/9cfoowmt3gqhj/CE+Latino`
+let enlaceMediafireTemp = document.querySelector(".link-temp")
+let mediafire1 = `https://www.mediafire.com/folder/s2qnn3v0a6wrn/BL34CH+ESTOY+EN+TOK1O+T2https://pasfox.co/NqwUC`
+let mediafire2 = `bleach thousand year 2.html`
 
 
 function descargar1(){
 	enlaceMediafire.setAttribute("href", mediafire1)
 	enlaceMediafire.click()
 }
-
+function descargar2(){
+	enlaceMediafireTemp.setAttribute("href", mediafire2)
+	enlaceMediafireTemp.click()
+}
 
 
 
@@ -1012,6 +1018,7 @@ function buscadorInputResponsive(){
 		document.querySelector(".href-error").click()
 	}
 }
+
 
 
 const seleccion1 = document.querySelector(".selector-one")

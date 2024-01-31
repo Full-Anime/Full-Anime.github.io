@@ -127,7 +127,7 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/cyberpunk img 4.jpg"
+	imagen1.src = "../../imagenes/bleach img 1.jpg"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -139,7 +139,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/cyberpunk img 17.jpg"
+		imagen2.src = "../../imagenes/bleach img 19.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -159,7 +159,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/cyberpunk img 16.jpg"
+		imagen1.src = "../../imagenes/bleach img 18.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -177,7 +177,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/cyberpunk img 14.jpg"
+		imagen2.src = "../../imagenes/bleach img 4.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -194,7 +194,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/cyberpunk img 4.jpg"
+		imagen1.src = "../../imagenes/bleach img 1.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -245,7 +245,7 @@ tiempoRetardo()
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/cyberpunk img 16.jpg"
+		imagen1.src = "../../imagenes/bleach img 18.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -261,7 +261,7 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/cyberpunk img 17.jpg"
+		imagen2.src = "../../imagenes/bleach img 19.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -274,7 +274,7 @@ function atrasar(){
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/cyberpunk img 4.jpg"
+		imagen1.src = "../../imagenes/bleach img 1.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -287,7 +287,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/cyberpunk img 14.jpg"
+		imagen2.src = "../../imagenes/bleach img 4.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -301,20 +301,119 @@ function atrasar(){
 	
 }
 
-const botonDescargar1 = document.querySelector(".boton-descargar-1")
-
-
-botonDescargar1.addEventListener("click", descargar1)
-
-
 let enlaceMediafire = document.querySelector(".link-1")
-let mediafire1 = `https://www.mediafire.com/folder/9cfoowmt3gqhj/CE+Latino`
+let mediafire1 = `https://www.mediafire.com/folder/zeji23zwxobei/(locuranime.com)+Ble-001-010`
+let mediafire2 = `https://www.mediafire.com/folder/t1xmi59pf6vbz/(locuranime.com)+Ble-011-020`
+let mediafire3 = `https://www.mediafire.com/folder/tvbent4nrs5ke/(locuranime.com)+Ble-021-030`
+let mediafire4 = `https://www.mediafire.com/folder/y5wa0dtrvuq31/(locuranime.com)+Ble-031-040`
+let mediafire5 = `https://www.mediafire.com/folder/gm9f5sgvwglbu/(locuranime.com)+Ble-041-048`
+let mediafire6 = `https://www.mediafire.com/folder/cbuleoferh719/(locuranime.com)+Ble-049-060`
+let mediafire7 = `https://www.mediafire.com/folder/eq4hp1mfuqx65/(locuranime.com)+Ble-061-070`
+let mediafire8 = `https://www.mediafire.com/folder/szx4b8kg50xpu/(locuranime.com)+Ble-071-080`
+let mediafire9 = `https://www.mediafire.com/folder/a7sgwj2m5dy01/(locuranime.com)+Ble-081-090`
+let mediafire10 = `https://www.mediafire.com/folder/qftcal7mhi0r4/(locuranime.com)+Ble-091-100`
+let mediafire11 = `https://www.mediafire.com/folder/wp4wxxnuuqgp4/(locuranime.com)+Ble-101-109`
+let mediafire12 = `https://www.mediafire.com/folder/q2whxf4nybmvp/(locuranime.com)+Ble-110-120`
+let mediafire13 = `https://www.mediafire.com/folder/0yj6c97qi3bki/(locuranime.com)+Ble-121-130`
+let mediafire14 = `https://www.mediafire.com/folder/aabz1tcjd4qdb/(locuranime.com)+Ble-131-139`
+let mediafire1_1080 = `https://drive.google.com/drive/folders/13hjBKxwOITZ6m-WqSAVmMGGyAcklsMc_?fbclid=IwAR21YkcK_bN3GIt0nIlZoCjkTbiM1iRuRBZQSJtuWvaubMwfDkYJEGS4CuU`
+let mediafire2_1080 = `https://drive.google.com/drive/u/0/folders/1tOO2ERm0sTy2tC6aodRL8PGws338M45H?fbclid=IwAR3aAqx3cgmhGmkaPzmtI05Vjb0NLA4XrGhrJIQ53uPTjEUkmBI_eBLATPM`
+let mediafire3_1080 = `https://drive.google.com/drive/folders/12CsgxDXdfTxST3es0I_3UoTVoPmerEs3`
+let mediafire4_1080 = `https://drive.google.com/drive/folders/1Z3U6tccQfPIx0aIj2BJV8ck3WFxlYGat`
+let mediafire5_1080 = `https://drive.google.com/drive/folders/1TjcGBeJ3x6HMGlwO0kux_jo4HggZTKir`
+let mediafire6_1080 = `https://drive.google.com/drive/u/0/folders/1KJd9twB7emnibZZk8H9BAwPBOn98V-hh?fbclid=IwAR2ZRl6HYsJfJELxHiNgVrm_4GW0L0WEi62iO1N1GDq9sUfe7MUVgWfV3-o`
+let mediafire7_1080 = `https://drive.google.com/drive/u/0/folders/1og3Ft4QnV8yFyELobEjxKyo5uFBA4hmd?fbclid=IwAR1z-58rHxQnwg5h64RQ53cjhO-sZGXqBZk-LyI6imtZZsYiP8uFsrqbIPY`
+let mediafire8_1080 = `https://drive.google.com/drive/folders/1h7YqSRH38J5I0Om3XvGQdfsQYnZ859GS`
 
 
-function descargar1(){
+document.querySelector(".boton-descargar-1").addEventListener("click", () =>{
 	enlaceMediafire.setAttribute("href", mediafire1)
 	enlaceMediafire.click()
-}
+})
+document.querySelector(".boton-descargar-2").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire2)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-3").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire3)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-4").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire4)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-5").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire5)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-6").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire6)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-7").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire7)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-8").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire8)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-9").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire9)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-10").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire10)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-11").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire11)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-12").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire12)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-13").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire13)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-14").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire14)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-1-1080").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire1_1080)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-2-1080").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire2_1080)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-3-1080").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire3_1080)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-4-1080").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire4_1080)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-5-1080").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire5_1080)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-6-1080").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire6_1080)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-7-1080").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire7_1080)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-8-1080").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire8_1080)
+	enlaceMediafire.click()
+})
 
 
 
@@ -1012,6 +1111,7 @@ function buscadorInputResponsive(){
 		document.querySelector(".href-error").click()
 	}
 }
+
 
 
 const seleccion1 = document.querySelector(".selector-one")

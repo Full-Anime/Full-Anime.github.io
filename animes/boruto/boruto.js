@@ -127,7 +127,7 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/cyberpunk img 4.jpg"
+	imagen1.src = "../../imagenes/boruto img 1.jpeg"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -139,7 +139,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/cyberpunk img 17.jpg"
+		imagen2.src = "../../imagenes/boruto img 2.webp"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -159,7 +159,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/cyberpunk img 16.jpg"
+		imagen1.src = "../../imagenes/boruto img 3.webp"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -177,7 +177,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/cyberpunk img 14.jpg"
+		imagen2.src = "../../imagenes/boruto img 4.webp"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -194,7 +194,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/cyberpunk img 4.jpg"
+		imagen1.src = "../../imagenes/boruto img 1.jpeg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -245,7 +245,7 @@ tiempoRetardo()
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/cyberpunk img 16.jpg"
+		imagen1.src = "../../imagenes/boruto img 3.webp"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -261,7 +261,7 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/cyberpunk img 17.jpg"
+		imagen2.src = "../../imagenes/boruto img 2.webp"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -274,7 +274,7 @@ function atrasar(){
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/cyberpunk img 4.jpg"
+		imagen1.src = "../../imagenes/boruto img 1.jpeg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -287,7 +287,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/cyberpunk img 14.jpg"
+		imagen2.src = "../../imagenes/boruto img 4.webp"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -301,21 +301,107 @@ function atrasar(){
 	
 }
 
-const botonDescargar1 = document.querySelector(".boton-descargar-1")
 
 
-botonDescargar1.addEventListener("click", descargar1)
 
+ let enlaceMediafire = document.querySelector(".link-1")
+let mediafire1 = `https://www.mediafire.com/folder/ifrg6s2t3mfod/%28Locura+Anime%29Boruto-NNG+01-13`
+let mediafire2 = `https://www.mediafire.com/folder/j9y9f9dufwf9r/%28Locura+Anime%29Boruto-NNG+14-26`
+let mediafire3 = `https://www.mediafire.com/folder/0g4ayz54631oc/%28Locura+Anime%29Boruto-NNG+27-39`
+let mediafire4 = `https://www.mediafire.com/folder/vzvjm5h3bka4y/%28Locura+Anime%29Boruto-NNG+40-52`
+let mediafire5 = `https://www.mediafire.com/folder/zlo384zmltnmc/(locuranime.com)+Bor-053-072`
+let mediafire6 = `https://www.mediafire.com/file/axv0rdiyzlgz533/%2528locuranime.com%2529_Bor-073-082.rar/file`
+let mediafire7 = `https://www.mediafire.com/folder/d6si82bkkezzd/(locuranime.com)+Bor-083-102`
+let mediafire8 = `https://www.mediafire.com/file/adgokwrg6q06k1c/%2528locuranime.com%2529_Bor-103-112.rar/file`
+let mediafire9 = `https://www.mediafire.com/folder/hlp8usht9erjw/(locuranime.com)+Bor-113-132`
+let mediafire10 = `https://www.mediafire.com/file/68usbrglwhth2wv/%2528locuranime.com%2529_Bor-133-142.rar/file`
+let mediafire11 = `https://www.mediafire.com/folder/tbhua4kpd5ccq/(locuranime.com)+Bor-143-162`
+let mediafire12 = `https://www.mediafire.com/file/q0eua09vcnhpfdi/%2528locuranime.com%2529_Bor-163-172.rar/file`
+let mediafire13 = `https://www.mediafire.com/file/ymwc3tmz9z9dah7/%2528locuranime.com%2529_Bor-173-182.rar/file`
+let mediafire14 = `https://www.mediafire.com/folder/lk1tx6nt2ln9e/1-50`
+let mediafire15 = `https://www.mediafire.com/folder/x9tyig9lccow0/51-100`
+let mediafire16 = `https://www.mediafire.com/folder/13e3zprgmtxox/101-150`
+let mediafire17 = `https://www.mediafire.com/folder/8ftuln0anda24/151-200`
+let mediafire18 = `https://www.mediafire.com/folder/kkvywh8oud131/201-250`
+let mediafire19 = `https://www.mediafire.com/folder/5vqre40dpia74/251-293`
 
-let enlaceMediafire = document.querySelector(".link-1")
-let mediafire1 = `https://www.mediafire.com/folder/9cfoowmt3gqhj/CE+Latino`
-
-
-function descargar1(){
+document.querySelector(".boton-descargar-1").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire1)
 	enlaceMediafire.click()
-}
+})
+document.querySelector(".boton-descargar-2").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire2)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-3").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire3)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-4").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire4)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-5").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire5)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-6").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire6)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-7").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire7)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-8").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire8)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-9").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire9)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-10").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire10)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-11").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire11)
+	enlaceMediafire.click()
+})
 
+document.querySelector(".boton-descargar-12").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire12)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-13").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire13)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-14").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire14)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-15").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire15)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-16").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire16)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-17").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire17)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-18").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire18)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-19").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire19)
+	enlaceMediafire.click()
+})
 
 
 
@@ -1012,6 +1098,7 @@ function buscadorInputResponsive(){
 		document.querySelector(".href-error").click()
 	}
 }
+
 
 
 const seleccion1 = document.querySelector(".selector-one")

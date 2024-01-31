@@ -127,7 +127,7 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/cyberpunk img 4.jpg"
+	imagen1.src = "../../imagenes/black clover img 22.jpeg"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -139,7 +139,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/cyberpunk img 17.jpg"
+		imagen2.src = "../../imagenes/black clover img 21.jpeg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -159,7 +159,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/cyberpunk img 16.jpg"
+		imagen1.src = "../../imagenes/black clover img 20.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -177,7 +177,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/cyberpunk img 14.jpg"
+		imagen2.src = "../../imagenes/black clover img 8.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -194,7 +194,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/cyberpunk img 4.jpg"
+		imagen1.src = "../../imagenes/black clover img 22.jpeg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -245,7 +245,7 @@ tiempoRetardo()
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/cyberpunk img 16.jpg"
+		imagen1.src = "../../imagenes/black clover img 20.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -261,7 +261,7 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/cyberpunk img 17.jpg"
+		imagen2.src = "../../imagenes/black clover img 21.jpeg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -274,7 +274,7 @@ function atrasar(){
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/cyberpunk img 4.jpg"
+		imagen1.src = "../../imagenes/black clover img 22.jpeg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -287,7 +287,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/cyberpunk img 14.jpg"
+		imagen2.src = "../../imagenes/black clover img 8.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -301,20 +301,55 @@ function atrasar(){
 	
 }
 
-const botonDescargar1 = document.querySelector(".boton-descargar-1")
-
-
-botonDescargar1.addEventListener("click", descargar1)
 
 
 let enlaceMediafire = document.querySelector(".link-1")
-let mediafire1 = `https://www.mediafire.com/folder/9cfoowmt3gqhj/CE+Latino`
+let mediafire1_1 = `https://drive.google.com/drive/u/0/folders/1_gGR1L_SqrZKyGVdc_0RVKFS6JrZjnQl`
+let mediafire2_1 = `https://drive.google.com/drive/u/0/folders/19zgrvWYxyIH8YOp1NiFna7knB7qrN0Y6`
+let mediafire3_1 = `https://drive.google.com/drive/folders/1-0XqGU0nrKmidK38s-n-HxNqi34hjImT`
+let mediafire4_1 = `https://drive.google.com/drive/folders/1-0696l8V5AEkda41TdO5aAvMQtJ6vb-K`
+let mediafire1_2 = `https://www.mediafire.com/folder/guhlgnijllctr/Black+Clover+01+al+51+-+Espa%C3%83%C2%B1ol+Latino`
+let mediafire2_2 = `https://www.mediafire.com/folder/5dmmiaeit9ny1/Black+Clover+52+al+102+-+Espa%C3%83%C2%B1ol+Latino`
+let mediafire3_2 = `https://www.mediafire.com/folder/25j0s8a2cmbg2/Black+Clover+103+al+153+-+Espa%C3%83%C2%B1ol+Latino`
+let mediafire4_2 = `https://www.mediafire.com/folder/eim7htt066ovo/Black+Clover+154-170+-+Espa%C3%83%C2%B1ol+Latino`
+let mediafireMovie = `https://www.mediafire.com/folder/iwgqqs08u67yl/Black+Clover.+La+Espada+del+Rey+Mago+-+Espa%C3%83%C2%B1ol+Latino`
 
-
-function descargar1(){
-	enlaceMediafire.setAttribute("href", mediafire1)
+document.querySelector(".boton-descargar-1-1").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire1_1)
 	enlaceMediafire.click()
-}
+})
+document.querySelector(".boton-descargar-1-2").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire1_2)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-2-1").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire2_1)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-2-2").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire2_2)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-3-1").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire3_1)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-3-2").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire3_2)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-4-1").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire4_1)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-4-2").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire4_2)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-movie").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafireMovie)
+	enlaceMediafire.click()
+})
 
 
 
@@ -1012,6 +1047,7 @@ function buscadorInputResponsive(){
 		document.querySelector(".href-error").click()
 	}
 }
+
 
 
 const seleccion1 = document.querySelector(".selector-one")

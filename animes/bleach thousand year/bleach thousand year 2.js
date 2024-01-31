@@ -127,7 +127,7 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/cyberpunk img 4.jpg"
+	imagen1.src = "../../imagenes/bleach thosand img 2.jpg"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -139,7 +139,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/cyberpunk img 17.jpg"
+		imagen2.src = "../../imagenes/bleach thosand img 4.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -159,7 +159,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/cyberpunk img 16.jpg"
+		imagen1.src = "../../imagenes/bleach thosand img 5.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -177,7 +177,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/cyberpunk img 14.jpg"
+		imagen2.src = "../../imagenes/bleach thosand img 6.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -194,7 +194,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/cyberpunk img 4.jpg"
+		imagen1.src = "../../imagenes/bleach thosand img 2.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -245,7 +245,7 @@ tiempoRetardo()
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/cyberpunk img 16.jpg"
+		imagen1.src = "../../imagenes/bleach thosand img 5.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -261,7 +261,7 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/cyberpunk img 17.jpg"
+		imagen2.src = "../../imagenes/bleach thosand img 4.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -274,7 +274,7 @@ function atrasar(){
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/cyberpunk img 4.jpg"
+		imagen1.src = "../../imagenes/bleach thosand img 2.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -287,7 +287,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/cyberpunk img 14.jpg"
+		imagen2.src = "../../imagenes/bleach thosand img 6.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -301,20 +301,80 @@ function atrasar(){
 	
 }
 
-const botonDescargar1 = document.querySelector(".boton-descargar-1")
-
-
-botonDescargar1.addEventListener("click", descargar1)
 
 
 let enlaceMediafire = document.querySelector(".link-1")
-let mediafire1 = `https://www.mediafire.com/folder/9cfoowmt3gqhj/CE+Latino`
+
+let mediafire1 = `https://www.mediafire.com/file/ysqq5p2dzpaj2v8/Bleach-_Sennen_Kessen-hen_-_Ketsubetsu-tan_Latino_episodio_1_[mandranime].rar/file`
+let mediafire2 = `https://www.mediafire.com/file/v2uh1ofrxgqugqd/Bleach-_Sennen_Kessen-hen_-_Ketsubetsu-tan_Latino_episodio_2_[mandranime].rar/file`
+let mediafire3 = `https://www.mediafire.com/file/uplj91fpa026dg6/Bleach-_Sennen_Kessen-hen_-_Ketsubetsu-tan_Latino_episodio_3_[mandranime].rar/file`
+let mediafire4 = `https://www.mediafire.com/file/a72g1njz5rxuzd7/Bleach-_Sennen_Kessen-hen_-_Ketsubetsu-tan_Latino_episodio_4_[mandranime].rar/file`
+let mediafire5 = `https://www.mediafire.com/file/nj4ztmdx8zovkyw/Bleach-_Sennen_Kessen-hen_-_Ketsubetsu-tan_Latino_episodio_5_[mandranime].rar/file`
+let mediafire6 = `https://www.mediafire.com/file/zwz825d87q3f87d/Bleach-_Sennen_Kessen-hen_-_Ketsubetsu-tan_Latino_episodio_6_[mandranime].rar/file`
+let mediafire7 = `https://www.mediafire.com/file/arerw1r24slfz5f/Bleach-_Sennen_Kessen-hen_-_Ketsubetsu-tan_Latino_episodio_7_[mandranime].rar/file`
+let mediafire8 = `https://www.mediafire.com/file/36ob3het7idanuf/Bleach-_Sennen_Kessen-hen_-_Ketsubetsu-tan_Latino_episodio_8_[mandranime].rar/file`
+let mediafire9 = `https://www.mediafire.com/file/qpc45or7uvf0d71/Bleach-_Sennen_Kessen-hen_-_Ketsubetsu-tan_Latino_episodio_9_[mandranime].rar/file`
+let mediafire10 = `https://www.mediafire.com/file/7eecv7vym8ybypz/Bleach-_Sennen_Kessen-hen_-_Ketsubetsu-tan_Latino_episodio_10_[mandranime].rar/file`
+let mediafire11 = `https://www.mediafire.com/file/br79fobj3lgxpnn/Bleach-_Sennen_Kessen-hen_-_Ketsubetsu-tan_Latino_episodio_11_[mandranime].rar/file`
+let mediafire12 = `https://www.mediafire.com/file/kox68eacvmi246m/Bleach-_Sennen_Kessen-hen_-_Ketsubetsu-tan_Latino_episodio_12_[mandranime].rar/file`
+let mediafire13 = `https://www.mediafire.com/file/q8yphdlzay6fp2y/Bleach-_Sennen_Kessen-hen_-_Ketsubetsu-tan_Latino_episodio_13_[mandranime].rar/file`
 
 
-function descargar1(){
+document.querySelector(".boton-descargar-1").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire1)
 	enlaceMediafire.click()
-}
+})
+document.querySelector(".boton-descargar-2").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire2)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-3").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire3)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-4").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire4)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-5").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire5)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-6").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire6)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-7").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire7)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-8").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire8)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-9").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire9)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-10").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire10)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-11").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire11)
+	enlaceMediafire.click()
+})
+
+document.querySelector(".boton-descargar-12").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire12)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-13").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire13)
+	enlaceMediafire.click()
+})
+
+
 
 
 
@@ -1012,6 +1072,7 @@ function buscadorInputResponsive(){
 		document.querySelector(".href-error").click()
 	}
 }
+
 
 
 const seleccion1 = document.querySelector(".selector-one")
