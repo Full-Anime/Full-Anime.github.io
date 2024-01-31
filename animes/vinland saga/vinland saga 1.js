@@ -125,7 +125,7 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/steins.jpg"
+	imagen1.src = "../../imagenes/vinland saga img 4.jpg"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -137,7 +137,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/steins gate img 4.png"
+		imagen2.src = "../../imagenes/vinland saga img 1.jpeg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -157,7 +157,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/steins gate img 1.jpg"
+		imagen1.src = "../../imagenes/vinland saga img 5.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -175,7 +175,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/steins gate img 2.jpeg"
+		imagen2.src = "../../imagenes/vinland sga img 2.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -192,7 +192,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/steins.jpg"
+		imagen1.src = "../../imagenes/vinland saga img 4.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -212,7 +212,6 @@ function avanzar(){
 		}
 	
 }
-
 
 delante.addEventListener("click", () =>{
 	clearInterval(intervaloAvanzar)
@@ -244,7 +243,7 @@ tiempoRetardo()
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/steins gate img 1.jpg"
+		imagen1.src = "../../imagenes/vinland saga img 5.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -260,7 +259,7 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/steins gate img 4.png"
+		imagen2.src = "../../imagenes/vinland saga img 1.jpeg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -273,7 +272,7 @@ function atrasar(){
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/steins.jpg"
+		imagen1.src = "../../imagenes/vinland saga img 4.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -286,7 +285,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/steins gate img 2.jpeg"
+		imagen2.src = "../../imagenes/vinland sga img 2.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -300,55 +299,133 @@ function atrasar(){
 	
 }
 
-const botonDescargar1 = document.querySelector(".boton-descargar-1")
-const botonDescargar1Lat = document.querySelector(".boton-descargar-1-lat")
-const botonDescargar2 = document.querySelector(".boton-descargar-2")
-const botonDescargar2Lat = document.querySelector(".boton-descargar-2-lat")
-const botonDescargar3 = document.querySelector(".boton-descargar-3")
-const botonDescargar4 = document.querySelector(".boton-descargar-4")
 
-botonDescargar1.addEventListener("click", descargar1)
-botonDescargar1Lat.addEventListener("click", descargar1Lat)
-botonDescargar2.addEventListener("click", descargar2)
-botonDescargar2Lat.addEventListener("click", descargar2Lat)
-botonDescargar3.addEventListener("click", descargar3)
-botonDescargar4.addEventListener("click", descargar4)
+
 
 let enlaceMediafire = document.querySelector(".link-1")
-let enlacetemp1 = document.querySelector(".link-temp-1")
-let mediafire1 = `https://www.mediafire.com/folder/ohqmaixvyj1l4/episodios`
-let mediafire1Lat = `steins gate 1.html`
-let mediafire2 = `https://www.mediafire.com/folder/2j8p64ilfecen/ova`
-let mediafire2Lat = `https://www.mediafire.com/file/l7f5zsx0mvvsa6o/%2528locuranime.com%2529_StGa-21-Ova.rar/file`
-let mediafire3 = `https://www.mediafire.com/folder/zc3dk6gwk68mc/especiales`
-let mediafire4 = `https://www.mediafire.com/folder/hbjcwl9ydflym/pelicula`
+let mediafire1 = `http://www.mediafire.com/?2xwshqm4fik176d`
+let mediafire2 = `http://www.mediafire.com/?g8fza55m2dj4w4k`
+let mediafire3 = `http://www.mediafire.com/?bqd5kpggqljybcv`
+let mediafire4 = `http://www.mediafire.com/?cae9zgfetjwq8a7`
+let mediafire5 = `http://www.mediafire.com/?1z1awzqlscz7wbw`
+let mediafire6 = `http://www.mediafire.com/?cqv0n1cq1m1f8cx`
+let mediafire7 = `http://www.mediafire.com/?ex2atcgma11fu05`
+let mediafire8 = `http://www.mediafire.com/?o4vyzhahy542txo`
+let mediafire9 = `http://www.mediafire.com/?p1i6tuc8ouy7w2f`
+let mediafire10 = `http://www.mediafire.com/?x0zrwr0w04wnzj8`
+let mediafire11 = `http://www.mediafire.com/?8rwhfq8s3jts163`
+let mediafire12 = `http://www.mediafire.com/?yie33g2z0kcn3ew`
+let mediafire13 = `http://www.mediafire.com/?7d4ahtyzs5twh5y`
+let mediafire14 = `http://www.mediafire.com/?kej02dv6xso1esh`
+let mediafire15 = `http://www.mediafire.com/?drf0ojgd5xr2t6q`
+let mediafire16 = `http://www.mediafire.com/?kyknr8butdzm4ic`
+let mediafire17 = `http://www.mediafire.com/?8j9oe069rgn2v6k`
+let mediafire18 = `http://www.mediafire.com/?y86o2yf2wuzle85`
+let mediafire19 = `http://www.mediafire.com/?u6mk1g74t0t2lv8`
+let mediafire20 = `http://www.mediafire.com/?p9wtdltx6zt8eo0`
+let mediafire21 = `http://www.mediafire.com/?z2cis4ldfx24z17`
+let mediafire22 = `http://www.mediafire.com/?8ya07rajwmj5vko`
+let mediafire23 = `http://www.mediafire.com/?20ryvybm0rsq4z4`
+let mediafire24 = `http://www.mediafire.com/?orit0yp1hf5xtju`
 
-function descargar1(){
+
+document.querySelector(".boton-descargar-1").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire1)
 	enlaceMediafire.click()
-}
-function descargar1Lat(){
-	enlacetemp1.setAttribute("href", mediafire1Lat)
-	enlacetemp1.click()
-}
-function descargar2(){
+})
+document.querySelector(".boton-descargar-2").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire2)
 	enlaceMediafire.click()
-}
-function descargar2Lat(){
-	enlaceMediafire.setAttribute("href", mediafire2Lat)
-	enlaceMediafire.click()
-}
-function descargar3(){
+})
+document.querySelector(".boton-descargar-3").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire3)
 	enlaceMediafire.click()
-}
-function descargar4(){
+})
+document.querySelector(".boton-descargar-4").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire4)
 	enlaceMediafire.click()
-}
+})
+document.querySelector(".boton-descargar-5").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire5)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-6").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire6)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-7").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire7)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-8").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire8)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-9").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire9)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-10").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire10)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-11").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire11)
+	enlaceMediafire.click()
+})
 
-
+document.querySelector(".boton-descargar-12").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire12)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-13").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire13)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-14").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire14)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-15").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire15)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-16").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire16)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-17").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire17)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-18").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire18)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-19").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire19)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-20").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire20)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-21").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire21)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-22").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire22)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-23").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire23)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-24").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire24)
+	enlaceMediafire.click()
+})
 const botonInicio = document.querySelector(".inicio")
 botonInicio.addEventListener("click", home)
 

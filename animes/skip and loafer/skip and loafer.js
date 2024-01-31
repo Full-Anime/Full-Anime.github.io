@@ -1,6 +1,8 @@
 "use strict"
 
 //funcion para que la barra de navegacion se haga fixed:
+
+
 const barraDeNavegacion = document.querySelector(".barra-de-navegacion")
 const body = document.querySelector(".body")
 const ventanas = document.querySelector(".ventanas")
@@ -125,7 +127,7 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/steins.jpg"
+	imagen1.src = "../../imagenes/skip and loafer img 8.webp"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -137,7 +139,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/steins gate img 4.png"
+		imagen2.src = "../../imagenes/skip and loafer img 8.png"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -157,7 +159,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/steins gate img 1.jpg"
+		imagen1.src = "../../imagenes/skip and loafer img 9.webp"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -175,7 +177,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/steins gate img 2.jpeg"
+		imagen2.src = "../../imagenes/skip and loafer img 12.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -192,7 +194,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/steins.jpg"
+		imagen1.src = "../../imagenes/skip and loafer img 8.webp"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -212,7 +214,6 @@ function avanzar(){
 		}
 	
 }
-
 
 delante.addEventListener("click", () =>{
 	clearInterval(intervaloAvanzar)
@@ -244,7 +245,7 @@ tiempoRetardo()
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/steins gate img 1.jpg"
+		imagen1.src = "../../imagenes/skip and loafer img 9.webp"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -260,7 +261,7 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/steins gate img 4.png"
+		imagen2.src = "../../imagenes/skip and loafer img 8.png"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -273,7 +274,7 @@ function atrasar(){
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/steins.jpg"
+		imagen1.src = "../../imagenes/skip and loafer img 8.webp"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -286,7 +287,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/steins gate img 2.jpeg"
+		imagen2.src = "../../imagenes/skip and loafer img 12.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -300,53 +301,72 @@ function atrasar(){
 	
 }
 
-const botonDescargar1 = document.querySelector(".boton-descargar-1")
-const botonDescargar1Lat = document.querySelector(".boton-descargar-1-lat")
-const botonDescargar2 = document.querySelector(".boton-descargar-2")
-const botonDescargar2Lat = document.querySelector(".boton-descargar-2-lat")
-const botonDescargar3 = document.querySelector(".boton-descargar-3")
-const botonDescargar4 = document.querySelector(".boton-descargar-4")
 
-botonDescargar1.addEventListener("click", descargar1)
-botonDescargar1Lat.addEventListener("click", descargar1Lat)
-botonDescargar2.addEventListener("click", descargar2)
-botonDescargar2Lat.addEventListener("click", descargar2Lat)
-botonDescargar3.addEventListener("click", descargar3)
-botonDescargar4.addEventListener("click", descargar4)
 
 let enlaceMediafire = document.querySelector(".link-1")
-let enlacetemp1 = document.querySelector(".link-temp-1")
-let mediafire1 = `https://www.mediafire.com/folder/ohqmaixvyj1l4/episodios`
-let mediafire1Lat = `steins gate 1.html`
-let mediafire2 = `https://www.mediafire.com/folder/2j8p64ilfecen/ova`
-let mediafire2Lat = `https://www.mediafire.com/file/l7f5zsx0mvvsa6o/%2528locuranime.com%2529_StGa-21-Ova.rar/file`
-let mediafire3 = `https://www.mediafire.com/folder/zc3dk6gwk68mc/especiales`
-let mediafire4 = `https://www.mediafire.com/folder/hbjcwl9ydflym/pelicula`
+let mediafire1 = `https://www.mediafire.com/file/tu3re1o2vqgq2q3/%2528locuranime.com%2529_StL-01.rar/file`
+let mediafire2 = `https://www.mediafire.com/file/19wt4rou6cf4s04/%2528locuranime.com%2529_StL-02.rar/file`
+let mediafire3 = `https://www.mediafire.com/file/wbn7wn90vw4o0f7/%2528locuranime.com%2529_StL-03.rar/file`
+let mediafire4 = `https://www.mediafire.com/file/2w6hrtl06hsh6dn/%2528locuranime.com%2529_StL-04.rar/file`
+let mediafire5 = `https://www.mediafire.com/file/ih1zdak1iyg4dm8/%2528locuranime.com%2529_StL-05.rar/file`
+let mediafire6 = `https://www.mediafire.com/file/n5pfhrsfghgc4y7/%2528locuranime.com%2529_StL-06.rar/file`
+let mediafire7 = `https://www.mediafire.com/file/ubtxllfo6krmya7/%2528locuranime.com%2529_StL-07.rar/file`
+let mediafire8 = `https://www.mediafire.com/file/t10mf4yp7vvglur/%2528locuranime.com%2529_StL-08.rar/file`
+let mediafire9 = `https://www.mediafire.com/file/f9fa5wux6youcgd/%2528locuranime.com%2529_StL-09.rar/file`
+let mediafire10 = `https://www.mediafire.com/file/99mvl11040r6no0/%2528locuranime.com%2529_StL-10.rar/file`
+let mediafire11 = `https://www.mediafire.com/file/hxaa3xiqgkya9db/%2528locuranime.com%2529_StL-11.rar/file`
+let mediafire12 = `https://www.mediafire.com/file/7b63dr36wccemo1/%2528locuranime.com%2529_StL-12.rar/file`
 
-function descargar1(){
+
+document.querySelector(".boton-descargar-1").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire1)
 	enlaceMediafire.click()
-}
-function descargar1Lat(){
-	enlacetemp1.setAttribute("href", mediafire1Lat)
-	enlacetemp1.click()
-}
-function descargar2(){
+})
+document.querySelector(".boton-descargar-2").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire2)
 	enlaceMediafire.click()
-}
-function descargar2Lat(){
-	enlaceMediafire.setAttribute("href", mediafire2Lat)
-	enlaceMediafire.click()
-}
-function descargar3(){
+})
+document.querySelector(".boton-descargar-3").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire3)
 	enlaceMediafire.click()
-}
-function descargar4(){
+})
+document.querySelector(".boton-descargar-4").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire4)
 	enlaceMediafire.click()
-}
+})
+document.querySelector(".boton-descargar-5").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire5)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-6").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire6)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-7").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire7)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-8").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire8)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-9").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire9)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-10").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire10)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-11").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire11)
+	enlaceMediafire.click()
+})
+
+document.querySelector(".boton-descargar-12").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire12)
+	enlaceMediafire.click()
+})
 
 
 const botonInicio = document.querySelector(".inicio")
@@ -1042,6 +1062,7 @@ function buscadorInputResponsive(){
 		document.querySelector(".href-error").click()
 	}
 }
+
 
 
 const seleccion1 = document.querySelector(".selector-one")

@@ -1,5 +1,3 @@
-"use strict"
-
 //funcion para que la barra de navegacion se haga fixed:
 const barraDeNavegacion = document.querySelector(".barra-de-navegacion")
 const body = document.querySelector(".body")
@@ -125,7 +123,7 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/steins.jpg"
+	imagen1.src = "../../imagenes/tokyo ghoul img 11.jpg"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -137,7 +135,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/steins gate img 4.png"
+		imagen2.src = "../../imagenes/tokyo ghoul img 2.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -157,7 +155,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/steins gate img 1.jpg"
+		imagen1.src = "../../imagenes/tokyo ghoul img 5.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -175,7 +173,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/steins gate img 2.jpeg"
+		imagen2.src = "../../imagenes/tokyo ghoul img 4.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -192,7 +190,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/steins.jpg"
+		imagen1.src = "../../imagenes/tokyo ghoul img 11.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -212,7 +210,6 @@ function avanzar(){
 		}
 	
 }
-
 
 delante.addEventListener("click", () =>{
 	clearInterval(intervaloAvanzar)
@@ -244,14 +241,15 @@ tiempoRetardo()
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/steins gate img 1.jpg"
+		imagen1.src = "../../imagenes/tokyo ghoul img 5.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
 		
 		punto4.classList.replace("punto-4-a", "punto-4-e")
-		punto3.classList.replace("punto-3-e", "punto-3-a")
+		punto3.classList.remove("punto-3-e")
+		punto3.classList.add("punto-3-a")
 		adelanteD = false
 		adelanteC = true
 
@@ -260,20 +258,21 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/steins gate img 4.png"
+		imagen2.src = "../../imagenes/tokyo ghoul img 2.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
 		
 		punto3.classList.replace("punto-3-a", "punto-3-e")
-		punto2.classList.replace("punto-2-e", "punto-2-a")
+		punto2.classList.remove("punto-2-e")
+		punto2.classList.add("punto-2-a")
 		adelanteC = false
 		adelanteB = true
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/steins.jpg"
+		imagen1.src = "../../imagenes/tokyo ghoul img 11.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -286,7 +285,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/steins gate img 2.jpeg"
+		imagen2.src = "../../imagenes/tokyo ghoul img 4.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -300,53 +299,67 @@ function atrasar(){
 	
 }
 
-const botonDescargar1 = document.querySelector(".boton-descargar-1")
-const botonDescargar1Lat = document.querySelector(".boton-descargar-1-lat")
-const botonDescargar2 = document.querySelector(".boton-descargar-2")
-const botonDescargar2Lat = document.querySelector(".boton-descargar-2-lat")
-const botonDescargar3 = document.querySelector(".boton-descargar-3")
-const botonDescargar4 = document.querySelector(".boton-descargar-4")
-
-botonDescargar1.addEventListener("click", descargar1)
-botonDescargar1Lat.addEventListener("click", descargar1Lat)
-botonDescargar2.addEventListener("click", descargar2)
-botonDescargar2Lat.addEventListener("click", descargar2Lat)
-botonDescargar3.addEventListener("click", descargar3)
-botonDescargar4.addEventListener("click", descargar4)
 
 let enlaceMediafire = document.querySelector(".link-1")
-let enlacetemp1 = document.querySelector(".link-temp-1")
-let mediafire1 = `https://www.mediafire.com/folder/ohqmaixvyj1l4/episodios`
-let mediafire1Lat = `steins gate 1.html`
-let mediafire2 = `https://www.mediafire.com/folder/2j8p64ilfecen/ova`
-let mediafire2Lat = `https://www.mediafire.com/file/l7f5zsx0mvvsa6o/%2528locuranime.com%2529_StGa-21-Ova.rar/file`
-let mediafire3 = `https://www.mediafire.com/folder/zc3dk6gwk68mc/especiales`
-let mediafire4 = `https://www.mediafire.com/folder/hbjcwl9ydflym/pelicula`
+let mediafire1 = `https://www.mediafire.com/?2kcthxqduaawy3n`
+let mediafire2 = `https://www.mediafire.com/?66q2qx2s86ow1ox`
+let mediafire3 = `https://www.mediafire.com/?ytwla4agilotv77`
+let mediafire4 = `https://www.mediafire.com/?rduhehgi12gpguj`
+let mediafire5 = `https://www.mediafire.com/?q3xha3dq2jdx6nu`
+let mediafire6 = `https://www.mediafire.com/?dwhzv92c3rwx4v2`
+let mediafire7 = `https://www.mediafire.com/?n4voko0r0c1luni`
+let mediafire8 = `https://www.mediafire.com/?715yv2wnzqxdixi`
+let mediafire9 = `https://www.mediafire.com/?wksqk8b1fhjh3l5`
+let mediafire10 = `https://www.mediafire.com/file/25tna2lyy4gzehv`
+let mediafire11 = `https://www.mediafire.com/?5h74gq02hzl766s`
+let mediafire12 = `https://www.mediafire.com/?sjgq389lghblx9u`
 
-function descargar1(){
+
+document.querySelector(".boton-descargar-1").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire1)
 	enlaceMediafire.click()
-}
-function descargar1Lat(){
-	enlacetemp1.setAttribute("href", mediafire1Lat)
-	enlacetemp1.click()
-}
-function descargar2(){
+})
+document.querySelector(".boton-descargar-2").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire2)
 	enlaceMediafire.click()
-}
-function descargar2Lat(){
-	enlaceMediafire.setAttribute("href", mediafire2Lat)
-	enlaceMediafire.click()
-}
-function descargar3(){
+})
+document.querySelector(".boton-descargar-3").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire3)
 	enlaceMediafire.click()
-}
-function descargar4(){
+})
+document.querySelector(".boton-descargar-4").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire4)
 	enlaceMediafire.click()
-}
+})
+document.querySelector(".boton-descargar-5").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire5)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-6").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire6)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-7").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire7)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-8").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire8)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-9").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire9)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-10").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire1011)
+	enlaceMediafire.click()
+})
+
+document.querySelector(".boton-descargar-12").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire12)
+	enlaceMediafire.click()
+})
 
 
 const botonInicio = document.querySelector(".inicio")
