@@ -1,6 +1,8 @@
 "use strict"
 
 //funcion para que la barra de navegacion se haga fixed:
+
+
 const barraDeNavegacion = document.querySelector(".barra-de-navegacion")
 const body = document.querySelector(".body")
 const ventanas = document.querySelector(".ventanas")
@@ -124,9 +126,8 @@ let adelanteB = false
 let adelanteC = false
 let adelanteD = false
 
-	
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/jojos 5 img 7.jpg"
+	imagen1.src = "../../imagenes/fairy tail img 26.jpg"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -138,7 +139,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/jojos 5 img 3.jpg"
+		imagen2.src = "../../imagenes/Fairy-Tail-anime.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -158,7 +159,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/jojos 5 img 2.jpeg"
+		imagen1.src = "../../imagenes/fairy tail img 28.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -176,7 +177,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/jojos 5 img 6.png"
+		imagen2.src = "../../imagenes/fairy tail img 2.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -193,7 +194,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/jojos 5 img 7.jpg"
+		imagen1.src = "../../imagenes/fairy tail img 26.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -244,7 +245,7 @@ tiempoRetardo()
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/jojos 5 img 2.jpeg"
+		imagen1.src = "../../imagenes/fairy tail img 28.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -260,7 +261,7 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/jojos 5 img 3.jpg"
+		imagen2.src = "../../imagenes/Fairy-Tail-anime.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -273,7 +274,7 @@ function atrasar(){
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/jojos 5 img 7.jpg"
+		imagen1.src = "../../imagenes/fairy tail img 26.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -286,7 +287,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/jojos 5 img 6.png"
+		imagen2.src = "../../imagenes/fairy tail img 2.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -299,14 +300,63 @@ function atrasar(){
 	}
 	
 }
+
+
+
+
 let enlaceMediafire = document.querySelector(".link-1")
-let mediafire1 = `https://www.mediafire.com/folder/91pjhm39hko61/JOJO`
+let mediafireLat = `https://drive.google.com/drive/folders/1-58qfbeSEObxQ31ue6IS5RdmTlwgdpfC`
+let mediafire1 = `https://mega.nz/folder/NZ53iKbZ#28tsP_PDGEe10l0EaTlC-Q`
+let mediafire2 = `https://mega.nz/folder/JcJjAQRT#OWh9vn508gMlmQjHa9sB7g`
+let mediafire3 = `https://mega.nz/folder/VcAWUKxQ#AYSkX2Y8h0VwO-7o4Ec2DQ`
+let mediafire4 = `https://mega.nz/folder/1MRnDazS#eizFr5AzulZW2SYFcA3Zhg`
+let mediafire5 = `https://mega.nz/folder/U9MXGArT#uDuDg_8B_lSITUrnbIWjbw`
+let mediafire6 = `https://mega.nz/folder/4pFVmSSb#Q-IJtxFbSaaPyw380eoWDw`
+let mediafire7 = `https://mega.nz/folder/c5EjASaI#2pbIpaXE_Bo9Ecs7ebr2_w`
+let mediafire8 = `https://www.mediafire.com/folder/jbv534dvnsfi7/01-25`
+let mediafire9 = `https://www.mediafire.com/folder/uj4vibzxhkk56/26-51`
 
-
-document.querySelector(".boton-descargar-1").addEventListener("click", () =>{
+document.querySelector(".boton-descargar-lat").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafireLat)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-1").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire1)
 	enlaceMediafire.click()
 })
+document.querySelector(".boton-descargar-2").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire2)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-3").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire3)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-4").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire4)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-5").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire5)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-6").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire6)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-7").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire7)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-8").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire8)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-9").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire9)
+	enlaceMediafire.click()
+})
+
 
 
 
@@ -1003,6 +1053,8 @@ function buscadorInputResponsive(){
 		document.querySelector(".href-error").click()
 	}
 }
+
+
 
 const seleccion1 = document.querySelector(".selector-one")
 const seleccion2 = document.querySelector(".selector-two")

@@ -1,6 +1,8 @@
 "use strict"
 
 //funcion para que la barra de navegacion se haga fixed:
+
+
 const barraDeNavegacion = document.querySelector(".barra-de-navegacion")
 const body = document.querySelector(".body")
 const ventanas = document.querySelector(".ventanas")
@@ -124,9 +126,8 @@ let adelanteB = false
 let adelanteC = false
 let adelanteD = false
 
-	
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/jojos 5 img 7.jpg"
+	imagen1.src = "../../imagenes/hunter hunter img 8.jpg"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -138,7 +139,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/jojos 5 img 3.jpg"
+		imagen2.src = "../../imagenes/hunter hunter img 3.webp"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -158,7 +159,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/jojos 5 img 2.jpeg"
+		imagen1.src = "../../imagenes/hunter hunter img 4.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -176,7 +177,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/jojos 5 img 6.png"
+		imagen2.src = "../../imagenes/hunter hunter img 7.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -193,7 +194,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/jojos 5 img 7.jpg"
+		imagen1.src = "../../imagenes/hunter hunter img 8.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -244,7 +245,7 @@ tiempoRetardo()
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/jojos 5 img 2.jpeg"
+		imagen1.src = "../../imagenes/hunter hunter img 4.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -260,7 +261,7 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/jojos 5 img 3.jpg"
+		imagen2.src = "../../imagenes/hunter hunter img 3.webp"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -273,7 +274,7 @@ function atrasar(){
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/jojos 5 img 7.jpg"
+		imagen1.src = "../../imagenes/hunter hunter img 8.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -286,7 +287,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/jojos 5 img 6.png"
+		imagen2.src = "../../imagenes/hunter hunter img 7.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -299,14 +300,30 @@ function atrasar(){
 	}
 	
 }
-let enlaceMediafire = document.querySelector(".link-1")
-let mediafire1 = `https://www.mediafire.com/folder/91pjhm39hko61/JOJO`
 
 
-document.querySelector(".boton-descargar-1").addEventListener("click", () =>{
+
+
+ let enlaceMediafire = document.querySelector(".link-1")
+let mediafire1 = `https://www.mediafire.com/folder/h37y26a9c7yxk/HXH`
+let mediafire2 = `https://www.mediafire.com/folder/kl5zyif41an38/051-100`
+let mediafire3 = `https://www.mediafire.com/folder/4c0m11k492ia4/101-148`
+
+
+document.querySelector(".boton-descargar-1").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire1)
 	enlaceMediafire.click()
 })
+document.querySelector(".boton-descargar-2").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire2)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-3").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire3)
+	enlaceMediafire.click()
+})
+
+
 
 
 
@@ -1003,6 +1020,8 @@ function buscadorInputResponsive(){
 		document.querySelector(".href-error").click()
 	}
 }
+
+
 
 const seleccion1 = document.querySelector(".selector-one")
 const seleccion2 = document.querySelector(".selector-two")
