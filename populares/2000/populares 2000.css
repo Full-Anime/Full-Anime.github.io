@@ -890,7 +890,7 @@ body{
 	background-color: #70c;
 	color: #fff;
 	font-family: verdana;
-	padding: 5px 30px;
+	padding: 5px 20px;
 	border-radius: 4px;
 	border: none;
 	font-size: 12px;
@@ -2539,7 +2539,7 @@ body{
 	
 	
 	.info-temporada button{
-		padding: 3px 30px;
+		padding: 3px 20px;
 		font-size: 11px;
 		margin-top: 8px;
 	}

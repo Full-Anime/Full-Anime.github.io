@@ -363,7 +363,7 @@ body{
 
 }
 
-.ventana-2 button:nth-child(7){
+.ventana-2 button:nth-child(3){
 	background-color: #400;
 	color: #fff;
 	border-left: 2px solid #fd0;
@@ -890,7 +890,7 @@ body{
 	background-color: #70c;
 	color: #fff;
 	font-family: verdana;
-	padding: 5px 30px;
+	padding: 5px 20px;
 	border-radius: 4px;
 	border: none;
 	font-size: 12px;
@@ -1105,7 +1105,7 @@ body{
 	padding: 5px;
 	margin-left: 100px;
 	width: 575px;
-	transform: translateY(-1300px);
+	transform: translateY(-500px);
 }
 
 .parrafo-final p{
@@ -2049,14 +2049,14 @@ body{
 	margin-bottom: 5px;
 	border: none;
 }
+
+.populares-responsive button:nth-child(3){
+	border-left: 2px solid #900;
+	
+}
 .generos-responsive button:focus, .populares-responsive button:focus{
 	border: 1px solid #900;
 	color: #fd0;
-}
-
-.populares-responsive button:nth-child(5){
-	border-left: 2px solid #900;
-	
 }
 
 .generos-responsive h3, .populares-responsive h3{
@@ -2539,7 +2539,7 @@ body{
 	
 	
 	.info-temporada button{
-		padding: 3px 30px;
+		padding: 3px 20px;
 		font-size: 11px;
 		margin-top: 8px;
 	}
