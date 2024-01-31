@@ -1,6 +1,8 @@
 "use strict"
 
 //funcion para que la barra de navegacion se haga fixed:
+
+
 const barraDeNavegacion = document.querySelector(".barra-de-navegacion")
 const body = document.querySelector(".body")
 const ventanas = document.querySelector(".ventanas")
@@ -125,7 +127,7 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/nanatsu no tazai 1 img 8.jpg"
+	imagen1.src = "../../imagenes/naruto shippuben img 12.jpg"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -137,7 +139,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/nanatsu no tazai 1 img 5.jpg"
+		imagen2.src = "../../imagenes/naruto shippuben img 14.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -157,7 +159,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/nanatsu no tazai img 3 .webp"
+		imagen1.src = "../../imagenes/naruto shippuben img 10.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -175,7 +177,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/nanatsu no tazai 2 img 1.jpg"
+		imagen2.src = "../../imagenes/naruto img 19.jpeg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -192,7 +194,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/nanatsu no tazai 1 img 8.jpg"
+		imagen1.src = "../../imagenes/naruto shippuben img 12.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -212,7 +214,6 @@ function avanzar(){
 		}
 	
 }
-
 
 delante.addEventListener("click", () =>{
 	clearInterval(intervaloAvanzar)
@@ -244,7 +245,7 @@ tiempoRetardo()
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/nanatsu no tazai img 3 .webp"
+		imagen1.src = "../../imagenes/naruto shippuben img 10.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -260,7 +261,7 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/nanatsu no tazai 1 img 5.jpg"
+		imagen2.src = "../../imagenes/naruto shippuben img 14.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -273,7 +274,7 @@ function atrasar(){
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/nanatsu no tazai 1 img 8.jpg"
+		imagen1.src = "../../imagenes/naruto shippuben img 12.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -286,7 +287,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/nanatsu no tazai 2 img 1.jpg"
+		imagen2.src = "../../imagenes/naruto img 19.jpeg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -300,63 +301,41 @@ function atrasar(){
 	
 }
 
-const botonDescargar1 = document.querySelector(".boton-descargar-1")
-const botonDescargar2 = document.querySelector(".boton-descargar-2")
-const botonDescargar3 = document.querySelector(".boton-descargar-3")
-const botonDescargar3Movie = document.querySelector(".boton-descargar-3-movie")
-const botonDescargar4 = document.querySelector(".boton-descargar-4")
-const botonDescargar5 = document.querySelector(".boton-descargar-5")
-const botonDescargar5Movie = document.querySelector(".boton-descargar-5-movie")
 
 
-botonDescargar1.addEventListener("click", descargar1)
-botonDescargar2.addEventListener("click", descargar2)
-botonDescargar3.addEventListener("click", descargar3)
-botonDescargar3Movie.addEventListener("click", descargar3Movie)
-botonDescargar4.addEventListener("click", descargar4)
-botonDescargar5.addEventListener("click", descargar5)
-botonDescargar5Movie.addEventListener("click", descargar5Movie)
+
+ let enlaceMediafire = document.querySelector(".link-1")
+let mediafire1_1 = `https://www.mediafire.com/folder/n8w8lo0y6sedd/Naruto+Shippuden+cap+1+-+112+Latino`
+let mediafire1_2 = `https://drive.google.com/drive/folders/1QQyRunda2NuHIHzgZEt0Tq0pxvFsroGp`
+let mediafire2 = `https://www.mediafire.com/folder/u7qsl3oedxxya/Naruto+Shippuden+cap+113+-+260`
+let mediafire3 = `https://www.mediafire.com/folder/fhpve9hbhywea/Naruto+Shippuden+cap+261+-+400`
+let mediafire4 = `https://www.mediafire.com/folder/x0q02gmorbwfp/Naruto+Shippuden+cap+401+-+500`
 
 
-let enlaceMediafire = document.querySelector(".link-1")
-let enlacetemp = document.querySelector(".link-temp")
-let mediafire1 = `https://www.mediafire.com/file/5ljdugfdg7mstv4/7PCCT1_by_BlizzBoyGames.rar`
-let mediafire2 = `https://www.mediafire.com/file/d9v5hqxq2d9i01h/7PCCT2_by_BlizzBoyGames.rar`
-let mediafire3 = `nanatsu no tazai 3.html`
-let mediafire3Movie = `https://www.mediafire.com/file/mx9o8yr7fwo1640/7S_MOVIE_by_BlizzBoyGames.rar`
-let mediafire4 = `nanatsu no tazai 4.html`
-let mediafire5 = `nanatsu no tazai 5.html`
-let mediafire5Movie = `https://www.mediafire.com/file/iowlykyudnh83u7/7S_MOVIE_2_by_BlizzBoyGames.rar`
-
-
-function descargar1(){
-	enlaceMediafire.setAttribute("href", mediafire1)
+document.querySelector(".boton-descargar-1-1").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire1_1)
 	enlaceMediafire.click()
-}
-function descargar2(){
+})
+document.querySelector(".boton-descargar-1-2").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire1_2)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-2").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire2)
 	enlaceMediafire.click()
-}
-function descargar3(){
-	enlacetemp.setAttribute("href", mediafire3)
-	enlacetemp.click()
-}
-function descargar3Movie(){
-	enlaceMediafire.setAttribute("href", mediafire3Movie)
+})
+document.querySelector(".boton-descargar-3").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire3)
 	enlaceMediafire.click()
-}
-function descargar4(){
-	enlacetemp.setAttribute("href", mediafire4)
-	enlacetemp.click()
-}
-function descargar5(){
-	enlacetemp.setAttribute("href", mediafire5)
-	enlacetemp.click()
-}
-function descargar5Movie(){
-	enlaceMediafire.setAttribute("href", mediafire5Movie)
+})
+document.querySelector(".boton-descargar-4").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire4)
 	enlaceMediafire.click()
-}
+})
+
+
+
+
 
 const botonInicio = document.querySelector(".inicio")
 botonInicio.addEventListener("click", home)
@@ -1051,7 +1030,6 @@ function buscadorInputResponsive(){
 		document.querySelector(".href-error").click()
 	}
 }
-
 
 
 
