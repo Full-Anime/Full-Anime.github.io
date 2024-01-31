@@ -304,8 +304,8 @@ let mediafire1 = `https://www.mediafire.com/file/kx3w9btl0mkjxej/%2528locuranime
 let mediafire2 = `https://www.mediafire.com/file/w3eky9jif01uzm2/%2528locuranime.com%2529_BlLo-02.rar/file`
 let mediafire3 = `https://www.mediafire.com/file/smla2vem3b0l6rd/%2528locuranime.com%2529_BlLo-03.rar/file`
 let mediafire4 = `https://www.mediafire.com/file/9nlayvsn0h2p2hn/%2528locuranime.com%2529_BlLo-04.rar/file`
-let mediafire5 = `https://www.mediafire.com/file/8n8i1vg4lqy07mt/%2528locuranime.com%2529_BlLo-06.rar/file`
-let mediafire6 = `https://www.mediafire.com/file/fb5copkak52qfbd/%2528locuranime.com%2529_BlLo-05.rar/file`
+let mediafire5 = `https://www.mediafire.com/file/fb5copkak52qfbd/%2528locuranime.com%2529_BlLo-05.rar/file`
+let mediafire6 = `https://www.mediafire.com/file/8n8i1vg4lqy07mt/%2528locuranime.com%2529_BlLo-06.rar/file`
 let mediafire7 = `https://www.mediafire.com/file/0bvkjrw2g5l3fzo/%2528locuranime.com%2529_BlLo-07.rar/file`
 let mediafire8 = `https://www.mediafire.com/file/hhm6j5j4vvlzjzq/%2528locuranime.com%2529_BlLo-08.rar/file`
 let mediafire9 = `https://www.mediafire.com/file/0buqnf945ky3uyv/%2528locuranime.com%2529_BlLo-09.rar/file`
@@ -322,7 +322,7 @@ let mediafire20 = `https://www.mediafire.com/file/umtv8gyglj82hnd/%2528locuranim
 let mediafire21 = `https://www.mediafire.com/file/b1u59kafvd3yrna/%2528locuranime.com%2529_BlLo-21.rar/file`
 let mediafire22 = `https://www.mediafire.com/file/h861tg31563fbj5/%2528locuranime.com%2529_MHA6-22.rar/file`
 let mediafire23 = `https://www.mediafire.com/file/07gt5b0sus3wyt0/%2528locuranime.com%2529_BlLo-23.rar/file`
-let mediafire24 = `https://www.mediafire.com/file/912crumxhxylvth/%2528locuranime.com%2529_MHA6-25.rar/file`
+let mediafire24 = `https://www.mediafire.com/?8us6ufcxnvigmxi`
 let mediafire25 = `https://www.mediafire.com/file/912crumxhxylvth/%2528locuranime.com%2529_MHA6-25.rar/file`
 
 document.querySelector(".boton-descargar-1").addEventListener("click", ()=>{
@@ -485,7 +485,25 @@ let enlace = ["../../animes/chainsaw man/chainsaw.html",
 "../../animes/arcane/arcane.html",
 "../../animes/blue lock/blue lock.html",
 "../../animes/parasyte/parasyte.html",
-"../../animes/edens zero/edens zero.html"]
+"../../animes/edens zero/edens zero.html",
+"../../animes/black clover/black clover.html",
+"../../animes/hellsing/hellsing.html",
+"../../animes/naruto shippuben/naruto shippuben.html",
+"../../animes/zom 100/zom 100.html",
+"../../animes/fairy tail/fairy tail.html",
+"../../animes/skip and loafer/skip and loafer.html",
+"../../animes/mushoku tensei/mushoku tensei.html",
+"../../animes/boruto/boruto.html",
+"../../animes/sousou no fierren/sousou no fierren.html",
+"../../animes/dragon ball/dragon ball.html",
+"../../animes/dragon ball gt/dragon ball gt.html",
+"../../animes/sailor moon/sailor moon.html",
+"../../animes/bleach/bleach.html",
+"../../animes/bleach thousand year/bleach thousand year.html",
+"../../animes/hunter hunter 2011/hunter hunter 2011.html"]
+
+
+
 
 //funcion de buscar en el input:
 const input = document.querySelector(".input-buscador")
@@ -508,7 +526,7 @@ document.addEventListener("keyup", e=>{
 	}
 })
 
-for (let i = 0; i < 45; i++) {
+for (let i = 0; i < 60; i++) {
 			document.getElementById(`data-serie-${i}`).addEventListener("click", (e)=>{
 			linkInput.setAttribute("href", enlace[i])
 			linkInput.click()
@@ -528,7 +546,6 @@ input.addEventListener("keydown", function(event) {
 	}
 })
 
-
 function buscadorInput(){
 	if (input.value.toLowerCase() == "chainsaw man") {
 		linkInput.setAttribute("href", enlace[0])
@@ -542,7 +559,7 @@ function buscadorInput(){
 		linkInput.setAttribute("href", enlace[2])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "spy family") {
+	else if (input.value.toLowerCase() == "spy family" || input.value.toLowerCase() == "spy x family") {
 		linkInput.setAttribute("href", enlace[3])
 		linkInput.click()
 	}
@@ -579,7 +596,7 @@ function buscadorInput(){
 		linkInput.setAttribute("href", enlace[11])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "fire force") {
+	else if (input.value.toLowerCase() == "fire force" || input.value.toLowerCase() == "enen no shouboutai") {
 		linkInput.setAttribute("href", enlace[12])
 		linkInput.click()
 	}
@@ -603,7 +620,7 @@ function buscadorInput(){
 		linkInput.setAttribute("href", enlace[17])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "record of ragnarok") {
+	else if (input.value.toLowerCase() == "record of ragnarok" || input.value.toLowerCase() == "shumatsu no valkyrie") {
 		linkInput.setAttribute("href", enlace[18])
 		linkInput.click()
 	}
@@ -623,7 +640,7 @@ function buscadorInput(){
 		linkInput.setAttribute("href", enlace[22])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "caballeros del zodiaco" || input.value.toLowerCase() == "saint seya") {
+	else if (input.value.toLowerCase() == "caballeros del zodiaco" || input.value.toLowerCase() == "saint seiya") {
 		linkInput.setAttribute("href", enlace[23])
 		linkInput.click()
 	}
@@ -678,7 +695,7 @@ function buscadorInput(){
 		linkInput.setAttribute("href", enlace[35])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "hells paradise" || input.value.toLowerCase() == "hell's paradise") {
+	else if (input.value.toLowerCase() == "hells paradise" || input.value.toLowerCase() == "hell's paradise" || input.value.toLowerCase() == "jigokuraku") {
 		linkInput.setAttribute("href", enlace[36])
 		linkInput.click()
 	}
@@ -690,7 +707,7 @@ function buscadorInput(){
 		linkInput.setAttribute("href", enlace[38])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "jojos bizarre adventure") {
+	else if (input.value.toLowerCase() == "jojos bizarre adventure" || input.value.toLowerCase() == "jojos: bizarre adventure") {
 		linkInput.setAttribute("href", enlace[39])
 		linkInput.click()
 	}
@@ -706,14 +723,90 @@ function buscadorInput(){
 		linkInput.setAttribute("href", enlace[42])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "parasyte") {
+	else if (input.value.toLowerCase() == "parasyte" || input.value.toLowerCase() == "parasyte: the maxim") {
 		linkInput.setAttribute("href", enlace[43])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "edens zero") {
+	else if (input.value.toLowerCase() == "edens zero" || input.value.toLowerCase() == "eden's zero") {
 		linkInput.setAttribute("href", enlace[44])
 		linkInput.click()
 	}
+	
+	else if (input.value.toLowerCase() == "black clover") {
+		linkInput.setAttribute("href", enlace[45])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "hellsing") {
+		linkInput.setAttribute("href", enlace[46])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "naruto shippuben") {
+		linkInput.setAttribute("href", enlace[47])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "zom 100" || input.value.toLowerCase() == "zom 100: the bucket list of the dead") {
+		linkInput.setAttribute("href", enlace[48])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "fairy tail") {
+		linkInput.setAttribute("href", enlace[49])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "skip and loafer" || input.value.toLowerCase() == "skip to loafer") {
+		linkInput.setAttribute("href", enlace[50])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "mushoku tensei" || input.value.toLowerCase() == "mushoku tensei: isekai ittara honki dasu") {
+		linkInput.setAttribute("href", enlace[51])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "boruto" || input.value.toLowerCase() == "boruto: naruto the next generation") {
+		linkInput.setAttribute("href", enlace[52])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "sousou no fierren" || input.value.toLowerCase() == "soso no fierren") {
+		linkInput.setAttribute("href", enlace[53])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "dragon ball") {
+		linkInput.setAttribute("href", enlace[54])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "dragon ball gt") {
+		linkInput.setAttribute("href", enlace[55])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "sailor moon") {
+		linkInput.setAttribute("href", enlace[56])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "bleach") {
+		linkInput.setAttribute("href", enlace[57])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "bleach: thousand-year blood war") {
+		linkInput.setAttribute("href", enlace[58])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "hunter x hunter 2011") {
+		linkInput.setAttribute("href", enlace[59])
+		linkInput.click()
+	}
+	
 	
 	else{
 		document.querySelector(".href-error").click()
@@ -742,7 +835,7 @@ document.addEventListener("keyup", e=>{
 	}
 })
 
-for (let i = 0; i < 45; i++) {
+for (let i = 0; i < 60; i++) {
 			document.getElementById(`responsive-data-serie-${i}`).addEventListener("click", (e)=>{
 			linkInputResponsive.setAttribute("href", enlace[i])
 			linkInputResponsive.click()
@@ -756,6 +849,10 @@ inputResponsive.addEventListener("keydown", function(event) {
 		buscadorInputResponsive()
 	}
 })
+
+
+
+
 
 
 function buscadorInputResponsive(){
@@ -808,7 +905,7 @@ function buscadorInputResponsive(){
 		linkInput.setAttribute("href", enlace[11])
 		linkInput.click()
 	}
-	else if (inputResponsive.value.toLowerCase() == "fire force") {
+	else if (inputResponsive.value.toLowerCase() == "fire force" || inputResponsive.value.toLowerCase() == "enen no shouboutai") {
 		linkInput.setAttribute("href", enlace[12])
 		linkInput.click()
 	}
@@ -832,7 +929,7 @@ function buscadorInputResponsive(){
 		linkInput.setAttribute("href", enlace[17])
 		linkInput.click()
 	}
-	else if (inputResponsive.value.toLowerCase() == "record of ragnarok") {
+	else if (inputResponsive.value.toLowerCase() == "record of ragnarok" || inputResponsive.value.toLowerCase() == "shumatsu no valkyrie") {
 		linkInput.setAttribute("href", enlace[18])
 		linkInput.click()
 	}
@@ -852,7 +949,7 @@ function buscadorInputResponsive(){
 		linkInput.setAttribute("href", enlace[22])
 		linkInput.click()
 	}
-	else if (inputResponsive.value.toLowerCase() == "caballeros del zodiaco" || inputResponsive.value.toLowerCase() == "saint seya") {
+	else if (inputResponsive.value.toLowerCase() == "caballeros del zodiaco" || inputResponsive.value.toLowerCase() == "saint seiya") {
 		linkInput.setAttribute("href", enlace[23])
 		linkInput.click()
 	}
@@ -907,7 +1004,7 @@ function buscadorInputResponsive(){
 		linkInput.setAttribute("href", enlace[35])
 		linkInput.click()
 	}
-	else if (inputResponsive.value.toLowerCase() == "hells paradise" || inputResponsive.value.toLowerCase() == "hell's paradise") {
+	else if (inputResponsive.value.toLowerCase() == "hells paradise" || inputResponsive.value.toLowerCase() == "hell's paradise" || inputResponsive.value.toLowerCase() == "jigokuraku") {
 		linkInput.setAttribute("href", enlace[36])
 		linkInput.click()
 	}
@@ -919,7 +1016,7 @@ function buscadorInputResponsive(){
 		linkInput.setAttribute("href", enlace[38])
 		linkInput.click()
 	}
-	else if (inputResponsive.value.toLowerCase() == "jojos bizarre adventure") {
+	else if (inputResponsive.value.toLowerCase() == "jojos bizarre adventure" || inputResponsive.value.toLowerCase() == "jojos: bizarre adventure") {
 		linkInput.setAttribute("href", enlace[39])
 		linkInput.click()
 	}
@@ -935,12 +1032,87 @@ function buscadorInputResponsive(){
 		linkInput.setAttribute("href", enlace[42])
 		linkInput.click()
 	}
-	else if (inputResponsive.value.toLowerCase() == "parasyte") {
+	else if (inputResponsive.value.toLowerCase() == "parasyte" || inputResponsive.value.toLowerCase() == "parasyte: the maxim") {
 		linkInput.setAttribute("href", enlace[43])
 		linkInput.click()
 	}
-	else if (inputResponsive.value.toLowerCase() == "edens zero") {
+	else if (inputResponsive.value.toLowerCase() == "edens zero" || inputResponsive.value.toLowerCase() == "eden's zero") {
 		linkInput.setAttribute("href", enlace[44])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "black clover") {
+		linkInput.setAttribute("href", enlace[45])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "hellsing") {
+		linkInput.setAttribute("href", enlace[46])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "naruto shippuben") {
+		linkInput.setAttribute("href", enlace[47])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "zom 100" || inputResponsive.value.toLowerCase() == "zom 100: the bucket list of the dead") {
+		linkInput.setAttribute("href", enlace[48])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "fairy tail") {
+		linkInput.setAttribute("href", enlace[49])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "skip and loafer" || inputResponsive.value.toLowerCase() == "skip to loafer") {
+		linkInput.setAttribute("href", enlace[50])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "mushoku tensei" || inputResponsive.value.toLowerCase() == "mushoku tensei: isekai ittara honki dasu") {
+		linkInput.setAttribute("href", enlace[51])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "boruto" || inputResponsive.value.toLowerCase() == "boruto: naruto the next generation") {
+		linkInput.setAttribute("href", enlace[52])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "sousou no fierren" || inputResponsive.value.toLowerCase() == "soso no fierren") {
+		linkInput.setAttribute("href", enlace[53])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "dragon ball") {
+		linkInput.setAttribute("href", enlace[54])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "dragon ball gt") {
+		linkInput.setAttribute("href", enlace[55])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "sailor moon") {
+		linkInput.setAttribute("href", enlace[56])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "bleach") {
+		linkInput.setAttribute("href", enlace[57])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "bleach: thousand-year blood war") {
+		linkInput.setAttribute("href", enlace[58])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "hunter x hunter 2011") {
+		linkInput.setAttribute("href", enlace[59])
 		linkInput.click()
 	}
 	
@@ -948,7 +1120,6 @@ function buscadorInputResponsive(){
 		document.querySelector(".href-error").click()
 	}
 }
-
 
 
 const seleccion1 = document.querySelector(".selector-one")

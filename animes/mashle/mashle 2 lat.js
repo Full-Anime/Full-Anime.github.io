@@ -123,7 +123,7 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/kimetsu no yaiba img 63.png"
+	imagen1.src = "../../imagenes/mashle img 1.jpeg"
 	contenedorImg.appendChild(imagen1)
 	
 
@@ -135,7 +135,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 57.png"
+		imagen2.src = "../../imagenes/mashle img 4.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -155,7 +155,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/kimetsu no yaiba img 17.webp"
+		imagen1.src = "../../imagenes/mashle img 5.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -173,7 +173,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 62.png"
+		imagen2.src = "../../imagenes//mashle img 3.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -190,7 +190,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/kimetsu no yaiba img 63.png"
+		imagen1.src = "../../imagenes/mashle img 1.jpeg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -210,6 +210,7 @@ function avanzar(){
 		}
 	
 }
+
 
 delante.addEventListener("click", () =>{
 	clearInterval(intervaloAvanzar)
@@ -238,19 +239,17 @@ function tiempoRetardo(){
 }
 
 tiempoRetardo()
-
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/kimetsu no yaiba img 17.webp"
+		imagen1.src = "../../imagenes/mashle img 5.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
 		
 		punto4.classList.replace("punto-4-a", "punto-4-e")
-		punto3.classList.remove("punto-3-e")
-		punto3.classList.add("punto-3-a")
+		punto3.classList.replace("punto-3-e", "punto-3-a")
 		adelanteD = false
 		adelanteC = true
 
@@ -259,21 +258,20 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 57.png"
+		imagen2.src = "../../imagenes/mashle img 4.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
 		
 		punto3.classList.replace("punto-3-a", "punto-3-e")
-		punto2.classList.remove("punto-2-e")
-		punto2.classList.add("punto-2-a")
+		punto2.classList.replace("punto-2-e", "punto-2-a")
 		adelanteC = false
 		adelanteB = true
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/kimetsu no yaiba img 63.png"
+		imagen1.src = "../../imagenes/mashle img 1.jpeg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
@@ -286,7 +284,7 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 62.png"
+		imagen2.src = "../../imagenes//mashle img 3.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
@@ -300,91 +298,24 @@ function atrasar(){
 	
 }
 
-const botonDescargar1 = document.querySelector(".boton-descargar-1")
-const botonDescargar2 = document.querySelector(".boton-descargar-2")
-const botonDescargar3 = document.querySelector(".boton-descargar-3")
-const botonDescargar4 = document.querySelector(".boton-descargar-4")
-const botonDescargar5 = document.querySelector(".boton-descargar-5")
-const botonDescargar6 = document.querySelector(".boton-descargar-6")
-const botonDescargar7 = document.querySelector(".boton-descargar-7")
-const botonDescargar8 = document.querySelector(".boton-descargar-8")
-const botonDescargar9 = document.querySelector(".boton-descargar-9")
-const botonDescargar10 = document.querySelector(".boton-descargar-10")
-const botonDescargar11 = document.querySelector(".boton-descargar-11")
 
 
-botonDescargar1.addEventListener("click", descargar1)
-botonDescargar2.addEventListener("click", descargar2)
-botonDescargar3.addEventListener("click", descargar3)
-botonDescargar4.addEventListener("click", descargar4)
-botonDescargar5.addEventListener("click", descargar5)
-botonDescargar6.addEventListener("click", descargar6)
-botonDescargar7.addEventListener("click", descargar7)
-botonDescargar8.addEventListener("click", descargar8)
-botonDescargar9.addEventListener("click", descargar9)
-botonDescargar10.addEventListener("click", descargar10)
-botonDescargar11.addEventListener("click", descargar11)
+
+let enlaceMediafire = document.querySelector(".link-1")
+let mediafire1_1 = `https://www.mediafire.com/file/ydedwjpreqlklcj/%2528locuranime.com%2529_M4s2-01.rar/file`
+let mediafire1_2 = `https://www.mediafire.com/file/a60bggecuebgoz2/Mashle_S2_Latino_episodio_1_[mandranime].zip/file`
 
 
-enlaceMediafire = document.querySelector(".link-1")
-let mediafire1 = `https://mega.nz/file/KzAnWCBD#biZMLwMY_RR48JrEGPieUh8pZkmhTMB_z3TstOYaGlA`
-let mediafire2 = `https://www.mediafire.com/file/scm2mw5811yxhgb/%2528locuranime.com%2529_KnY3-02.rar/file`
-let mediafire3 = `https://www.mediafire.com/file/kr7nd3vriqq6k4o/%2528locuranime.com%2529_KnY3-03.rar/file`
-let mediafire4 = `https://www.mediafire.com/file/kut55p322mp3rvk/%2528locuranime.com%2529_KnY3-04.rar/file`
-let mediafire5 = `https://www.mediafire.com/file/qwxjrvt8z1saovv/%2528locuranime.com%2529_KnY3-05.rar/file`
-let mediafire6 = `https://www.mediafire.com/file/duxn5daljypl9ur/%2528locuranime.com%2529_KnY3-06_%25281%2529.rar/file`
-let mediafire7 = `https://www.mediafire.com/file/cgkskmhpq3dwpx6/%2528locuranime.com%2529_KnY3-07.rar/file`
-let mediafire8 = `https://www.mediafire.com/file/xrf87jlah9udc5b/%2528locuranime.com%2529_KnY3-08.rar/file`
-let mediafire9 = `https://www.mediafire.com/file/i0q047aiyyad3t6/%2528locuranime.com%2529_KnY3-09.rar/file`
-let mediafire10 = `https://www.mediafire.com/file/827wzzy540hb6s0/%2528locuranime.com%2529_KnY3-10.rar/file`
-let mediafire11 = `https://www.mediafire.com/file/yc35paaulhm7s65/%2528locuranime.com%2529_KnY3-11.rar/file`
+document.querySelector(".boton-descargar-1-1").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire1_1)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-1-2").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire1_2)
+	enlaceMediafire.click()
+})
 
-function descargar1(){
-	enlaceMediafire.setAttribute("href", mediafire1)
-	enlaceMediafire.click()
-}
 
-function descargar2(){
-	enlaceMediafire.setAttribute("href", mediafire2)
-	enlaceMediafire.click()
-}
-
-function descargar3(){
-	enlaceMediafire.setAttribute("href", mediafire3)
-	enlaceMediafire.click()
-}
-function descargar4(){
-	enlaceMediafire.setAttribute("href", mediafire4)
-	enlaceMediafire.click()
-}
-function descargar5(){
-	enlaceMediafire.setAttribute("href", mediafire5)
-	enlaceMediafire.click()
-}
-function descargar6(){
-	enlaceMediafire.setAttribute("href", mediafire6)
-	enlaceMediafire.click()
-}
-function descargar7(){
-	enlaceMediafire.setAttribute("href", mediafire7)
-	enlaceMediafire.click()
-}
-function descargar8(){
-	enlaceMediafire.setAttribute("href", mediafire8)
-	enlaceMediafire.click()
-}
-function descargar9(){
-	enlaceMediafire.setAttribute("href", mediafire9)
-	enlaceMediafire.click()
-}
-function descargar10(){
-	enlaceMediafire.setAttribute("href", mediafire10)
-	enlaceMediafire.click()
-}
-function descargar11(){
-	enlaceMediafire.setAttribute("href", mediafire11)
-	enlaceMediafire.click()
-}
 
 const botonInicio = document.querySelector(".inicio")
 botonInicio.addEventListener("click", home)
@@ -399,6 +330,7 @@ botonInicioResponsive.addEventListener("click", home)
 
 
 //enlaces de cada uno de los index de cada serie:
+
 let enlace = ["../../animes/chainsaw man/chainsaw.html",
 "../../animes/Death Note/death note.html",
 "../../animes/Shingeki No Kyojin/shingeki no kyojin.html",
@@ -1236,7 +1168,6 @@ listadoDeAnimes.addEventListener("click", (e)=>{
 
 
 
-
 const contenedorItemAside1 = document.querySelector(".item-aside-1")
 
 const contenedorItemAside2 = document.querySelector(".item-aside-2")
@@ -1435,5 +1366,3 @@ contenedorAsideResponsive9.addEventListener("click", ()=>{
 	document.querySelector(".href-aside-9").click()
 	contenedorAsideResponsive9.classList.add("agrandar-aside-responsive")
 })
-
-
