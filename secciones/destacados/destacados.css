@@ -635,7 +635,7 @@
 
 	.pie-de-titulo b:nth-child(2){
 		margin-right: 10px;
-		color: #aaa;
+		color: #fff;
 		font-size: 12px;
 	}
 
@@ -1075,8 +1075,7 @@
 
 	/*BARRA DE BOTONES*/
 	.container-siguiente{
-
-		width: 150px;
+		width: 200px;
 		background-color: #511;
 		position: relative;
 		border-radius: 50px;
@@ -1084,7 +1083,7 @@
 		justify-content: space-evenly;
 		padding: 1px;
 		transform: translateY(40px);
-		margin-left: 230px;
+		margin-left: 190px;
 	}
 
 	.container-siguiente button{
@@ -1117,12 +1116,11 @@
 		}
 	}
 
-	.marcar-posicion-1 button:nth-child(2){
+	.marcar-posicion-1 button:nth-child(1){
 		
 	}
 
 	
-
 	
 
 
@@ -1132,7 +1130,7 @@
 		padding: 5px;
 		margin-left: 100px;
 		width: 575px;
-		transform: translateY(-600px);
+		transform: translateY(-610px);
 	}
 
 	.parrafo-final p{
@@ -1660,7 +1658,7 @@
 			height: 100%;
 		}
 	.div-icon-video{
-		transform: translateY(-150px);
+		transform: translateY(-200px);
 	}
 	.div-icon-video img{
 		width: 45px;
@@ -1679,9 +1677,8 @@
 
 	
 	.container-siguiente{
-		margin-left: 330px;
+		margin-left: 305px;
 	}
-
 
 	/*ITEMS OCULTOS DEL GRID*/
 	.item, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8, .item-9, .item-10, .item-11, .item-12, .item-13, .item-14, .item-15{
@@ -1880,26 +1877,13 @@
 	/*RESPONSIVE DE PANTALLAS 16:9 800PX*/
 	@media only screen and (max-width: 1100px) and (min-width: 1020px){
 
-		.barra-de-navegacion{
-			width: 100vw;
-			transform: translateY(-1110px);
-		}
-		.ventanas{
-			transform: translateY(-1135px);
+	
 		
-		}
-		.ventana-fixed{
-			transform: translateY(-1071px);
-			position: fixed;
-		}
 		.input{
 			transform: translateX(200px);
 			
 		}
-		.portada-container{
-			width: 1024px;
-			height: 580px;
-		}
+		
 		.pelicula{
 			margin: 100px;
 			margin-right: 90px;
@@ -1923,18 +1907,13 @@
 		
 		}
 
-		.container-siguiente{
-			margin-left: 210px;
-		}
+		
 		.aside{
 			margin-left: 20px;
 			width: 24%;
 		}
 
-		.parrafo-final{
-			width: 585px;
-			transform: translateY(-650px);
-		}
+		
 }
 
 
@@ -2097,7 +2076,7 @@
 	}
 
 		.container-siguiente{
-			margin-left: 150px;
+			margin-left: 125px;
 		}
 		.parrafo-final{
 			
@@ -2334,7 +2313,6 @@
 		width: 190px;
 		
 	}
-
 	.item-ul-responsive::-webkit-scrollbar{
 		width: 5px;
 		height: 5px;
@@ -2571,7 +2549,6 @@
 	/*DISEÑO RESPONSIVE PARA PANTALLAS 445PX*/
 	/*DISEÑO RESPONSIVE PARA PANTALLAS 445PX*/
 	/*DISEÑO RESPONSIVE PARA PANTALLAS 445PX*/
-	/*DISEÑO RESPONSIVE PARA PANTALLAS 445PX*/
 	@media only screen and (max-width: 445px){
 
 		.body::-webkit-scrollbar{
@@ -2785,14 +2762,14 @@
 			padding-left: 18px;
 			}
 		.grid-container a{
-			font-size: 11px;
+			font-size: 12px;
 		}
 		.grid-container a:active{
 				color: #f07;
 			}
 
 		.container-siguiente{
-			transform: translateX(-105px);
+			transform: translateX(-80px);
 			margin-top: 50px;
 			background: inherit;
 			border: 2px solid #400;
@@ -2825,6 +2802,7 @@
 
 	}
 
+	
 	
 
 
@@ -3103,14 +3081,14 @@
 			padding-left: 18px;
 			}
 		.grid-container a{
-			font-size: 11px;
+			font-size: 12px;
 		}
 		.grid-container a:active{
 				color: #f07;
 			}
 
 		.container-siguiente{
-			transform: translateX(-105px);
+			transform: translateX(-90px);
 			margin-top: 50px;
 			background: inherit;
 			border: 2px solid #400;
@@ -3270,13 +3248,13 @@
 
 			}
 			.grid-container a{
-				font-size: 10px;
+				font-size: 11px;
 			}
 			.grid-container a:active{
 				color: #f07;
 			}
 			.container-siguiente{
-				transform: translateX(-110px);
+				transform: translateX(-105px);
 			
 			}
 
@@ -3405,13 +3383,13 @@
 
 			}
 			.grid-container a{
-				font-size: 10px;
+				font-size: 11px;
 			}
 			.grid-container a:active{
 				color: #f07;
 			}
 			.container-siguiente{
-				transform: translateX(-125px);
+				transform: translateX(-110px);
 			
 			}
 
@@ -3541,7 +3519,7 @@
 
 			}
 			.grid-container a{
-				font-size: 9px;
+				font-size: 10px;
 			}
 			.grid-container a:active{
 				color: #f07;
@@ -3550,7 +3528,7 @@
 			
 		
 			.container-siguiente{
-				transform: translateX(-130px);
+				transform: translateX(-115px);
 			
 			}
 
@@ -3707,7 +3685,7 @@
 
 			}
 			.grid-container a{
-				font-size: 9px;
+				font-size: 10px;
 			}
 			.grid-container a:active{
 				color: #f07;
@@ -3716,7 +3694,7 @@
 			
 		
 			.container-siguiente{
-				transform: translateX(-150px);
+				transform: translateX(-135px);
 			
 			}
 

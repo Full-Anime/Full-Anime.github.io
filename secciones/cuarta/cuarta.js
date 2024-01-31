@@ -333,7 +333,6 @@ let title = ["Poster Chainsaw Man",
 
 
 
-
 //parrafos para cambiar el parrafo de las ventanas ocultas de los grid:
 
 let parrafo = [`<h3>Chainsaw Man</h3><b>Denji</b> es un joven atrapado en la probreza extrema. que trabaja para saldar la deuda de su padre fallecido con la Yakuza trabajando como cazador de demonios, con la ayuda de <b>Pochita</b>, su fiel compañero canino, hermano del alma y tambien conocido como el demonio motosierra.<br><br><b>Genero:</b> Accion<br><br><b>Estudio:</b> Mappa`,
@@ -441,7 +440,7 @@ let parrafo = [`<h3>Chainsaw Man</h3><b>Denji</b> es un joven atrapado en la pro
 
 			`<h3>Hellsing</h3>Relata los esfuerzos de los misteriosos y secretos Caballeros Protestantes Reales, la organizacion <b>"Hellsing"</b> y sus combates contra <b>vampiros, ghouls</b> y otros enemigos sobrenaturales que amenazan el Reino Unido de <b>Gran Bretaña</b>.<br><br><b>Genero:</b> Fantasia oscura, accion<br><br><b>Estudio:</b> Gonzo`,
 
-			`<h3>Naruto Shippuben</h3>Se trata de la segunda parte del anime "Naruto", cuando <b>Naruto</b> regresa a la aldea oculta entre la hoja, tras haber estado dos años y medio entrenando con <b>Jiraya</b>, se reencontrara con sus viejos amigos. Mientras tanto los <b>Akatsuki</b> empiezan a juntar todos los demonios (Biju) empezando por el Shukaku de Gaata en la Aldea Oculta de la Arena.<br><br><b>Genero: Accion, fatasia</b> <br><br><b>Estudio:</b> Pierrot`,
+			`<h3>Naruto Shippuben</h3>Se trata de la segunda parte del anime "Naruto", cuando <b>Naruto</b> regresa a la aldea oculta entre la hoja, tras haber estado dos años y medio entrenando con <b>Jiraya</b>, se reencontrara con sus viejos amigos. Mientras tanto los <b>Akatsuki</b> empiezan a juntar todos los demonios (Biju) empezando por el Shukaku de Gaara en la Aldea Oculta de la Arena.<br><br><b>Genero: Accion, fatasia</b> <br><br><b>Estudio:</b> Pierrot`,
 
 			`<h3>Zom 100: The Bucket List of the Dead</h3><b>Akira Tendo</b>, se encuentra atrapado en una vida rutinaria y sin sentido. Le falta empuje y motivacion ya que esta desencantado con su carrera; 
 			Sin embargo cuando un apocalipsis zombi golpea inesperadamente Tokio, en lugar de sucumbir al miedo, Akira ve esto como una oportunidad para experimentar la vida al maximo en lugar de conformarse con su monotona existencia.<br><br><b>Genero:</b> Accion, comedia de terror, distopia<br><br><b>Estudio:</b> BUG FILMS`,
@@ -467,7 +466,6 @@ let parrafo = [`<h3>Chainsaw Man</h3><b>Denji</b> es un joven atrapado en la pro
 			`<h3>Bleach: Thousand-Year Blood War</h3>Esta historia comienza cuando despues de una oleada de asesinatos de Hollow y varias desapariciones en el Distrito de <b>Rukongai</b> se revelo que los <b>Quincy</b> estaban con vida. Y es que se creia y habian sido asesinados por la Sociedad hace 1000 años con la excepcion de la familia Ishida, pero en realidad utilizaron reishi para esconderse en la zona de las sombras en Seireitei.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Pierrot`,
 
 			`<h3>Hunter X Hunter 2014</h3>Para alcanzar su sueño de convertirse en un cazador legendario como su padre, un joven debe pasar un riguroso examen y encontrar a su padre, que esta desaparecido.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Madhouse`]
-
 
 
 
@@ -1364,6 +1362,7 @@ function buscadorInputResponsive(){
 
 
 
+
 const botonPopulares2020 = document.getElementById("populares-2020")
 const botonPopulares2010 = document.getElementById("populares-2010")
 const botonPopulares2000 = document.getElementById("populares-2000")
@@ -1520,18 +1519,18 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/attack on titan img 13.jpg"
+	imagen1.src = "../../imagenes/bleach thosand img 2.jpg"
 	contenedorImg.appendChild(imagen1)
-	tituloItem.innerHTML = "Attack On Titan: The Final Chapters"
-		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = `<b><i>Gracias por todo Attack On Titan...</i></b>`
-		informacion.appendChild(informacionItem)
-		pieDelTitulo1.innerHTML = "9/10"
-		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "94 Ep 2013"
-		pieDelTituloContainer.appendChild(pieDelTitulo2)
-		pieDelTitulo3.innerHTML = "720p"
-		pieDelTituloContainer.appendChild(pieDelTitulo3)
+	tituloItem.innerHTML = "Bleach: Thousand-Year Blood War"
+	titulo.appendChild(tituloItem)
+	informacionItem.innerHTML = "Nadie pidio el regreso del Clasico de Tite Kubo, pero la realidad es que ha vuelto con casi mas fuerza que la serie original, mas o menos con el mismo tono pero esta vez sin rodeos, 13 episodios son suficientes para presentarte la nueva amenaza del Seireitei, con una animacion de 10, y un nuevo Power up de Ichigo. "
+	informacion.appendChild(informacionItem)
+	pieDelTitulo1.innerHTML = "9/10"
+	pieDelTituloContainer.appendChild(pieDelTitulo1)
+	pieDelTitulo2.innerHTML = "26 cap 2022"
+	pieDelTituloContainer.appendChild(pieDelTitulo2)
+	pieDelTitulo3.innerHTML = "720p"
+	pieDelTituloContainer.appendChild(pieDelTitulo3)
 
 	punto1.classList.add("punto-1-a")
 
@@ -1541,7 +1540,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/jujutsu kaisen.png"
+		imagen2.src = "../../imagenes/mushoku tensei img .jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -1550,13 +1549,13 @@ function avanzar(){
 		contenedorImg.classList.remove("retrocesoc")
 		contenedorImg.classList.remove("retrocesod")
 		
-		tituloItem.innerHTML = "Jujutsu Kaisen: Temporada 2"
+		tituloItem.innerHTML = "Mushoku Tensei"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = `<b>Gojo</b> y sus compañeros <b>Geto</b> y <b>Leiri</b> reciben el encargo de escoltar a una joven que se convertira en la siguiente recipiente de <b>Plasma Estelar</b>, aunque la amenaza del asesino pone en peligro la mision.`
+		informacionItem.innerHTML = `Un joven virgen "nini" de 34 años es echado de casa cuando se queda sin dinero. El se arrepiente de su vida cuando muere en un accidente de trafico. Tras el accidente reencarna en un bebe e un mundo fantastico de espada y brujeria.`
 		informacion.appendChild(informacionItem)
-		pieDelTitulo1.innerHTML = "9/10"
+		pieDelTitulo1.innerHTML = "8/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "47 cap 2020"
+		pieDelTitulo2.innerHTML = "48 Ep 2013"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -1571,7 +1570,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/boku no hero 6 fondo 1.jpg"
+		imagen1.src = "../../imagenes/zom 100 img 7.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -1580,13 +1579,13 @@ function avanzar(){
 		contenedorImg.classList.remove("retrocesoc")
 		contenedorImg.classList.remove("retrocesod")
 		
-		tituloItem.innerHTML = "My Hero Academia Temporada 6"
+		tituloItem.innerHTML = "Zom 100: The Bucket List of the Dead"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = `En un mundo donde tener superpoderes es lo más común, nace <b>Izuku Midoriya</b>, un niño sin este don que sueña con ser un superhéroe. La gente con este tipo de habilidades es conocida como <b>'Quirk'</b> y, debido a no pertenecer a esta clase, Izuku sufre bullying en su escuela por ser diferente.`
+		informacionItem.innerHTML = `<b>Akira Tendo</b>, se encuentra atrapado en una vida rutinaria y sin sentido. Le falta empuje y motivacion ya que esta desencantado con su carrera; Sin embargo cuando un apocalipsis zombi golpea inesperadamente Tokio, en lugar de sucumbir al miedo, Akira ve esto como una oportunidad para experimentar la vida al maximo en lugar de conformarse con su monotona existencia.`
 		informacion.appendChild(informacionItem)
 		pieDelTitulo1.innerHTML = "8/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "137 cap 2016"
+		pieDelTitulo2.innerHTML = "12 cap 2023"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -1599,7 +1598,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 19.jpg"
+		imagen2.src = "../../imagenes/black clover img 21.jpeg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -1608,13 +1607,13 @@ function avanzar(){
 		contenedorImg.classList.remove("retrocesoc")
 		contenedorImg.classList.remove("retrocesod")
 		
-		tituloItem.innerHTML = "Kimetsu no Yaiba: Temporada 3"
+		tituloItem.innerHTML = "Black Clover"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = "Sigue las aventuas de Tanjiro Kamado, un adolescente cuya familia fue cruelmente asesinada por un Demonio el cual convirtio a su hermana Nezuko en una de estas criaturas, obligandolo a emprender un viaje para cazar a estos seres..."
+		informacionItem.innerHTML = "Un niño que no tiene el poder de hacer magia lucha por obtener el título de Rey Mago, mientras cuatro antiguos Reyes Magos reaparecen para destruir el Reino del Trébol."
 		informacion.appendChild(informacionItem)
-		pieDelTitulo1.innerHTML = "9/10"
+		pieDelTitulo1.innerHTML = "8/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "54 cap 2019"
+		pieDelTitulo2.innerHTML = "170 cap 2017"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -1625,7 +1624,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/attack on titan img 13.jpg"
+		imagen1.src = "../../imagenes/bleach thosand img 2.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -1634,13 +1633,13 @@ function avanzar(){
 		contenedorImg.classList.remove("posicion-de-imagen")
 		contenedorImg.classList.add("desplazamiento-4")
 		
-		tituloItem.innerHTML = "Attack On Titan: The Final Chapters"
+		tituloItem.innerHTML = "Bleach: Thousand-Year Blood War"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = `<b><i>Gracias por todo Attack On Titan...</i></b>`
+		informacionItem.innerHTML = "Nadie pidio el regreso del Clasico de Tite Kubo, pero la realidad es que ha vuelto con casi mas fuerza que la serie original, mas o menos con el mismo tono pero esta vez sin rodeos, 13 episodios son suficientes para presentarte la nueva amenaza del Seireitei, con una animacion de 10, y un nuevo Power up de Ichigo. "
 		informacion.appendChild(informacionItem)
 		pieDelTitulo1.innerHTML = "9/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "91 Ep 2013"
+		pieDelTitulo2.innerHTML = "26 cap 2022"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -1690,18 +1689,18 @@ tiempoRetardo()
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/boku no hero 6 fondo 1.jpg"
+		imagen1.src = "../../imagenes/zom 100 img 7.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
-		tituloItem.innerHTML = "My Hero Academia Temporada 6"
+		tituloItem.innerHTML = "Zom 100: The Bucket List of the Dead"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = `En un mundo donde tener superpoderes es lo más común, nace <b>Izuku Midoriya</b>, un niño sin este don que sueña con ser un superhéroe. La gente con este tipo de habilidades es conocida como <b>'Quirk'</b> y, debido a no pertenecer a esta clase, Izuku sufre bullying en su escuela por ser diferente.`
+		informacionItem.innerHTML = `<b>Akira Tendo</b>, se encuentra atrapado en una vida rutinaria y sin sentido. Le falta empuje y motivacion ya que esta desencantado con su carrera; Sin embargo cuando un apocalipsis zombi golpea inesperadamente Tokio, en lugar de sucumbir al miedo, Akira ve esto como una oportunidad para experimentar la vida al maximo en lugar de conformarse con su monotona existencia.`
 		informacion.appendChild(informacionItem)
 		pieDelTitulo1.innerHTML = "8/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "137 cap 2016"
+		pieDelTitulo2.innerHTML = "12 cap 2023"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -1717,18 +1716,18 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/jujutsu kaisen.png"
+		imagen2.src = "../../imagenes/mushoku tensei img .jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
-		tituloItem.innerHTML = "Jujutsu Kaisen: Temporada 2"
+		tituloItem.innerHTML = "Mushoku Tensei"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = `<b>Gojo</b> y sus compañeros <b>Geto</b> y <b>Leiri</b> reciben el encargo de escoltar a una joven que se convertira en la siguiente recipiente de <b>Plasma Estelar</b>, aunque la amenaza del asesino pone en peligro la mision.`
+		informacionItem.innerHTML = `Un joven virgen "nini" de 34 años es echado de casa cuando se queda sin dinero. El se arrepiente de su vida cuando muere en un accidente de trafico. Tras el accidente reencarna en un bebe e un mundo fantastico de espada y brujeria.`
 		informacion.appendChild(informacionItem)
-		pieDelTitulo1.innerHTML = "9/10"
+		pieDelTitulo1.innerHTML = "8/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "47 cap 2020"
+		pieDelTitulo2.innerHTML = "48 Ep 2013"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -1740,18 +1739,18 @@ function atrasar(){
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/attack on titan img 13.jpg"
+		imagen1.src = "../../imagenes/bleach thosand img 2.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
-		tituloItem.innerHTML = "Attack On Titan: The Final Chapters"
+		tituloItem.innerHTML = "Bleach: Thousand-Year Blood War"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = `<b><i>Gracias por todo Attack On Titan...</i></b>`
+		informacionItem.innerHTML = "Nadie pidio el regreso del Clasico de Tite Kubo, pero la realidad es que ha vuelto con casi mas fuerza que la serie original, mas o menos con el mismo tono pero esta vez sin rodeos, 13 episodios son suficientes para presentarte la nueva amenaza del Seireitei, con una animacion de 10, y un nuevo Power up de Ichigo. "
 		informacion.appendChild(informacionItem)
 		pieDelTitulo1.innerHTML = "9/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "94 Ep 2013"
+		pieDelTitulo2.innerHTML = "26 cap 2022"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -1762,17 +1761,17 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/kimetsu no yaiba img 19.jpg"
+		imagen2.src = "../../imagenes/black clover img 21.jpeg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
-		tituloItem.innerHTML = "Kimetsu no Yaiba: Temporada 3"
+		tituloItem.innerHTML = "Black Clover"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = "Sigue las aventuas de Tanjiro Kamado, un adolescente cuya familia fue cruelmente asesinada por un Demonio el cual convirtio a su hermana Nezuko en una de estas criaturas, obligandolo a emprender un viaje para cazar a estos seres..."
+		informacionItem.innerHTML = "Un niño que no tiene el poder de hacer magia lucha por obtener el título de Rey Mago, mientras cuatro antiguos Reyes Magos reaparecen para destruir el Reino del Trébol."
 		informacion.appendChild(informacionItem)
-		pieDelTitulo1.innerHTML = "9/10"
+		pieDelTitulo1.innerHTML = "8/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "54 cap 2019"
+		pieDelTitulo2.innerHTML = "170 cap 2017"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2211,6 +2210,7 @@ let textEnlace = ["Chainsaw Man",
 
 
 
+
 botonUltimos.addEventListener("click", ultimos)
 botonTendencias.addEventListener("click", tendencias)
 botonEstrenos.addEventListener("click", estrenos)
@@ -2221,13 +2221,12 @@ const contenedorSiguiente = document.querySelector(".container-siguiente")
 const botonSiguiente1 = document.querySelector(".siguiente-1")
 const botonSiguiente2 = document.querySelector(".siguiente-2")
 const botonSiguiente3 = document.querySelector(".siguiente-3")
-const botonSiguiente4 = document.querySelector(".siguiente-4")
 
 
-botonSiguiente2.addEventListener("click", next2)
+
 botonSiguiente1.addEventListener("click", next1)
+botonSiguiente2.addEventListener("click", next2)
 botonSiguiente3.addEventListener("click", next3)
-botonSiguiente4.addEventListener("click", next4)
 
 
 //funciones para el boton flecha:
@@ -2241,17 +2240,12 @@ function next2(){
 	hrefSiguiente.click()
 	
 }
+
 function next3(){
 	hrefSiguiente.setAttribute("href", "../tercera/tercera.html")
 	hrefSiguiente.click()
 	
 }
-function next4(){
-	hrefSiguiente.setAttribute("href", "../cuarta/cuarta.html")
-	hrefSiguiente.click()
-	
-}
-
 
 
 
@@ -2259,97 +2253,96 @@ function next4(){
 
 //funcion para los ultimos animes, se ejecuta por defecto
 function ultimos(){
-		hrefSiguiente.setAttribute("href", "../../index.html")
-		hrefSiguiente.click()
+		srcPoster1.setAttribute("src", poster[45])
+		srcPoster1.setAttribute("alt", alt[45])
+		srcPoster1.setAttribute("title", title[45])
+		href1.setAttribute("href", enlace[45])
+		href1.textContent = textEnlace[45]
+		srcPoster2.setAttribute("src", poster[46])
+		srcPoster2.setAttribute("alt", alt[46])
+		srcPoster2.setAttribute("title", title[46])
+		href2.setAttribute("href", enlace[46])
+		href2.textContent = textEnlace[46]
+		srcPoster3.setAttribute("src", poster[47])
+		srcPoster3.setAttribute("alt", alt[47])
+		srcPoster3.setAttribute("title", title[47])
+		href3.setAttribute("href", enlace[47])
+		href3.textContent = textEnlace[47]
+		srcPoster4.setAttribute("src", poster[48])
+		srcPoster4.setAttribute("alt", alt[48])
+		srcPoster4.setAttribute("title", title[48])
+		href4.setAttribute("href", enlace[48])
+		href4.textContent = textEnlace[48]
+		srcPoster5.setAttribute("src", poster[49])
+		srcPoster5.setAttribute("alt", alt[49])
+		srcPoster5.setAttribute("title", title[49])
+		href5.setAttribute("href", enlace[49])
+		href5.textContent = textEnlace[49]
+		srcPoster6.setAttribute("src", poster[50])
+		srcPoster6.setAttribute("alt", alt[50])
+		srcPoster6.setAttribute("title", title[50])
+		href6.setAttribute("href", enlace[50])
+		href6.textContent = textEnlace[50]
+		srcPoster7.setAttribute("src", poster[51])
+		srcPoster7.setAttribute("alt", alt[51])
+		srcPoster7.setAttribute("title", title[51])
+		href7.setAttribute("href", enlace[51])
+		href7.textContent = textEnlace[51]
+		srcPoster8.setAttribute("src", poster[52])
+		srcPoster8.setAttribute("alt", alt[52])
+		srcPoster8.setAttribute("title", title[52])
+		href8.setAttribute("href", enlace[52])
+		href8.textContent = textEnlace[52]
+		srcPoster9.setAttribute("src", poster[53])
+		srcPoster9.setAttribute("alt", alt[53])
+		srcPoster9.setAttribute("title", title[53])
+		href9.setAttribute("href", enlace[53])
+		href9.textContent = textEnlace[53]
+		srcPoster10.setAttribute("src", poster[54])
+		srcPoster10.setAttribute("alt", alt[54])
+		srcPoster10.setAttribute("title", title[54])
+		href10.setAttribute("href", enlace[54])
+		href10.textContent = textEnlace[54]
+		srcPoster11.setAttribute("src", poster[55])
+		srcPoster11.setAttribute("alt", alt[55])
+		srcPoster11.setAttribute("title", title[55])
+		href11.setAttribute("href", enlace[55])
+		href11.textContent = textEnlace[55]
+		srcPoster12.setAttribute("src", poster[56])
+		srcPoster12.setAttribute("alt", alt[56])
+		srcPoster12.setAttribute("title", title[56])
+		href12.setAttribute("href", enlace[56])
+		href12.textContent = textEnlace[56]
+		srcPoster13.setAttribute("src", poster[57])
+		srcPoster13.setAttribute("alt", alt[57])
+		srcPoster13.setAttribute("title", title[57])
+		href13.setAttribute("href", enlace[57])
+		href13.textContent = textEnlace[57]
+		srcPoster14.setAttribute("src", poster[58])
+		srcPoster14.setAttribute("alt", alt[58])
+		srcPoster14.setAttribute("title", title[58])
+		href14.setAttribute("href", enlace[58])
+		href14.textContent = textEnlace[58]
+		srcPoster15.setAttribute("src", poster[59])
+		srcPoster15.setAttribute("alt", alt[59])
+		srcPoster15.setAttribute("title", title[59])
+		href15.setAttribute("href", enlace[59])
+		href15.textContent = textEnlace[59]
+
 
 	}
 
 	
 
-
+ultimos()
 
 
 
 //funcion para las tendencias del anime(cambia los poster):
 function tendencias(){
-	srcPoster1.setAttribute("src", poster[5])
-		srcPoster1.setAttribute("alt", alt[5])
-		srcPoster1.setAttribute("title", title[5])
-		href1.setAttribute("href", enlace[5])
-		href1.textContent = textEnlace[5]
-		srcPoster2.setAttribute("src", poster[6])
-		srcPoster2.setAttribute("alt", alt[6])
-		srcPoster2.setAttribute("title", title[6])
-		href2.setAttribute("href", enlace[6])
-		href2.textContent = textEnlace[6]
-		srcPoster3.setAttribute("src", poster[0])
-		srcPoster3.setAttribute("alt", alt[0])
-		srcPoster3.setAttribute("title", title[0])
-		href3.setAttribute("href", enlace[0])
-		href3.textContent = textEnlace[0]
-		srcPoster4.setAttribute("src", poster[7])
-		srcPoster4.setAttribute("alt", alt[7])
-		srcPoster4.setAttribute("title", title[7])
-		href4.setAttribute("href", enlace[7])
-		href4.textContent = textEnlace[7]
-		srcPoster5.setAttribute("src", poster[34])
-		srcPoster5.setAttribute("alt", alt[34])
-		srcPoster5.setAttribute("title", title[34])
-		href5.setAttribute("href", enlace[34])
-		href5.textContent = textEnlace[34]
-		srcPoster6.setAttribute("src", poster[22])
-		srcPoster6.setAttribute("alt", alt[22])
-		srcPoster6.setAttribute("title", title[22])
-		href6.setAttribute("href", enlace[22])
-		href6.textContent = textEnlace[22]
-		srcPoster7.setAttribute("src", poster[40])
-		srcPoster7.setAttribute("alt", alt[40])
-		srcPoster7.setAttribute("title", title[40])
-		href7.setAttribute("href", enlace[40])
-		href7.textContent = textEnlace[40]
-		srcPoster8.setAttribute("src", poster[36])
-		srcPoster8.setAttribute("alt", alt[36])
-		srcPoster8.setAttribute("title", title[36])
-		href8.setAttribute("href", enlace[36])
-		href8.textContent = textEnlace[36]
-		srcPoster9.setAttribute("src", poster[34])
-		srcPoster9.setAttribute("alt", alt[34])
-		srcPoster9.setAttribute("title", title[34])
-		href9.setAttribute("href", enlace[34])
-		href9.textContent = textEnlace[34]
-		srcPoster10.setAttribute("src", poster[16])
-		srcPoster10.setAttribute("alt", alt[16])
-		srcPoster10.setAttribute("title", title[16])
-		href10.setAttribute("href", enlace[16])
-		href10.textContent = textEnlace[16]
-		srcPoster11.setAttribute("src", poster[12])
-		srcPoster11.setAttribute("alt", alt[12])
-		srcPoster11.setAttribute("title", title[12])
-		href11.setAttribute("href", enlace[12])
-		href11.textContent = textEnlace[12]
-		srcPoster12.setAttribute("src", poster[2])
-		srcPoster12.setAttribute("alt", alt[2])
-		srcPoster12.setAttribute("title", title[2])
-		href12.setAttribute("href", enlace[2])
-		href12.textContent = textEnlace[2]
-		srcPoster13.setAttribute("src", poster[38])
-		srcPoster13.setAttribute("alt", alt[38])
-		srcPoster13.setAttribute("title", title[38])
-		href13.setAttribute("href", enlace[38])
-		href13.textContent = textEnlace[38]
-		srcPoster14.setAttribute("src", poster[28])
-		srcPoster14.setAttribute("alt", alt[28])
-		srcPoster14.setAttribute("title", title[28])
-		href14.setAttribute("href", enlace[28])
-		href14.textContent = textEnlace[28]
-		srcPoster15.setAttribute("src", poster[18])
-		srcPoster15.setAttribute("alt", alt[18])
-		srcPoster15.setAttribute("title", title[18])
-		href15.setAttribute("href", enlace[18])
-		href15.textContent = textEnlace[18]
+	hrefSiguiente.setAttribute("href", "../destacados/destacados.html")
+	hrefSiguiente.click()
 }
-
-tendencias()
 
 //funcion para los estrenos del anime(cambia los poster):
 function estrenos(){
