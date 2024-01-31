@@ -1175,6 +1175,14 @@ body{
 		display: none;
 	}
 
+	.logo-living-responsive{
+		transform: translateX(105px);
+	}
+	.icono-de-inicio-responsive{
+		transform: translateX(200px);
+		
+	}
+
 	.input{
 		margin-top: 10px;
 		margin-bottom: 5px;
