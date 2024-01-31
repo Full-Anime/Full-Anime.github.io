@@ -201,7 +201,22 @@ let alt = ["img Chainsaw Man",
 "img Arcane", 
 "img Blue Lock", 
 "img Parasyte", 
-"img Edens Zero"]
+"img Edens Zero",
+"img Black Clover",
+"img Hellsing",
+"img Naruto Shippuben",
+"img Zom 100",
+"img Fairy Tail",
+"img Skip And Loafer",
+"img Mushoku Tensei",
+"img Boruto",
+"img Sousou no Fierren",
+"img Dragon Ball",
+"img Dragon Ball GT",
+"img Sailor Moon",
+"img Bleach",
+"img Bleach Thousand-Year Blood War",
+"img Hunter X Hunter 2011"]
 
 let title = ["Poster Chainsaw Man", 
 "Poster Death Note", 
@@ -247,7 +262,23 @@ let title = ["Poster Chainsaw Man",
 "Poster Arcane", 
 "Poster Blue Lock", 
 "Poster Parasyte", 
-"Poster Edens Zero"]
+"Poster Edens Zero",
+"Poster Black Clover",
+"Poster Hellsing",
+"Poster Naruto Shippuben",
+"Poster Zom 100",
+"Poster Fairy Tail",
+"Poster Skip and Loafer",
+"Poster Mushoku Tensei",
+"Poster Boruto",
+"Poster Sousou no Fierren",
+"Poster Dragon Ball",
+"Poster Dragon Ball GT",
+"Poster Sailor Moon",
+"Poster Bleach",
+"Poster Bleach Thousand-Year Blood War",
+"Poster Hunter X Hunter 2011"]
+
 
 
 
@@ -257,7 +288,7 @@ let parrafo = [`<h3>Chainsaw Man</h3><b>Denji</b> es un joven atrapado en la pro
 
  			`<h3>Death Note</h3>La historia se centra en <b>Light Yagami</b>, un estudiante de ecuela secundaria. Un dia encuentra un cuaderno con poderes sobrenaturales llamado <b>"Death Note"</b>, con e cual es capaz de matar personas si se escriben los nombres de estas en el.<br><br><b>Genero:</b> Suspenso, Accion<br><br><b>Estudio:</b> Madhouse`,
 
-			`<h3>Shingeki No kyojin</h3>La historia se desarrolla en un mundo ficticio en el que la humanidad esta al borde de la existincion a causa de unas criaturas humanoides llamadas <b>"titanes"</b>, lo que obliga a los supervivientes a refugiarse en tres enormes murallas que impiden el acceso a dichos monstruos.<br><br><b>Genero:</b> Accion<br><br><b>Estudio:</b> Wit Studio (Temporadas 1-2-3)/Mappa (Temporada 4)`, 
+			`<h3>Attack On Titan: Shingeki No kyojin</h3>La historia se desarrolla en un mundo ficticio en el que la humanidad esta al borde de la existincion a causa de unas criaturas humanoides llamadas <b>"titanes"</b>, lo que obliga a los supervivientes a refugiarse en tres enormes murallas que impiden el acceso a dichos monstruos.<br><br><b>Genero:</b> Accion<br><br><b>Estudio:</b> Wit Studio (Temporadas 1-2-3)/Mappa (Temporada 4)`, 
 
 			`<h3>Spy X Family</h3>Narra las aventuras del agente secreto <b>Twilight</b>, quien bajo su identidad de Loid Forger debe formar una familia para cumplir una mision y mantener la paz entre los paises ficticios de <b>Ostania y Westalis</b>.<br><br><b>Genero:</b> Accion, Comedia<br><br><b>Estudio:</b> Wit Studio`, 
 
@@ -272,14 +303,14 @@ let parrafo = [`<h3>Chainsaw Man</h3><b>Denji</b> es un joven atrapado en la pro
 
 			`<h3>Tokyo Ghoul</h3>Serie con violencia explícita y ambientación sobrenatural que presenta una ciudad de Tokio en la que mueren personas inocentes a manos de <b>Ghouls</b>, seres misteriosos que se alimentan de humanos.<br><br><b>Genero:</b> Accion, Suspenso<br><br><b>Estudio:</b> Pierrot`, 
 
-			`<h3>My Hero Academia</h3>En un mundo donde tener superpoderes es lo más común, nace <b>Izuku Midoriya</b>, un niño sin este don que sueña con ser un superhéroe. La gente con este tipo de habilidades es conocida como <b>'Quirk'</b> y, 
+			`<h3>My Hero Academia: Boku No Hero</h3>En un mundo donde tener superpoderes es lo más común, nace <b>Izuku Midoriya</b>, un niño sin este don que sueña con ser un superhéroe. La gente con este tipo de habilidades es conocida como <b>'Quirk'</b> y, 
 				debido a no pertenecer a esta clase, Izuku sufre bullying en su escuela por ser diferente.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Bones`, 
 
 			`<h3>Mob Psycho 100</h3><b>Shigeo Kageyama</b>, tambien conocido como <b>"Mob"</b>, es un adolescente con unos impresionantes poderes <b>psiquicos</b> al que trata de controlar sus emociones al maximo para que sus habilidades no se escapen de su control.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Bones`,
 
 			`<h3>Fullmetal Alchemist: Brotherhood</h3><b>Edward</b> y <b>Alphonse</b> son dos jovenes alquimistas que trabajan para el ejercito central luvhando contra todos los enemigos que perturban paz de la nacion. En este caso el <b>Alquimista de Hielo</b> intenta destruir el pais y acabar con <b>King Bradley</b>. la historia nos lleva 10 años atras en el tiempo.<br><br><b>Genero:</b> Accion<br><br><b>Estudio:</b> Bones`, 
 
-			`<h3>Fire Force</h3><b>Shinra Kusakabe</b> es un joven pirocinético de tercera generación que ganó el apodo de <b>"Huellas del Diablo"</b> por su habilidad para encender sus pies a voluntad. Se une al Escuadrón <b>Fire Force 8</b>, que está compuesto por otros usuarios 
+			`<h3>Fire Force: Enen no Shouboutai</h3><b>Shinra Kusakabe</b> es un joven pirocinético de tercera generación que ganó el apodo de <b>"Huellas del Diablo"</b> por su habilidad para encender sus pies a voluntad. Se une al Escuadrón <b>Fire Force 8</b>, que está compuesto por otros usuarios 
 				de llamas mientras trabajan para extinguir cualquier Infernal que encuentren.<br><br><b>Genero:</b> Accion<br><br><b>Estudio:</b> David Production`, 
 
 			`<h3>Tokyo Revengers</h3>akemichi, un fracasado que fue miembro de una banda en su juventud, salta 12 años atrás en el tiempo para volver al instituto y salvar a su exnovia, <b>Hina</b>, que en la actualidad haido asesinada por la organización criminal <b>Tokyo Manjikai</b>.<br><br><b>Genero:</b> Accion<br><br><b>Estudio:</b> Liden Films`, 
@@ -295,17 +326,17 @@ let parrafo = [`<h3>Chainsaw Man</h3><b>Denji</b> es un joven atrapado en la pro
 
 			`<h3>One Piece</h3>One Piece narra la historia de un joven llamado <b>Monkey D. Luffy</b>, que inspirado por su amigo pirata <b>Shanks</b>, comienza un viaje para alcanzar su sueño, ser el Rey de los piratas, para lo cual deberá encontrar el tesoro One Piece dejado por el anterior rey de los piratas <b>Gol D. Roger</b>.<br><br><b>Genero:</b> Accion, Aventura<br><br><b>Estudio:</b> Toei Animation`, 
 
-			`<h3>Record Of Ragnarok</h3>Antes de erradicar a los humanos de la faz de la Tierra, <b>los dioses</b> les dan una última oportunidad para demostrar su valía. ¡Que empiecen las batallas de Ragnarok! Ve todo lo que quieras.<br><br><b>Genero:</b> Accion<br><br><b>Estudio:</b> Madhouse`, 
+			`<h3>Record Of Ragnarok: Shumatsu No Valkyrie</h3>Antes de erradicar a los humanos de la faz de la Tierra, <b>los dioses</b> les dan una última oportunidad para demostrar su valía. ¡Que empiecen las batallas de Ragnarok! Ve todo lo que quieras.<br><br><b>Genero:</b> Accion<br><br><b>Estudio:</b> Madhouse`, 
 
 			`<h3>Vinland Saga</h3>Thors, un gran guerrero vikingo, es asesinado en batalla por Askeladd, un mercenario. Thorfinn, hijo de Thors, juro vengarse.<br><br><b>Genero:</b> Accion, drama<br><br><b>Estudio:</b> Wit Studio/Mappa`, 
 
-			`<h3>Nanatsu No Tazai</h3>La trama principal se sitúa en una época medieval y sigue las aventuras del escuadrón de caballeros conocidos como los <b>"siete pecados capitales"</b> (que actúan como protectores de Britannia), para defenderla de la opresión, y al mismo tiempo buscan la redención por pecados que les confirieron sus títulos.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> A-i Pictures`, 
+			`<h3>Nanatsu No Tazai: The Seven Capital Sins</h3>La trama principal se sitúa en una época medieval y sigue las aventuras del escuadrón de caballeros conocidos como los <b>"siete pecados capitales"</b> (que actúan como protectores de Britannia), para defenderla de la opresión, y al mismo tiempo buscan la redención por pecados que les confirieron sus títulos.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> A-i Pictures`, 
 
 			`<h3>InuYasha</h3><b>Kagome Higurashi</b>, una estudiante de 15 años en Tokyo, es transportada al período <b>Sengoku</b> de Japón, donde conoce al mitad perro-demonio. <b>Inuyasha</b>. Un monstruo de esa era intenta coger la joya Shikon y ella parte la joya en muchas pienzas dispersadas, ahora, por todo Japón.<br><br><b>Genero:</b> Accion, fantasia, romance<br><br><b>Estudio:</b> Sunrise`, 
 
 			"<h3>Goblin Slayer</h3>En un mundo de fantasia, los aventureros de todas partes se unen al Gremio, a fin de completar contratos de cualquier disponible que incluya la caza de diversos tipos de mounstruos que vagan por la tierra u otro tipo de mision que sea ofrecida.<br><br><b>Genero:</b> Horror, fantasia oscura<br><br><b>Estudio:</b> White fox/Liden Films",
 
-			`<h3>Caballeros del Zodiaco</h3>La serie se centra en un grupo de jóvenes guerreros denominados <b>"caballeros"</b>, cuyo protagonista principal es <b>Seiya</b>. Estos guerreros luchan del lado de la diosa griega Athena, reencarnada en la humana <b>Saori Kido</b> para proteger a la humanidad de las fuerzas del mal que quieren dominar la Tierra.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Toei Animation`, 
+			`<h3>Caballeros del Zodiaco: saint Seiya</h3>La serie se centra en un grupo de jóvenes guerreros denominados <b>"caballeros"</b>, cuyo protagonista principal es <b>Seiya</b>. Estos guerreros luchan del lado de la diosa griega Athena, reencarnada en la humana <b>Saori Kido</b> para proteger a la humanidad de las fuerzas del mal que quieren dominar la Tierra.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Toei Animation`, 
 
 			`<h3>Cowboy Bebop</h3>Un grupo heterogéneo compuesto por un antiguo matón, un expolicía, una estafadora, una niña hacker y un perro viven al día explorando el espacio en busca de recompensas.<br><br><b>Genero:</b> Accion, Space-western<br><br><b>Estudio:</b> Sunrise`, 
 
@@ -336,23 +367,54 @@ let parrafo = [`<h3>Chainsaw Man</h3><b>Denji</b> es un joven atrapado en la pro
 			`<h3>Oshi No Ko</h3><b>Goro</b> es un medico que lleva el parto de su idol favorita, <b>Ai Hoshino</b>, que ha tomado un paron en su carrera de <b>Idol</b> para tener a sus gemelas. Antes de que Ai de a luz, Goro muere en un accdente, y es reencarnado en una de las gemelas 
 				de Ai, <b>Aquamarine Hoshino</b>, pero con sus recuerdos intactos.<br><br><b>Genero:</b> comedia<br><br><b>Estudio:</b> Doga Kobo`, 
 
-			`<h3>Hell's Paradise</h3>El protagonista es Gabimaruo, un poderoso ninja que es sentenciado a muerte y la unica forma de se exculpado de sus crimenes es encontrando el elixir de la vida, el cual se encuentra en una misteriosa y siniestra isla<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Mappa`, 
+			`<h3>Hell's Paradise: Jigokuraku</h3>El protagonista es Gabimaruo, un poderoso ninja que es sentenciado a muerte y la unica forma de se exculpado de sus crimenes es encontrando el elixir de la vida, el cual se encuentra en una misteriosa y siniestra isla<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Mappa`, 
 
-			`<h3>Tengoku Daimakyo</h3><b>Tokio</b> vive con otros niños rodeado por un hermoso muro, pero un dia recibe un mensaje que le pregunta si quiere salir. Mientras tanto, un niño llamado <b>Maru</b> viaja junto con <b>Kiruko</b>, sobreviviendo a duras penas en un mundo en ruinas mientras buscan el "Paraiso".<br><br><b>Genero:</b> Accion, post-apocaliptico, romance<br><br><b>Estudio:</b> Productionn I.G`, 
+			`<h3>Tengoku Daimakyo: Heavenly Delusion</h3><b>Tokio</b> vive con otros niños rodeado por un hermoso muro, pero un dia recibe un mensaje que le pregunta si quiere salir. Mientras tanto, un niño llamado <b>Maru</b> viaja junto con <b>Kiruko</b>, sobreviviendo a duras penas en un mundo en ruinas mientras buscan el "Paraiso".<br><br><b>Genero:</b> Accion, post-apocaliptico, romance<br><br><b>Estudio:</b> Productionn I.G`, 
 
-			`<h3>My Dress-Up Darling</h3><b>Wakana Gojo</b> es un joven aspirante a heredar el trabajo de su familia, el diseño y la confeccion de muñecas para Hinamatsuri, las cuales ademas con su aficcion y pasion, por lo que no ha tenido tiempo de tener amistades o alguna otra relacion social.<br><br><b>Genero:</b> comedia, romance<br><br><b>Estudio:</b> CloverWorks `, 
+			`<h3>Sono Bisque Doll Wa koi Wo Suru: My Dress-Up Darling</h3><b>Wakana Gojo</b> es un joven aspirante a heredar el trabajo de su familia, el diseño y la confeccion de muñecas para Hinamatsuri, las cuales ademas con su aficcion y pasion, por lo que no ha tenido tiempo de tener amistades o alguna otra relacion social.<br><br><b>Genero:</b> comedia, romance<br><br><b>Estudio:</b> CloverWorks `, 
 
-			`<h3>Jojos Bizarre Adventure</h3>Varias generaciones de la familia Joestar (todos con el mismo sobrenombre) se enfrentan a vilanos sobrenaturales en diferentes epocas.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> David production`, 
+			`<h3>Jojo's Bizarre Adventure</h3>Varias generaciones de la familia Joestar (todos con el mismo sobrenombre) se enfrentan a vilanos sobrenaturales en diferentes epocas.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> David production`, 
 
-			`<h3>solo leveling</h3>En un mundo en el que ciertos humanos poseen habilidades magicas, llamados cazadores deben luchar contra monstruos para proteger a la raza humana de una aniquilacion segura, un cazador muy debil  llamado <b>Sung Jinwoo</b> se encuentra en una lucha en la que solo puede tratar de sobrevivir.<br><br><b>Genero:</b> Accion, fantasia oscura<br><br><b>Estudio:</b> A-1 Pictures`, 
+			`<h3>Solo Leveling</h3>En un mundo en el que ciertos humanos poseen habilidades magicas, llamados cazadores deben luchar contra monstruos para proteger a la raza humana de una aniquilacion segura, un cazador muy debil  llamado <b>Sung Jinwoo</b> se encuentra en una lucha en la que solo puede tratar de sobrevivir.<br><br><b>Genero:</b> Accion, fantasia oscura<br><br><b>Estudio:</b> A-1 Pictures`, 
 
 			`<h3>Arcane: League And Loafer</h3>Mientras la discordia separa las ciudades gemelas de Piltover y Zaun, dos hermanas se enfrentan en una guerra feroz entre tecnologias magicas y convicciones opuestas.<br><br><b>Genero:</b> Accion, cyberpunk, distopia<br><br><b>Estudio:</b>Fortiche Production, Riot Games`, 
 
 			`<h3>Blue Lock</h3>Centrada en el genero deportivo, concretamente Futbol, la serie se ambienta tras los resultados de la seleccion de japon despues el mundial 2018.<br><br><b>Genero:</b> Accion, Deportes<br><br><b>Estudio: 8-Bit</b> `, 
 
-			`<h3>Parasyte</h3>Se trata de <b>gusanos</b> (parasitos) que se introducen en los humanos a traves de su ojo o naris, con el objetivo de dominar su cerebro. <b>Shinichi</b> consigue que no entren en su cuerpo, pero infectaran su mano, aqui comienza su lucha por la supervivencia en un mundo ostil.<br><br><b>Genero:</b> Horror, suspenso, psicologico<br><br><b>Estudio:</b> Madhouse`, 
+			`<h3>Parasyte: The Maxim</h3>Se trata de <b>gusanos</b> (parasitos) que se introducen en los humanos a traves de su ojo o naris, con el objetivo de dominar su cerebro. <b>Shinichi</b> consigue que no entren en su cuerpo, pero infectaran su mano, aqui comienza su lucha por la supervivencia en un mundo ostil.<br><br><b>Genero:</b> Horror, suspenso, psicologico<br><br><b>Estudio:</b> Madhouse`, 
 
-			`<h3>Edens Zero</h3>A bordo de la nave <b>Eden Zero</b>, un niño solitario capaz de controlar la gravedad emprende una aventura para encontrar la mitica diosa cosmica conocida como <b>Madre</b>.<br><br><b>Genero:</b> Accion<br><br><b>Estudio:</b> J.C.Staff`]
+			`<h3>Eden's Zero</h3>A bordo de la nave <b>Eden Zero</b>, un niño solitario capaz de controlar la gravedad emprende una aventura para encontrar la mitica diosa cosmica conocida como <b>Madre</b>.<br><br><b>Genero:</b> Accion<br><br><b>Estudio:</b> J.C.Staff`,
+
+			`<h3>Black Clover</h3>Un niño que no tiene el poder de hacer magia lucha por obtener el título de Rey Mago, mientras cuatro antiguos Reyes Magos reaparecen para destruir el Reino del Trébol.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Pierrot`,
+
+			`<h3>Hellsing</h3>Relata los esfuerzos de los misteriosos y secretos Caballeros Protestantes Reales, la organizacion <b>"Hellsing"</b> y sus combates contra <b>vampiros, ghouls</b> y otros enemigos sobrenaturales que amenazan el Reino Unido de <b>Gran Bretaña</b>.<br><br><b>Genero:</b> Fantasia oscura, accion<br><br><b>Estudio:</b> Gonzo`,
+
+			`<h3>Naruto Shippuben</h3>Se trata de la segunda parte del anime "Naruto", cuando <b>Naruto</b> regresa a la aldea oculta entre la hoja, tras haber estado dos años y medio entrenando con <b>Jiraya</b>, se reencontrara con sus viejos amigos. Mientras tanto los <b>Akatsuki</b> empiezan a juntar todos los demonios (Biju) empezando por el Shukaku de Gaata en la Aldea Oculta de la Arena.<br><br><b>Genero: Accion, fatasia</b> <br><br><b>Estudio:</b> Pierrot`,
+
+			`<h3>Zom 100: The Bucket List of the Dead</h3><b>Akira Tendo</b>, se encuentra atrapado en una vida rutinaria y sin sentido. Le falta empuje y motivacion ya que esta desencantado con su carrera; 
+			Sin embargo cuando un apocalipsis zombi golpea inesperadamente Tokio, en lugar de sucumbir al miedo, Akira ve esto como una oportunidad para experimentar la vida al maximo en lugar de conformarse con su monotona existencia.<br><br><b>Genero:</b> Accion, comedia de terror, distopia<br><br><b>Estudio:</b> BUG FILMS`,
+
+			`<h3>Fairy Tail</h3>Cuatro jóvenes aprendices se unen para realizar trabajos en todo el reino y forjan un vínculo más potente que cualquier magia. Con cada misión se harán más fuertes. Ve todo lo que quieras. Cuando imaginaba el mundo de este original anime, la obra de J.R.R. Tolkien influyó de algún modo en su creador.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> A-1 Pictures (2009-2016)/CloverWorks (2018-2019.)`,
+
+			`<h3>Skip and Loafer</h3>Es la historia de Mitsumi Iwakura, una estudiante de secundaria brillante de un pequeño pueblo en Hashikko, que ha sido aceptada en una escuela de Tokyo muy prestigiosa y se muda a la gran ciudad.<br><br><b>Genero:</b> Comedia romantica, recuentos de la vida<br><br><b>Estudio:</b> P.A Works`,
+
+			`<h3>Mushoku Tensei: Isekai Ittara Honki Dasu</h3>Un joven virgen "nini" de 34 años es echado de casa cuando se queda sin dinero. El se arrepiente de su vida cuando muere en un accidente de trafico. Tras el accidente reencarna en un bebe e un mundo fantastico de espada y brujeria.<br><br><b>Genero:</b> Accion, ecchi, romance, fantasia, isekai<br><br><b>Estudio:</b> Studio Bind`,
+
+			`<h3>Boruto: Naruto The Next Generation</h3>Consiste en el spin-off y secuela del manga Naruto de Masashi Kishimoto, su historia narra las aventuras y formación de Boruto Uzumaki, el hijo de Naruto Uzumaki y Hinata Hyuga, así como de sus compañeros, quienes conforman la nueva generación de ninjas de la Aldea Oculta de la Hoja cuyo séptimo Hokage es Naruto.<br><br><b>Genero:</b> Accion, aventura<br><br><b>Estudio:</b> Pierrot`,
+
+			`<h3>Sousou no Fierren</h3>La historia sigue a la maga elfa Fierren, una exmienbro del grupo de aventureros que derroto al Rey Demonio restaura la armonia en el mundo despues de una busqueda de diez años.<br><br><b>Genero:</b> fantasia, accion<br><br><b>Estudio:</b> Madhouse`,
+
+			`<h3>Dragon Ball</h3>Bulma es una joven que busca las Esferas del Dragon, siete esferas magicas que al reunirlas permiten llamar al dragon Shenlong, una criatura capaz de concederle cualquier deseo de juntar todas las esferas. Goku decide acompañar a Bulma en su busqueda.<br><br><b>Genero:</b> Accion, comedia, fantasia<br><br><b>Estudio:</b> Toei Animation`,
+
+			`<h3>Dragon Ball GT</h3>Pilaf y sus secuaces logran encontrar las "Esferas del Dragon de Estrellas Negras" que estaban ocultas en una habitacion del templo de Kamisama, durante una pequeña confrontacion con Son Goku, quien habia descubierto sus planes, Pilaf accidentalmente pide en voz alta el deseo de convertir a Goku en niño.<br><br><b>Genero:</b> Accion, comedia, fantasia<br><br><b>Estudio:</b> Toei Animation`,
+
+			`<h3>Sailor Moon</h3>La historia se centra en las aventuras de una adolescente llamada <b>Usagi Tsukino</b>, quien se transforma en una poderosa guerrera conocida como <b>Sailor Moon</b> y lucha contra aquellos que luchan con destruir el sistema solar.<br><br><b>Genero:</b> fantasia, romance, comedia, accion<br><br><b>Estudio:</b> Toei Animation`,
+
+			`<h3>Bleach</h3>Narra las aventuras de <b>Ichigo Kurosaki</b>, un adolescente que accidentalmente absorbe los poderes de una <b>shinigami</b> llamada <b>Rukia Kuchiki</b>. Una vez que Ichigo obtiene estas habilidades es obligado a orientar a las almas buenas después de la muerte y defenderlas de los <b>hollows</b>, espíritus malignos que tratan de devorarlas.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Pierrot`,
+
+			`<h3>Bleach: Thousand-Year Blood War</h3>Esta historia comienza cuando despues de una oleada de asesinatos de Hollow y varias desapariciones en el Distrito de <b>Rukongai</b> se revelo que los <b>Quincy</b> estaban con vida. Y es que se creia y habian sido asesinados por la Sociedad hace 1000 años con la excepcion de la familia Ishida, pero en realidad utilizaron reishi para esconderse en la zona de las sombras en Seireitei.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Pierrot`,
+
+			`<h3>Hunter X Hunter 2014</h3>Para alcanzar su sueño de convertirse en un cazador legendario como su padre, un joven debe pasar un riguroso examen y encontrar a su padre, que esta desaparecido.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Madhouse`]
 
 
 
@@ -501,7 +563,7 @@ document.addEventListener("keyup", e=>{
 	}
 })
 
-for (let i = 0; i < 45; i++) {
+for (let i = 0; i < 60; i++) {
 			document.getElementById(`data-serie-${i}`).addEventListener("click", (e)=>{
 			linkInput.setAttribute("href", enlace[i])
 			linkInput.click()
@@ -521,7 +583,6 @@ input.addEventListener("keydown", function(event) {
 	}
 })
 
-
 function buscadorInput(){
 	if (input.value.toLowerCase() == "chainsaw man") {
 		linkInput.setAttribute("href", enlace[0])
@@ -535,7 +596,7 @@ function buscadorInput(){
 		linkInput.setAttribute("href", enlace[2])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "spy family") {
+	else if (input.value.toLowerCase() == "spy family" || input.value.toLowerCase() == "spy x family") {
 		linkInput.setAttribute("href", enlace[3])
 		linkInput.click()
 	}
@@ -572,7 +633,7 @@ function buscadorInput(){
 		linkInput.setAttribute("href", enlace[11])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "fire force") {
+	else if (input.value.toLowerCase() == "fire force" || input.value.toLowerCase() == "enen no shouboutai") {
 		linkInput.setAttribute("href", enlace[12])
 		linkInput.click()
 	}
@@ -596,7 +657,7 @@ function buscadorInput(){
 		linkInput.setAttribute("href", enlace[17])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "record of ragnarok") {
+	else if (input.value.toLowerCase() == "record of ragnarok" || input.value.toLowerCase() == "shumatsu no valkyrie") {
 		linkInput.setAttribute("href", enlace[18])
 		linkInput.click()
 	}
@@ -616,7 +677,7 @@ function buscadorInput(){
 		linkInput.setAttribute("href", enlace[22])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "caballeros del zodiaco" || input.value.toLowerCase() == "saint seya") {
+	else if (input.value.toLowerCase() == "caballeros del zodiaco" || input.value.toLowerCase() == "saint seiya") {
 		linkInput.setAttribute("href", enlace[23])
 		linkInput.click()
 	}
@@ -671,7 +732,7 @@ function buscadorInput(){
 		linkInput.setAttribute("href", enlace[35])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "hells paradise" || input.value.toLowerCase() == "hell's paradise") {
+	else if (input.value.toLowerCase() == "hells paradise" || input.value.toLowerCase() == "hell's paradise" || input.value.toLowerCase() == "jigokuraku") {
 		linkInput.setAttribute("href", enlace[36])
 		linkInput.click()
 	}
@@ -683,7 +744,7 @@ function buscadorInput(){
 		linkInput.setAttribute("href", enlace[38])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "jojos bizarre adventure") {
+	else if (input.value.toLowerCase() == "jojos bizarre adventure" || input.value.toLowerCase() == "jojos: bizarre adventure") {
 		linkInput.setAttribute("href", enlace[39])
 		linkInput.click()
 	}
@@ -699,14 +760,90 @@ function buscadorInput(){
 		linkInput.setAttribute("href", enlace[42])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "parasyte") {
+	else if (input.value.toLowerCase() == "parasyte" || input.value.toLowerCase() == "parasyte: the maxim") {
 		linkInput.setAttribute("href", enlace[43])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "edens zero") {
+	else if (input.value.toLowerCase() == "edens zero" || input.value.toLowerCase() == "eden's zero") {
 		linkInput.setAttribute("href", enlace[44])
 		linkInput.click()
 	}
+	
+	else if (input.value.toLowerCase() == "black clover") {
+		linkInput.setAttribute("href", enlace[45])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "hellsing") {
+		linkInput.setAttribute("href", enlace[46])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "naruto shippuben") {
+		linkInput.setAttribute("href", enlace[47])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "zom 100" || input.value.toLowerCase() == "zom 100: the bucket list of the dead") {
+		linkInput.setAttribute("href", enlace[48])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "fairy tail") {
+		linkInput.setAttribute("href", enlace[49])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "skip and loafer" || input.value.toLowerCase() == "skip to loafer") {
+		linkInput.setAttribute("href", enlace[50])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "mushoku tensei" || input.value.toLowerCase() == "mushoku tensei: isekai ittara honki dasu") {
+		linkInput.setAttribute("href", enlace[51])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "boruto" || input.value.toLowerCase() == "boruto: naruto the next generation") {
+		linkInput.setAttribute("href", enlace[52])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "sousou no fierren" || input.value.toLowerCase() == "soso no fierren") {
+		linkInput.setAttribute("href", enlace[53])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "dragon ball") {
+		linkInput.setAttribute("href", enlace[54])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "dragon ball gt") {
+		linkInput.setAttribute("href", enlace[55])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "sailor moon") {
+		linkInput.setAttribute("href", enlace[56])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "bleach") {
+		linkInput.setAttribute("href", enlace[57])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "bleach: thousand-year blood war") {
+		linkInput.setAttribute("href", enlace[58])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "hunter x hunter 2011") {
+		linkInput.setAttribute("href", enlace[59])
+		linkInput.click()
+	}
+	
 	
 	else{
 		document.querySelector(".href-error").click()
@@ -735,7 +872,7 @@ document.addEventListener("keyup", e=>{
 	}
 })
 
-for (let i = 0; i < 45; i++) {
+for (let i = 0; i < 60; i++) {
 			document.getElementById(`responsive-data-serie-${i}`).addEventListener("click", (e)=>{
 			linkInputResponsive.setAttribute("href", enlace[i])
 			linkInputResponsive.click()
@@ -749,6 +886,10 @@ inputResponsive.addEventListener("keydown", function(event) {
 		buscadorInputResponsive()
 	}
 })
+
+
+
+
 
 
 function buscadorInputResponsive(){
@@ -801,7 +942,7 @@ function buscadorInputResponsive(){
 		linkInput.setAttribute("href", enlace[11])
 		linkInput.click()
 	}
-	else if (inputResponsive.value.toLowerCase() == "fire force") {
+	else if (inputResponsive.value.toLowerCase() == "fire force" || inputResponsive.value.toLowerCase() == "enen no shouboutai") {
 		linkInput.setAttribute("href", enlace[12])
 		linkInput.click()
 	}
@@ -825,7 +966,7 @@ function buscadorInputResponsive(){
 		linkInput.setAttribute("href", enlace[17])
 		linkInput.click()
 	}
-	else if (inputResponsive.value.toLowerCase() == "record of ragnarok") {
+	else if (inputResponsive.value.toLowerCase() == "record of ragnarok" || inputResponsive.value.toLowerCase() == "shumatsu no valkyrie") {
 		linkInput.setAttribute("href", enlace[18])
 		linkInput.click()
 	}
@@ -845,7 +986,7 @@ function buscadorInputResponsive(){
 		linkInput.setAttribute("href", enlace[22])
 		linkInput.click()
 	}
-	else if (inputResponsive.value.toLowerCase() == "caballeros del zodiaco" || inputResponsive.value.toLowerCase() == "saint seya") {
+	else if (inputResponsive.value.toLowerCase() == "caballeros del zodiaco" || inputResponsive.value.toLowerCase() == "saint seiya") {
 		linkInput.setAttribute("href", enlace[23])
 		linkInput.click()
 	}
@@ -900,7 +1041,7 @@ function buscadorInputResponsive(){
 		linkInput.setAttribute("href", enlace[35])
 		linkInput.click()
 	}
-	else if (inputResponsive.value.toLowerCase() == "hells paradise" || inputResponsive.value.toLowerCase() == "hell's paradise") {
+	else if (inputResponsive.value.toLowerCase() == "hells paradise" || inputResponsive.value.toLowerCase() == "hell's paradise" || inputResponsive.value.toLowerCase() == "jigokuraku") {
 		linkInput.setAttribute("href", enlace[36])
 		linkInput.click()
 	}
@@ -912,7 +1053,7 @@ function buscadorInputResponsive(){
 		linkInput.setAttribute("href", enlace[38])
 		linkInput.click()
 	}
-	else if (inputResponsive.value.toLowerCase() == "jojos bizarre adventure") {
+	else if (inputResponsive.value.toLowerCase() == "jojos bizarre adventure" || inputResponsive.value.toLowerCase() == "jojos: bizarre adventure") {
 		linkInput.setAttribute("href", enlace[39])
 		linkInput.click()
 	}
@@ -928,12 +1069,87 @@ function buscadorInputResponsive(){
 		linkInput.setAttribute("href", enlace[42])
 		linkInput.click()
 	}
-	else if (inputResponsive.value.toLowerCase() == "parasyte") {
+	else if (inputResponsive.value.toLowerCase() == "parasyte" || inputResponsive.value.toLowerCase() == "parasyte: the maxim") {
 		linkInput.setAttribute("href", enlace[43])
 		linkInput.click()
 	}
-	else if (inputResponsive.value.toLowerCase() == "edens zero") {
+	else if (inputResponsive.value.toLowerCase() == "edens zero" || inputResponsive.value.toLowerCase() == "eden's zero") {
 		linkInput.setAttribute("href", enlace[44])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "black clover") {
+		linkInput.setAttribute("href", enlace[45])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "hellsing") {
+		linkInput.setAttribute("href", enlace[46])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "naruto shippuben") {
+		linkInput.setAttribute("href", enlace[47])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "zom 100" || inputResponsive.value.toLowerCase() == "zom 100: the bucket list of the dead") {
+		linkInput.setAttribute("href", enlace[48])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "fairy tail") {
+		linkInput.setAttribute("href", enlace[49])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "skip and loafer" || inputResponsive.value.toLowerCase() == "skip to loafer") {
+		linkInput.setAttribute("href", enlace[50])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "mushoku tensei" || inputResponsive.value.toLowerCase() == "mushoku tensei: isekai ittara honki dasu") {
+		linkInput.setAttribute("href", enlace[51])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "boruto" || inputResponsive.value.toLowerCase() == "boruto: naruto the next generation") {
+		linkInput.setAttribute("href", enlace[52])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "sousou no fierren" || inputResponsive.value.toLowerCase() == "soso no fierren") {
+		linkInput.setAttribute("href", enlace[53])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "dragon ball") {
+		linkInput.setAttribute("href", enlace[54])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "dragon ball gt") {
+		linkInput.setAttribute("href", enlace[55])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "sailor moon") {
+		linkInput.setAttribute("href", enlace[56])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "bleach") {
+		linkInput.setAttribute("href", enlace[57])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "bleach: thousand-year blood war") {
+		linkInput.setAttribute("href", enlace[58])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "hunter x hunter 2011") {
+		linkInput.setAttribute("href", enlace[59])
 		linkInput.click()
 	}
 	
@@ -941,7 +1157,6 @@ function buscadorInputResponsive(){
 		document.querySelector(".href-error").click()
 	}
 }
-
 
 
 
@@ -1532,7 +1747,7 @@ let poster = ["../../poster/chainsaw man poster.jpg",
 "../../poster/kimetsu no yaiba 3.jpeg", 
 "../../poster/one punche man 2.jpg", 
 "../../poster/tokyo ghoul 1.webp", 
-"../../poster/boku no hero.jpg", 
+"../../poster/boku no hero 6.jpg", 
 "../../poster/mod psycho 2.jpg", 
 "../../poster/full methal alchemist.jpg", 
 "../../poster/fire force 2.jpg", 
@@ -1557,7 +1772,7 @@ let poster = ["../../poster/chainsaw man poster.jpg",
 "../../poster/steins gate 1.jpg", 
 "../../poster/mirai nikki 1.jpg", 
 "../../poster/TrigunStampedeKeyvisual.jpg",
-"../../poster/mashel 1.jpe",
+"../../poster/mashle 2.jpeg",
 "../../poster/oshi no ko 1.png", 
 "../../poster/hells pasradise.jpg", 
 "../../poster/Visual-2.jpg",
@@ -1567,7 +1782,22 @@ let poster = ["../../poster/chainsaw man poster.jpg",
 "../../poster/arcane 1.jpg", 
 "../../poster/blue lock 1.jpg",
 "../../poster/parasyte 1.jpg", 
-"../../poster/edens zero 1.jpg"]
+"../../poster/edens zero 1.jpg",
+"../../poster/black clover t4.png",
+"../../poster/hellshing 1.jpg",
+"../../poster/naruto shippuben.jpg",
+"../../poster/zom 100 1.jpe",
+"../../poster/fairy tail the final.jpg",
+"../../poster/skip and loafer 1.jpe",
+"../../poster/mushoku tensei 2.jpeg",
+"../../poster/boruto 1.jpg",
+"../../poster/sousou no fierren img 2.jpg",
+"../../poster/dragon ball 1.jpg",
+"../../poster/dragon ball gt 1.jpg",
+"../../poster/sailor moon 3.webp",
+"../../poster/bleach 1.jpg",
+"../../poster/bleach thosand 1.jpg",
+"../../poster/hunter hunter 2001 1.jpg"]
 
 
 //enlaces de cada uno de los index de cada serie:
@@ -1616,7 +1846,22 @@ let enlace = ["../../animes/chainsaw man/chainsaw.html",
 "../../animes/arcane/arcane.html",
 "../../animes/blue lock/blue lock.html",
 "../../animes/parasyte/parasyte.html",
-"../../animes/edens zero/edens zero.html"]
+"../../animes/edens zero/edens zero.html",
+"../../animes/black clover/black clover.html",
+"../../animes/hellsing/hellsing.html",
+"../../animes/naruto shippuben/naruto shippuben.html",
+"../../animes/zom 100/zom 100.html",
+"../../animes/fairy tail/fairy tail.html",
+"../../animes/skip and loafer/skip and loafer.html",
+"../../animes/mushoku tensei/mushoku tensei.html",
+"../../animes/boruto/boruto.html",
+"../../animes/sousou no fierren/sousou no fierren.html",
+"../../animes/dragon ball/dragon ball.html",
+"../../animes/dragon ball gt/dragon ball gt.html",
+"../../animes/sailor moon/sailor moon.html",
+"../../animes/bleach/bleach.html",
+"../../animes/bleach thousand year/bleach thousand year.html",
+"../../animes/hunter hunter 2011/hunter hunter 2011.html"]
 
 
 
@@ -1660,16 +1905,30 @@ let textEnlace = ["Chainsaw Man",
 "Trigun Stampede",
 "Mashle",
 "Oshi No Ko",
-"Hells Paradise",
+"Hell's Paradise",
 "Tengoku Daimakyo",
 "Sono Bisque Doll Wo Koi Wo Suru",
 "Jojos Bizarre Adeventure",
-"solo leveling",
+"Solo Leveling",
 "Arcane: League Of Legends",
 "Blue Lock",
-"Parasyte",
-"Edens Zero"]
-
+"Parasyte: The Maxim",
+"Eden's Zero",
+"Black Clover",
+"Hellsing",
+"Naruto Shippuben",
+"Zom 100",
+"Fairy Tail",
+"Skip and Loafer",
+"Mushoku Tensei",
+"Boruto",
+"Sousou No Fierren",
+"Dragon Ball",
+"Dragon Ball GT",
+"Sailor Moon",
+"Bleach",
+"Bleach: Thousand-Year",
+"Hunter X Hunter 2011"]
 
 
 
