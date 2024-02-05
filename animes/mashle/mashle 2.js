@@ -303,7 +303,7 @@ function atrasar(){
 
 let enlaceMediafire = document.querySelector(".link-1")
 let mediafire1 = `https://www.mediafire.com/folder/v4wo2kehqbskm`
-let mediafire1Ligero = `https://drive.google.com/drive/folders/1YpDOvT6TvTxn0SQQSH-341TM06XNbVNp`
+let mediafire1Ligero = `https://drive.google.com/drive/folders/1MxfnYiQcOUHJfp0T7mxaNSoPKYAJC54e`
 
 
 document.querySelector(".boton-descargar-1").addEventListener("click", () =>{
@@ -320,6 +320,30 @@ document.querySelector(".boton-descargar-2").addEventListener("click", () =>{
 	enlaceMediafire.click()
 })
 document.querySelector(".boton-descargar-2-ligero").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire1Ligero)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-3").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire1)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-3-ligero").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire1Ligero)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-4").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire1)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-4-ligero").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire1Ligero)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-5").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire1)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-5-ligero").addEventListener("click", () =>{
 	enlaceMediafire.setAttribute("href", mediafire1Ligero)
 	enlaceMediafire.click()
 })

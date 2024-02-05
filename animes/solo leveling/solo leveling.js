@@ -304,10 +304,12 @@ function atrasar(){
 
 
 let enlaceMediafire = document.querySelector(".link-1")
-let mediafire1 = `https://www.mediafire.com/folder/mqygaq63k7u74`
-let mediafire1Ligero = `https://www.mediafire.com/folder/1x9rc460pvkid`
+let mediafire1 = `https://drive.google.com/drive/folders/1A7YN1GcyrN0PyzBlKrunUOades1Gi8V6`
+let mediafire1caido = `https://www.mediafire.com/folder/mqygaq63k7u74`
+let mediafire1Ligerocaido = `https://www.mediafire.com/folder/1x9rc460pvkid`
 let mediafire1Lat = `https://www.mediafire.com/file/6uj1ghmuuga3pmp/Solo_Leveling_Latino_episodio_1_[mandranime].zip/file`
 let mediafire2Lat = `https://www.mediafire.com/file/rpx8rb4bi4g9s5r/Solo_Leveling_Latino_episodio_2_[mandranime].zip/file`
+let mediafire3Lat = `https://www.mediafire.com/file/oiok3hn0vyjdjtq/Solo_Leveling_Latino_episodio_3_[mandranime].zip/file`
 
 
 document.querySelector(".boton-descargar-1").addEventListener("click", () =>{
@@ -331,6 +333,18 @@ document.querySelector(".boton-descargar-2-lat").addEventListener("click", () =>
 })
 
 document.querySelector(".boton-descargar-3").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire1)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-3-lat").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire3Lat)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-4").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire1)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-5").addEventListener("click", () =>{
 	enlaceMediafire.setAttribute("href", mediafire1)
 	enlaceMediafire.click()
 })
