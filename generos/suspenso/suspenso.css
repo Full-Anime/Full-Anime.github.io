@@ -832,7 +832,7 @@ body{
 .grid-container{
 	display: grid;
 	grid-template-columns: 180px 180px 180px;
-	grid-template-rows: 290px 290px;
+	grid-template-rows: 290px 290px 290px;
 	margin-top: 15px;
 	grid-column-gap: 15px;
 	grid-row-gap: 5px; 
@@ -1018,7 +1018,7 @@ body{
 	padding: 5px;
 	margin-left: 100px;
 	width: 575px;
-	transform: translateY(-1670px);
+	transform: translateY(-1400px);
 }
 
 .parrafo-final p{
@@ -1528,7 +1528,7 @@ body{
 
 		.grid-container{
 			grid-template-columns: 250px 250px 250px;
-			grid-template-rows: 380px 380px;
+			grid-template-rows: 380px 380px 380px;
 			margin-top: 20px;
 			grid-column-gap: 30px;
 			grid-row-gap: 30px; 
@@ -1652,7 +1652,7 @@ body{
 			margin-left: 150px;
 			width: 830px;
 			font-size: 20px;
-			transform: translateY(-1950px);
+			transform: translateY(-1650px);
 		}
 		
 		
@@ -1942,7 +1942,7 @@ body{
 			margin-left: 80px;
 			width: 440px;
 			font-size: 13px;
-			transform: translateY(-1000px);
+			transform: translateY(-1500px);
 		}
 		.titulo-aside a{
 			
@@ -2144,9 +2144,9 @@ body{
 	}
 
 	.generos-responsive button:nth-child(6){
-		border-left: 2px solid #900;
+	border-left: 2px solid #900;
 	
-	}
+}
 
 	.generos-responsive h3, .populares-responsive h3{
 		padding-left: 20px;
@@ -2651,7 +2651,7 @@ body{
 		.grid-container{
 			display: grid;
 			grid-template-columns: 115px 115px 115px;
-			grid-template-rows: 175px 175px;
+			grid-template-rows: 175px 175px 175px;
 			margin-top: 15px;
 			grid-column-gap: 20px;
 			grid-row-gap: 53px; 
@@ -2871,7 +2871,7 @@ body{
 		.grid-container{
 			display: grid;
 			grid-template-columns: 110px 110px 110px;
-			grid-template-rows: 160px 160px;
+			grid-template-rows: 160px 160px 160px;
 			margin-top: 15px;
 			grid-column-gap: 20px;
 			grid-row-gap: 50px; 
@@ -2980,7 +2980,7 @@ body{
 				width: 100vw;
 				padding-left: 11px;
 				grid-row-gap: 35px; 
-				grid-template-rows: 165px 165px;
+				grid-template-rows: 165px 165px 165px;
 
 			}
 			.grid-container a{
@@ -3217,7 +3217,7 @@ body{
 				grid-column-gap: 10px; 
 				grid-row-gap: 35px; 
 				grid-template-columns: 100px 100px 100px;
-				grid-template-rows: 160px 160px;
+				grid-template-rows: 160px 160px 160px;
 				width: 100vw;
 				padding-left: 14px;
 
@@ -3362,7 +3362,7 @@ body{
 				grid-column-gap: 10px; 
 				grid-row-gap: 35px; 
 				grid-template-columns: 95px 95px 95px;
-				grid-template-rows: 155px 155px;
+				grid-template-rows: 155px 155px 155px;
 				width: 100vw;
 				padding-left: 0px;
 

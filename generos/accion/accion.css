@@ -1013,7 +1013,7 @@ body{
 
 /*BARRA DE BOTONES*/
 .container-siguiente{
-	width: 100px;
+	width: 200px;
 	background-color: #511;
 	position: relative;
 	border-radius: 50px;
@@ -1021,7 +1021,7 @@ body{
 	justify-content: space-evenly;
 	padding: 1px;
 	transform: translateY(40px);
-	margin-left: 230px;
+	margin-left: 190px;
 }
 
 .container-siguiente button{
@@ -1058,16 +1058,7 @@ body{
 	background-color: #700;
 }
 
-.marcar-posicion-2 button:nth-child(2){
-	background-color: #700;
-}
 
-.marcar-posicion-3 button:nth-child(3){
-	background-color: #700;
-}
-.marcar-posicion-4 button:nth-child(4){
-	background-color: #700;
-}
 
 
 .parrafo-final{
@@ -1619,7 +1610,7 @@ body{
 
 	
 	.container-siguiente{
-		margin-left: 350px;
+		margin-left: 305px;
 	}
 
 	
@@ -1792,9 +1783,7 @@ body{
 		
 		}
 
-		.container-siguiente{
-			margin-left: 240px;
-		}
+		
 		.aside{
 			margin-left: 20px;
 			width: 24%;
@@ -2002,7 +1991,7 @@ body{
 	}
 
 		.container-siguiente{
-			margin-left: 175px;
+			margin-left: 125px;
 		}
 		.parrafo-final{
 			
@@ -2733,7 +2722,7 @@ body{
 			}
 
 		.container-siguiente{
-			transform: translateX(-70px);
+			transform: translateX(-80px);
 			margin-top: 50px;
 			background: inherit;
 			border: 2px solid #400;
@@ -2952,7 +2941,7 @@ body{
 			}
 
 		.container-siguiente{
-			transform: translateX(-80px);
+			transform: translateX(-90px);
 			margin-top: 50px;
 			background: inherit;
 			border: 2px solid #400;
@@ -3057,7 +3046,7 @@ body{
 				color: #f07;
 			}
 			.container-siguiente{
-				transform: translateX(-95px);
+				transform: translateX(-105px);
 			
 			}
 
@@ -3175,7 +3164,7 @@ body{
 				color: #f07;
 			}
 			.container-siguiente{
-				transform: translateX(-100px);
+				transform: translateX(-110px);
 			
 			}
 
@@ -3300,7 +3289,7 @@ body{
 			
 		
 			.container-siguiente{
-				transform: translateX(-105px);
+				transform: translateX(-115px);
 			
 			}
 
@@ -3445,7 +3434,7 @@ body{
 			
 		
 			.container-siguiente{
-				transform: translateX(-130px);
+				transform: translateX(-135px);
 			
 			}
 

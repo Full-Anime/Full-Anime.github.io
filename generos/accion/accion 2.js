@@ -126,7 +126,12 @@ const container6 = document.querySelector(".new-6")
 const container7 = document.querySelector(".new-7")
 const container8 = document.querySelector(".new-8")
 const container9 = document.querySelector(".new-9")
-
+const container10 = document.querySelector(".new-10")
+const container11 = document.querySelector(".new-11")
+const container12 = document.querySelector(".new-12")
+const container13 = document.querySelector(".new-13")
+const container14 = document.querySelector(".new-14")
+const container15 = document.querySelector(".new-15")
 
 container1.addEventListener("mouseover", presionar1)
 container1.addEventListener("mouseleave", ocultarVentana1)
@@ -146,7 +151,18 @@ container8.addEventListener("mouseover", presionar8)
 container8.addEventListener("mouseleave", ocultarVentana8)
 container9.addEventListener("mouseover", presionar9)
 container9.addEventListener("mouseleave", ocultarVentana9)
-
+container10.addEventListener("mouseover", presionar10)
+container10.addEventListener("mouseleave", ocultarVentana10)
+container11.addEventListener("mouseover", presionar11)
+container11.addEventListener("mouseleave", ocultarVentana11)
+container12.addEventListener("mouseover", presionar12)
+container12.addEventListener("mouseleave", ocultarVentana12)
+container13.addEventListener("mouseover", presionar13)
+container13.addEventListener("mouseleave", ocultarVentana13)
+container14.addEventListener("mouseover", presionar14)
+container14.addEventListener("mouseleave", ocultarVentana14)
+container15.addEventListener("mouseover", presionar15)
+container15.addEventListener("mouseleave", ocultarVentana15)
 
 container1.addEventListener("click", () =>{
 	href1.click()
@@ -175,7 +191,24 @@ container8.addEventListener("click", () =>{
 container9.addEventListener("click", () =>{
 	href9.click()
 })
-
+container10.addEventListener("click", () =>{
+	href10.click()
+})
+container11.addEventListener("click", () =>{
+	href11.click()
+})
+container12.addEventListener("click", () =>{
+	href12.click()
+})
+container13.addEventListener("click", () =>{
+	href13.click()
+})
+container14.addEventListener("click", () =>{
+	href14.click()
+})
+container15.addEventListener("click", () =>{
+	href15.click()
+})
 
 
 //contenedores de informacion de las ventanas ocultas de los poster: 
@@ -188,6 +221,12 @@ const item6 = document.querySelector(".item-6")
 const item7 = document.querySelector(".item-7")
 const item8 = document.querySelector(".item-8")
 const item9 = document.querySelector(".item-9")
+const item10 = document.querySelector(".item-10")
+const item11 = document.querySelector(".item-11")
+const item12 = document.querySelector(".item-12")
+const item13 = document.querySelector(".item-13")
+const item14 = document.querySelector(".item-14")
+const item15 = document.querySelector(".item-15")
 
 //variables para cambiar atributo alt:
 let alt = ["img Chainsaw Man", 
@@ -617,6 +656,9 @@ let parrafo = [`<h3>Chainsaw Man</h3><b>Denji</b> es un joven atrapado en la pro
 
 
 
+
+
+
 //contenedores de las imagenes y los parrafosn de las ventanas ocultas:
 const image = document.querySelector(".img-hidden-1")
 const parrafos = document.querySelector(".parrafos-1")
@@ -636,7 +678,18 @@ const image8 = document.querySelector(".img-hidden-8")
 const parrafos8 = document.querySelector(".parrafos-8")
 const image9 = document.querySelector(".img-hidden-9")
 const parrafos9 = document.querySelector(".parrafos-9")
-
+const image10 = document.querySelector(".img-hidden-10")
+const parrafos10 = document.querySelector(".parrafos-10")
+const image11 = document.querySelector(".img-hidden-11")
+const parrafos11 = document.querySelector(".parrafos-11")
+const image12 = document.querySelector(".img-hidden-12")
+const parrafos12 = document.querySelector(".parrafos-12")
+const image13 = document.querySelector(".img-hidden-13")
+const parrafos13 = document.querySelector(".parrafos-13")
+const image14 = document.querySelector(".img-hidden-14")
+const parrafos14 = document.querySelector(".parrafos-14")
+const image15 = document.querySelector(".img-hidden-15")
+const parrafos15 = document.querySelector(".parrafos-15")
 
 function presionar1(){
 	item.classList.add("item-animacion")
@@ -771,7 +824,89 @@ function ocultarVentana9(){
 }
 
 
+function presionar10(){
+	item10.classList.add("item-animacion-10")
+		for (let i = 0; i < 130; i++) {
+			if (srcPoster10.alt == alt[i]) {
+			image10.setAttribute("src", poster[i])
+			parrafos10.innerHTML = parrafo[i]
+		}
+	}
+}
 
+function ocultarVentana10(){
+		item10.classList.remove("item-animacion-10")
+}
+
+function presionar11(){
+	item11.classList.add("item-animacion-11")
+		for (let i = 0; i < 130; i++) {
+			if (srcPoster11.alt == alt[i]) {
+			image11.setAttribute("src", poster[i])
+			parrafos11.innerHTML = parrafo[i]
+		}
+	}
+}
+
+function ocultarVentana11(){
+		item11.classList.remove("item-animacion-11")
+}
+
+function presionar12(){
+	item12.classList.add("item-animacion-12")
+		for (let i = 0; i < 130; i++) {
+			if (srcPoster12.alt == alt[i]) {
+			image12.setAttribute("src", poster[i])
+			parrafos12.innerHTML = parrafo[i]
+		}
+	}
+}
+
+function ocultarVentana12(){
+		item12.classList.remove("item-animacion-12")
+}
+
+function presionar13(){
+	item13.classList.add("item-animacion-13")
+		for (let i = 0; i < 130; i++) {
+			if (srcPoster13.alt == alt[i]) {
+			image13.setAttribute("src", poster[i])
+			parrafos13.innerHTML = parrafo[i]
+		}
+	}
+}
+
+function ocultarVentana13(){
+		item13.classList.remove("item-animacion-13")
+}
+
+function presionar14(){
+	item14.classList.add("item-animacion-14")
+		for (let i = 0; i < 130; i++) {
+			if (srcPoster14.alt == alt[i]) {
+			image14.setAttribute("src", poster[i])
+			parrafos14.innerHTML = parrafo[i]
+		}
+	}
+}
+
+function ocultarVentana14(){
+		item14.classList.remove("item-animacion-14")
+}
+
+function presionar15(){
+	item15.classList.add("item-animacion-15")
+		for (let i = 0; i < 130; i++) {
+			if (srcPoster15.alt == alt[i]) {
+			image15.setAttribute("src", poster[i])
+			parrafos15.innerHTML = parrafo[i]
+		}
+	}
+}
+
+function ocultarVentana15(){
+		item15.classList.remove("item-animacion-15")
+}
 
 //funcion de buscar en el input:
 const input = document.querySelector(".input-buscador")
@@ -1777,6 +1912,13 @@ function buscadorInputResponsive(){
 
 
 
+
+
+
+
+
+
+
 const botonPopulares2020 = document.getElementById("populares-2020")
 const botonPopulares2010 = document.getElementById("populares-2010")
 const botonPopulares2000 = document.getElementById("populares-2000")
@@ -2199,6 +2341,8 @@ function atrasar(){
 }
 
 
+
+
 //funcion de evento para ver la serie con el boton ver serie:
 const botonVerSerie = document.querySelector(".ver-pelicula")
 
@@ -2263,6 +2407,7 @@ function opciones22(){
 
 
 
+
 //funcion de eventos de botones de las ventanas ocultas de la barra de navegacion:
 
 
@@ -2297,7 +2442,24 @@ container8.addEventListener("mouseover", () =>{
 container9.addEventListener("mouseover", () =>{
 	container9.classList.add("opacar")
 })
-
+container10.addEventListener("mouseover", () =>{
+	container10.classList.add("opacar")
+})
+container11.addEventListener("mouseover", () =>{
+	container11.classList.add("opacar")
+})
+container12.addEventListener("mouseover", () =>{
+	container12.classList.add("opacar")
+})
+container13.addEventListener("mouseover", () =>{
+	container13.classList.add("opacar")
+})
+container14.addEventListener("mouseover", () =>{
+	container14.classList.add("opacar")
+})
+container15.addEventListener("mouseover", () =>{
+	container15.classList.add("opacar")
+})
 
 
 container1.addEventListener("mouseleave", () =>{
@@ -2327,16 +2489,31 @@ container8.addEventListener("mouseleave", () =>{
 container9.addEventListener("mouseleave", () =>{
 	container9.classList.remove("opacar")
 })
+container10.addEventListener("mouseleave", () =>{
+	container10.classList.remove("opacar")
+})
+container11.addEventListener("mouseleave", () =>{
+	container11.classList.remove("opacar")
+})
+container12.addEventListener("mouseleave", () =>{
+	container12.classList.remove("opacar")
+})
+container13.addEventListener("mouseleave", () =>{
+	container13.classList.remove("opacar")
+})
+container14.addEventListener("mouseleave", () =>{
+	container14.classList.remove("opacar")
+})
+container15.addEventListener("mouseleave", () =>{
+	container15.classList.remove("opacar")
+})
+
 
 
 
 
 
 //funciones para cambiar los poster, los href y los nombres:
-const botonUltimos = document.querySelector(".ultimos")
-const botonTendencias = document.querySelector(".tendencia")
-const botonEstrenos = document.querySelector(".estrenos")
-const contenedorBotones = document.querySelector(".botones-de-entrada")
 const contenedorPoster1 = document.querySelector(".img-poster-1")
 const contenedorPoster2 = document.querySelector(".img-poster-2")
 const contenedorPoster3 = document.querySelector(".img-poster-3")
@@ -2346,7 +2523,12 @@ const contenedorPoster6 = document.querySelector(".img-poster-6")
 const contenedorPoster7 = document.querySelector(".img-poster-7")
 const contenedorPoster8 = document.querySelector(".img-poster-8")
 const contenedorPoster9 = document.querySelector(".img-poster-9")
-
+const contenedorPoster10 = document.querySelector(".img-poster-10")
+const contenedorPoster11 = document.querySelector(".img-poster-11")
+const contenedorPoster12 = document.querySelector(".img-poster-12")
+const contenedorPoster13 = document.querySelector(".img-poster-13")
+const contenedorPoster14 = document.querySelector(".img-poster-14")
+const contenedorPoster15 = document.querySelector(".img-poster-15")
 
 //variables para cambiar el href:
 const href1 = document.querySelector(".href-1")
@@ -2358,7 +2540,12 @@ const href6 = document.querySelector(".href-6")
 const href7 = document.querySelector(".href-7")
 const href8 = document.querySelector(".href-8")
 const href9 = document.querySelector(".href-9")
-
+const href10 = document.querySelector(".href-10")
+const href11 = document.querySelector(".href-11")
+const href12 = document.querySelector(".href-12")
+const href13 = document.querySelector(".href-13")
+const href14 = document.querySelector(".href-14")
+const href15 = document.querySelector(".href-15")
 
 //variables para cambiar el src:
 const srcPoster1 = document.querySelector(".src-poster-1")
@@ -2371,8 +2558,14 @@ const srcPoster7 = document.querySelector(".src-poster-7")
 const srcPoster8 = document.querySelector(".src-poster-8")
 const srcPoster9 = document.querySelector(".src-poster-9")
 
+const srcPoster10 = document.querySelector(".src-poster-10")
+const srcPoster11 = document.querySelector(".src-poster-11")
+const srcPoster12 = document.querySelector(".src-poster-12")
+const srcPoster13 = document.querySelector(".src-poster-13")
+const srcPoster14 = document.querySelector(".src-poster-14")
+const srcPoster15 = document.querySelector(".src-poster-15")
 
-
+//src de todos los poster:
 //src de todos los poster:
 let poster = ["../../poster/chainsaw man poster.jpg", 
 "../../poster/death note 2.jpg", 
@@ -2586,14 +2779,14 @@ let enlace = ["../../animes/chainsaw man/chainsaw.html",
 
 let textEnlace = ["Chainsaw Man",
 "Death Note",
-"Attack On Titan",
-"Spy X Family",
+"Attack On Titan: The Final",
+"Spy X Family: Temporada 2",
 "Naruto",
-"Jujutsu Kaisen",
+"Jujutsu Kaisen: Temporada 2",
 "Kimetsu No Yaiba",
 "One Punch Man",
 "Tokyo Ghoul",
-"My Hero Academia",
+"My Hero Academia: Temporada 6",
 "Mob Psycho 100",
 "Fullmetal Alchemist: Brotherhood",
 "Fire Force",
@@ -2603,22 +2796,22 @@ let textEnlace = ["Chainsaw Man",
 "Dragon Ball Super",
 "One Piece",
 "Record of Ragnarok",
-"Vinland Saga",
+"Vinland Saga 2",
 "Nanatsu No Tazai",
 "InuYasha",
-"Goblin Slayer",
+"Goblin Slayer: Temporada 2",
 "Caballeros del Zodiaco",
 "Cowboy Bebop",
 "Hunter X Hunter 1999",
 "Full Metal Panic",
 "Cyberpunk: Edgerunners",
 "Kaguya-Sama: Love Is War",
-"Dr Stone",
+"Dr Stone: Temporada 3",
 "food wars!: Shokugeki No Soma",
 "Steins, Gate",
 "Mirai Nikki",
 "Trigun Stampede",
-"Mashle",
+"Mashle: Temporada 2",
 "Oshi No Ko",
 "Hell's Paradise",
 "Tengoku Daimakyo",
@@ -2649,7 +2842,7 @@ let textEnlace = ["Chainsaw Man",
 "Code Geass",
 "Fullmetal Alchemist",
 "Capitan Tsubasa",
-"Classroom of the Elite",
+"Classroom of the Elite: Temporada 3",
 "Tower of God",
 "Overlord",
 "Baki",
@@ -2686,72 +2879,122 @@ let textEnlace = ["Chainsaw Man",
 "Kaguya-Sama: pelicula"]
 
 
+ 
 
-let primeraCarga = true
-let segundaCarga = false
+
+
+const hrefSiguiente = document.querySelector(".href-siguiente")
+const contenedorSiguiente = document.querySelector(".container-siguiente")
+const botonSiguiente3 = document.querySelector(".siguiente-3")
+const botonSiguiente1 = document.querySelector(".siguiente-1")
+
+
+
+botonSiguiente3.addEventListener("click", next3)
+botonSiguiente1.addEventListener("click", next1)
+
+
+
+//funciones para el boton flecha:
+function next1(){
+	hrefSiguiente.setAttribute("href", "accion.html")
+	hrefSiguiente.click()
+	
+}
+function next3(){
+	hrefSiguiente.setAttribute("href", "accion 3.html")
+	hrefSiguiente.click()
+	
+}
+
+
+
 
 
 
 
 //funcion para los ultimos animes, se ejecuta por defecto
 function ultimos(){
-	if (primeraCarga == true && segundaCarga == false) {
-		// contenedorSiguiente.classList.add("marcar-posicion-1")
-		// contenedorSiguiente.classList.remove("marcar-posicion-2")
-		// contenedorSiguiente.classList.remove("marcar-posicion-3")
-		// contenedorSiguiente.classList.remove("marcar-posicion-4")
-		
-		srcPoster1.setAttribute("src", poster[3])
-		srcPoster1.setAttribute("alt", alt[3])
-		srcPoster1.setAttribute("title", title[3])
-		href1.setAttribute("href", enlace[3])
-		href1.textContent = textEnlace[3]
-		srcPoster2.setAttribute("src", poster[28])
-		srcPoster2.setAttribute("alt", alt[28])
-		srcPoster2.setAttribute("title", title[28])
-		href2.setAttribute("href", enlace[28])
-		href2.textContent = textEnlace[28]
-		srcPoster3.setAttribute("src", poster[30])
-		srcPoster3.setAttribute("alt", alt[30])
-		srcPoster3.setAttribute("title", title[30])
-		href3.setAttribute("href", enlace[30])
-		href3.textContent = textEnlace[30]
-		srcPoster4.setAttribute("src", poster[35])
-		srcPoster4.setAttribute("alt", alt[35])
-		srcPoster4.setAttribute("title", title[35])
-		href4.setAttribute("href", enlace[35])
-		href4.textContent = textEnlace[35]
-		srcPoster5.setAttribute("src", poster[38])
-		srcPoster5.setAttribute("alt", alt[38])
-		srcPoster5.setAttribute("title", title[38])
-		href5.setAttribute("href", enlace[38])
-		href5.textContent = textEnlace[38]
-		srcPoster6.setAttribute("src", poster[50])
-		srcPoster6.setAttribute("alt", alt[50])
-		srcPoster6.setAttribute("title", title[50])
-		href6.setAttribute("href", enlace[50])
-		href6.textContent = textEnlace[50]
-		srcPoster7.setAttribute("src", poster[65])
-		srcPoster7.setAttribute("alt", alt[65])
-		srcPoster7.setAttribute("title", title[65])
-		href7.setAttribute("href", enlace[65])
-		href7.textContent = textEnlace[65]
-		srcPoster8.setAttribute("src", poster[71])
-		srcPoster8.setAttribute("alt", alt[71])
-		srcPoster8.setAttribute("title", title[71])
-		href8.setAttribute("href", enlace[71])
-		href8.textContent = textEnlace[71]
-		srcPoster9.setAttribute("src", poster[72])
-		srcPoster9.setAttribute("alt", alt[72])
-		srcPoster9.setAttribute("title", title[72])
-		href9.setAttribute("href", enlace[72])
-		href9.textContent = textEnlace[72]
-		
-
-
-	}
-
+		srcPoster1.setAttribute("src", poster[47])
+		srcPoster1.setAttribute("alt", alt[47])
+		srcPoster1.setAttribute("title", title[47])
+		href1.setAttribute("href", enlace[47])
+		href1.textContent = textEnlace[47]
+		srcPoster2.setAttribute("src", poster[17])
+		srcPoster2.setAttribute("alt", alt[17])
+		srcPoster2.setAttribute("title", title[17])
+		href2.setAttribute("href", enlace[17])
+		href2.textContent = textEnlace[17]
+		srcPoster3.setAttribute("src", poster[57])
+		srcPoster3.setAttribute("alt", alt[57])
+		srcPoster3.setAttribute("title", title[57])
+		href3.setAttribute("href", enlace[57])
+		href3.textContent = textEnlace[57]
+		srcPoster4.setAttribute("src", poster[78])
+		srcPoster4.setAttribute("alt", alt[78])
+		srcPoster4.setAttribute("title", title[78])
+		href4.setAttribute("href", enlace[78])
+		href4.textContent = textEnlace[78]
+		srcPoster5.setAttribute("src", poster[77])
+		srcPoster5.setAttribute("alt", alt[77])
+		srcPoster5.setAttribute("title", title[77])
+		href5.setAttribute("href", enlace[77])
+		href5.textContent = textEnlace[77]
+		srcPoster6.setAttribute("src", poster[10])
+		srcPoster6.setAttribute("alt", alt[10])
+		srcPoster6.setAttribute("title", title[10])
+		href6.setAttribute("href", enlace[10])
+		href6.textContent = textEnlace[10]
+		srcPoster7.setAttribute("src", poster[11])
+		srcPoster7.setAttribute("alt", alt[11])
+		srcPoster7.setAttribute("title", title[11])
+		href7.setAttribute("href", enlace[11])
+		href7.textContent = textEnlace[11]
+		srcPoster8.setAttribute("src", poster[12])
+		srcPoster8.setAttribute("alt", alt[12])
+		srcPoster8.setAttribute("title", title[12])
+		href8.setAttribute("href", enlace[12])
+		href8.textContent = textEnlace[12]
+		srcPoster9.setAttribute("src", poster[18])
+		srcPoster9.setAttribute("alt", alt[18])
+		srcPoster9.setAttribute("title", title[18])
+		href9.setAttribute("href", enlace[18])
+		href9.textContent = textEnlace[18]
+		srcPoster10.setAttribute("src", poster[23])
+		srcPoster10.setAttribute("alt", alt[23])
+		srcPoster10.setAttribute("title", title[23])
+		href10.setAttribute("href", enlace[23])
+		href10.textContent = textEnlace[23]
+		srcPoster11.setAttribute("src", poster[20])
+		srcPoster11.setAttribute("alt", alt[20])
+		srcPoster11.setAttribute("title", title[20])
+		href11.setAttribute("href", enlace[20])
+		href11.textContent = textEnlace[20]
+		srcPoster12.setAttribute("src", poster[16])
+		srcPoster12.setAttribute("alt", alt[16])
+		srcPoster12.setAttribute("title", title[16])
+		href12.setAttribute("href", enlace[16])
+		href12.textContent = textEnlace[16]
+		srcPoster13.setAttribute("src", poster[19])
+		srcPoster13.setAttribute("alt", alt[19])
+		srcPoster13.setAttribute("title", title[19])
+		href13.setAttribute("href", enlace[19])
+		href13.textContent = textEnlace[19]
+		srcPoster14.setAttribute("src", poster[49])
+		srcPoster14.setAttribute("alt", alt[49])
+		srcPoster14.setAttribute("title", title[49])
+		href14.setAttribute("href", enlace[49])
+		href14.textContent = textEnlace[49]
+		srcPoster15.setAttribute("src", poster[39])
+		srcPoster15.setAttribute("alt", alt[39])
+		srcPoster15.setAttribute("title", title[39])
+		href15.setAttribute("href", enlace[39])
+		href15.textContent = textEnlace[39]
 }
+	
+	
+	
+
 ultimos()
 
 
