@@ -95,7 +95,7 @@ body{
 .input{
 	display: flex;
 	flex-direction: column;
-	transform: translateX(100px);
+	transform: translateX(50px);
 	width: 250px;
 	height: 50px;
 }
@@ -410,7 +410,7 @@ body{
 }
 
 .informacion-de-anime h2{
- 	font-size: 30px;
+ 	font-size: 25px;
  	font-family: Carter One, verdana;
 }
 
@@ -1201,11 +1201,11 @@ body{
 	
 
 		.ventanas{
-			transform: translateY(-1140px);
+			transform: translateY(-1143px);
 			margin-left: 295px;
 		}
 		.ventana-fixed{
-			transform: translateY(-1063px);
+			transform: translateY(-1060px);
 		}
 
 		.ventana-1{
@@ -1233,7 +1233,7 @@ body{
 		padding-bottom: 9px;
 	}
 		.input{
-			transform: translateX(220px);
+			transform: translateX(130px);
 			margin-top: 5px;
 		}
 
@@ -1683,17 +1683,17 @@ body{
 /*RESPONSIVE DE PANTALLAS 4:3 800PX*/
 @media only screen and (max-width: 800px) and (min-width: 500px){
 	.barra-de-navegacion{
-		transform: translateY(-705px);
+		transform: translateY(-710px);
 	}
 	.ventanas{
 	display: inline-flex;
-	transform: translateY(-729px);
+	transform: translateY(-734px);
 	position: relative;
 	z-index: 570;
 	margin-left: 295px;
 }
 	.ventana-fixed{
-	transform: translateY(-666px);
+	transform: translateY(-671px);
 		position: fixed;
 
 	}
@@ -1725,7 +1725,7 @@ body{
 .opciones-de-barra button{
 	margin: 5px 0px;
 	padding: 0px 8px;
-	font-size: 12px;
+	font-size: 10px;
 }
 
 
@@ -1745,7 +1745,7 @@ body{
 		filter: brightness(.9);
 	}
 	.input{
-		transform: translateX(15px);
+		transform: translateX(10px);
 		width: 200px;
 		height: 50px;
 	}
