@@ -105,7 +105,7 @@ body{
 .input{
 	display: flex;
 	flex-direction: column;
-	transform: translateX(100px);
+	transform: translateX(50px);
 	width: 250px;
 	height: 50px;
 }
@@ -1223,7 +1223,7 @@ body{
 			margin-left: 295px;
 		}
 		.ventana-fixed{
-			transform: translateY(-1415px);
+			transform: translateY(-1416px);
 		}
 
 			.ventana-1{
@@ -1251,7 +1251,7 @@ body{
 		padding-bottom: 9px;
 	}
 		.input{
-			transform: translateX(220px);
+			transform: translateX(130px);
 			margin-top: 5px;
 		}
 
@@ -1611,10 +1611,7 @@ body{
 		.ventana-2{
 			margin-left: 150px;
 		} 
-		.input{
-			transform: translateX(100px);
-			
-		}
+		
 		.portada-container{
 			width: 1024px;
 			height: 580px;
@@ -1663,17 +1660,17 @@ body{
 	.barra-de-navegacion{
 		
 		width: 800px;
-		transform: translateY(-990px);
+		transform: translateY(-995px);
 	}
 	.ventanas{
 	display: inline-flex;
-	transform: translateY(-1014px);
+	transform: translateY(-1019px);
 	position: relative;
 	z-index: 570;
 	margin-left: 295px;
 }
 .ventana-fixed{
-	transform: translateY(-951px);
+	transform: translateY(-956px);
 	position: fixed;
 
 }
@@ -1712,7 +1709,7 @@ body{
 .opciones-de-barra button{
 	margin: 5px 0px;
 	padding: 0px 8px;
-	font-size: 12px;
+	font-size: 10px;
 }
 
 
@@ -1732,7 +1729,7 @@ body{
 		filter: brightness(.9);
 	}
 	.input{
-		transform: translateX(15px);
+		transform: translateX(10px);
 		width: 200px;
 		height: 50px;
 	}
