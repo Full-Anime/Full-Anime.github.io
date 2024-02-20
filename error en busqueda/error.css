@@ -92,7 +92,7 @@ body{
 .input{
 	display: flex;
 	flex-direction: column;
-	transform: translateX(100px);
+	transform: translateX(50px);
 	width: 250px;
 	height: 50px;
 }
@@ -492,7 +492,7 @@ body{
 	
 
 		.ventanas{
-			transform: translateY(-28px);
+			transform: translateY(-35px);
 			margin-left: 295px;
 		}
 		
@@ -522,7 +522,7 @@ body{
 		padding-bottom: 9px;
 	}
 		.input{
-			transform: translateX(220px);
+			transform: translateX(130px);
 			margin-top: 5px;
 		}
 
@@ -633,11 +633,11 @@ body{
 	.barra-de-navegacion{
 		
 		width: 800px;
-		transform: translateY(-0px);
+		transform: translateY(-5px);
 	}
 	.ventanas{
 		display: inline-flex;
-		transform: translateY(-25px);
+		transform: translateY(-30px);
 		position: relative;
 		z-index: 570;
 		margin-left: 295px;
@@ -671,17 +671,13 @@ body{
 .opciones-de-barra button{
 	margin: 5px 0px;
 	padding: 0px 8px;
-	font-size: 12px;
+	font-size: 10px;
 }
 
 
 
 	
-	.input{
-		transform: translateX(20px);
-		width: 250px;
-		height: 50px;
-	}
+	
 	.input input{
 		font-size: 12px;
 		height: 30px;
