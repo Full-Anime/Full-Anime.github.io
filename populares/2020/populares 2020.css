@@ -105,7 +105,7 @@ body{
 .input{
 	display: flex;
 	flex-direction: column;
-	transform: translateX(100px);
+	transform: translateX(50px);
 	width: 250px;
 	height: 50px;
 }
@@ -1243,7 +1243,7 @@ body{
 			margin-left: 295px;
 		}
 		.ventana-fixed{
-			transform: translateY(-1415px);
+			transform: translateY(-1416px);
 		}
 
 			.ventana-1{
@@ -1271,7 +1271,7 @@ body{
 		padding-bottom: 9px;
 	}
 		.input{
-			transform: translateX(220px);
+			transform: translateX(130px);
 			margin-top: 5px;
 		}
 
@@ -1631,10 +1631,7 @@ body{
 		.ventana-2{
 			margin-left: 150px;
 		} 
-		.input{
-			transform: translateX(100px);
-			
-		}
+		
 		.portada-container{
 			width: 1024px;
 			height: 580px;
@@ -1732,7 +1729,7 @@ body{
 .opciones-de-barra button{
 	margin: 5px 0px;
 	padding: 0px 8px;
-	font-size: 12px;
+	font-size: 10px;
 }
 
 
@@ -1752,7 +1749,7 @@ body{
 		filter: brightness(.9);
 	}
 	.input{
-		transform: translateX(15px);
+		transform: translateX(10px);
 		width: 200px;
 		height: 50px;
 	}
@@ -2049,14 +2046,14 @@ body{
 	margin-bottom: 5px;
 	border: none;
 }
-.generos-responsive button:focus, .populares-responsive button:focus{
-	border: 1px solid #900;
-	color: #fd0;
-}
 
 .populares-responsive button:nth-child(2){
 	border-left: 2px solid #900;
 	
+}
+.generos-responsive button:focus, .populares-responsive button:focus{
+	border: 1px solid #900;
+	color: #fd0;
 }
 
 .generos-responsive h3, .populares-responsive h3{
