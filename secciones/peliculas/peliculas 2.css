@@ -863,7 +863,7 @@
 		
 	}
 
-	.boton-1 button:nth-child(2){
+	.boton-1 button:nth-child(4){
 		border-bottom: 3px solid #fa0;
 	}
 
@@ -1116,9 +1116,10 @@
 		}
 	}
 
-	.marcar-posicion-1 button:nth-child(3){
+	.marcar-posicion-1 button:nth-child(2){
 		background-color: #700;
 	}
+
 
 	
 	

@@ -106,7 +106,7 @@
 	.input{
 		display: flex;
 		flex-direction: column;
-		transform: translateX(190px);
+		transform: translateX(130px);
 		width: 250px;
 		height: 50px;
 	}
@@ -1418,10 +1418,10 @@
 
 		.ventanas{
 			transform: translateY(-1498px);
-			margin-left: 295px;
+			margin-left: 410px;
 		}
 		.ventana-fixed{
-			transform: translateY(-1415px);
+			transform: translateY(-1416px);
 		}
 
 		.ventana-1{
@@ -1436,7 +1436,7 @@
 			padding-bottom: 20px;
 			padding-top: 5px;
 			height: 220px;
-			margin-left: 108px;
+			margin-left: 158px;
 		} 
 
 	
@@ -1447,7 +1447,7 @@
 		padding-bottom: 9px;
 	}
 		.input{
-			transform: translateX(320px);
+			transform: translateX(270px);
 			margin-top: 5px;
 		}
 
@@ -1879,10 +1879,7 @@
 
 		
 		
-		.input{
-			transform: translateX(200px);
-			
-		}
+		
 		
 		.pelicula{
 			margin: 100px;
@@ -1938,7 +1935,7 @@
 		transform: translateY(-1014px);
 		position: relative;
 		z-index: 570;
-		margin-left: 295px;
+		margin-left: 280px;
 	}
 	.ventana-fixed{
 		transform: translateY(-951px);
@@ -1952,18 +1949,31 @@
 		}
 
 	.ventana-2{
-		margin-left: 108px;
+		margin-left: 80px;
 		
 		
 	} 
-
 		.portada-container{
 			width: 100vw;
 			height: 470px;
 		}
+
+		.opciones-de-barra button{
+		margin: 5px 5px;
+		text-align: center;
+		background-color: inherit;
+		border: none;
+		font-family: verdana;
+		padding: 0px 5px;
+		height: 20px;
+		color: #fff;
+		position: relative;
+		font-size: 11px;
+	}
+
 		.input{
-			transform: translateX(30px);
-			width: 250px;
+			transform: translateX(5px);
+			width: 230px;
 			height: 50px;
 		}
 		.input input{
@@ -2734,7 +2744,7 @@
 
 		}
 		.botones-de-entrada{
-			transform: translateX(70px);
+			transform: translateX(50px);
 		}
 		.boton-1 button:nth-child(2){
 			border-bottom: 1px solid #fa0;
@@ -3053,7 +3063,7 @@
 
 		}
 		.botones-de-entrada{
-			transform: translateX(60px);
+			transform: translateX(45px);
 		}
 		.boton-1 button:nth-child(2){
 			border-bottom: 1px solid #fa0;
@@ -3237,7 +3247,7 @@
 				flex-direction: column;
 			}	
 			.botones-de-entrada{
-				transform: translateX(38px);
+				transform: translateX(30px);
 			}
 			.grid-container{
 				grid-column-gap: 12px; 
@@ -3374,7 +3384,7 @@
 				flex-direction: column;
 			}	
 			.botones-de-entrada{
-				transform: translateX(35px);
+				transform: translateX(25px);
 			}
 			.grid-container{
 				grid-column-gap: 10px; 
@@ -3506,7 +3516,7 @@
 				
 			}	
 			.botones-de-entrada{
-				transform: translateX(30px);
+				transform: translateX(17px);
 			}
 			.grid-container{
 				grid-column-gap: 10px; 
@@ -3667,7 +3677,7 @@
 				
 			}	
 			.botones-de-entrada{
-				transform: translateX(22px);
+				transform: translateX(15px);
 			}
 			.botones-de-entrada button{
 				font-size: 13px;

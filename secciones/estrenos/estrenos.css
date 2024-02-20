@@ -106,7 +106,7 @@
 	.input{
 		display: flex;
 		flex-direction: column;
-		transform: translateX(190px);
+		transform: translateX(130px);
 		width: 250px;
 		height: 50px;
 	}
@@ -863,7 +863,7 @@
 		
 	}
 
-	.boton-1 button:nth-child(4){
+	.boton-1 button:nth-child(3){
 		border-bottom: 3px solid #fa0;
 	}
 
@@ -1116,9 +1116,7 @@
 		}
 	}
 
-	.marcar-posicion-1 button:nth-child(1){
-		
-	}
+	
 
 	
 	
@@ -1418,10 +1416,10 @@
 
 		.ventanas{
 			transform: translateY(-1498px);
-			margin-left: 295px;
+			margin-left: 410px;
 		}
 		.ventana-fixed{
-			transform: translateY(-1415px);
+			transform: translateY(-1416px);
 		}
 
 		.ventana-1{
@@ -1436,7 +1434,7 @@
 			padding-bottom: 20px;
 			padding-top: 5px;
 			height: 220px;
-			margin-left: 108px;
+			margin-left: 158px;
 		} 
 
 	
@@ -1447,7 +1445,7 @@
 		padding-bottom: 9px;
 	}
 		.input{
-			transform: translateX(320px);
+			transform: translateX(270px);
 			margin-top: 5px;
 		}
 
@@ -1879,10 +1877,7 @@
 
 		
 		
-		.input{
-			transform: translateX(200px);
-			
-		}
+		
 		
 		.pelicula{
 			margin: 100px;
@@ -1938,7 +1933,7 @@
 		transform: translateY(-1014px);
 		position: relative;
 		z-index: 570;
-		margin-left: 295px;
+		margin-left: 280px;
 	}
 	.ventana-fixed{
 		transform: translateY(-951px);
@@ -1952,7 +1947,7 @@
 		}
 
 	.ventana-2{
-		margin-left: 108px;
+		margin-left: 80px;
 		
 		
 	} 
@@ -1961,9 +1956,23 @@
 			width: 100vw;
 			height: 470px;
 		}
+
+		.opciones-de-barra button{
+		margin: 5px 5px;
+		text-align: center;
+		background-color: inherit;
+		border: none;
+		font-family: verdana;
+		padding: 0px 5px;
+		height: 20px;
+		color: #fff;
+		position: relative;
+		font-size: 11px;
+	}
+
 		.input{
-			transform: translateX(30px);
-			width: 250px;
+			transform: translateX(5px);
+			width: 230px;
 			height: 50px;
 		}
 		.input input{
@@ -2734,7 +2743,7 @@
 
 		}
 		.botones-de-entrada{
-			transform: translateX(70px);
+			transform: translateX(50px);
 		}
 		.boton-1 button:nth-child(2){
 			border-bottom: 1px solid #fa0;
@@ -2757,7 +2766,7 @@
 			grid-template-rows: 175px 175px 175px 175px 175px;
 			margin-top: 15px;
 			grid-column-gap: 20px;
-			grid-row-gap: 53px; 
+			grid-row-gap: 60px; 
 			width: 100vw;
 			padding-left: 18px;
 			}
@@ -3053,7 +3062,7 @@
 
 		}
 		.botones-de-entrada{
-			transform: translateX(60px);
+			transform: translateX(45px);
 		}
 		.boton-1 button:nth-child(2){
 			border-bottom: 1px solid #fa0;
@@ -3076,7 +3085,7 @@
 			grid-template-rows: 160px 160px 160px 160px 160px;
 			margin-top: 15px;
 			grid-column-gap: 20px;
-			grid-row-gap: 50px; 
+			grid-row-gap: 60px; 
 			width: 100vw;
 			padding-left: 18px;
 			}
@@ -3237,13 +3246,13 @@
 				flex-direction: column;
 			}	
 			.botones-de-entrada{
-				transform: translateX(38px);
+				transform: translateX(30px);
 			}
 			.grid-container{
 				grid-column-gap: 12px; 
 				width: 100vw;
 				padding-left: 11px;
-				grid-row-gap: 35px; 
+				grid-row-gap: 50px; 
 				grid-template-rows: 165px 165px 165px 165px 165px;
 
 			}
@@ -3374,7 +3383,7 @@
 				flex-direction: column;
 			}	
 			.botones-de-entrada{
-				transform: translateX(35px);
+				transform: translateX(25px);
 			}
 			.grid-container{
 				grid-column-gap: 10px; 
@@ -3506,11 +3515,11 @@
 				
 			}	
 			.botones-de-entrada{
-				transform: translateX(30px);
+				transform: translateX(17px);
 			}
 			.grid-container{
 				grid-column-gap: 10px; 
-				grid-row-gap: 35px; 
+				grid-row-gap: 45px; 
 				grid-template-columns: 100px 100px 100px;
 				grid-template-rows: 160px 160px 160px 160px 160px;
 				width: 100vw;
@@ -3667,7 +3676,7 @@
 				
 			}	
 			.botones-de-entrada{
-				transform: translateX(22px);
+				transform: translateX(15px);
 			}
 			.botones-de-entrada button{
 				font-size: 13px;
@@ -3676,7 +3685,7 @@
 			}
 			.grid-container{
 				grid-column-gap: 10px; 
-				grid-row-gap: 35px; 
+				grid-row-gap: 45px; 
 				grid-template-columns: 95px 95px 95px;
 				grid-template-rows: 155px 155px 155px 155px 155px;
 				width: 100vw;

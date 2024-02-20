@@ -36,8 +36,6 @@ document.getElementById("manga-responsive").addEventListener("click", ()=>{
 	document.querySelector('.link-manga').click()
 })
 
-
-
 const whatsapp = document.getElementById("icono-whatsapp")
 const telegram = document.getElementById("icono-telegram")
 const facebook = document.getElementById("icono-facebook")
@@ -219,7 +217,6 @@ const item12 = document.querySelector(".item-12")
 const item13 = document.querySelector(".item-13")
 const item14 = document.querySelector(".item-14")
 const item15 = document.querySelector(".item-15")
-
 //variables para cambiar atributo alt:
 let alt = ["img Chainsaw Man", 
 "img Death Note", 
@@ -634,7 +631,7 @@ let parrafo = [`<h3>Chainsaw Man</h3><b>Denji</b> es un joven atrapado en la pro
 
 			`<h3>No Game, No Life Zero</h3>No es para nada igual que el anime, no todo se desarrolla mediante juegos ni en un mundo tan pacifico. Los combates son visualmente geniales, la banda sonora es espectacular, la animacion, la historia... Todo de principio a fin.<br><br><b>Genero:</b> Accion, fantasia, ecchi<br><br><b>Estudio:</b> Madhouse`,
 
-			`<h3>Spy X Family Movie: Code: White</h3><b>Loid Forger</b>, recibio una orden de que lo reemplazaran en la Operacion Strix. Mientras tanto Anya Forger participa en un concurso de cocina en Eden Academy, con una Stella como recompenza rumoreada. Para evitar que ocurra el reemplazo, Loid decide ayudar a Anya a ganar la competencia preparando la comida favorita del director. Los Forger deciden viajar a la region de origen de la comida y desencadenan accidentalmente una cadena de acciones que podrian poner el riesgo la paz mundial.<br><br><b>Genero:</b> Accion, comedia<br><br><b>Estudio:</b> Wit Studio, CloverWorks`,
+			`<h3>Spy X Family Movie: Code: White</h3><b>Loid Forger</b>, recibio una orden de que lo reemplazaran en la Operacion Strix. Mientras tanto Anya Forger participa en un concurso de cocina en Eden Academy, con una Stella como recompenza rumoreada. Para evitar que ocurra el reemplazo, Loid decide ayudar a Anya a ganar la competencia preparando la comida favorita del director.<br><br><b>Genero:</b> Accion, comedia<br><br><b>Estudio:</b> Wit Studio, CloverWorks`,
 
 			`<h3>Kaguya-Sama: Pelicula</h3>Esta ambientada despues de los eventos de la tercera temporada.<br><br><b>Genero:</b> Comedia, drama, romance<br><br><b>Estudio:</b> A-1 Pictures`]
 
@@ -896,7 +893,6 @@ function presionar15(){
 function ocultarVentana15(){
 		item15.classList.remove("item-animacion-15")
 }
-
 
 //funcion de buscar en el input:
 const input = document.querySelector(".input-buscador")
@@ -2060,18 +2056,18 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/bleach thosand img 2.jpg"
+	imagen1.src = "../../imagenes/suzume img 8.jpg"
 	contenedorImg.appendChild(imagen1)
-	tituloItem.innerHTML = "Bleach: Thousand-Year Blood War"
-	titulo.appendChild(tituloItem)
-	informacionItem.innerHTML = "Nadie pidio el regreso del Clasico de Tite Kubo, pero la realidad es que ha vuelto con casi mas fuerza que la serie original, mas o menos con el mismo tono pero esta vez sin rodeos, 13 episodios son suficientes para presentarte la nueva amenaza del Seireitei, con una animacion de 10, y un nuevo Power up de Ichigo. "
-	informacion.appendChild(informacionItem)
-	pieDelTitulo1.innerHTML = "9/10"
-	pieDelTituloContainer.appendChild(pieDelTitulo1)
-	pieDelTitulo2.innerHTML = "26 cap 2022"
-	pieDelTituloContainer.appendChild(pieDelTitulo2)
-	pieDelTitulo3.innerHTML = "720p"
-	pieDelTituloContainer.appendChild(pieDelTitulo3)
+	tituloItem.innerHTML = "Suzume no Tojimari"
+		titulo.appendChild(tituloItem)
+		informacionItem.innerHTML = `<b>Suzume</b>, de 17 años, descubre una misteriosa puerta en las montañas, y pronto empiezan a aparecer otras puertas por todo Japon. cuando las puertas se abren, liberan desastres y destruccion, y depende de Suzume volver a cerrarlas.`
+		informacion.appendChild(informacionItem)
+		pieDelTitulo1.innerHTML = "9/10"
+		pieDelTituloContainer.appendChild(pieDelTitulo1)
+		pieDelTitulo2.innerHTML = "2h-2m 2022"
+		pieDelTituloContainer.appendChild(pieDelTitulo2)
+		pieDelTitulo3.innerHTML = "720p"
+		pieDelTituloContainer.appendChild(pieDelTitulo3)
 
 	punto1.classList.add("punto-1-a")
 
@@ -2081,7 +2077,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/mushoku tensei img .jpg"
+		imagen2.src = "../../imagenes/one piece film red img 3.jpeg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -2090,13 +2086,13 @@ function avanzar(){
 		contenedorImg.classList.remove("retrocesoc")
 		contenedorImg.classList.remove("retrocesod")
 		
-		tituloItem.innerHTML = "Mushoku Tensei"
+		tituloItem.innerHTML = "One Piece Film: Red"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = `Un joven virgen "nini" de 34 años es echado de casa cuando se queda sin dinero. El se arrepiente de su vida cuando muere en un accidente de trafico. Tras el accidente reencarna en un bebe e un mundo fantastico de espada y brujeria.`
+		informacionItem.innerHTML = `<b>Los Piratas de Sombrero de Paja</b> van a un festival de musica en la Isla de Elegia a ver el concierto de <b>Uta</b>, una diva de enorme fama. Lo que iba a ser un concierto normal es interrumpido por una gran revelacion por parte de <b>Luffy</b>.`
 		informacion.appendChild(informacionItem)
-		pieDelTitulo1.innerHTML = "8/10"
+		pieDelTitulo1.innerHTML = "9/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "48 Ep 2013"
+		pieDelTitulo2.innerHTML = "1h-57m 2022"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2111,7 +2107,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/zom 100 img 7.jpg"
+		imagen1.src = "../../imagenes/the first slam dunk img 3.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -2120,15 +2116,15 @@ function avanzar(){
 		contenedorImg.classList.remove("retrocesoc")
 		contenedorImg.classList.remove("retrocesod")
 		
-		tituloItem.innerHTML = "Zom 100: The Bucket List of the Dead"
+		tituloItem.innerHTML = "The First Slam Dunk"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = `<b>Akira Tendo</b>, se encuentra atrapado en una vida rutinaria y sin sentido. Le falta empuje y motivacion ya que esta desencantado con su carrera; Sin embargo cuando un apocalipsis zombi golpea inesperadamente Tokio, en lugar de sucumbir al miedo, Akira ve esto como una oportunidad para experimentar la vida al maximo en lugar de conformarse con su monotona existencia.`
+		informacionItem.innerHTML = `<b>Ryota Miyagi</b>, del instituto <b>Shohoku</b>, se enfrenta a su verdadera prueba como jugador de baloncesto en un partido de campeonato lleno de adrenalina.`
 		informacion.appendChild(informacionItem)
-		pieDelTitulo1.innerHTML = "8/10"
+		pieDelTitulo1.innerHTML = "9/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "12 cap 2023"
+		pieDelTitulo2.innerHTML = "2h 2m 2022"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
-		pieDelTitulo3.innerHTML = "720p"
+		pieDelTitulo3.innerHTML = "1080p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
 		punto2.classList.replace("punto-2-a", "punto-2-e")
 		punto3.classList.remove("punto-3-e")
@@ -2139,7 +2135,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/black clover img 21.jpeg"
+		imagen2.src = "../../imagenes/dragon ball z pelicula img 5.png"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -2148,13 +2144,13 @@ function avanzar(){
 		contenedorImg.classList.remove("retrocesoc")
 		contenedorImg.classList.remove("retrocesod")
 		
-		tituloItem.innerHTML = "Black Clover"
+		tituloItem.innerHTML = "Dragon Ball z: Todas las Peliculas"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = "Un niño que no tiene el poder de hacer magia lucha por obtener el título de Rey Mago, mientras cuatro antiguos Reyes Magos reaparecen para destruir el Reino del Trébol."
+		informacionItem.innerHTML = "Las quince peliculas basadas en Dragon Ball Z tienen tramas completamente distintas a la serie, ninguna de ellas es ambientada en la linea temporal en la linea temporal en la que se desarrolla la serie original, con la excepcion de La Batalla de los Dioses y La Resurreccion de Freezer"
 		informacion.appendChild(informacionItem)
-		pieDelTitulo1.innerHTML = "8/10"
+		pieDelTitulo1.innerHTML = "9/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "170 cap 2017"
+		pieDelTitulo2.innerHTML = "20 Pelis 1989"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2165,7 +2161,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/bleach thosand img 2.jpg"
+		imagen1.src = "../../imagenes/suzume img 8.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -2174,13 +2170,13 @@ function avanzar(){
 		contenedorImg.classList.remove("posicion-de-imagen")
 		contenedorImg.classList.add("desplazamiento-4")
 		
-		tituloItem.innerHTML = "Bleach: Thousand-Year Blood War"
+		tituloItem.innerHTML = "Suzume no Tojimari"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = "Nadie pidio el regreso del Clasico de Tite Kubo, pero la realidad es que ha vuelto con casi mas fuerza que la serie original, mas o menos con el mismo tono pero esta vez sin rodeos, 13 episodios son suficientes para presentarte la nueva amenaza del Seireitei, con una animacion de 10, y un nuevo Power up de Ichigo. "
+		informacionItem.innerHTML = `<b>Suzume</b>, de 17 años, descubre una misteriosa puerta en las montañas, y pronto empiezan a aparecer otras puertas por todo Japon. cuando las puertas se abren, liberan desastres y destruccion, y depende de Suzume volver a cerrarlas.`
 		informacion.appendChild(informacionItem)
 		pieDelTitulo1.innerHTML = "9/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "26 cap 2022"
+		pieDelTitulo2.innerHTML = "2h-2m 2022"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2230,20 +2226,20 @@ tiempoRetardo()
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/zom 100 img 7.jpg"
+		imagen1.src = "../../imagenes/the first slam dunk img 3.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
-		tituloItem.innerHTML = "Zom 100: The Bucket List of the Dead"
+		tituloItem.innerHTML = "The First Slam Dunk"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = `<b>Akira Tendo</b>, se encuentra atrapado en una vida rutinaria y sin sentido. Le falta empuje y motivacion ya que esta desencantado con su carrera; Sin embargo cuando un apocalipsis zombi golpea inesperadamente Tokio, en lugar de sucumbir al miedo, Akira ve esto como una oportunidad para experimentar la vida al maximo en lugar de conformarse con su monotona existencia.`
+		informacionItem.innerHTML = `<b>Ryota Miyagi</b>, del instituto <b>Shohoku</b>, se enfrenta a su verdadera prueba como jugador de baloncesto en un partido de campeonato lleno de adrenalina.`
 		informacion.appendChild(informacionItem)
-		pieDelTitulo1.innerHTML = "8/10"
+		pieDelTitulo1.innerHTML = "9/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "12 cap 2023"
+		pieDelTitulo2.innerHTML = "2h 2m 2022"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
-		pieDelTitulo3.innerHTML = "720p"
+		pieDelTitulo3.innerHTML = "1080p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
 		punto4.classList.replace("punto-4-a", "punto-4-e")
 		punto3.classList.remove("punto-3-e")
@@ -2257,18 +2253,18 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/mushoku tensei img .jpg"
+		imagen2.src = "../../imagenes/one piece film red img 3.jpeg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
-		tituloItem.innerHTML = "Mushoku Tensei"
+		tituloItem.innerHTML = "One Piece Film: Red"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = `Un joven virgen "nini" de 34 años es echado de casa cuando se queda sin dinero. El se arrepiente de su vida cuando muere en un accidente de trafico. Tras el accidente reencarna en un bebe e un mundo fantastico de espada y brujeria.`
+		informacionItem.innerHTML = `<b>Los Piratas de Sombrero de Paja</b> van a un festival de musica en la Isla de Elegia a ver el concierto de <b>Uta</b>, una diva de enorme fama. Lo que iba a ser un concierto normal es interrumpido por una gran revelacion por parte de <b>Luffy</b>.`
 		informacion.appendChild(informacionItem)
-		pieDelTitulo1.innerHTML = "8/10"
+		pieDelTitulo1.innerHTML = "9/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "48 Ep 2013"
+		pieDelTitulo2.innerHTML = "1h-57m 2022"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2280,18 +2276,18 @@ function atrasar(){
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/bleach thosand img 2.jpg"
+		imagen1.src = "../../imagenes/suzume img 8.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
-		tituloItem.innerHTML = "Bleach: Thousand-Year Blood War"
+		tituloItem.innerHTML = "Suzume no Tojimari"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = "Nadie pidio el regreso del Clasico de Tite Kubo, pero la realidad es que ha vuelto con casi mas fuerza que la serie original, mas o menos con el mismo tono pero esta vez sin rodeos, 13 episodios son suficientes para presentarte la nueva amenaza del Seireitei, con una animacion de 10, y un nuevo Power up de Ichigo. "
+		informacionItem.innerHTML = `<b>Suzume</b>, de 17 años, descubre una misteriosa puerta en las montañas, y pronto empiezan a aparecer otras puertas por todo Japon. cuando las puertas se abren, liberan desastres y destruccion, y depende de Suzume volver a cerrarlas.`
 		informacion.appendChild(informacionItem)
 		pieDelTitulo1.innerHTML = "9/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "26 cap 2022"
+		pieDelTitulo2.innerHTML = "2h-2m 2022"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2302,17 +2298,17 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/black clover img 21.jpeg"
+		imagen2.src = "../../imagenes/dragon ball z pelicula img 5.png"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
-		tituloItem.innerHTML = "Black Clover"
+		tituloItem.innerHTML = "Dragon Ball z: Todas las Peliculas"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = "Un niño que no tiene el poder de hacer magia lucha por obtener el título de Rey Mago, mientras cuatro antiguos Reyes Magos reaparecen para destruir el Reino del Trébol."
+		informacionItem.innerHTML = "Las quince peliculas basadas en Dragon Ball Z tienen tramas completamente distintas a la serie, ninguna de ellas es ambientada en la linea temporal en la linea temporal en la que se desarrolla la serie original, con la excepcion de La Batalla de los Dioses y La Resurreccion de Freezer"
 		informacion.appendChild(informacionItem)
-		pieDelTitulo1.innerHTML = "8/10"
+		pieDelTitulo1.innerHTML = "9/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "170 cap 2017"
+		pieDelTitulo2.innerHTML = "20 Pelis 1989"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2867,8 +2863,6 @@ let textEnlace = ["Chainsaw Man",
 
 
 
-
-
 botonUltimos.addEventListener("click", ultimos)
 botonTendencias.addEventListener("click", tendencias)
 botonEstrenos.addEventListener("click", estrenos)
@@ -2876,31 +2870,20 @@ botonEstrenos.addEventListener("click", estrenos)
 const hrefSiguiente = document.querySelector(".href-siguiente")
 const contenedorSiguiente = document.querySelector(".container-siguiente")
 
-const botonSiguiente5 = document.querySelector(".siguiente-5")
+const botonSiguiente1 = document.querySelector(".siguiente-1")
 const botonSiguiente2 = document.querySelector(".siguiente-2")
-const botonSiguiente3 = document.querySelector(".siguiente-3")
 
 
 
-botonSiguiente5.addEventListener("click", next5)
 botonSiguiente2.addEventListener("click", next2)
-botonSiguiente3.addEventListener("click", next3)
+
 
 
 //funciones para el boton flecha:
-function next5(){
-	hrefSiguiente.setAttribute("href", "../quinta/quinta.html")
-	hrefSiguiente.click()
-}
+
 
 function next2(){
-	hrefSiguiente.setAttribute("href", "../segunda/segunda.html")
-	hrefSiguiente.click()
-	
-}
-
-function next3(){
-	hrefSiguiente.setAttribute("href", "../tercera/tercera.html")
+	hrefSiguiente.setAttribute("href", "peliculas 2.html")
 	hrefSiguiente.click()
 	
 }
@@ -2911,96 +2894,97 @@ function next3(){
 
 //funcion para los ultimos animes, se ejecuta por defecto
 function ultimos(){
-		srcPoster1.setAttribute("src", poster[45])
-		srcPoster1.setAttribute("alt", alt[45])
-		srcPoster1.setAttribute("title", title[45])
-		href1.setAttribute("href", enlace[45])
-		href1.textContent = textEnlace[45]
-		srcPoster2.setAttribute("src", poster[46])
-		srcPoster2.setAttribute("alt", alt[46])
-		srcPoster2.setAttribute("title", title[46])
-		href2.setAttribute("href", enlace[46])
-		href2.textContent = textEnlace[46]
-		srcPoster3.setAttribute("src", poster[47])
-		srcPoster3.setAttribute("alt", alt[47])
-		srcPoster3.setAttribute("title", title[47])
-		href3.setAttribute("href", enlace[47])
-		href3.textContent = textEnlace[47]
-		srcPoster4.setAttribute("src", poster[48])
-		srcPoster4.setAttribute("alt", alt[48])
-		srcPoster4.setAttribute("title", title[48])
-		href4.setAttribute("href", enlace[48])
-		href4.textContent = textEnlace[48]
-		srcPoster5.setAttribute("src", poster[49])
-		srcPoster5.setAttribute("alt", alt[49])
-		srcPoster5.setAttribute("title", title[49])
-		href5.setAttribute("href", enlace[49])
-		href5.textContent = textEnlace[49]
-		srcPoster6.setAttribute("src", poster[50])
-		srcPoster6.setAttribute("alt", alt[50])
-		srcPoster6.setAttribute("title", title[50])
-		href6.setAttribute("href", enlace[50])
-		href6.textContent = textEnlace[50]
-		srcPoster7.setAttribute("src", poster[51])
-		srcPoster7.setAttribute("alt", alt[51])
-		srcPoster7.setAttribute("title", title[51])
-		href7.setAttribute("href", enlace[51])
-		href7.textContent = textEnlace[51]
-		srcPoster8.setAttribute("src", poster[52])
-		srcPoster8.setAttribute("alt", alt[52])
-		srcPoster8.setAttribute("title", title[52])
-		href8.setAttribute("href", enlace[52])
-		href8.textContent = textEnlace[52]
-		srcPoster9.setAttribute("src", poster[53])
-		srcPoster9.setAttribute("alt", alt[53])
-		srcPoster9.setAttribute("title", title[53])
-		href9.setAttribute("href", enlace[53])
-		href9.textContent = textEnlace[53]
-		srcPoster10.setAttribute("src", poster[54])
-		srcPoster10.setAttribute("alt", alt[54])
-		srcPoster10.setAttribute("title", title[54])
-		href10.setAttribute("href", enlace[54])
-		href10.textContent = textEnlace[54]
-		srcPoster11.setAttribute("src", poster[55])
-		srcPoster11.setAttribute("alt", alt[55])
-		srcPoster11.setAttribute("title", title[55])
-		href11.setAttribute("href", enlace[55])
-		href11.textContent = textEnlace[55]
-		srcPoster12.setAttribute("src", poster[56])
-		srcPoster12.setAttribute("alt", alt[56])
-		srcPoster12.setAttribute("title", title[56])
-		href12.setAttribute("href", enlace[56])
-		href12.textContent = textEnlace[56]
-		srcPoster13.setAttribute("src", poster[57])
-		srcPoster13.setAttribute("alt", alt[57])
-		srcPoster13.setAttribute("title", title[57])
-		href13.setAttribute("href", enlace[57])
-		href13.textContent = textEnlace[57]
-		srcPoster14.setAttribute("src", poster[58])
-		srcPoster14.setAttribute("alt", alt[58])
-		srcPoster14.setAttribute("title", title[58])
-		href14.setAttribute("href", enlace[58])
-		href14.textContent = textEnlace[58]
-		srcPoster15.setAttribute("src", poster[59])
-		srcPoster15.setAttribute("alt", alt[59])
-		srcPoster15.setAttribute("title", title[59])
-		href15.setAttribute("href", enlace[59])
-		href15.textContent = textEnlace[59]
-
+		hrefSiguiente.setAttribute("href", "../../index.html")
+		hrefSiguiente.click()
 
 	}
 
 	
 
-ultimos()
+
 
 
 
 //funcion para las tendencias del anime(cambia los poster):
 function tendencias(){
-	hrefSiguiente.setAttribute("href", "../peliculas/peliculas.html")
-	hrefSiguiente.click()
+	srcPoster1.setAttribute("src", poster[76])
+		srcPoster1.setAttribute("alt", alt[76])
+		srcPoster1.setAttribute("title", title[76])
+		href1.setAttribute("href", enlace[76])
+		href1.textContent = textEnlace[76]
+		srcPoster2.setAttribute("src", poster[78])
+		srcPoster2.setAttribute("alt", alt[78])
+		srcPoster2.setAttribute("title", title[78])
+		href2.setAttribute("href", enlace[78])
+		href2.textContent = textEnlace[78]
+		srcPoster3.setAttribute("src", poster[77])
+		srcPoster3.setAttribute("alt", alt[77])
+		srcPoster3.setAttribute("title", title[77])
+		href3.setAttribute("href", enlace[77])
+		href3.textContent = textEnlace[77]
+		srcPoster4.setAttribute("src", poster[75])
+		srcPoster4.setAttribute("alt", alt[75])
+		srcPoster4.setAttribute("title", title[75])
+		href4.setAttribute("href", enlace[75])
+		href4.textContent = textEnlace[75]
+		srcPoster5.setAttribute("src", poster[85])
+		srcPoster5.setAttribute("alt", alt[85])
+		srcPoster5.setAttribute("title", title[85])
+		href5.setAttribute("href", enlace[85])
+		href5.textContent = textEnlace[85]
+		srcPoster6.setAttribute("src", poster[82])
+		srcPoster6.setAttribute("alt", alt[82])
+		srcPoster6.setAttribute("title", title[82])
+		href6.setAttribute("href", enlace[82])
+		href6.textContent = textEnlace[82]
+		srcPoster7.setAttribute("src", poster[79])
+		srcPoster7.setAttribute("alt", alt[79])
+		srcPoster7.setAttribute("title", title[79])
+		href7.setAttribute("href", enlace[79])
+		href7.textContent = textEnlace[79]
+		srcPoster8.setAttribute("src", poster[80])
+		srcPoster8.setAttribute("alt", alt[80])
+		srcPoster8.setAttribute("title", title[80])
+		href8.setAttribute("href", enlace[80])
+		href8.textContent = textEnlace[80]
+		srcPoster9.setAttribute("src", poster[81])
+		srcPoster9.setAttribute("alt", alt[81])
+		srcPoster9.setAttribute("title", title[81])
+		href9.setAttribute("href", enlace[81])
+		href9.textContent = textEnlace[81]
+		srcPoster10.setAttribute("src", poster[83])
+		srcPoster10.setAttribute("alt", alt[83])
+		srcPoster10.setAttribute("title", title[83])
+		href10.setAttribute("href", enlace[83])
+		href10.textContent = textEnlace[83]
+		srcPoster11.setAttribute("src", poster[84])
+		srcPoster11.setAttribute("alt", alt[84])
+		srcPoster11.setAttribute("title", title[84])
+		href11.setAttribute("href", enlace[84])
+		href11.textContent = textEnlace[84]
+		srcPoster12.setAttribute("src", poster[89])
+		srcPoster12.setAttribute("alt", alt[89])
+		srcPoster12.setAttribute("title", title[89])
+		href12.setAttribute("href", enlace[89])
+		href12.textContent = textEnlace[89]
+		srcPoster13.setAttribute("src", poster[86])
+		srcPoster13.setAttribute("alt", alt[86])
+		srcPoster13.setAttribute("title", title[86])
+		href13.setAttribute("href", enlace[86])
+		href13.textContent = textEnlace[86]
+		srcPoster14.setAttribute("src", poster[87])
+		srcPoster14.setAttribute("alt", alt[87])
+		srcPoster14.setAttribute("title", title[87])
+		href14.setAttribute("href", enlace[87])
+		href14.textContent = textEnlace[87]
+		srcPoster15.setAttribute("src", poster[88])
+		srcPoster15.setAttribute("alt", alt[88])
+		srcPoster15.setAttribute("title", title[88])
+		href15.setAttribute("href", enlace[88])
+		href15.textContent = textEnlace[88]
 }
+
+tendencias()
 
 //funcion para los estrenos del anime(cambia los poster):
 function estrenos(){

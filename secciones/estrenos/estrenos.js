@@ -25,6 +25,17 @@ listadoDeAnimesResponsive.addEventListener("click", (e)=>{
 	document.querySelector(".href-listado-de-animes").click()
 })
 
+const botonManga = document.querySelector(".manga")
+botonManga.addEventListener("click", manga)
+
+function manga(){
+	document.querySelector('.link-manga').click()
+}
+
+document.getElementById("manga-responsive").addEventListener("click", ()=>{
+	document.querySelector('.link-manga').click()
+})
+
 
 const whatsapp = document.getElementById("icono-whatsapp")
 const telegram = document.getElementById("icono-telegram")
@@ -207,7 +218,6 @@ const item12 = document.querySelector(".item-12")
 const item13 = document.querySelector(".item-13")
 const item14 = document.querySelector(".item-14")
 const item15 = document.querySelector(".item-15")
-
 //variables para cambiar atributo alt:
 let alt = ["img Chainsaw Man", 
 "img Death Note", 
@@ -220,7 +230,7 @@ let alt = ["img Chainsaw Man",
 "img Tokyo Ghoul", 
 "img My Hero Academia", 
 "img Mob Psycho 100", 
-"img FullMetal Alchemist", 
+"img FullMetal Alchemist: Brotherhood", 
 "img Fire Force", 
 "img Tokyo Revengers", 
 "img Highschool Of The Dead",
@@ -268,7 +278,47 @@ let alt = ["img Chainsaw Man",
 "img Sailor Moon",
 "img Bleach",
 "img Bleach Thousand-Year Blood War",
-"img Hunter X Hunter 2011"]
+"img Hunter X Hunter 2011",
+"img Neon Genesis Evangelion",
+"img Tengen Toppa Gurren Lagann",
+"img Code Geass",
+"img Fullmetal Alchemist",
+"img Capitan Tsubasa",
+"img Classroom of the Elite",
+"img Tower of God",
+"img Overlord",
+"img Baki",
+"img Sword Art Online",
+"img No Game No Life",
+"img Uzaki-Chan wa Asobitai!",
+"img Kanojo mo Kanojo",
+"img Pluto",
+"img Buddy Daddies",
+"img Dragon Ball Z peliculas",
+"img Dragon Ball Super Broly",
+"img Dragon ball Super Super Hero",
+"img One Piece Film Red",
+"img One Piece Film Gold",
+"img One Piece Film Z",
+"img One Piece Stampede",
+"img Demon Slayer Mugen Train",
+"img El Viaje de Chihiro",
+"img Your Name",
+"img Suzume",
+"img The First Slam Dunk",
+"img Howl no Ugoku Shiro",
+"img Jujutsu Kaisen 0",
+"img El Tiempo Contigo",
+"img La Princesa Mononoke",
+"img Pokemon peliculas",
+"img Rebuilds of Evangelion",
+"img The End Of evangelion",
+"img My Hero Academia peliculas",
+"img Black Clover la Espada del Rey Mago",
+"img Nanatsu no Tazai peliculas",
+"img No Game No Life Zero",
+"img Spy X Family Movie: Code: White",
+"img Kaguya-Sama pelicula"]
 
 let title = ["Poster Chainsaw Man", 
 "Poster Death Note", 
@@ -329,9 +379,47 @@ let title = ["Poster Chainsaw Man",
 "Poster Sailor Moon",
 "Poster Bleach",
 "Poster Bleach Thousand-Year Blood War",
-"Poster Hunter X Hunter 2011"]
-
-
+"Poster Hunter X Hunter 2011",
+"poster Neon Genesis Evangelion",
+"poster Tengen Toppa Gurren Lagann",
+"poster Code Geass",
+"poster Fullmetal Alchemist",
+"poster Capitan Tsubasa",
+"poster Classroom of the Elite",
+"poster Tower of God",
+"poster Overlord",
+"poster Baki",
+"poster Sword Art Online",
+"poster No Game No Life",
+"poster Uzaki-Chan wa Asobitai!",
+"poster Kanojo mo Kanojo",
+"poster Pluto",
+"poster Buddy Daddies",
+"poster Dragon Ball Z peliculas",
+"poster Dragon Ball Super Broly",
+"poster Dragon ball Super Super Hero",
+"poster One Piece Film Red",
+"poster One Piece Film Gold",
+"poster One Piece Film Z",
+"poster One Piece Stampede",
+"poster Demon Slayer Mugen Train",
+"poster El Viaje de Chihiro",
+"poster Your Name",
+"poster Suzume",
+"poster The First Slam Dunk",
+"poster Howl no Ugoku Shiro",
+"poster Jujutsu Kaisen 0",
+"poster El Tiempo Contigo",
+"poster La Princesa Mononoke",
+"poster Pokemon peliculas",
+"poster Rebuilds of Evangelion",
+"poster The End Of evangelion",
+"poster My Hero Academia peliculas",
+"poster Black Clover la Espada del Rey Mago",
+"poster Nanatsu no Tazai peliculas",
+"poster No Game No Life Zero",
+"poster Spy X Family Movie: Code: White",
+"poster Kaguya-Sama pelicula"]
 
 
 //parrafos para cambiar el parrafo de las ventanas ocultas de los grid:
@@ -466,8 +554,87 @@ let parrafo = [`<h3>Chainsaw Man</h3><b>Denji</b> es un joven atrapado en la pro
 
 			`<h3>Bleach: Thousand-Year Blood War</h3>Esta historia comienza cuando despues de una oleada de asesinatos de Hollow y varias desapariciones en el Distrito de <b>Rukongai</b> se revelo que los <b>Quincy</b> estaban con vida. Y es que se creia y habian sido asesinados por la Sociedad hace 1000 años con la excepcion de la familia Ishida, pero en realidad utilizaron reishi para esconderse en la zona de las sombras en Seireitei.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Pierrot`,
 
-			`<h3>Hunter X Hunter 2014</h3>Para alcanzar su sueño de convertirse en un cazador legendario como su padre, un joven debe pasar un riguroso examen y encontrar a su padre, que esta desaparecido.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Madhouse`]
+			`<h3>Hunter X Hunter 2014</h3>Para alcanzar su sueño de convertirse en un cazador legendario como su padre, un joven debe pasar un riguroso examen y encontrar a su padre, que esta desaparecido.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Madhouse`,
 
+			`<h3>Neon Genesis Evangelion</h3>La historia de la obra se da lugar en un mundo futurista en el que una organización paramilitar llamada <b>NERV</b> protege a la humanidad de los ataques de seres de origen y naturaleza desconocidos, los "Ángeles", utilizando para ello bio mechas humanoides llamados <b>Evangelion</b>.<br><br><b>Genero:</b> accion, Ciencia ficción<br><br><b>Estudio:</b> Gainax`,
+
+			`<h3>Tengen Toppa Gurren Lagann</h3>Tiene lugar en un futuro donde la tierra esta dominada por el Rey Espiral, <b>Lord Genome</b>, que obliga a vivir a la humanidad en aldeas subterraneas aisladas. Estos pueblos no tienen contacto con el mundo de la superficie u otros pueblos, estando bajo la constante amenaza de terremotos.<br><br><b>Genero:</b> Accion, Aventuras, Ciencia Ficcion, Mecha<br><br><b>Estudio:</b> Gainax`,
+
+			`<h3>Code Geass</h3><b>Code Geass</b> se desarrolla en una realidad alternativa donde el <b>Sacro Imperio de Britannia</b>, una superpotencia internacional, ha conquistado más de un tercio del planeta. El mundo, principalmente, es dividido entre esta y otras dos superpotencias: la Federación China y la Unión Europea.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Sunrise`,
+
+			`<h3>Fullmetal Alchemist</h3><b>Edward</b> y <b>Alphonse</b> son dos jovenes alquimistas que trabajan para el ejercito central luvhando contra todos los enemigos que perturban paz de la nacion. En este caso el <b>Alquimista de Hielo</b> intenta destruir el pais y acabar con <b>King Bradley</b>. la historia nos lleva 10 años atras en el tiempo.<br><br><b>Genero:</b> Aventura, Fantasia<br><br><b>Estudio:</b> Bones`,
+
+			`<h3>Capitan Tsubasa</h3>La historia tiene como tema central el futbol, narrando las intrepidas aventuras de Tsubasa Ozora y sus amigos desde la infancia hasta que son profesionales y llegan a formar parte de la Seleccion Nacional de Japon.<br><br><b>Genero:</b> Spokon, deportes<br><br><b>Estudio:</b> David Production`,
+
+			`<h3>Classroom od the Elite</h3>La historia se centra en los estudiantes de una escuela de Tokyo fundada por el gobierno japones con el fin de formar a los jovenes que en futuro seran el sustento institucional del pais. La metodologia de enseñanza de esta escuela es poco convencional, puesto que los estudiantes residen en la misma apartados del resto de la sociedad, y por medio del estudio y su comportamiento se auto sustentan, utilizando puntos de calificacion como dinero.<br><br><b>Genero:</b> escolar, psicologico, recuentos de la vida<br><br><b>Estudio:</b> Lerche`,
+
+			`<h3>Tower of God</h3><b>Bam</b> es un chico que siempre ha vivido solo en una cueva bajo la Torre de Dios, un legendario edificio del que se dice que, si alcanzas su cima, podras conseguir cualquier cosa que desees. Su unica amiga es <b>Rachel</b>, una chica empeñada en subir la torre y que desaparece un dia para intentar conseguirlo.<br><br><b>Genero:</b> Accion, aventura, drama, fantasia oscura<br><br><b>Estudio:</b> Telecom Animation Film`,
+
+			`<h3>Overlord</h3>Cuando un popular <b>MMORPNG</b> anuncia su cierre definitivo, el veterano jugador <b>Momonoga</b> decide quedarse en el hasta el mismo cierre, sin salir. El problema es que le pasa la hora de cierre  el no se desconecta, pero los NPC han ganado conciencia propia. ¿esta atrapado?.<br><br><b>Genero:</b> Accion, fantasia oscura, isekai<br><br><b>Estudio:</b> Madhouse`,
+
+			`<h3>Baki</h3>Tanto Baki como su secuela Baki Hanma nos narran las aventuras del hijo de <b>Yujiro Hanma</b>, el hombre mas fuerte de todo el planeta. Baki quiere superar mediante todos los medios a su padre, a quien practicamente no se le considera ser humano, sino una especie de fuerza imparable de la naturaleza.<br><br><b>Genero:</b> Accion, artes marciales, deportes<br><br><b>Estudio:</b> TMS`,
+
+			`<h3>Sword Art Online</h3>La historia se desarrolla en el año 2022, cuando un videojuego de rol multijugador masivo en linea de realidad virtual acaba de ser lanzado. Alli los jugadores pueden entrar a un mundo denominado <b>Aincrad</b> y controlar sus avatares tal como lo harian con sus cuerpos reales con el <b>NeverGear</b>, un casco de realidad virtual capaz de estimular sus cinco sentidos a traves de sus cerebros.<br><br><b>Genero:</b> Accion, videojuegos<br><br><b>Estudio:</b> A-1 Pictures`,
+
+			`<h3>No Game No Life</h3>Los legendarios hermanos Gamers <b>Sora</b> y <b>Shiro</b> son transportados a un mundo donde la vida se compone de una serie de juegos que ponen en riesgo la vida de la humanidad.<br><br><b>Genero:</b> Ecchi, aventura, comedia, isekai, fantasia<br><br><b>Estudio:</b> Madhouse`,
+
+			`<h3>Uzaki-Chan wa Asobitai!</h3>El unico deseo de <b>Shinichi Sakurai</b> es un poco de paz y tranquilidad. Pero <b>Hana Uzaki</b>, su animada y muy dotada compañera del instituto, tiene otros planes. Todo lo que ella quiere es pasar el rato y hacerle bromas. Con la ayuda de su encanto y persistencia, ¡este podria ser el comienzo de una hermosa relacion!.<br><br><b>Genero:</b> Comedia romantica, recuentos de la vida<br><br><b>Estudio:</b> ENGI`,
+
+			`<h3>Kanojo mo Kanojo: Girlfriend, Girlfriend</h3>La serie sigue a Naoya Mukai, quien recientemente habia comenzado ua relacion con su amiga de la infancia Saki Saki. Nagisa Minase su compañera de clase, decide confesarle sus sentimientos tambien, y despues de algunas vacilaciones iniciales acepta ser su novio tambien. Naoya decide que tendra a Saki y a Nagisa como novias ese momento.<br><br><b>Genero:</b> Comedia romantica, escolar<br><br><b>Estudio:</b> Tezuka Productions (T1), SynergySP (T2)`,
+
+			`<h3>Pluto</h3>Pluto narra la historia de <b>Gesicht</b>, un robot detective que trabaja en Europol, cuando investiga un caso que gira en torno a los asesinatos de robots y humanos que estan teniendo lugar. El caso se complica cuando las pruebas empiezan a sugerir que quien esta detras de todoe esto es un robot.<br><br><b>Genero:</b> Policiaco, cinecia ficcion<br><br><b>Estudio:</b> Studio M2`,
+
+			`<h3>Buddy Daddies</h3>Un equipo de asesinos que jamas dejan de escapar a su presa acaban cuidando de una niña de cinco años. Asi da inicio la vida familiar de un equipo de mortales asesinos a sueldo compuesto por un hombre mur serio y frio y otro muy abierto e impulsivo, y de una pequeña niña inocente.<br><br><b>Genero:</b> Comedia, accion<br><br><b>Estudio:</b> P.A. Works`,
+
+			`<h3>Dragon Ball Z: peliculas</h3>Las quince peliculas basadas en Dragon Ball Z tienen tramas completamente distintas a la serie, ninguna de ellas es ambientada en la linea temporal en la linea temporal en la que se desarrolla la serie original, con la excepcion de La Batalla de los Dioses y La Resurreccion de Freezer<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Toei Animation`,
+
+			`<h3>Dragon Ball Super: Broly</h3>Goku y Vegeta encuentran a Broly, un guerrero Saiyajin. Pero, ¿como sobrevivio a la destruccion de su planeta y donde estuvo todo este tiempo? La situacion empeora todavia mas cuando Freezer vuelve al mundo de los vivos desde el infierno.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Toei Animation`,
+
+			`<h3>Dragon Ball Super: Super Hero</h3>La malvada organizacion <b>Red Ribbon Army</b> se reune con nuevos y mas poderosos androides, <b>Gamma 1 y Gamma 2</b> en busca de venganza.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Toei Animation`,
+
+			`<h3>One piece Film: Red</h3><b>Los Piratas de Sombrero de Paja</b> van a un festival de musica en la Isla de Elegia a ver el concierto de <b>Uta</b>, una diva de enorme fama. Lo que iba a ser un concierto normal es interrumpido por una gran revelacion por parte de <b>Luffy</b>.<br><br><b>Genero:</b> Accion, aventura<br><br><b>Estudio:</b> Toei Animation`,
+
+			`<h3>One Piece Film: Gold</h3>La pelicula trata sobre un barco de 10 km, considerado por el gobierno mundial como una nacion independiente, que alberga la ciudad de entretenimiento mas grande del mundo gobernada por <B>Gild Tesoro</B>, poseedor de la fruta Goru Goro no Mi <B>(fruta oro-oro)</B>, que le proporciona habilidades relacionadas con el oro.<br><br><b>Genero:</b> Accion, aventura<br><br><b>Estudio:</b> Toei Animation`,
+
+			`<h3>One Piece Film: Z</h3>Se dice que su poder es comparable al de la Armas Ancestrales, la carta de triunfo de la <b>Marina</b>, las <b>piedras Dyna</b> fueron robadas. El responsable es el temido y terriblemente poderoso, antiguo almirante de la Marina, un hombre llamado <b>"Z"</b>, quien se cruza en el camino de los Piratas de Sombrero de Paja.<br><br><b>Genero:</b> Accion, aventura<br><br><b>Estudio:</b> Toei Animation`,
+
+			`<h3>One Piece: Stampede</h3><b>Los Piratas de Sombrero de Paja</b> llegan a la <b>Isla Delta</b>, isla donde se realizara el <b>Festival Pirata</b>, hecho por y para piratas. El principal atractivo de esa edicion es la busqueda del tesoro perteneciente anteriormente a <b>Gold Roger</b>.<br><br><b>Genero:</b> Accion, aventura<br><br><b>Estudio:</b> Toei Animation`,
+
+			`<h3>Demon Slayer The Movie: Mugen Train</h3>Tanjiro y sus amigos unen fuerzas contra un poderoso espadachin para combatir a unos demonios que viajan en un tren en movimiento.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Ufotable`,
+
+			`<h3>El Viaje de Chihiro</h3>Chihiro es una niña caprichosa que debe adentrarse en un mundo de fantasia para poder salvar a sus padres convertidos en cerdos.<br><br><b>Genero:</b> Fantasia, aventura<br><br><b>Estudio:</b> Studio Ghibli`,
+
+			`<h3>Your Name: Kimi no Na Wa</h3><b>Mitsuha</b> es una adolescente que detesta su vida rural en el campo. Por otro lado <b>Taki</b> es un chico que vive en Tokyo y sueña con ser artista o un arquitecto. Los destinos de estos jovenes se entrelazan la noche en que dos estrellas caen del cielo, y comienzan a intercambiar sus cuerpos de la noche a la mañana.<br><br><b>Genero:</b> fantasia, romance<br><br><b>Estudio:</b> CoMix Wave Films`,
+
+			`<h3>Suzume no Tojimari</h3><b>Suzume</b>, de 17 años, descubre una misteriosa puerta en las montañas, y pronto empiezan a aparecer otras puertas por todo Japon. cuando las puertas se abren, liberan desastres y destruccion, y depende de Suzume volver a cerrarlas.<br><br><b>Genero:</b> Accion, aventura<br><br><b>Estudio:</b> CoMix Wave Films`,
+
+			`<h3>The First Slam Dunk</h3><b>Ryota Miyagi</b>, del instituto <b>Shohoku</b>, se enfrenta a su verdadera prueba como jugador de baloncesto en un partido de campeonato lleno de adrenalina.<br><br><b>Genero:</b> Deportes, drama<br><br><b>Estudio:</b> Toei Animation`,
+
+			`<h3>Howl no Ugoku Shiro</h3>Despues de que una bruja la transformara en una anciana, una fabricante de sombreros busca refugio en la casa ambulante de un singular mago.<br><br><b>Genero:</b> fantasia, aventura<br><br><b>Estudio:</b> Studio Ghibli`,
+
+			`<h3>Jujutsu Kaisen 0</h3><b>Yuta Okkotsu</b> obtiene el control de una maldicion extremadamente poderosa y acaba inscrito en el Colegio Tecnico de Magia Metropolitana de Tokyo, donde otros hechiceros decide ayudarlo a controlar y vigilar su poder.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Mappa`,
+
+			`<h3>El Tiempo Contigo: Tenki no Ko</h3>Durante una epoca de Lluvia sin fin, Hodaka estudiante de escuela secundaria, escapa del problematico hogar de donde proviene, en una zona rural, y huye a Tokyo. Donde se hace amigo de una chica huerfana capaz de alterar el tiempo atmosferico.<br><br><b>Genero:</b> Fantasia, romance<br><br><b>Estudio:</b> CoMix Wave Films`,
+
+			`<h3>La Princesa Mononoke</h3>Un principe se ve involucrado en un confilcto entre una princesa del bosque y el abuso de la mecanizacion.<br><br><b>Genero:</b> Fantasia, aventura<br><br><b>Estudio:</b> Studio Ghibli`,
+
+			`<h3>Pokemon: peliculas</h3>Las peliculas de Pokemon cuentan con el elenco principal de la serie televisiva y preceden el estreno de cada temporada. Desde el año 1998 hasta el año 2019, se han estrenado 21 peliculas dirigidas por Kuninko yuyama.<br><br><b>Genero:</b> Accion, aventura, comedia<br><br><b>Estudio:</b> OLM, Inc`,
+
+			`<h3>Rebuilds of Evangelion</h3>Se las puede definir como una adaptacion al formato cinematografico de alto presupuesto y con novedades significativas. Sus creadores lo han descrito como una via de acceso para nuevos espectadores, siendo un proyecto autosuficiente al margen de la serie original (aunque siendo sincero es mucho mejor verse la serie original y despues ver los Rebuilds).<br><br><b>Genero:</b> accion, Ciencia ficción<br><br><b>Estudio:</b> Gainax`,
+
+			`<h3>The End of Evangelion</h3><b>NERV</b> se enfrenta al <b>Decimoctavo Angel</b>, pero el final del destino del mundo depende de las elecciones de <b>Shinji</b>.<br><br><b>Genero:</b> accion, Ciencia ficción<br><br><b>Estudio:</b> Gainax`,
+
+			`<h3>My Hero Academia: Peliculas</h3><b>1:</b> Deku y All-Might visitan la isla I, una ciudad flotante hecha por el hombre. Alli conocen a una chica y pelean contra un villano que domina el lugar. <b>2:</b> Deku y el resto de los heroes de la clase 1-A deben salvar a un grupo de isleños de un poderoso villano. <b>3:</b> Los mas granddes heroes de japon deben seguirle el rastro a la mente maestra detras de un ataque quimico mortal.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> BONES`,
+
+			`<h3>Black Clover: La Espada del Rey Mago</h3>Un niño que no tiene el poder de hacer magia lucha por obtener el titulo del Rey Mago, Mientras cuatro antiguos Reyes Magos reaparecen para destruir el Reino Trebol.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> Pierrot`,
+
+			`<h3>Nanatsu no Tazai: Peliculas</h3>La trama principal se sitúa en una época medieval y sigue las aventuras del escuadrón de caballeros conocidos como los <b>"siete pecados capitales"</b> (que actúan como protectores de Britannia), para defenderla de la opresión, y al mismo tiempo buscan la redención por pecados que les confirieron sus títulos.<br><br><b>Genero:</b> Accion, fantasia<br><br><b>Estudio:</b> A-1 Pictures`,
+
+			`<h3>No Game, No Life Zero</h3>No es para nada igual que el anime, no todo se desarrolla mediante juegos ni en un mundo tan pacifico. Los combates son visualmente geniales, la banda sonora es espectacular, la animacion, la historia... Todo de principio a fin.<br><br><b>Genero:</b> Accion, fantasia, ecchi<br><br><b>Estudio:</b> Madhouse`,
+
+			`<h3>Spy X Family Movie: Code: White</h3><b>Loid Forger</b>, recibio una orden de que lo reemplazaran en la Operacion Strix. Mientras tanto Anya Forger participa en un concurso de cocina en Eden Academy, con una Stella como recompenza rumoreada. Para evitar que ocurra el reemplazo, Loid decide ayudar a Anya a ganar la competencia preparando la comida favorita del director. Los Forger deciden viajar a la region de origen de la comida y desencadenan accidentalmente una cadena de acciones que podrian poner el riesgo la paz mundial.<br><br><b>Genero:</b> Accion, comedia<br><br><b>Estudio:</b> Wit Studio, CloverWorks`,
+
+			`<h3>Kaguya-Sama: Pelicula</h3>Esta ambientada despues de los eventos de la tercera temporada.<br><br><b>Genero:</b> Comedia, drama, romance<br><br><b>Estudio:</b> A-1 Pictures`]
 
 
 
@@ -515,7 +682,7 @@ const parrafos15 = document.querySelector(".parrafos-15")
 
 function presionar1(){
 	item.classList.add("item-animacion")
-		for (let i = 0; i < 61; i++) {
+		for (let i = 0; i < 130; i++) {
 			if (srcPoster1.alt == alt[i]) {
 			image.setAttribute("src", poster[i])
 			parrafos.innerHTML = parrafo[i]
@@ -530,7 +697,7 @@ function ocultarVentana1(){
 
 function presionar2(){
 	item2.classList.add("item-animacion-2")
-		for (let i = 0; i < 61; i++) {
+		for (let i = 0; i < 130; i++) {
 			if (srcPoster2.alt == alt[i]) {
 			image2.setAttribute("src", poster[i])
 			parrafos2.innerHTML = parrafo[i]
@@ -545,7 +712,7 @@ function ocultarVentana2(){
 
 function presionar3(){
 	item3.classList.add("item-animacion-3")
-		for (let i = 0; i < 61; i++) {
+		for (let i = 0; i < 130; i++) {
 			if (srcPoster3.alt == alt[i]) {
 			image3.setAttribute("src", poster[i])
 			parrafos3.innerHTML = parrafo[i]
@@ -559,7 +726,7 @@ function ocultarVentana3(){
 
 function presionar4(){
 	item4.classList.add("item-animacion-4")
-		for (let i = 0; i < 61; i++) {
+		for (let i = 0; i < 130; i++) {
 			if (srcPoster4.alt == alt[i]) {
 			image4.setAttribute("src", poster[i])
 			parrafos4.innerHTML = parrafo[i]
@@ -574,7 +741,7 @@ function ocultarVentana4(){
 
 function presionar5(){
 	item5.classList.add("item-animacion-5")
-		for (let i = 0; i < 61; i++) {
+		for (let i = 0; i < 130; i++) {
 			if (srcPoster5.alt == alt[i]) {
 			image5.setAttribute("src", poster[i])
 			parrafos5.innerHTML = parrafo[i]
@@ -590,7 +757,7 @@ function ocultarVentana5(){
 
 function presionar6(){
 	item6.classList.add("item-animacion-6")
-		for (let i = 0; i < 61; i++) {
+		for (let i = 0; i < 130; i++) {
 			if (srcPoster6.alt == alt[i]) {
 			image6.setAttribute("src", poster[i])
 			parrafos6.innerHTML = parrafo[i]
@@ -604,7 +771,7 @@ function ocultarVentana6(){
 
 function presionar7(){
 	item7.classList.add("item-animacion-7")
-		for (let i = 0; i < 61; i++) {
+		for (let i = 0; i < 130; i++) {
 			if (srcPoster7.alt == alt[i]) {
 			image7.setAttribute("src", poster[i])
 			parrafos7.innerHTML = parrafo[i]
@@ -618,7 +785,7 @@ function ocultarVentana7(){
 
 function presionar8(){
 	item8.classList.add("item-animacion-8")
-		for (let i = 0; i < 61; i++) {
+		for (let i = 0; i < 130; i++) {
 			if (srcPoster8.alt == alt[i]) {
 			image8.setAttribute("src", poster[i])
 			parrafos8.innerHTML = parrafo[i]
@@ -633,7 +800,7 @@ function ocultarVentana8(){
 
 function presionar9(){
 	item9.classList.add("item-animacion-9")
-		for (let i = 0; i < 61; i++) {
+		for (let i = 0; i < 130; i++) {
 			if (srcPoster9.alt == alt[i]) {
 			image9.setAttribute("src", poster[i])
 			parrafos9.innerHTML = parrafo[i]
@@ -648,7 +815,7 @@ function ocultarVentana9(){
 
 function presionar10(){
 	item10.classList.add("item-animacion-10")
-		for (let i = 0; i < 61; i++) {
+		for (let i = 0; i < 130; i++) {
 			if (srcPoster10.alt == alt[i]) {
 			image10.setAttribute("src", poster[i])
 			parrafos10.innerHTML = parrafo[i]
@@ -662,7 +829,7 @@ function ocultarVentana10(){
 
 function presionar11(){
 	item11.classList.add("item-animacion-11")
-		for (let i = 0; i < 61; i++) {
+		for (let i = 0; i < 130; i++) {
 			if (srcPoster11.alt == alt[i]) {
 			image11.setAttribute("src", poster[i])
 			parrafos11.innerHTML = parrafo[i]
@@ -676,7 +843,7 @@ function ocultarVentana11(){
 
 function presionar12(){
 	item12.classList.add("item-animacion-12")
-		for (let i = 0; i < 61; i++) {
+		for (let i = 0; i < 130; i++) {
 			if (srcPoster12.alt == alt[i]) {
 			image12.setAttribute("src", poster[i])
 			parrafos12.innerHTML = parrafo[i]
@@ -690,7 +857,7 @@ function ocultarVentana12(){
 
 function presionar13(){
 	item13.classList.add("item-animacion-13")
-		for (let i = 0; i < 61; i++) {
+		for (let i = 0; i < 130; i++) {
 			if (srcPoster13.alt == alt[i]) {
 			image13.setAttribute("src", poster[i])
 			parrafos13.innerHTML = parrafo[i]
@@ -704,7 +871,7 @@ function ocultarVentana13(){
 
 function presionar14(){
 	item14.classList.add("item-animacion-14")
-		for (let i = 0; i < 61; i++) {
+		for (let i = 0; i < 130; i++) {
 			if (srcPoster14.alt == alt[i]) {
 			image14.setAttribute("src", poster[i])
 			parrafos14.innerHTML = parrafo[i]
@@ -718,7 +885,7 @@ function ocultarVentana14(){
 
 function presionar15(){
 	item15.classList.add("item-animacion-15")
-		for (let i = 0; i < 61; i++) {
+		for (let i = 0; i < 130; i++) {
 			if (srcPoster15.alt == alt[i]) {
 			image15.setAttribute("src", poster[i])
 			parrafos15.innerHTML = parrafo[i]
@@ -729,8 +896,6 @@ function presionar15(){
 function ocultarVentana15(){
 		item15.classList.remove("item-animacion-15")
 }
-
-
 //funcion de buscar en el input:
 const input = document.querySelector(".input-buscador")
 const contenedorInput = document.querySelector(".input")
@@ -752,7 +917,7 @@ document.addEventListener("keyup", e=>{
 	}
 })
 
-for (let i = 0; i < 60; i++) {
+for (let i = 0; i < 100; i++) {
 			document.getElementById(`data-serie-${i}`).addEventListener("click", (e)=>{
 			linkInput.setAttribute("href", enlace[i])
 			linkInput.click()
@@ -818,7 +983,7 @@ function buscadorInput(){
 		linkInput.setAttribute("href", enlace[10])
 		linkInput.click()
 	}
-	else if (input.value.toLowerCase() == "fullmetal alchemist" || input.value.toLowerCase() == "fullmetal alchemist: brotherhood") {
+	else if (input.value.toLowerCase() == "fullmetal alchemist: brotherhood") {
 		linkInput.setAttribute("href", enlace[11])
 		linkInput.click()
 	}
@@ -1028,10 +1193,196 @@ function buscadorInput(){
 		linkInput.click()
 	}
 	
-	else if (input.value.toLowerCase() == "hunter x hunter 2011") {
-		linkInput.setAttribute("href", enlace[59])
+	else if (input.value.toLowerCase() == "neon genesis evangelion" || input.value.toLowerCase() == "evangelion") {
+		linkInput.setAttribute("href", enlace[60])
 		linkInput.click()
 	}
+	
+	else if (input.value.toLowerCase() == "tengenn toppa gurren lagann") {
+		linkInput.setAttribute("href", enlace[61])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "code geass") {
+		linkInput.setAttribute("href", enlace[62])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "fullmetal alchemist") {
+		linkInput.setAttribute("href", enlace[63])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "capitan tsubasa") {
+		linkInput.setAttribute("href", enlace[64])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "classroom of the elite") {
+		linkInput.setAttribute("href", enlace[65])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "tower of god" || input.value.toLowerCase() == "la torre de dios") {
+		linkInput.setAttribute("href", enlace[66])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "overlord") {
+		linkInput.setAttribute("href", enlace[67])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "baki") {
+		linkInput.setAttribute("href", enlace[68])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "sword art online") {
+		linkInput.setAttribute("href", enlace[69])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "no game no life") {
+		linkInput.setAttribute("href", enlace[70])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "uzaki chan" || input.value.toLowerCase() == "uzaki-chan" || input.value.toLowerCase() == "uzaki-chan wa asobitai!") {
+		linkInput.setAttribute("href", enlace[71])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "kanojo mo kanojo" || input.value.toLowerCase() == "girlfriend, girlfriend") {
+		linkInput.setAttribute("href", enlace[72])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "pluto") {
+		linkInput.setAttribute("href", enlace[73])
+		linkInput.click()
+	}
+	else if (input.value.toLowerCase() == "buddy daddies") {
+		linkInput.setAttribute("href", enlace[74])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "dragon ball z: peliculas") {
+		linkInput.setAttribute("href", enlace[75])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "dragon ball super: broly") {
+		linkInput.setAttribute("href", enlace[76])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "dragon ball super: super hero") {
+		linkInput.setAttribute("href", enlace[77])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "one piece film: red" || input.value.toLowerCase() == "one piece film red") {
+		linkInput.setAttribute("href", enlace[78])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "one piece film: gold" || input.value.toLowerCase() == "one piece film gold") {
+		linkInput.setAttribute("href", enlace[79])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "one piece film z" || input.value.toLowerCase() == "one piece film z") {
+		linkInput.setAttribute("href", enlace[80])
+		linkInput.click()
+	}
+
+	else if (input.value.toLowerCase() == "one piece: stampede") {
+		linkInput.setAttribute("href", enlace[81])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "demon slayer: mugen train" || input.value.toLowerCase() == "demon slayer mugen train") {
+		linkInput.setAttribute("href", enlace[82])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "el viaje de chihiro") {
+		linkInput.setAttribute("href", enlace[83])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "your name" || input.value.toLowerCase() == "kimi no na wa") {
+		linkInput.setAttribute("href", enlace[84])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "suzume" || input.value.toLowerCase() == "suzume no tojimari") {
+		linkInput.setAttribute("href", enlace[85])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "the first slam dunk") {
+		linkInput.setAttribute("href", enlace[86])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "howl no ugoku shiro") {
+		linkInput.setAttribute("href", enlace[87])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "jujutsu kaisen 0") {
+		linkInput.setAttribute("href", enlace[88])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "el tiempo contigo" || input.value.toLowerCase() == "tenki no ko") {
+		linkInput.setAttribute("href", enlace[89])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "la princesa mononoke") {
+		linkInput.setAttribute("href", enlace[90])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "pokemon: peliculas") {
+		linkInput.setAttribute("href", enlace[91])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "rebuilds of evangelion") {
+		linkInput.setAttribute("href", enlace[92])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "the end of evangelion") {
+		linkInput.setAttribute("href", enlace[93])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "my hero academia: peliculas") {
+		linkInput.setAttribute("href", enlace[94])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "black clover: la espada del rey mago") {
+		linkInput.setAttribute("href", enlace[95])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "nanatsu no tazai: peliculas") {
+		linkInput.setAttribute("href", enlace[96])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "no game, no life zero") {
+		linkInput.setAttribute("href", enlace[97])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "spy x family movie: code: white") {
+		linkInput.setAttribute("href", enlace[98])
+		linkInput.click()
+	}
+	
+	else if (input.value.toLowerCase() == "kaguya-sama: pelicula") {
+		linkInput.setAttribute("href", enlace[99])
+		linkInput.click()
+	}
+	
+	
+	
+	
 	
 	
 	else{
@@ -1061,7 +1412,7 @@ document.addEventListener("keyup", e=>{
 	}
 })
 
-for (let i = 0; i < 60; i++) {
+for (let i = 0; i < 100; i++) {
 			document.getElementById(`responsive-data-serie-${i}`).addEventListener("click", (e)=>{
 			linkInputResponsive.setAttribute("href", enlace[i])
 			linkInputResponsive.click()
@@ -1341,12 +1692,200 @@ function buscadorInputResponsive(){
 		linkInput.setAttribute("href", enlace[59])
 		linkInput.click()
 	}
+
+	else if (inputResponsive.value.toLowerCase() == "neon genesis evangelion" || input.value.toLowerCase() == "evangelion") {
+		linkInput.setAttribute("href", enlace[60])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "tengenn toppa gurren lagann") {
+		linkInput.setAttribute("href", enlace[61])
+		linkInput.click()
+	}
+	else if (inputResponsive.value.toLowerCase() == "code geass") {
+		linkInput.setAttribute("href", enlace[62])
+		linkInput.click()
+	}
+	else if (inputResponsive.value.toLowerCase() == "fullmetal alchemist") {
+		linkInput.setAttribute("href", enlace[63])
+		linkInput.click()
+	}
+	else if (inputResponsive.value.toLowerCase() == "capitan tsubasa") {
+		linkInput.setAttribute("href", enlace[64])
+		linkInput.click()
+	}
+	else if (inputResponsive.value.toLowerCase() == "classroom of the elite") {
+		linkInput.setAttribute("href", enlace[65])
+		linkInput.click()
+	}
+	else if (inputResponsive.value.toLowerCase() == "tower of god" || input.value.toLowerCase() == "la torre de dios") {
+		linkInput.setAttribute("href", enlace[66])
+		linkInput.click()
+	}
+	else if (inputResponsive.value.toLowerCase() == "overlord") {
+		linkInput.setAttribute("href", enlace[67])
+		linkInput.click()
+	}
+	else if (inputResponsive.value.toLowerCase() == "baki") {
+		linkInput.setAttribute("href", enlace[68])
+		linkInput.click()
+	}
+	else if (inputResponsive.value.toLowerCase() == "sword art online") {
+		linkInput.setAttribute("href", enlace[69])
+		linkInput.click()
+	}
+	else if (inputResponsive.value.toLowerCase() == "no game no life") {
+		linkInput.setAttribute("href", enlace[70])
+		linkInput.click()
+	}
+	else if (inputResponsive.value.toLowerCase() == "uzaki chan" || input.value.toLowerCase() == "uzaki-chan" || input.value.toLowerCase() == "uzaki-chan wa asobitai!") {
+		linkInput.setAttribute("href", enlace[71])
+		linkInput.click()
+	}
+	else if (inputResponsive.value.toLowerCase() == "kanojo mo kanojo" || input.value.toLowerCase() == "girlfriend, girlfriend") {
+		linkInput.setAttribute("href", enlace[72])
+		linkInput.click()
+	}
+	else if (inputResponsive.value.toLowerCase() == "pluto") {
+		linkInput.setAttribute("href", enlace[73])
+		linkInput.click()
+	}
+	else if (inputResponsive.value.toLowerCase() == "buddy daddies") {
+		linkInput.setAttribute("href", enlace[74])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "dragon ball z: peliculas") {
+		linkInput.setAttribute("href", enlace[75])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "dragon ball super: broly") {
+		linkInput.setAttribute("href", enlace[76])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "dragon ball super: super hero") {
+		linkInput.setAttribute("href", enlace[77])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "one piece film: red" || input.value.toLowerCase() == "one piece film red") {
+		linkInput.setAttribute("href", enlace[78])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "one piece film: gold" || input.value.toLowerCase() == "one piece film gold") {
+		linkInput.setAttribute("href", enlace[79])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "one piece film z" || input.value.toLowerCase() == "one piece film z") {
+		linkInput.setAttribute("href", enlace[80])
+		linkInput.click()
+	}
+
+	else if (inputResponsive.value.toLowerCase() == "one piece: stampede") {
+		linkInput.setAttribute("href", enlace[81])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "demon slayer: mugen train" || input.value.toLowerCase() == "demon slayer mugen train") {
+		linkInput.setAttribute("href", enlace[82])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "el viaje de chihiro") {
+		linkInput.setAttribute("href", enlace[83])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "your name" || input.value.toLowerCase() == "kimi no na wa") {
+		linkInput.setAttribute("href", enlace[84])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "suzume" || input.value.toLowerCase() == "suzume no tojimari") {
+		linkInput.setAttribute("href", enlace[85])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "the first slam dunk") {
+		linkInput.setAttribute("href", enlace[86])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "howl no ugoku shiro") {
+		linkInput.setAttribute("href", enlace[87])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "jujutsu kaisen 0") {
+		linkInput.setAttribute("href", enlace[88])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "el tiempo contigo" || input.value.toLowerCase() == "tenki no ko") {
+		linkInput.setAttribute("href", enlace[89])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "la princesa mononoke") {
+		linkInput.setAttribute("href", enlace[90])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "pokemon: peliculas") {
+		linkInput.setAttribute("href", enlace[91])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "rebuilds of evangelion") {
+		linkInput.setAttribute("href", enlace[92])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "the end of evangelion") {
+		linkInput.setAttribute("href", enlace[93])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "my hero academia: peliculas") {
+		linkInput.setAttribute("href", enlace[94])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "black clover: la espada del rey mago") {
+		linkInput.setAttribute("href", enlace[95])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "nanatsu no tazai: peliculas") {
+		linkInput.setAttribute("href", enlace[96])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "no game, no life zero") {
+		linkInput.setAttribute("href", enlace[97])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "spy x family movie: code: white") {
+		linkInput.setAttribute("href", enlace[98])
+		linkInput.click()
+	}
+	
+	else if (inputResponsive.value.toLowerCase() == "kaguya-sama: pelicula") {
+		linkInput.setAttribute("href", enlace[99])
+		linkInput.click()
+	}
+	
+	
 	
 	else{
 		document.querySelector(".href-error").click()
 	}
 }
-
 
 
 
@@ -2014,7 +2553,6 @@ const srcPoster12 = document.querySelector(".src-poster-12")
 const srcPoster13 = document.querySelector(".src-poster-13")
 const srcPoster14 = document.querySelector(".src-poster-14")
 const srcPoster15 = document.querySelector(".src-poster-15")
-
 //src de todos los poster:
 let poster = ["../../poster/chainsaw man poster.jpg", 
 "../../poster/death note 2.jpg", 
@@ -2033,7 +2571,7 @@ let poster = ["../../poster/chainsaw man poster.jpg",
 "../../poster/high school of the dead 1.jpg", 
 "../../poster/saga de cell.jpg",
 "../../poster/saga del torneo del poder.jpg", 
-"../../poster/one piece 3.jpe", 
+"../../poster/one piece 5.jpg", 
 "../../poster/record of ragnarok 1.webp",
 "../../poster/vinland saga 2.png",  
 "../../poster/nanatsu no tazai 1.webp",
@@ -2066,7 +2604,7 @@ let poster = ["../../poster/chainsaw man poster.jpg",
 "../../poster/naruto shippuben.jpg",
 "../../poster/zom 100 1.jpe",
 "../../poster/fairy tail the final.jpg",
-"../../poster/skip and loafer 1.jpe",
+"../../poster/skip and loafer 1.jpg",
 "../../poster/mushoku tensei 2.jpeg",
 "../../poster/boruto 1.jpg",
 "../../poster/sousou no fierren img 2.jpg",
@@ -2075,7 +2613,47 @@ let poster = ["../../poster/chainsaw man poster.jpg",
 "../../poster/sailor moon 3.webp",
 "../../poster/bleach 1.jpg",
 "../../poster/bleach thosand 1.jpg",
-"../../poster/hunter hunter 2001 1.jpg"]
+"../../poster/hunter hunter 2001 1.jpg",
+"../../poster/evangelion 1.jpg",
+"../../poster/tengen toppa gurren lagann 1.jpg",
+"../../poster/code geass 1.jpg",
+"../../poster/fullmetal alchemist 1 1.jpg",
+"../../poster/capitan tsubasa 1.jpg",
+"../../poster/classroom of the elite 1.jpg",
+"../../poster/tower of god 1.jpg",
+"../../poster/overlord 1.jpg",
+"../../poster/baki 1.jpg",
+"../../poster/sword art online 1.jpg",
+"../../poster/no game no life 1.jpg",
+"../../poster/uzaki chan 1.jpg",
+"../../poster/kanojo mo kanojo 1.jpg",
+"../../poster/pluto 1.jpg",
+"../../poster/buddy daddies 1.jpg",
+"../../poster/dragon ball z peliculas 1.jpg",
+"../../poster/dragon ball super broly 1.jpg",
+"../../poster/dragon ball super super hero 1.jpg",
+"../../poster/one piece film red 1.jpg",
+"../../poster/one piece film gold 1.jpg",
+"../../poster/one piece film z 1.jpg",
+"../../poster/one piece stampede 1.jpg",
+"../../poster/demon slayer mugen train 1.jpg",
+"../../poster/el viaje de chihiro 1.jpg",
+"../../poster/your name 1.jpg",
+"../../poster/suzume 1.jpg",
+"../../poster/the first slam dunk 1.jpg",
+"../../poster/howl no ugoku shiro 1.jpg",
+"../../poster/jujutsu kaisen 0 1.jpg",
+"../../poster/el tiempo contigo 1.jpg",
+"../../poster/la princesa mononoke 1.jpg",
+"../../poster/pokemon peliculas.jpg",
+"../../poster/rebuilds of evangelion 1.jpg",
+"../../poster/the end of evangelion 1.jpg",
+"../../poster/my hero academia peliculas 1.jpg",
+"../../poster/black clover la espada del rey mago 1.jpg",
+"../../poster/nanatsu no tazai peliculas 1.jpg",
+"../../poster/no game no life zero 1.jpg",
+"../../poster/spy family movie code white 1.jpg",
+"../../poster/kaguya sama pelicula 1.jpg"]
 
 
 //enlaces de cada uno de los index de cada serie:
@@ -2139,8 +2717,47 @@ let enlace = ["../../animes/chainsaw man/chainsaw.html",
 "../../animes/sailor moon/sailor moon.html",
 "../../animes/bleach/bleach.html",
 "../../animes/bleach thousand year/bleach thousand year.html",
-"../../animes/hunter hunter 2011/hunter hunter 2011.html"]
-
+"../../animes/hunter hunter 2011/hunter hunter 2011.html",
+"../../animes/evangelion/evangelion.html",
+"../../animes/tengen toppa gurren lagann/tengen toppa gurren lagann.html",
+"../../animes/code geass/code geass.html",
+"../../animes/fullmetal alchemist version 1/fullmetal alchemist version 1.html",
+"../../animes/capitan tsubasa/capitan tsubasa.html",
+"../../animes/classroom of the elite/classroom of the elite.html",
+"../../animes/tower of god/tower of god.html",
+"../../animes/overlord/overlord.html",
+"../../animes/baki/baki.html",
+"../../animes/sword art online/sword art online.html",
+"../../animes/no game no life/no game no life.html",
+"../../animes/uzaki chan/uzaki chan.html",
+"../../animes/kanojo mo kanojo/kanojo mo kanojo.html",
+"../../animes/pluto/pluto.html",
+"../../animes/buddy daddies/buddy daddies.html",
+"../../animes/dragon ball z peliculas/dragon ball z peliculas.html",
+"../../animes/dragon ball super broly/dragon ball super broly.html",
+"../../animes/dragon ball super super hero/dragon ball super super hero.html",
+"../../animes/one piece film red/one piece film red.html",
+"../../animes/one piece film gold/one piece film gold.html",
+"../../animes/one piece film z/one piece film z.html",
+"../../animes/one piece stampede/one piece stampede.html",
+"../../animes/demon slayer mugen train/demon slayer mugen train.html",
+"../../animes/el viaje de chihiro/el viaje de chihiro.html",
+"../../animes/your name/your name.html",
+"../../animes/suzume/suzume.html",
+"../../animes/the first slam dunk/the first slam dunk.html",
+"../../animes/howl no ugoku shiro/howl no ugoku shiro.html",
+"../../animes/jujutsu kaisen 0/jujutsu kaisen 0.html",
+"../../animes/el tiempo contigo/el tiempo contigo.html",
+"../../animes/la princesa mononoke/la princesa mononoke.html",
+"../../animes/pokemon peliculas/pokemon peliculas.html",
+"../../animes/rebuilds of evangelion/rebuilds of evangelion.html",
+"../../animes/the end of evangelion/the end of evangelion.html",
+"../../animes/my hero academia peliculas/my hero academia peliculas.html",
+"../../animes/black clover pelicula/black clover pelicula.html",
+"../../animes/nanatsu no tazai peliculas/nanatsu no tazai peliculas.html",
+"../../animes/no game no life zero/no game no life zero.html",
+"../../animes/spy family pelicula/spy family pelicula.html",
+"../../animes/kaguya sama pelicula/kaguya sama pelicula.html"]
 
 
     
@@ -2149,16 +2766,16 @@ let enlace = ["../../animes/chainsaw man/chainsaw.html",
 
 let textEnlace = ["Chainsaw Man",
 "Death Note",
-"Attack On Titan The Final Chatpers",
-"Spy X Family Temporada 2",
+"Attack On Titan: The Final",
+"Spy X Family: Temporada 2",
 "Naruto",
-"Jujutsu Kaisen Temporada 2",
+"Jujutsu Kaisen: Temporada 2",
 "Kimetsu No Yaiba",
 "One Punch Man",
 "Tokyo Ghoul",
-"My Hero Academia Temporada 6",
+"My Hero Academia: Temporada 6",
 "Mob Psycho 100",
-"Fullmetal Alchemist",
+"Fullmetal Alchemist: Brotherhood",
 "Fire Force",
 "Tokyo Revengers",
 "Highschool Of The Dead",
@@ -2169,19 +2786,19 @@ let textEnlace = ["Chainsaw Man",
 "Vinland Saga 2",
 "Nanatsu No Tazai",
 "InuYasha",
-"Goblin Slayer Temporada 2",
+"Goblin Slayer: Temporada 2",
 "Caballeros del Zodiaco",
 "Cowboy Bebop",
 "Hunter X Hunter 1999",
 "Full Metal Panic",
 "Cyberpunk: Edgerunners",
 "Kaguya-Sama: Love Is War",
-"Dr Stone Temporada 3",
+"Dr Stone: Temporada 3",
 "food wars!: Shokugeki No Soma",
 "Steins, Gate",
 "Mirai Nikki",
 "Trigun Stampede",
-"Mashle Temporada 2",
+"Mashle: Temporada 2",
 "Oshi No Ko",
 "Hell's Paradise",
 "Tengoku Daimakyo",
@@ -2205,10 +2822,49 @@ let textEnlace = ["Chainsaw Man",
 "Dragon Ball GT",
 "Sailor Moon",
 "Bleach",
-"Bleach: Thousand-Year Parte 2",
-"Hunter X Hunter 2011"]
+"Bleach: Thousand-Year",
+"Hunter X Hunter 2011",
+"Neon Genesis Evangelion",
+"Tengen Toppa Gurren Lagann",
+"Code Geass",
+"Fullmetal Alchemist",
+"Capitan Tsubasa",
+"Classroom of the Elite: Temporada 3",
+"Tower of God",
+"Overlord",
+"Baki",
+"Sword Art Online",
+"No Game No Life",
+"Uzaki-Chan wa Asobitai!",
+"Kanojo mo Kanojo",
+"Pluto",
+"Buddy Daddies",
+"Dragon Ball Z: peliculas",
+"Dragon Ball Super: Broly",
+"Dragon Ball Super: Super Hero",
+"One Piece Film: Red",
+"One Piece Film: Gold",
+"One Piece Film: Z",
+"One Piece: Stampede",
+"Demon Slayer: Mugen Train",
+"El Viaje De Chihiro",
+"Your Name",
+"Suzume no Tojimari",
+"The First Slam Dunk",
+"Howl no Ugoku Shiro",
+"Jujutsu Kaisen 0",
+"El Tiempo Contigo",
+"La Princesa Mononoke",
+"Pokemon: Peliculas",
+"Rebuilds of Evangelion",
+"The End Of Evangelion",
+"My Hero Academia: Peliculas",
+"Black Clover: La Espada del Rey Mago",
+"Nanatsu no Tazai: Peliculas",
+"No Game, No Life Zero",
+"Spy X Family Movie: Code: White",
+"Kaguya-Sama: pelicula"]
 
- 
 
 
 
@@ -2276,7 +2932,7 @@ function ultimos(){
 
 //funcion para las tendencias del anime(cambia los poster):
 function tendencias(){
-	hrefSiguiente.setAttribute("href", "../destacados/destacados.html")
+	hrefSiguiente.setAttribute("href", "../peliculas/peliculas.html")
 	hrefSiguiente.click()
 }
 
@@ -2284,56 +2940,56 @@ function tendencias(){
 
 //funcion para los estrenos del anime(cambia los poster):
 function estrenos(){
-	srcPoster1.setAttribute("src", poster[5])
-		srcPoster1.setAttribute("alt", alt[5])
-		srcPoster1.setAttribute("title", title[5])
-		href1.setAttribute("href", enlace[5])
-		href1.textContent = textEnlace[5]
-		srcPoster2.setAttribute("src", poster[40])
-		srcPoster2.setAttribute("alt", alt[40])
-		srcPoster2.setAttribute("title", title[40])
-		href2.setAttribute("href", enlace[40])
-		href2.textContent = textEnlace[40]
-		srcPoster3.setAttribute("src", poster[3])
-		srcPoster3.setAttribute("alt", alt[3])
-		srcPoster3.setAttribute("title", title[3])
-		href3.setAttribute("href", enlace[3])
-		href3.textContent = textEnlace[3]
-		srcPoster4.setAttribute("src", poster[22])
-		srcPoster4.setAttribute("alt", alt[22])
-		srcPoster4.setAttribute("title", title[22])
-		href4.setAttribute("href", enlace[22])
-		href4.textContent = textEnlace[22]
-		srcPoster5.setAttribute("src", poster[2])
-		srcPoster5.setAttribute("alt", alt[2])
-		srcPoster5.setAttribute("title", title[2])
-		href5.setAttribute("href", enlace[2])
-		href5.textContent = textEnlace[2]
-		srcPoster6.setAttribute("src", poster[34])
-		srcPoster6.setAttribute("alt", alt[34])
-		srcPoster6.setAttribute("title", title[34])
-		href6.setAttribute("href", enlace[34])
-		href6.textContent = textEnlace[34]
-		srcPoster7.setAttribute("src", poster[19])
-		srcPoster7.setAttribute("alt", alt[19])
-		srcPoster7.setAttribute("title", title[19])
-		href7.setAttribute("href", enlace[19])
-		href7.textContent = textEnlace[19]
-		srcPoster8.setAttribute("src", poster[53])
-		srcPoster8.setAttribute("alt", alt[53])
-		srcPoster8.setAttribute("title", title[53])
-		href8.setAttribute("href", enlace[53])
-		href8.textContent = textEnlace[53]
-		srcPoster9.setAttribute("src", poster[36])
-		srcPoster9.setAttribute("alt", alt[36])
-		srcPoster9.setAttribute("title", title[36])
-		href9.setAttribute("href", enlace[36])
-		href9.textContent = textEnlace[36]
-		srcPoster10.setAttribute("src", poster[33])
-		srcPoster10.setAttribute("alt", alt[33])
-		srcPoster10.setAttribute("title", title[33])
-		href10.setAttribute("href", enlace[33])
-		href10.textContent = textEnlace[33]
+	srcPoster1.setAttribute("src", poster[40])
+		srcPoster1.setAttribute("alt", alt[40])
+		srcPoster1.setAttribute("title", title[40])
+		href1.setAttribute("href", enlace[40])
+		href1.textContent = textEnlace[40]
+		srcPoster2.setAttribute("src", poster[34])
+		srcPoster2.setAttribute("alt", alt[34])
+		srcPoster2.setAttribute("title", title[34])
+		href2.setAttribute("href", enlace[34])
+		href2.textContent = textEnlace[34]
+		srcPoster3.setAttribute("src", poster[53])
+		srcPoster3.setAttribute("alt", alt[53])
+		srcPoster3.setAttribute("title", title[53])
+		href3.setAttribute("href", enlace[53])
+		href3.textContent = textEnlace[53]
+		srcPoster4.setAttribute("src", poster[65])
+		srcPoster4.setAttribute("alt", alt[65])
+		srcPoster4.setAttribute("title", title[65])
+		href4.setAttribute("href", enlace[65])
+		href4.textContent = textEnlace[65]
+		srcPoster5.setAttribute("src", poster[17])
+		srcPoster5.setAttribute("alt", alt[17])
+		srcPoster5.setAttribute("title", title[17])
+		href5.setAttribute("href", enlace[17])
+		href5.textContent = textEnlace[17]
+		srcPoster6.setAttribute("src", poster[5])
+		srcPoster6.setAttribute("alt", alt[5])
+		srcPoster6.setAttribute("title", title[5])
+		href6.setAttribute("href", enlace[5])
+		href6.textContent = textEnlace[5]
+		srcPoster7.setAttribute("src", poster[3])
+		srcPoster7.setAttribute("alt", alt[3])
+		srcPoster7.setAttribute("title", title[3])
+		href7.setAttribute("href", enlace[3])
+		href7.textContent = textEnlace[3]
+		srcPoster8.setAttribute("src", poster[22])
+		srcPoster8.setAttribute("alt", alt[22])
+		srcPoster8.setAttribute("title", title[22])
+		href8.setAttribute("href", enlace[22])
+		href8.textContent = textEnlace[22]
+		srcPoster9.setAttribute("src", poster[6])
+		srcPoster9.setAttribute("alt", alt[6])
+		srcPoster9.setAttribute("title", title[6])
+		href9.setAttribute("href", enlace[6])
+		href9.textContent = textEnlace[6]
+		srcPoster10.setAttribute("src", poster[19])
+		srcPoster10.setAttribute("alt", alt[19])
+		srcPoster10.setAttribute("title", title[19])
+		href10.setAttribute("href", enlace[19])
+		href10.textContent = textEnlace[19]
 		srcPoster11.setAttribute("src", poster[9])
 		srcPoster11.setAttribute("alt", alt[9])
 		srcPoster11.setAttribute("title", title[9])

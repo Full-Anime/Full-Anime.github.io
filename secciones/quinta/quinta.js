@@ -424,6 +424,7 @@ let title = ["Poster Chainsaw Man",
 "poster Kaguya-Sama pelicula"]
 
 
+
 //parrafos para cambiar el parrafo de las ventanas ocultas de los grid:
 
 let parrafo = [`<h3>Chainsaw Man</h3><b>Denji</b> es un joven atrapado en la probreza extrema. que trabaja para saldar la deuda de su padre fallecido con la Yakuza trabajando como cazador de demonios, con la ayuda de <b>Pochita</b>, su fiel compañero canino, hermano del alma y tambien conocido como el demonio motosierra.<br><br><b>Genero:</b> Accion<br><br><b>Estudio:</b> Mappa`,
@@ -637,6 +638,7 @@ let parrafo = [`<h3>Chainsaw Man</h3><b>Denji</b> es un joven atrapado en la pro
 			`<h3>Spy X Family Movie: Code: White</h3><b>Loid Forger</b>, recibio una orden de que lo reemplazaran en la Operacion Strix. Mientras tanto Anya Forger participa en un concurso de cocina en Eden Academy, con una Stella como recompenza rumoreada. Para evitar que ocurra el reemplazo, Loid decide ayudar a Anya a ganar la competencia preparando la comida favorita del director. Los Forger deciden viajar a la region de origen de la comida y desencadenan accidentalmente una cadena de acciones que podrian poner el riesgo la paz mundial.<br><br><b>Genero:</b> Accion, comedia<br><br><b>Estudio:</b> Wit Studio, CloverWorks`,
 
 			`<h3>Kaguya-Sama: Pelicula</h3>Esta ambientada despues de los eventos de la tercera temporada.<br><br><b>Genero:</b> Comedia, drama, romance<br><br><b>Estudio:</b> A-1 Pictures`]
+
 
 
 
@@ -896,7 +898,6 @@ function presionar15(){
 function ocultarVentana15(){
 		item15.classList.remove("item-animacion-15")
 }
-
 
 //funcion de buscar en el input:
 const input = document.querySelector(".input-buscador")
@@ -2060,15 +2061,15 @@ let adelanteC = false
 let adelanteD = false
 
 	if (adelanteA == true) {
-	imagen1.src = "../../imagenes/bleach thosand img 2.jpg"
+	imagen1.src = "../../imagenes/evangeluion img 3.webp"
 	contenedorImg.appendChild(imagen1)
-	tituloItem.innerHTML = "Bleach: Thousand-Year Blood War"
+	tituloItem.innerHTML = "Neon Genesis Evangelion"
 	titulo.appendChild(tituloItem)
-	informacionItem.innerHTML = "Nadie pidio el regreso del Clasico de Tite Kubo, pero la realidad es que ha vuelto con casi mas fuerza que la serie original, mas o menos con el mismo tono pero esta vez sin rodeos, 13 episodios son suficientes para presentarte la nueva amenaza del Seireitei, con una animacion de 10, y un nuevo Power up de Ichigo. "
+	informacionItem.innerHTML = "La historia de la obra se da lugar en un mundo futurista en el que una organización paramilitar llamada <b>NERV</b> protege a la humanidad de los ataques de seres de origen y naturaleza desconocidos, los 'Ángeles', utilizando para ello bio mechas humanoides llamados <b>Evangelion</b>."
 	informacion.appendChild(informacionItem)
 	pieDelTitulo1.innerHTML = "9/10"
 	pieDelTituloContainer.appendChild(pieDelTitulo1)
-	pieDelTitulo2.innerHTML = "26 cap 2022"
+	pieDelTitulo2.innerHTML = "26 cap 1996"
 	pieDelTituloContainer.appendChild(pieDelTitulo2)
 	pieDelTitulo3.innerHTML = "720p"
 	pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2081,7 +2082,7 @@ let adelanteD = false
 function avanzar(){
 
 	if (adelanteA == true) {
-		imagen2.src = "../../imagenes/mushoku tensei img .jpg"
+		imagen2.src = "../../imagenes/tower of god img 3.jpeg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-1")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -2090,13 +2091,13 @@ function avanzar(){
 		contenedorImg.classList.remove("retrocesoc")
 		contenedorImg.classList.remove("retrocesod")
 		
-		tituloItem.innerHTML = "Mushoku Tensei"
+		tituloItem.innerHTML = "Tower of God"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = `Un joven virgen "nini" de 34 años es echado de casa cuando se queda sin dinero. El se arrepiente de su vida cuando muere en un accidente de trafico. Tras el accidente reencarna en un bebe e un mundo fantastico de espada y brujeria.`
+		informacionItem.innerHTML = `<b>Bam</b> es un chico que siempre ha vivido solo en una cueva bajo la Torre de Dios, un legendario edificio del que se dice que, si alcanzas su cima, podras conseguir cualquier cosa que desees. Su unica amiga es <b>Rachel</b>, una chica empeñada en subir la torre y que desaparece un dia para intentar conseguirlo.`
 		informacion.appendChild(informacionItem)
 		pieDelTitulo1.innerHTML = "8/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "48 Ep 2013"
+		pieDelTitulo2.innerHTML = "13 Ep 2020"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2111,7 +2112,7 @@ function avanzar(){
 	}
 
 	else if (adelanteB == true) {
-		imagen1.src = "../../imagenes/zom 100 img 7.jpg"
+		imagen1.src = "../../imagenes/uzaki chan img 4.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("desplazamiento-2")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -2120,13 +2121,13 @@ function avanzar(){
 		contenedorImg.classList.remove("retrocesoc")
 		contenedorImg.classList.remove("retrocesod")
 		
-		tituloItem.innerHTML = "Zom 100: The Bucket List of the Dead"
+		tituloItem.innerHTML = "Uzaki-Chan Wa Asobitai!"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = `<b>Akira Tendo</b>, se encuentra atrapado en una vida rutinaria y sin sentido. Le falta empuje y motivacion ya que esta desencantado con su carrera; Sin embargo cuando un apocalipsis zombi golpea inesperadamente Tokio, en lugar de sucumbir al miedo, Akira ve esto como una oportunidad para experimentar la vida al maximo en lugar de conformarse con su monotona existencia.`
+		informacionItem.innerHTML = `El unico deseo de <b>Shinichi Sakurai</b> es un poco de paz y tranquilidad. Pero <b>Hana Uzaki</b>, su animada y muy dotada compañera del instituto, tiene otros planes. Todo lo que ella quiere es pasar el rato y hacerle bromas. Con la ayuda de su encanto y persistencia, ¡este podria ser el comienzo de una hermosa relacion!.`
 		informacion.appendChild(informacionItem)
 		pieDelTitulo1.innerHTML = "8/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "12 cap 2023"
+		pieDelTitulo2.innerHTML = "24 cap 2020"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2139,7 +2140,7 @@ function avanzar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/black clover img 21.jpeg"
+		imagen2.src = "../../imagenes/OVERLORD IMG 4.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("desplazamiento-3")
 		contenedorImg.classList.remove("posicion-de-imagen")
@@ -2148,13 +2149,13 @@ function avanzar(){
 		contenedorImg.classList.remove("retrocesoc")
 		contenedorImg.classList.remove("retrocesod")
 		
-		tituloItem.innerHTML = "Black Clover"
+		tituloItem.innerHTML = "Overlord"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = "Un niño que no tiene el poder de hacer magia lucha por obtener el título de Rey Mago, mientras cuatro antiguos Reyes Magos reaparecen para destruir el Reino del Trébol."
+		informacionItem.innerHTML = "Cuando un popular <b>MMORPNG</b> anuncia su cierre definitivo, el veterano jugador <b>Momonoga</b> decide quedarse en el hasta el mismo cierre, sin salir. El problema es que le pasa la hora de cierre  el no se desconecta, pero los NPC han ganado conciencia propia. ¿esta atrapado?."
 		informacion.appendChild(informacionItem)
 		pieDelTitulo1.innerHTML = "8/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "170 cap 2017"
+		pieDelTitulo2.innerHTML = "42 cap 2015"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2165,7 +2166,7 @@ function avanzar(){
 		adelanteD = true		
 	}
 	else if (adelanteD == true) {
-		imagen1.src = "../../imagenes/bleach thosand img 2.jpg"
+		imagen1.src = "../../imagenes/evangeluion img 3.webp"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.remove("retrocesoa")
 		contenedorImg.classList.remove("retrocesob")
@@ -2174,16 +2175,16 @@ function avanzar(){
 		contenedorImg.classList.remove("posicion-de-imagen")
 		contenedorImg.classList.add("desplazamiento-4")
 		
-		tituloItem.innerHTML = "Bleach: Thousand-Year Blood War"
-		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = "Nadie pidio el regreso del Clasico de Tite Kubo, pero la realidad es que ha vuelto con casi mas fuerza que la serie original, mas o menos con el mismo tono pero esta vez sin rodeos, 13 episodios son suficientes para presentarte la nueva amenaza del Seireitei, con una animacion de 10, y un nuevo Power up de Ichigo. "
-		informacion.appendChild(informacionItem)
-		pieDelTitulo1.innerHTML = "9/10"
-		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "26 cap 2022"
-		pieDelTituloContainer.appendChild(pieDelTitulo2)
-		pieDelTitulo3.innerHTML = "720p"
-		pieDelTituloContainer.appendChild(pieDelTitulo3)
+		tituloItem.innerHTML = "Neon Genesis Evangelion"
+	titulo.appendChild(tituloItem)
+	informacionItem.innerHTML = "La historia de la obra se da lugar en un mundo futurista en el que una organización paramilitar llamada <b>NERV</b> protege a la humanidad de los ataques de seres de origen y naturaleza desconocidos, los 'Ángeles', utilizando para ello bio mechas humanoides llamados <b>Evangelion</b>."
+	informacion.appendChild(informacionItem)
+	pieDelTitulo1.innerHTML = "9/10"
+	pieDelTituloContainer.appendChild(pieDelTitulo1)
+	pieDelTitulo2.innerHTML = "26 cap 1996"
+	pieDelTituloContainer.appendChild(pieDelTitulo2)
+	pieDelTitulo3.innerHTML = "720p"
+	pieDelTituloContainer.appendChild(pieDelTitulo3)
 
 		punto4.classList.replace("punto-4-a", "punto-4-e")
 		punto1.classList.remove("punto-1-e")
@@ -2230,18 +2231,18 @@ tiempoRetardo()
 function atrasar(){
 
 	if (adelanteD == true) {
-		imagen1.src = "../../imagenes/zom 100 img 7.jpg"
+		imagen1.src = "../../imagenes/uzaki chan img 4.jpg"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesod")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
-		tituloItem.innerHTML = "Zom 100: The Bucket List of the Dead"
+		tituloItem.innerHTML = "Uzaki-Chan Wa Asobitai!"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = `<b>Akira Tendo</b>, se encuentra atrapado en una vida rutinaria y sin sentido. Le falta empuje y motivacion ya que esta desencantado con su carrera; Sin embargo cuando un apocalipsis zombi golpea inesperadamente Tokio, en lugar de sucumbir al miedo, Akira ve esto como una oportunidad para experimentar la vida al maximo en lugar de conformarse con su monotona existencia.`
+		informacionItem.innerHTML = `El unico deseo de <b>Shinichi Sakurai</b> es un poco de paz y tranquilidad. Pero <b>Hana Uzaki</b>, su animada y muy dotada compañera del instituto, tiene otros planes. Todo lo que ella quiere es pasar el rato y hacerle bromas. Con la ayuda de su encanto y persistencia, ¡este podria ser el comienzo de una hermosa relacion!.`
 		informacion.appendChild(informacionItem)
 		pieDelTitulo1.innerHTML = "8/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "12 cap 2023"
+		pieDelTitulo2.innerHTML = "24 cap 2020"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2257,18 +2258,18 @@ function atrasar(){
 	}
 
 	else if (adelanteC == true) {
-		imagen2.src = "../../imagenes/mushoku tensei img .jpg"
+		imagen2.src = "../../imagenes/tower of god img 3.jpeg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("retrocesoc")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
-		tituloItem.innerHTML = "Mushoku Tensei"
+		tituloItem.innerHTML = "Tower of God"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = `Un joven virgen "nini" de 34 años es echado de casa cuando se queda sin dinero. El se arrepiente de su vida cuando muere en un accidente de trafico. Tras el accidente reencarna en un bebe e un mundo fantastico de espada y brujeria.`
+		informacionItem.innerHTML = `<b>Bam</b> es un chico que siempre ha vivido solo en una cueva bajo la Torre de Dios, un legendario edificio del que se dice que, si alcanzas su cima, podras conseguir cualquier cosa que desees. Su unica amiga es <b>Rachel</b>, una chica empeñada en subir la torre y que desaparece un dia para intentar conseguirlo.`
 		informacion.appendChild(informacionItem)
 		pieDelTitulo1.innerHTML = "8/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "48 Ep 2013"
+		pieDelTitulo2.innerHTML = "13 Ep 2020"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2280,21 +2281,21 @@ function atrasar(){
 	}
 
 	else if (adelanteB == true ) {
-		imagen1.src = "../../imagenes/bleach thosand img 2.jpg"
+		imagen1.src = "../../imagenes/evangeluion img 3.webp"
 		contenedorImg.appendChild(imagen1)
 		contenedorImg.classList.add("retrocesob")
 		contenedorImg.classList.add("posicion-de-imagen")
 		
-		tituloItem.innerHTML = "Bleach: Thousand-Year Blood War"
-		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = "Nadie pidio el regreso del Clasico de Tite Kubo, pero la realidad es que ha vuelto con casi mas fuerza que la serie original, mas o menos con el mismo tono pero esta vez sin rodeos, 13 episodios son suficientes para presentarte la nueva amenaza del Seireitei, con una animacion de 10, y un nuevo Power up de Ichigo. "
-		informacion.appendChild(informacionItem)
-		pieDelTitulo1.innerHTML = "9/10"
-		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "26 cap 2022"
-		pieDelTituloContainer.appendChild(pieDelTitulo2)
-		pieDelTitulo3.innerHTML = "720p"
-		pieDelTituloContainer.appendChild(pieDelTitulo3)
+		tituloItem.innerHTML = "Neon Genesis Evangelion"
+	titulo.appendChild(tituloItem)
+	informacionItem.innerHTML = "La historia de la obra se da lugar en un mundo futurista en el que una organización paramilitar llamada <b>NERV</b> protege a la humanidad de los ataques de seres de origen y naturaleza desconocidos, los 'Ángeles', utilizando para ello bio mechas humanoides llamados <b>Evangelion</b>."
+	informacion.appendChild(informacionItem)
+	pieDelTitulo1.innerHTML = "9/10"
+	pieDelTituloContainer.appendChild(pieDelTitulo1)
+	pieDelTitulo2.innerHTML = "26 cap 1996"
+	pieDelTituloContainer.appendChild(pieDelTitulo2)
+	pieDelTitulo3.innerHTML = "720p"
+	pieDelTituloContainer.appendChild(pieDelTitulo3)
 		punto2.classList.replace("punto-2-a", "punto-2-e")
 		punto1.classList.replace("punto-1-e", "punto-1-a")
 		adelanteB = false
@@ -2302,17 +2303,17 @@ function atrasar(){
 	}
 	else if (adelanteA == true) {
 		
-		imagen2.src = "../../imagenes/black clover img 21.jpeg"
+		imagen2.src = "../../imagenes/OVERLORD IMG 4.jpg"
 		contenedorImg.appendChild(imagen2)
 		contenedorImg.classList.add("posicion-de-imagen")
 		contenedorImg.classList.add("retrocesoa")
-		tituloItem.innerHTML = "Black Clover"
+		tituloItem.innerHTML = "Overlord"
 		titulo.appendChild(tituloItem)
-		informacionItem.innerHTML = "Un niño que no tiene el poder de hacer magia lucha por obtener el título de Rey Mago, mientras cuatro antiguos Reyes Magos reaparecen para destruir el Reino del Trébol."
+		informacionItem.innerHTML = "Cuando un popular <b>MMORPNG</b> anuncia su cierre definitivo, el veterano jugador <b>Momonoga</b> decide quedarse en el hasta el mismo cierre, sin salir. El problema es que le pasa la hora de cierre  el no se desconecta, pero los NPC han ganado conciencia propia. ¿esta atrapado?."
 		informacion.appendChild(informacionItem)
 		pieDelTitulo1.innerHTML = "8/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "170 cap 2017"
+		pieDelTitulo2.innerHTML = "42 cap 2015"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2876,20 +2877,20 @@ botonEstrenos.addEventListener("click", estrenos)
 const hrefSiguiente = document.querySelector(".href-siguiente")
 const contenedorSiguiente = document.querySelector(".container-siguiente")
 
-const botonSiguiente5 = document.querySelector(".siguiente-5")
+const botonSiguiente4 = document.querySelector(".siguiente-4")
 const botonSiguiente2 = document.querySelector(".siguiente-2")
 const botonSiguiente3 = document.querySelector(".siguiente-3")
 
 
 
-botonSiguiente5.addEventListener("click", next5)
+botonSiguiente4.addEventListener("click", next4)
 botonSiguiente2.addEventListener("click", next2)
 botonSiguiente3.addEventListener("click", next3)
 
 
 //funciones para el boton flecha:
-function next5(){
-	hrefSiguiente.setAttribute("href", "../quinta/quinta.html")
+function next4(){
+	hrefSiguiente.setAttribute("href", "../cuarta/cuarta.html")
 	hrefSiguiente.click()
 }
 
@@ -2911,81 +2912,81 @@ function next3(){
 
 //funcion para los ultimos animes, se ejecuta por defecto
 function ultimos(){
-		srcPoster1.setAttribute("src", poster[45])
-		srcPoster1.setAttribute("alt", alt[45])
-		srcPoster1.setAttribute("title", title[45])
-		href1.setAttribute("href", enlace[45])
-		href1.textContent = textEnlace[45]
-		srcPoster2.setAttribute("src", poster[46])
-		srcPoster2.setAttribute("alt", alt[46])
-		srcPoster2.setAttribute("title", title[46])
-		href2.setAttribute("href", enlace[46])
-		href2.textContent = textEnlace[46]
-		srcPoster3.setAttribute("src", poster[47])
-		srcPoster3.setAttribute("alt", alt[47])
-		srcPoster3.setAttribute("title", title[47])
-		href3.setAttribute("href", enlace[47])
-		href3.textContent = textEnlace[47]
-		srcPoster4.setAttribute("src", poster[48])
-		srcPoster4.setAttribute("alt", alt[48])
-		srcPoster4.setAttribute("title", title[48])
-		href4.setAttribute("href", enlace[48])
-		href4.textContent = textEnlace[48]
-		srcPoster5.setAttribute("src", poster[49])
-		srcPoster5.setAttribute("alt", alt[49])
-		srcPoster5.setAttribute("title", title[49])
-		href5.setAttribute("href", enlace[49])
-		href5.textContent = textEnlace[49]
-		srcPoster6.setAttribute("src", poster[50])
-		srcPoster6.setAttribute("alt", alt[50])
-		srcPoster6.setAttribute("title", title[50])
-		href6.setAttribute("href", enlace[50])
-		href6.textContent = textEnlace[50]
-		srcPoster7.setAttribute("src", poster[51])
-		srcPoster7.setAttribute("alt", alt[51])
-		srcPoster7.setAttribute("title", title[51])
-		href7.setAttribute("href", enlace[51])
-		href7.textContent = textEnlace[51]
-		srcPoster8.setAttribute("src", poster[52])
-		srcPoster8.setAttribute("alt", alt[52])
-		srcPoster8.setAttribute("title", title[52])
-		href8.setAttribute("href", enlace[52])
-		href8.textContent = textEnlace[52]
-		srcPoster9.setAttribute("src", poster[53])
-		srcPoster9.setAttribute("alt", alt[53])
-		srcPoster9.setAttribute("title", title[53])
-		href9.setAttribute("href", enlace[53])
-		href9.textContent = textEnlace[53]
-		srcPoster10.setAttribute("src", poster[54])
-		srcPoster10.setAttribute("alt", alt[54])
-		srcPoster10.setAttribute("title", title[54])
-		href10.setAttribute("href", enlace[54])
-		href10.textContent = textEnlace[54]
-		srcPoster11.setAttribute("src", poster[55])
-		srcPoster11.setAttribute("alt", alt[55])
-		srcPoster11.setAttribute("title", title[55])
-		href11.setAttribute("href", enlace[55])
-		href11.textContent = textEnlace[55]
-		srcPoster12.setAttribute("src", poster[56])
-		srcPoster12.setAttribute("alt", alt[56])
-		srcPoster12.setAttribute("title", title[56])
-		href12.setAttribute("href", enlace[56])
-		href12.textContent = textEnlace[56]
-		srcPoster13.setAttribute("src", poster[57])
-		srcPoster13.setAttribute("alt", alt[57])
-		srcPoster13.setAttribute("title", title[57])
-		href13.setAttribute("href", enlace[57])
-		href13.textContent = textEnlace[57]
-		srcPoster14.setAttribute("src", poster[58])
-		srcPoster14.setAttribute("alt", alt[58])
-		srcPoster14.setAttribute("title", title[58])
-		href14.setAttribute("href", enlace[58])
-		href14.textContent = textEnlace[58]
-		srcPoster15.setAttribute("src", poster[59])
-		srcPoster15.setAttribute("alt", alt[59])
-		srcPoster15.setAttribute("title", title[59])
-		href15.setAttribute("href", enlace[59])
-		href15.textContent = textEnlace[59]
+		srcPoster1.setAttribute("src", poster[60])
+		srcPoster1.setAttribute("alt", alt[60])
+		srcPoster1.setAttribute("title", title[60])
+		href1.setAttribute("href", enlace[60])
+		href1.textContent = textEnlace[60]
+		srcPoster2.setAttribute("src", poster[61])
+		srcPoster2.setAttribute("alt", alt[61])
+		srcPoster2.setAttribute("title", title[61])
+		href2.setAttribute("href", enlace[61])
+		href2.textContent = textEnlace[61]
+		srcPoster3.setAttribute("src", poster[62])
+		srcPoster3.setAttribute("alt", alt[62])
+		srcPoster3.setAttribute("title", title[62])
+		href3.setAttribute("href", enlace[62])
+		href3.textContent = textEnlace[62]
+		srcPoster4.setAttribute("src", poster[63])
+		srcPoster4.setAttribute("alt", alt[63])
+		srcPoster4.setAttribute("title", title[63])
+		href4.setAttribute("href", enlace[63])
+		href4.textContent = textEnlace[63]
+		srcPoster5.setAttribute("src", poster[64])
+		srcPoster5.setAttribute("alt", alt[64])
+		srcPoster5.setAttribute("title", title[64])
+		href5.setAttribute("href", enlace[64])
+		href5.textContent = textEnlace[64]
+		srcPoster6.setAttribute("src", poster[4])
+		srcPoster6.setAttribute("alt", alt[4])
+		srcPoster6.setAttribute("title", title[4])
+		href6.setAttribute("href", enlace[4])
+		href6.textContent = textEnlace[4]
+		srcPoster7.setAttribute("src", poster[31])
+		srcPoster7.setAttribute("alt", alt[31])
+		srcPoster7.setAttribute("title", title[31])
+		href7.setAttribute("href", enlace[31])
+		href7.textContent = textEnlace[31]
+		srcPoster8.setAttribute("src", poster[67])
+		srcPoster8.setAttribute("alt", alt[67])
+		srcPoster8.setAttribute("title", title[67])
+		href8.setAttribute("href", enlace[67])
+		href8.textContent = textEnlace[67]
+		srcPoster9.setAttribute("src", poster[68])
+		srcPoster9.setAttribute("alt", alt[68])
+		srcPoster9.setAttribute("title", title[68])
+		href9.setAttribute("href", enlace[68])
+		href9.textContent = textEnlace[68]
+		srcPoster10.setAttribute("src", poster[69])
+		srcPoster10.setAttribute("alt", alt[69])
+		srcPoster10.setAttribute("title", title[69])
+		href10.setAttribute("href", enlace[69])
+		href10.textContent = textEnlace[69]
+		srcPoster11.setAttribute("src", poster[70])
+		srcPoster11.setAttribute("alt", alt[70])
+		srcPoster11.setAttribute("title", title[70])
+		href11.setAttribute("href", enlace[70])
+		href11.textContent = textEnlace[70]
+		srcPoster12.setAttribute("src", poster[71])
+		srcPoster12.setAttribute("alt", alt[71])
+		srcPoster12.setAttribute("title", title[71])
+		href12.setAttribute("href", enlace[71])
+		href12.textContent = textEnlace[71]
+		srcPoster13.setAttribute("src", poster[14])
+		srcPoster13.setAttribute("alt", alt[14])
+		srcPoster13.setAttribute("title", title[14])
+		href13.setAttribute("href", enlace[14])
+		href13.textContent = textEnlace[14]
+		srcPoster14.setAttribute("src", poster[8])
+		srcPoster14.setAttribute("alt", alt[8])
+		srcPoster14.setAttribute("title", title[8])
+		href14.setAttribute("href", enlace[8])
+		href14.textContent = textEnlace[8]
+		srcPoster15.setAttribute("src", poster[74])
+		srcPoster15.setAttribute("alt", alt[74])
+		srcPoster15.setAttribute("title", title[74])
+		href15.setAttribute("href", enlace[74])
+		href15.textContent = textEnlace[74]
 
 
 	}
