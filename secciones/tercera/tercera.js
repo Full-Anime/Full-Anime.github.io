@@ -2913,11 +2913,11 @@ function ultimos(){
 		srcPoster1.setAttribute("title", title[30])
 		href1.setAttribute("href", enlace[30])
 		href1.textContent = textEnlace[30]
-		srcPoster2.setAttribute("src", poster[14])
-		srcPoster2.setAttribute("alt", alt[14])
-		srcPoster2.setAttribute("title", title[14])
-		href2.setAttribute("href", enlace[14])
-		href2.textContent = textEnlace[14]
+		srcPoster2.setAttribute("src", poster[72])
+		srcPoster2.setAttribute("alt", alt[72])
+		srcPoster2.setAttribute("title", title[72])
+		href2.setAttribute("href", enlace[72])
+		href2.textContent = textEnlace[72]
 		srcPoster3.setAttribute("src", poster[32])
 		srcPoster3.setAttribute("alt", alt[32])
 		srcPoster3.setAttribute("title", title[32])
