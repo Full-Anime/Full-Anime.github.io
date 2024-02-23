@@ -309,7 +309,7 @@ botonDescargar1.addEventListener("click", descargar1)
 
 
 let enlaceMediafire = document.querySelector(".link-1")
-let mediafire1 = `https://www.mediafire.com/file/2ccj1shln8e8fu7/film_red.rar/file`
+let mediafire1 = `https://www.mediafire.com/file/onh4x7n02zum04x/%2528locuranime.com%2529_OnPi-R-Camp.rar/file`
 
 
 function descargar1(){
