@@ -332,7 +332,7 @@ let mediafire2Lat = `kimetsu no yaiba 2.html`
 let mediafireMovie = `../demon slayer mugen train/demon slayer mugen train.html`
 
 
-let mediafire4_1 = `https://krakenfiles.com/view/Q4kx1fkuJH/file.htmlhttps://krakenfiles.com/view/Q4kx1fkuJH/file.html`
+let mediafire4_1 = `https://krakenfiles.com/view/Q4kx1fkuJH/file.htmlhttps://krakenfiles.com/view/Q4kx1fkuJH/file.html#!/lmcCQY4evEYpou4`
 let mediafire4_2 = `https://mega.nz/file/vlJGGbTD#mzAP3fynl9ts1jInBwcs40q0rY8p0GQVBxbk-g_nXqA`
 
 
