@@ -311,6 +311,7 @@ let mediafire1 = `https://www.mediafire.com/file/tm6risioc2cbrf2/Classroom_of_th
 let mediafire2 = `https://www.mediafire.com/file/fw17spior109e0a/Classroom_of_the_Elite_S3_Latino_episodio_2_[mandranime].zip/file`
 let mediafire3 = `https://www.mediafire.com/file/8t408zf7k8arjep/Classroom_of_the_Elite_S3_Latino_episodio_3_[mandranime].zip/file`
 let mediafire4 = `https://www.mediafire.com/file/5yreocqowgszdj5/Classroom_of_the_Elite_S3_Latino_episodio_4_[mandranime].zip/file`
+let mediafire5 = `https://www.mediafire.com/file/q9omxc9va2uf801/Classroom_of_the_Elite_S3_Latino_episodio_5_[mandranime].zip/file`
 
 
 let mediafire1_1 = `https://www.mediafire.com/file/4zxezz1ipvofo0j/Youkoso_Jitsuryoku_Shijou_Shugi_no_Kyoushitsu_e_3rd_Season_episodio_1_[mandranime].zip/file`
@@ -320,6 +321,7 @@ let mediafire4_1 = `https://www.mediafire.com/file/um4mf1bg0jadn05/Youkoso_Jitsu
 let mediafire5_1 = `https://www.mediafire.com/file/sv0y2yln5m766zs/Youkoso_Jitsuryoku_Shijou_Shugi_no_Kyoushitsu_e_3rd_Season_episodio_5_[mandranime].zip/file`
 let mediafire6_1 = `https://www.mediafire.com/file/cgrh3l4mainhiqj/Youkoso_Jitsuryoku_Shijou_Shugi_no_Kyoushitsu_e_3rd_Season_episodio_6_[mandranime].zip/file`
 let mediafire7_1 = `https://www.mediafire.com/file/6z46fo01p60s2hi/Youkoso_Jitsuryoku_Shijou_Shugi_no_Kyoushitsu_e_3rd_Season_episodio_7_[mandranime].zip/file`
+let mediafire8_1 = `https://www.mediafire.com/file/o5z8h8u7blxy7fk/Youkoso_Jitsuryoku_Shijou_Shugi_no_Kyoushitsu_e_3rd_Season_episodio_8_[mandranime].zip/file`
 
 document.querySelector(".boton-descargar-1").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire1)
@@ -337,6 +339,10 @@ document.querySelector(".boton-descargar-3").addEventListener("click", ()=>{
 })
 document.querySelector(".boton-descargar-4").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire4)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-5").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire5)
 	enlaceMediafire.click()
 })
 
@@ -367,6 +373,10 @@ document.querySelector(".boton-descargar-6-1").addEventListener("click", ()=>{
 })
 document.querySelector(".boton-descargar-7-1").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", mediafire7_1)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-8-1").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", mediafire8_1)
 	enlaceMediafire.click()
 })
 
