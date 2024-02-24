@@ -2562,7 +2562,7 @@ let poster = ["poster/chainsaw man poster.jpg",
 "poster/spy family 3.jpg",
 "poster/naruto.jpg", 
 "poster/jujutsu kisen.jpg", 
-"poster/kimetsu no yaiba 3.jpeg", 
+"poster/kimetsu no yaiba to the hashira training.jpg", 
 "poster/one punche man 2.jpg", 
 "poster/tokyo ghoul 1.webp", 
 "poster/boku no hero 6.jpg", 
@@ -2913,11 +2913,11 @@ function next4(){
 
 //funcion para los ultimos animes, se ejecuta por defecto
 function ultimos(){
-		srcPoster1.setAttribute("src", poster[0])
-		srcPoster1.setAttribute("alt", alt[0])
-		srcPoster1.setAttribute("title", title[0])
-		href1.setAttribute("href", enlace[0])
-		href1.textContent = textEnlace[0]
+		srcPoster1.setAttribute("src", poster[6])
+		srcPoster1.setAttribute("alt", alt[6])
+		srcPoster1.setAttribute("title", title[6])
+		href1.setAttribute("href", enlace[6])
+		href1.textContent = textEnlace[6]
 		srcPoster2.setAttribute("src", poster[40])
 		srcPoster2.setAttribute("alt", alt[40])
 		srcPoster2.setAttribute("title", title[40])
@@ -2943,11 +2943,11 @@ function ultimos(){
 		srcPoster6.setAttribute("title", title[5])
 		href6.setAttribute("href", enlace[5])
 		href6.textContent = textEnlace[5]
-		srcPoster7.setAttribute("src", poster[6])
-		srcPoster7.setAttribute("alt", alt[6])
-		srcPoster7.setAttribute("title", title[6])
-		href7.setAttribute("href", enlace[6])
-		href7.textContent = textEnlace[6]
+		srcPoster7.setAttribute("src", poster[0])
+		srcPoster7.setAttribute("alt", alt[0])
+		srcPoster7.setAttribute("title", title[0])
+		href7.setAttribute("href", enlace[0])
+		href7.textContent = textEnlace[0]
 		srcPoster8.setAttribute("src", poster[7])
 		srcPoster8.setAttribute("alt", alt[7])
 		srcPoster8.setAttribute("title", title[7])
