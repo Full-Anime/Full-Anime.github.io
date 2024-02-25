@@ -2097,7 +2097,7 @@ function avanzar(){
 		informacion.appendChild(informacionItem)
 		pieDelTitulo1.innerHTML = "9/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "4/12 Ep 2023"
+		pieDelTitulo2.innerHTML = "7/12 Ep 2023"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2127,7 +2127,7 @@ function avanzar(){
 		informacion.appendChild(informacionItem)
 		pieDelTitulo1.innerHTML = "9/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "15/25 cap 2023"
+		pieDelTitulo2.innerHTML = "23/25 cap 2023"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2181,7 +2181,7 @@ function avanzar(){
 		informacion.appendChild(informacionItem)
 		pieDelTitulo1.innerHTML = "9/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "4/12 cap 2022"
+		pieDelTitulo2.innerHTML = "7/12 cap 2022"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2242,7 +2242,7 @@ function atrasar(){
 		informacion.appendChild(informacionItem)
 		pieDelTitulo1.innerHTML = "9/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "15/25 cap 2023"
+		pieDelTitulo2.innerHTML = "23/25 cap 2023"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2269,7 +2269,7 @@ function atrasar(){
 		informacion.appendChild(informacionItem)
 		pieDelTitulo1.innerHTML = "9/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "4/12 Ep 2023"
+		pieDelTitulo2.innerHTML = "7/12 Ep 2023"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2292,7 +2292,7 @@ function atrasar(){
 		informacion.appendChild(informacionItem)
 		pieDelTitulo1.innerHTML = "9/10"
 		pieDelTituloContainer.appendChild(pieDelTitulo1)
-		pieDelTitulo2.innerHTML = "4/12 cap 2022"
+		pieDelTitulo2.innerHTML = "7/12 cap 2022"
 		pieDelTituloContainer.appendChild(pieDelTitulo2)
 		pieDelTitulo3.innerHTML = "720p"
 		pieDelTituloContainer.appendChild(pieDelTitulo3)
@@ -2560,7 +2560,7 @@ let poster = ["../../poster/chainsaw man poster.jpg",
 "../../poster/spy family 3.jpg",
 "../../poster/naruto.jpg", 
 "../../poster/jujutsu kisen.jpg", 
-"../../poster/kimetsu no yaiba 3.jpeg", 
+"../../poster/kimetsu no yaiba to the hashira training.jpg", 
 "../../poster/one punche man 2.jpg", 
 "../../poster/tokyo ghoul 1.webp", 
 "../../poster/boku no hero 6.jpg", 
