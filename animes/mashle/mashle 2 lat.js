@@ -307,6 +307,7 @@ let mediafire1 = `https://www.mediafire.com/file/a60bggecuebgoz2/Mashle_S2_Latin
 let mediafire2 = `https://www.mediafire.com/file/qjup68efrvgo9w4/Mashle_S2_Latino_episodio_2_[mandranime].zip/file`
 let mediafire3 = `https://www.mediafire.com/file/m5sls3aecl5sast/Mashle_S2_Latino_episodio_3_[mandranime].zip/file`
 let mediafire4 = `https://www.mediafire.com/file/al175dbdvs9o1oq/Mashle_S2_Latino_episodio_4_[mandranime].zip/file`
+let mediafire5 = `https://www.mediafire.com/file/cs81e7pe5kv9g4m/%2528locuranime.com%2529_M4s2-05.rar/file`
 
 
 document.querySelector(".boton-descargar-1").addEventListener("click", () =>{
@@ -323,6 +324,10 @@ document.querySelector(".boton-descargar-3").addEventListener("click", () =>{
 })
 document.querySelector(".boton-descargar-4").addEventListener("click", () =>{
 	enlaceMediafire.setAttribute("href", mediafire4)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-5").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire5)
 	enlaceMediafire.click()
 })
 

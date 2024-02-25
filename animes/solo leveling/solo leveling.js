@@ -320,6 +320,7 @@ let mediafire2Lat = `https://www.mediafire.com/file/rpx8rb4bi4g9s5r/Solo_Levelin
 let mediafire3Lat = `https://www.mediafire.com/file/oiok3hn0vyjdjtq/Solo_Leveling_Latino_episodio_3_[mandranime].zip/file`
 let mediafire4Lat = `https://www.mediafire.com/file/j13fjhpu9gq3sw3/Solo_Leveling_Latino_episodio_4_[mandranime].zip/file`
 let mediafire5Lat = `https://www.mediafire.com/file/uof4efcquijixmg/Solo_Leveling_Latino_episodio_5_[mandranime].zip/file`
+let mediafire6Lat = `https://www.mediafire.com/file/nwe8puesb3crubz/%2528locuranime.com%2529_SoLe-06.rar/file`
 
 
 document.querySelector(".boton-descargar-1").addEventListener("click", () =>{
@@ -368,6 +369,10 @@ document.querySelector(".boton-descargar-5-lat").addEventListener("click", () =>
 })
 document.querySelector(".boton-descargar-6").addEventListener("click", () =>{
 	enlaceMediafire.setAttribute("href", mediafire6)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-6-lat").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire6Lat)
 	enlaceMediafire.click()
 })
 document.querySelector(".boton-descargar-7").addEventListener("click", () =>{

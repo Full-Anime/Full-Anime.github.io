@@ -308,7 +308,10 @@ let mediafire1_1 = `https://www.mediafire.com/folder/bcnkpq7ge5ib7`
 let mediafire1_2 = `https://www.mediafire.com/folder/t2hsq0zokmnjq`
 let mediafire1_Drive = `https://drive.google.com/drive/u/0/mobile/folders/1yJbo2KMS7fMIs6abO2UJ5tMdoK8gQoUk/1qZi0S7bcKq_tE8YOZNlYv7kc2KSaWNEU?sort=13&direction=a`
 let mediafire20 = `https://www.mediafire.com/file/2g6yqko9k1rjyes/Frieren-_M%C3%A1s_all%C3%A1_del_final_del_viaje_Latino_episodio_20_[mandranime].zip/file`
+let mediafire21 = `https://www.mediafire.com/file/6i1g7wekchtb7bi/%2528locuranime.com%2529_SnF-21.rar/file`
+
 let mediafire1_jap = `https://www.mediafire.com/folder/q271859moqruk`
+let mediafire24_jap = ``
 
 document.querySelector(".boton-descargar-1-1").addEventListener("click", () =>{
 	enlaceMediafire.setAttribute("href", mediafire1_1)
@@ -326,10 +329,18 @@ document.querySelector(".boton-descargar-20").addEventListener("click", () =>{
 	enlaceMediafire.setAttribute("href", mediafire20)
 	enlaceMediafire.click()
 })
+document.querySelector(".boton-descargar-21").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire21)
+	enlaceMediafire.click()
+})
 document.querySelector(".boton-descargar-1-jap").addEventListener("click", () =>{
 	enlaceMediafire.setAttribute("href", mediafire1_jap)
 	enlaceMediafire.click()
 })
+// document.querySelector(".boton-descargar-24-jap").addEventListener("click", () =>{
+// 	enlaceMediafire.setAttribute("href", mediafire24_jap)
+// 	enlaceMediafire.click()
+// })
 
 
 
