@@ -310,7 +310,8 @@ let mediafire1_Drive = `https://drive.google.com/drive/u/0/mobile/folders/1yJbo2
 let mediafire20 = `https://www.mediafire.com/file/2g6yqko9k1rjyes/Frieren-_M%C3%A1s_all%C3%A1_del_final_del_viaje_Latino_episodio_20_[mandranime].zip/file`
 let mediafire21 = `https://www.mediafire.com/file/6i1g7wekchtb7bi/%2528locuranime.com%2529_SnF-21.rar/file`
 
-let mediafire1_jap = `https://www.mediafire.com/folder/q271859moqruk`
+let mediafire1_japcaido = `https://www.mediafire.com/folder/q271859moqruk`
+let mediafire1_jap = `https://drive.google.com/drive/folders/1dtFZAQj2ixKZin0PbF2EngTdBZ8b0jl2`
 let mediafire24_jap = ``
 
 document.querySelector(".boton-descargar-1-1").addEventListener("click", () =>{

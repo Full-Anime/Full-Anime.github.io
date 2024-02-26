@@ -308,7 +308,7 @@ let mediafire3 = `https://www.mediafire.com/file/bjr7ii8bsu581pc/Mashle_2nd_Seas
 let mediafire4 = `https://www.mediafire.com/file/ogdxn96e2j1nhbe/Mashle_2nd_Season_episodio_4_[mandranime].zip/file`
 let mediafire5 = `https://www.mediafire.com/file/xlsk8r5ci0f4ttn/Mashle_2nd_Season_episodio_5_[mandranime].zip/file`
 let mediafire6 = `https://www.mediafire.com/file/yqtsz31tj9ffa4e/Mashle_2nd_Season_episodio_6_%E2%80%94__[mandranime].zip/file`
-let mediafire7 = ``
+let mediafire7 = `https://drive.google.com/file/d/1nvP6X0g0-4KbWMAFXi459p_jt7o2rxo7/view?usp=drivesdk`
 let mediafire1Ligero = `https://drive.google.com/drive/folders/1MxfnYiQcOUHJfp0T7mxaNSoPKYAJC54e`
 
 
@@ -361,14 +361,14 @@ document.querySelector(".boton-descargar-6-ligero").addEventListener("click", ()
 	enlaceMediafire.setAttribute("href", mediafire1Ligero)
 	enlaceMediafire.click()
 })
-// document.querySelector(".boton-descargar-7").addEventListener("click", () =>{
-// 	enlaceMediafire.setAttribute("href", mediafire7)
-// 	enlaceMediafire.click()
-// })
-// document.querySelector(".boton-descargar-7-ligero").addEventListener("click", () =>{
-// 	enlaceMediafire.setAttribute("href", mediafire1Ligero)
-// 	enlaceMediafire.click()
-// })
+document.querySelector(".boton-descargar-7").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire7)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-7-ligero").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire1Ligero)
+	enlaceMediafire.click()
+})
 
 
 const botonInicio = document.querySelector(".inicio")

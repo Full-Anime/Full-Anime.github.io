@@ -507,6 +507,8 @@ let op1093 = "https://www.mediafire.com/file/62v8t5x968uu8kv/One%20Piece%201093%
 
 let op1094 = "https://www.mediafire.com/file/i93govzj78slxqj/7_1094_PsE%20[mandranime].zip/file"
 
+let op1095 = "https://www.mediafire.com/file/9zote9adctmzdsv/One%20Piece%201095%20Sub%20Espa%C3%B1ol%20[mandranime].zip/file"
+
 
 
 
@@ -915,6 +917,10 @@ document.querySelector(".boton-descargar-93").addEventListener("click", ()=>{
 })
 document.querySelector(".boton-descargar-94").addEventListener("click", ()=>{
 	enlaceMediafire.setAttribute("href", op1094)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-95").addEventListener("click", ()=>{
+	enlaceMediafire.setAttribute("href", op1095)
 	enlaceMediafire.click()
 })
 

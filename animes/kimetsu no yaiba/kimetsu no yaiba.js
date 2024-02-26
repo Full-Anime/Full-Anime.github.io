@@ -309,7 +309,7 @@ const botonDescargarMovie = document.querySelector(".boton-descargar-movie")
 
 const botonDescargar4_1 = document.querySelector(".boton-descargar-4-1")
 const botonDescargar4_2 = document.querySelector(".boton-descargar-4-2")
-
+const botonDescargar4_3 = document.querySelector(".boton-descargar-4-3")
 
 botonDescargar1.addEventListener("click", descargar1)
 botonDescargar2.addEventListener("click", descargar2)
@@ -320,7 +320,7 @@ botonDescargarMovie.addEventListener("click", descargarMovie)
 
 botonDescargar4_1.addEventListener("click", descargar4_1)
 botonDescargar4_2.addEventListener("click", descargar4_2)
-
+botonDescargar4_3.addEventListener("click", descargar4_3)
 
 enlaceMediafire = document.querySelector(".link-1")
 enlaceMediafire3 = document.querySelector(".link-1-3")
@@ -334,6 +334,7 @@ let mediafireMovie = `../demon slayer mugen train/demon slayer mugen train.html`
 
 let mediafire4_1 = `https://krakenfiles.com/view/Q4kx1fkuJH/file.html#!/lmcCQY4evEYpou4`
 let mediafire4_2 = `https://mega.nz/file/vlJGGbTD#mzAP3fynl9ts1jInBwcs40q0rY8p0GQVBxbk-g_nXqA`
+let mediafire4_3 = `https://www.mediafire.com/file/16qj8lnp4o2o5mo/[%CE%B1%D0%B8%CE%B9%D0%BC%D1%94gafirex%CB%96%D1%81%CF%83%D0%BC][%E2%92%BB%E2%92%BD%E2%92%B9]+%EA%93%95%EA%93%98%EA%93%95+Kny.rar/file`
 
 
 function descargar1(){
@@ -371,6 +372,10 @@ function descargar4_1(){
 
 function descargar4_2(){
 	enlaceMediafire.setAttribute("href", mediafire4_2)
+	enlaceMediafire.click()
+}
+function descargar4_3(){
+	enlaceMediafire.setAttribute("href", mediafire4_3)
 	enlaceMediafire.click()
 }
 
