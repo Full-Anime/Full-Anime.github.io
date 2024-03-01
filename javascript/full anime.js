@@ -2573,7 +2573,7 @@ let poster = ["poster/chainsaw man poster.jpg",
 "poster/high school of the dead 1.jpg", 
 "poster/saga de cell.jpg",
 "poster/saga del torneo del poder.jpg", 
-"poster/one piece 3.jpe", 
+"poster/one piece 5.jpg", 
 "poster/record of ragnarok 1.webp",
 "poster/vinland saga 2.png",  
 "poster/nanatsu no tazai 1.webp",
@@ -2913,76 +2913,76 @@ function next4(){
 
 //funcion para los ultimos animes, se ejecuta por defecto
 function ultimos(){
-		srcPoster1.setAttribute("src", poster[6])
-		srcPoster1.setAttribute("alt", alt[6])
-		srcPoster1.setAttribute("title", title[6])
-		href1.setAttribute("href", enlace[6])
-		href1.textContent = textEnlace[6]
-		srcPoster2.setAttribute("src", poster[40])
-		srcPoster2.setAttribute("alt", alt[40])
-		srcPoster2.setAttribute("title", title[40])
-		href2.setAttribute("href", enlace[40])
-		href2.textContent = textEnlace[40]
-		srcPoster3.setAttribute("src", poster[2])
-		srcPoster3.setAttribute("alt", alt[2])
-		srcPoster3.setAttribute("title", title[2])
-		href3.setAttribute("href", enlace[2])
-		href3.textContent = textEnlace[2]
-		srcPoster4.setAttribute("src", poster[3])
-		srcPoster4.setAttribute("alt", alt[3])
-		srcPoster4.setAttribute("title", title[3])
-		href4.setAttribute("href", enlace[3])
-		href4.textContent = textEnlace[3]
-		srcPoster5.setAttribute("src", poster[65])
-		srcPoster5.setAttribute("alt", alt[65])
-		srcPoster5.setAttribute("title", title[65])
-		href5.setAttribute("href", enlace[65])
-		href5.textContent = textEnlace[65]
-		srcPoster6.setAttribute("src", poster[5])
-		srcPoster6.setAttribute("alt", alt[5])
-		srcPoster6.setAttribute("title", title[5])
-		href6.setAttribute("href", enlace[5])
-		href6.textContent = textEnlace[5]
-		srcPoster7.setAttribute("src", poster[0])
-		srcPoster7.setAttribute("alt", alt[0])
-		srcPoster7.setAttribute("title", title[0])
-		href7.setAttribute("href", enlace[0])
-		href7.textContent = textEnlace[0]
-		srcPoster8.setAttribute("src", poster[7])
-		srcPoster8.setAttribute("alt", alt[7])
-		srcPoster8.setAttribute("title", title[7])
-		href8.setAttribute("href", enlace[7])
-		href8.textContent = textEnlace[7]
-		srcPoster9.setAttribute("src", poster[66])
-		srcPoster9.setAttribute("alt", alt[66])
-		srcPoster9.setAttribute("title", title[66])
-		href9.setAttribute("href", enlace[66])
-		href9.textContent = textEnlace[66]
+		srcPoster1.setAttribute("src", poster[65])
+		srcPoster1.setAttribute("alt", alt[65])
+		srcPoster1.setAttribute("title", title[65])
+		href1.setAttribute("href", enlace[65])
+		href1.textContent = textEnlace[65]
+		srcPoster2.setAttribute("src", poster[6])
+		srcPoster2.setAttribute("alt", alt[6])
+		srcPoster2.setAttribute("title", title[6])
+		href2.setAttribute("href", enlace[6])
+		href2.textContent = textEnlace[6]
+		srcPoster3.setAttribute("src", poster[53])
+		srcPoster3.setAttribute("alt", alt[53])
+		srcPoster3.setAttribute("title", title[53])
+		href3.setAttribute("href", enlace[53])
+		href3.textContent = textEnlace[53]
+		srcPoster4.setAttribute("src", poster[17])
+		srcPoster4.setAttribute("alt", alt[17])
+		srcPoster4.setAttribute("title", title[17])
+		href4.setAttribute("href", enlace[17])
+		href4.textContent = textEnlace[17]
+		srcPoster5.setAttribute("src", poster[40])
+		srcPoster5.setAttribute("alt", alt[40])
+		srcPoster5.setAttribute("title", title[40])
+		href5.setAttribute("href", enlace[40])
+		href5.textContent = textEnlace[40]
+		srcPoster6.setAttribute("src", poster[34])
+		srcPoster6.setAttribute("alt", alt[34])
+		srcPoster6.setAttribute("title", title[34])
+		href6.setAttribute("href", enlace[34])
+		href6.textContent = textEnlace[34]
+		srcPoster7.setAttribute("src", poster[3])
+		srcPoster7.setAttribute("alt", alt[3])
+		srcPoster7.setAttribute("title", title[3])
+		href7.setAttribute("href", enlace[3])
+		href7.textContent = textEnlace[3]
+		srcPoster8.setAttribute("src", poster[2])
+		srcPoster8.setAttribute("alt", alt[2])
+		srcPoster8.setAttribute("title", title[2])
+		href8.setAttribute("href", enlace[2])
+		href8.textContent = textEnlace[2]
+		srcPoster9.setAttribute("src", poster[5])
+		srcPoster9.setAttribute("alt", alt[5])
+		srcPoster9.setAttribute("title", title[5])
+		href9.setAttribute("href", enlace[5])
+		href9.textContent = textEnlace[5]
 		srcPoster10.setAttribute("src", poster[9])
 		srcPoster10.setAttribute("alt", alt[9])
 		srcPoster10.setAttribute("title", title[9])
 		href10.setAttribute("href", enlace[9])
 		href10.textContent = textEnlace[9]
-		srcPoster11.setAttribute("src", poster[10])
-		srcPoster11.setAttribute("alt", alt[10])
-		srcPoster11.setAttribute("title", title[10])
-		href11.setAttribute("href", enlace[10])
-		href11.textContent = textEnlace[10]
-		srcPoster12.setAttribute("src", poster[73])
-		srcPoster12.setAttribute("alt", alt[73])
-		srcPoster12.setAttribute("title", title[73])
-		href12.setAttribute("href", enlace[73])
-		href12.textContent = textEnlace[73]
+		srcPoster11.setAttribute("src", poster[7])
+		srcPoster11.setAttribute("alt", alt[7])
+		srcPoster11.setAttribute("title", title[7])
+		href11.setAttribute("href", enlace[7])
+		href11.textContent = textEnlace[7]
+		srcPoster12.setAttribute("src", poster[0])
+		srcPoster12.setAttribute("alt", alt[0])
+		srcPoster12.setAttribute("title", title[0])
+		href12.setAttribute("href", enlace[0])
+		href12.textContent = textEnlace[0]
 		srcPoster13.setAttribute("src", poster[1])
 		srcPoster13.setAttribute("alt", alt[1])
 		srcPoster13.setAttribute("title", title[1])
 		href13.setAttribute("href", enlace[1])
 		href13.textContent = textEnlace[1]
-		srcPoster14.setAttribute("src", poster[13])
-		srcPoster14.setAttribute("alt", alt[13])
-		srcPoster14.setAttribute("title", title[13])
-		href14.setAttribute("href", enlace[13])
-		href14.textContent = textEnlace[13]
+		srcPoster14.setAttribute("src", poster[66])
+		srcPoster14.setAttribute("alt", alt[66])
+		srcPoster14.setAttribute("title", title[66])
+		href14.setAttribute("href", enlace[66])
+		href14.textContent = textEnlace[66]
 		srcPoster15.setAttribute("src", poster[12])
 		srcPoster15.setAttribute("alt", alt[12])
 		srcPoster15.setAttribute("title", title[12])
