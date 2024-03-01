@@ -2940,36 +2940,36 @@ function tendencias(){
 
 //funcion para los estrenos del anime(cambia los poster):
 function estrenos(){
-	srcPoster1.setAttribute("src", poster[40])
-		srcPoster1.setAttribute("alt", alt[40])
-		srcPoster1.setAttribute("title", title[40])
-		href1.setAttribute("href", enlace[40])
-		href1.textContent = textEnlace[40]
-		srcPoster2.setAttribute("src", poster[34])
-		srcPoster2.setAttribute("alt", alt[34])
-		srcPoster2.setAttribute("title", title[34])
-		href2.setAttribute("href", enlace[34])
-		href2.textContent = textEnlace[34]
+	srcPoster1.setAttribute("src", poster[65])
+		srcPoster1.setAttribute("alt", alt[65])
+		srcPoster1.setAttribute("title", title[65])
+		href1.setAttribute("href", enlace[65])
+		href1.textContent = textEnlace[65]
+		srcPoster2.setAttribute("src", poster[6])
+		srcPoster2.setAttribute("alt", alt[6])
+		srcPoster2.setAttribute("title", title[6])
+		href2.setAttribute("href", enlace[6])
+		href2.textContent = textEnlace[6]
 		srcPoster3.setAttribute("src", poster[53])
 		srcPoster3.setAttribute("alt", alt[53])
 		srcPoster3.setAttribute("title", title[53])
 		href3.setAttribute("href", enlace[53])
 		href3.textContent = textEnlace[53]
-		srcPoster4.setAttribute("src", poster[65])
-		srcPoster4.setAttribute("alt", alt[65])
-		srcPoster4.setAttribute("title", title[65])
-		href4.setAttribute("href", enlace[65])
-		href4.textContent = textEnlace[65]
+		srcPoster4.setAttribute("src", poster[40])
+		srcPoster4.setAttribute("alt", alt[40])
+		srcPoster4.setAttribute("title", title[40])
+		href4.setAttribute("href", enlace[40])
+		href4.textContent = textEnlace[40]
 		srcPoster5.setAttribute("src", poster[17])
 		srcPoster5.setAttribute("alt", alt[17])
 		srcPoster5.setAttribute("title", title[17])
 		href5.setAttribute("href", enlace[17])
 		href5.textContent = textEnlace[17]
-		srcPoster6.setAttribute("src", poster[5])
-		srcPoster6.setAttribute("alt", alt[5])
-		srcPoster6.setAttribute("title", title[5])
-		href6.setAttribute("href", enlace[5])
-		href6.textContent = textEnlace[5]
+		srcPoster6.setAttribute("src", poster[34])
+		srcPoster6.setAttribute("alt", alt[34])
+		srcPoster6.setAttribute("title", title[34])
+		href6.setAttribute("href", enlace[34])
+		href6.textContent = textEnlace[34]
 		srcPoster7.setAttribute("src", poster[3])
 		srcPoster7.setAttribute("alt", alt[3])
 		srcPoster7.setAttribute("title", title[3])
@@ -2980,11 +2980,11 @@ function estrenos(){
 		srcPoster8.setAttribute("title", title[22])
 		href8.setAttribute("href", enlace[22])
 		href8.textContent = textEnlace[22]
-		srcPoster9.setAttribute("src", poster[6])
-		srcPoster9.setAttribute("alt", alt[6])
-		srcPoster9.setAttribute("title", title[6])
-		href9.setAttribute("href", enlace[6])
-		href9.textContent = textEnlace[6]
+		srcPoster9.setAttribute("src", poster[5])
+		srcPoster9.setAttribute("alt", alt[5])
+		srcPoster9.setAttribute("title", title[5])
+		href9.setAttribute("href", enlace[5])
+		href9.textContent = textEnlace[5]
 		srcPoster10.setAttribute("src", poster[19])
 		srcPoster10.setAttribute("alt", alt[19])
 		srcPoster10.setAttribute("title", title[19])
