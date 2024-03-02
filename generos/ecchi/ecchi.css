@@ -1298,11 +1298,11 @@ body{
 	
 
 		.ventanas{
-			transform: translateY(-1498px);
+			transform: translateY(-1500px);
 			margin-left: 505px;
 		}
 		.ventana-fixed{
-			transform: translateY(-1415px);
+			transform: translateY(-1416px);
 		}
 
 		.ventana-1{

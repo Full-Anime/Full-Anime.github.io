@@ -1346,11 +1346,11 @@ body{
 	
 
 		.ventanas{
-			transform: translateY(-1498px);
+			transform: translateY(-1500px);
 			margin-left: 505px;
 		}
 		.ventana-fixed{
-			transform: translateY(-1415px);
+			transform: translateY(-1416px);
 		}
 
 		.ventana-1{
@@ -2769,7 +2769,7 @@ body{
 		}
 
 
-		.item, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8, .item-9{
+		.item, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8, .item-9, .item-10, .item-11, .item-12, .item-13, .item-14, .item-15{
 			display: none;
 		}
 
