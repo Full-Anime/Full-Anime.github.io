@@ -2913,21 +2913,21 @@ function next4(){
 
 //funcion para los ultimos animes, se ejecuta por defecto
 function ultimos(){
-		srcPoster1.setAttribute("src", poster[65])
-		srcPoster1.setAttribute("alt", alt[65])
-		srcPoster1.setAttribute("title", title[65])
-		href1.setAttribute("href", enlace[65])
-		href1.textContent = textEnlace[65]
-		srcPoster2.setAttribute("src", poster[6])
-		srcPoster2.setAttribute("alt", alt[6])
-		srcPoster2.setAttribute("title", title[6])
-		href2.setAttribute("href", enlace[6])
-		href2.textContent = textEnlace[6]
-		srcPoster3.setAttribute("src", poster[53])
-		srcPoster3.setAttribute("alt", alt[53])
-		srcPoster3.setAttribute("title", title[53])
-		href3.setAttribute("href", enlace[53])
-		href3.textContent = textEnlace[53]
+		srcPoster1.setAttribute("src", poster[53])
+		srcPoster1.setAttribute("alt", alt[53])
+		srcPoster1.setAttribute("title", title[53])
+		href1.setAttribute("href", enlace[53])
+		href1.textContent = textEnlace[53]
+		srcPoster2.setAttribute("src", poster[65])
+		srcPoster2.setAttribute("alt", alt[65])
+		srcPoster2.setAttribute("title", title[65])
+		href2.setAttribute("href", enlace[65])
+		href2.textContent = textEnlace[65]
+		srcPoster3.setAttribute("src", poster[6])
+		srcPoster3.setAttribute("alt", alt[6])
+		srcPoster3.setAttribute("title", title[6])
+		href3.setAttribute("href", enlace[6])
+		href3.textContent = textEnlace[6]
 		srcPoster4.setAttribute("src", poster[17])
 		srcPoster4.setAttribute("alt", alt[17])
 		srcPoster4.setAttribute("title", title[17])
