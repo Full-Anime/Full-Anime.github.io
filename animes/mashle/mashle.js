@@ -316,6 +316,12 @@ let mediafire2 = `mashle 2.html`
 let mediafire2Lat = `mashle 2 lat.html`
 let mediafire1Lat = `mashle 1.html`
 
+
+document.querySelector(".boton-descargar-manga").addEventListener("click", () =>{
+	enlacetemp1.setAttribute("href", "../../manga/mangas/mashle/mashle.html")
+	enlacetemp1.click()
+})
+
 function descargar1(){
 	enlaceMediafire.setAttribute("href", mediafire1)
 	enlaceMediafire.click()

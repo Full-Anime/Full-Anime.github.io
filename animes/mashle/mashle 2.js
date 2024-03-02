@@ -302,6 +302,8 @@ function atrasar(){
 
 
 let enlaceMediafire = document.querySelector(".link-1")
+let enlaceMediafire2 = document.querySelector(".link-1-2")
+
 let mediafire1 = `https://www.mediafire.com/file/bs26y41n3kaqy0h/Mashle%202nd%20Season%20episodio%201%20[mandranime].zip/file`
 let mediafire2 = `https://www.mediafire.com/file/4b4llqsi5lgk3og/Mashle_2nd_Season_episodio_2_[mandranime].zip/file`
 let mediafire3 = `https://www.mediafire.com/file/bjr7ii8bsu581pc/Mashle_2nd_Season_episodio_3_[mandranime].zip/file`
@@ -311,6 +313,11 @@ let mediafire6 = `https://www.mediafire.com/file/yqtsz31tj9ffa4e/Mashle_2nd_Seas
 let mediafire7 = `https://drive.google.com/file/d/1nvP6X0g0-4KbWMAFXi459p_jt7o2rxo7/view?usp=drivesdk`
 let mediafire1Ligero = `https://drive.google.com/drive/folders/1MxfnYiQcOUHJfp0T7mxaNSoPKYAJC54e`
 
+
+document.querySelector(".boton-descargar-manga").addEventListener("click", () =>{
+	enlaceMediafire2.setAttribute("href", "../../manga/mangas/mashle/mashle.html")
+	enlaceMediafire2.click()
+})
 
 document.querySelector(".boton-descargar-1").addEventListener("click", () =>{
 	enlaceMediafire.setAttribute("href", mediafire1)

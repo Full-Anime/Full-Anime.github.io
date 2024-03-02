@@ -299,7 +299,14 @@ function atrasar(){
 	
 }
 
+
+document.querySelector(".boton-descargar-manga").addEventListener("click", () =>{
+	enlaceMediafire2.setAttribute("href", "../../manga/mangas/boku no hero academia/boku no hero academia.html")
+	enlaceMediafire2.click()
+})
+
 let enlaceMediafire = document.querySelector(".link-1")
+let enlaceMediafire2 = document.querySelector(".link-1-2")
 let mediafire1 = `https://www.mediafire.com/file/kx3w9btl0mkjxej/%2528locuranime.com%2529_BlLo-01.rar/file`
 let mediafire2 = `https://www.mediafire.com/file/w3eky9jif01uzm2/%2528locuranime.com%2529_BlLo-02.rar/file`
 let mediafire3 = `https://www.mediafire.com/file/smla2vem3b0l6rd/%2528locuranime.com%2529_BlLo-03.rar/file`

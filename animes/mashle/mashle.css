@@ -1087,10 +1087,22 @@ body{
 	padding: 5px;
 	margin-left: 100px;
 	width: 575px;
-	transform: translateY(-650px);
+	transform: translateY(-100px);
 }
 
 .parrafo-final p{
+	font-family: kaushan Script, verdana;
+}
+
+
+.parrafo-manga{
+	font-size: 14px;
+	border-left: 2px solid #900;
+	padding: 5px;
+	margin-bottom: 30px;
+}
+
+.parrafo-manga p{
 	font-family: kaushan Script, verdana;
 }
 
@@ -1205,7 +1217,7 @@ body{
 			margin-left: 295px;
 		}
 		.ventana-fixed{
-			transform: translateY(-1060px);
+			transform: translateY(-1061px);
 		}
 
 		.ventana-1{
@@ -1594,8 +1606,15 @@ body{
 			margin-left: 150px;
 			width: 850px;
 			font-size: 20px;
-			transform: translateY(-800px);
+			transform: translateY(-100px);
 		}
+
+
+.parrafo-manga{
+	font-size: 20px;
+	
+}
+
 		
 		
 		.footer{
@@ -1851,7 +1870,7 @@ body{
 		margin-left: 80px;
 		width: 440px;
 		font-size: 13px;
-		transform: translateY(-580px);
+		transform: translateY(-100px);
 	}
 	.titulo-aside a{
 		

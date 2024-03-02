@@ -323,6 +323,11 @@ botonDescargar5_5.addEventListener("click", descargar5_5)
 botonDescargar6.addEventListener("click", descargar6)
 
 
+document.querySelector(".boton-descargar-manga").addEventListener("click", () =>{
+	enlacetemp6.setAttribute("href", "../../manga/mangas/boku no hero academia/boku no hero academia.html")
+	enlacetemp6.click()
+})
+
 let enlaceMediafire = document.querySelector(".link-1")
 let enlacetemp6 = document.querySelector(".link-temp-6")
 let mediafire1 = `https://www.mediafire.com/folder/dsctfi18iykm1/BNHA`

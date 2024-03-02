@@ -301,6 +301,13 @@ function atrasar(){
 
 
 let enlaceMediafire = document.querySelector(".link-1")
+let enlaceMediafire2 = document.querySelector(".link-1-2")
+
+document.querySelector(".boton-descargar-manga").addEventListener("click", () =>{
+	enlaceMediafire2.setAttribute("href", "../../manga/mangas/one piece/one piece.html")
+	enlaceMediafire2.click()
+})
+
 
 
 

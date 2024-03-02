@@ -327,7 +327,10 @@ botonDescargar7.addEventListener("click", descargar7)
 // botonDescargar10.addEventListener("click", descargarTodo)
 // botonDescargar11.addEventListener("click", descargarTodo)
 // botonDescargar12.addEventListener("click", descargarTodo)
-
+document.querySelector(".boton-descargar-manga").addEventListener("click", () =>{
+	enlacetemp.setAttribute("href", "../../manga/mangas/one piece/one piece.html")
+	enlacetemp.click()
+})
 
 let enlaceMediafire = document.querySelector(".link-1")
 let enlacetemp = document.querySelector(".link-temp")

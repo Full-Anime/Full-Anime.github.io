@@ -326,6 +326,11 @@ botonDescargar11.addEventListener("click", descargar11)
 botonDescargar12.addEventListener("click", descargar12)
 botonDescargarop.addEventListener("click", descargarop)
 
+document.querySelector(".boton-descargar-manga").addEventListener("click", () =>{
+	enlaceMediafireop.setAttribute("href", "../../manga/mangas/one piece/one piece.html")
+	enlaceMediafireop.click()
+})
+
 let enlaceMediafire = document.querySelector(".link-1")
 let enlaceMediafireop = document.querySelector(".link-op")
 let mediafire1 = `https://www.fireload.com/folder/71fd43c0847d33ca593f3d44085a3793/001-100`
