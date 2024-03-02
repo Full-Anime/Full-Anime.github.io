@@ -304,15 +304,23 @@ function atrasar(){
 
 
  let enlaceMediafire = document.querySelector(".link-1")
+ let enlaceMediafire2 = document.querySelector(".link-1-2")
 let mediafire1_1 = `https://www.mediafire.com/folder/bcnkpq7ge5ib7`
 let mediafire1_2 = `https://www.mediafire.com/folder/t2hsq0zokmnjq`
 let mediafire1_Drive = `https://drive.google.com/drive/u/0/mobile/folders/1yJbo2KMS7fMIs6abO2UJ5tMdoK8gQoUk/1qZi0S7bcKq_tE8YOZNlYv7kc2KSaWNEU?sort=13&direction=a`
 let mediafire20 = `https://www.mediafire.com/file/2g6yqko9k1rjyes/Frieren-_M%C3%A1s_all%C3%A1_del_final_del_viaje_Latino_episodio_20_[mandranime].zip/file`
 let mediafire21 = `https://www.mediafire.com/file/6i1g7wekchtb7bi/%2528locuranime.com%2529_SnF-21.rar/file`
+let mediafire22 = `https://www.mediafire.com/file/9e1xdxdhk17567o/%2528locuranime.com%2529_SnF-22.rar/file`
 
 let mediafire1_japcaido = `https://www.mediafire.com/folder/q271859moqruk`
 let mediafire1_jap = `https://drive.google.com/drive/folders/1dtFZAQj2ixKZin0PbF2EngTdBZ8b0jl2`
 let mediafire24_jap = ``
+
+
+document.querySelector(".boton-descargar-manga").addEventListener("click", () =>{
+	enlaceMediafire2.setAttribute("href", "../../manga/mangas/sousou no fierren/sousou no fierren.html")
+	enlaceMediafire2.click()
+})
 
 document.querySelector(".boton-descargar-1-1").addEventListener("click", () =>{
 	enlaceMediafire.setAttribute("href", mediafire1_1)
@@ -332,6 +340,10 @@ document.querySelector(".boton-descargar-20").addEventListener("click", () =>{
 })
 document.querySelector(".boton-descargar-21").addEventListener("click", () =>{
 	enlaceMediafire.setAttribute("href", mediafire21)
+	enlaceMediafire.click()
+})
+document.querySelector(".boton-descargar-22").addEventListener("click", () =>{
+	enlaceMediafire.setAttribute("href", mediafire22)
 	enlaceMediafire.click()
 })
 document.querySelector(".boton-descargar-1-jap").addEventListener("click", () =>{
